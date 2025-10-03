@@ -229,35 +229,11 @@ function App() {
               </div>
             )}
 
-            {/* Floating mockup preview */}
-            <div className="relative" style={{transform: `translateY(${scrollY * 0.1}px)`}}>
-              <div className="relative mx-auto w-80 h-[600px] bg-gradient-to-br from-zinc-900 to-black rounded-[3rem] border-8 border-zinc-800 shadow-2xl overflow-hidden">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-7 bg-black rounded-b-3xl"></div>
-                <div className="p-6 pt-12 h-full bg-gradient-to-b from-zinc-900/50 to-transparent">
-                  <div className="space-y-3">
-                    <div className="h-4 bg-gradient-to-r from-orange-500 to-pink-500 rounded w-32 animate-pulse"></div>
-                    <div className="h-24 bg-zinc-800/50 backdrop-blur rounded-xl border border-zinc-700/50 p-3">
-                      <div className="h-3 bg-zinc-700 rounded w-3/4 mb-2"></div>
-                      <div className="h-2 bg-zinc-700/50 rounded w-1/2"></div>
-                    </div>
-                    <div className="h-24 bg-zinc-800/50 backdrop-blur rounded-xl border border-zinc-700/50 p-3 animate-pulse" style={{animationDelay: '0.5s'}}>
-                      <div className="h-3 bg-zinc-700 rounded w-2/3 mb-2"></div>
-                      <div className="h-2 bg-zinc-700/50 rounded w-1/3"></div>
-                    </div>
-                    <div className="h-24 bg-zinc-800/50 backdrop-blur rounded-xl border border-zinc-700/50 p-3 animate-pulse" style={{animationDelay: '1s'}}>
-                      <div className="h-3 bg-zinc-700 rounded w-3/5 mb-2"></div>
-                      <div className="h-2 bg-zinc-700/50 rounded w-2/5"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="absolute -inset-20 bg-gradient-to-r from-orange-500/20 via-pink-500/20 to-purple-500/20 blur-3xl -z-10 animate-pulse" style={{animationDuration: '4s'}}></div>
-            </div>
           </div>
         </div>
 
         {/* Bento Grid Features */}
-        <div className="container mx-auto px-4 py-32">
+        <div className="container mx-auto px-4 py-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
