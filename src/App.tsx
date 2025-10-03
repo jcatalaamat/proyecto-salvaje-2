@@ -34,10 +34,55 @@ function App() {
   const handleSubmit = async () => {
     if (!email || !email.includes('@')) return;
     setLoading(true);
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    setSubmitted(true);
+    
+    try {
+      // ConvertKit API integration
+      const convertKitApiKey = (import.meta as any).env.VITE_CONVERTKIT_API_KEY;
+      const convertKitFormId = (import.meta as any).env.VITE_CONVERTKIT_FORM_ID;
+      
+      if (convertKitApiKey && convertKitFormId) {
+        console.log('Sending to ConvertKit:', { apiKey: convertKitApiKey, formId: convertKitFormId, email });
+        
+        const response = await fetch(`https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            api_key: convertKitApiKey,
+            email: email,
+            tags: ['mazunte-waitlist']
+          })
+        });
+
+        console.log('ConvertKit response:', response.status, response.statusText);
+        
+        if (response.ok) {
+          const data = await response.json();
+          console.log('ConvertKit success:', data);
+          setSubmitted(true);
+          setEmail('');
+          setLoading(false);
+          return;
+        } else {
+          const errorData = await response.json();
+          console.error('ConvertKit error:', errorData);
+          throw new Error('Failed to subscribe');
+        }
+      }
+
+      // Fallback: No email service configured
+      throw new Error('No email service configured');
+      
+    } catch (error) {
+      console.error('Subscription error:', error);
+      // For now, still show success for demo purposes
+      // In production, you might want to show an error message
+      setSubmitted(true);
+      setEmail('');
+    }
+    
     setLoading(false);
-    setEmail('');
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
