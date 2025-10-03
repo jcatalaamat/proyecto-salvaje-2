@@ -50,8 +50,7 @@ function App() {
           },
           body: JSON.stringify({
             api_key: convertKitApiKey,
-            email: email,
-            tags: ['mazunte-waitlist']
+            email: email
           })
         });
 
