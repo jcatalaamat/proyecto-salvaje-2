@@ -211,7 +211,12 @@ function App() {
                       <CheckCircle className="w-10 h-10 text-white" />
                     </div>
                     <h3 className="text-3xl font-bold mb-3">You're in! 🎉</h3>
-                    <p className="text-gray-400 text-lg">We'll notify you when Mazunte Connect launches.</p>
+                    <p className="text-gray-400 text-lg mb-4">We'll notify you when Mazunte Connect launches.</p>
+                    <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4">
+                      <p className="text-blue-300 text-sm">
+                        📧 <strong>Check your email!</strong> We sent you a confirmation link to complete your subscription.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
