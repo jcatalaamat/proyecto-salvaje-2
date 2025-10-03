@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves } from 'lucide-react';
+import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves, Globe } from 'lucide-react';
+import enTranslations from './translations/en.json';
+import esTranslations from './translations/es.json';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -8,6 +10,9 @@ function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [scrollY, setScrollY] = useState(0);
   const [count, setCount] = useState(0);
+  const [language, setLanguage] = useState('en');
+  
+  const t = language === 'es' ? esTranslations : enTranslations;
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -112,6 +117,17 @@ function App() {
       }}></div>
 
       <div className="relative z-10">
+        {/* Language Toggle */}
+        <div className="fixed top-4 right-4 z-50">
+          <button
+            onClick={() => setLanguage(language === 'en' ? 'es' : 'en')}
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
+          >
+            <Globe className="w-4 h-4" />
+            <span className="text-sm font-medium">{language === 'en' ? 'EN' : 'ES'}</span>
+          </button>
+        </div>
+
         {/* Hero Section */}
         <div className="container mx-auto px-4 pt-20 pb-32 md:pt-32 md:pb-48">
           <div className="max-w-6xl mx-auto text-center">
@@ -131,7 +147,7 @@ function App() {
             <div className="flex justify-center mb-8">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 animate-pulse" style={{animationDuration: '3s'}}>
                 <Sparkles className="w-4 h-4 text-orange-400" />
-                <span className="text-sm text-gray-300">Launching Soon</span>
+                <span className="text-sm text-gray-300">{t.hero.launching}</span>
               </div>
             </div>
 
@@ -144,21 +160,12 @@ function App() {
                 backgroundSize: '200% auto',
                 animation: 'gradient 3s linear infinite'
               }}>
-                Never miss
-              </span>
-              <br />
-              <span className="inline-block" style={{animationDelay: '0.2s'}}>
-                what's happening
-              </span>
-              <br />
-              <span className="inline-block text-gray-500" style={{animationDelay: '0.4s'}}>
-                in Mazunte
+                {t.hero.title}
               </span>
             </h2>
 
             <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed" style={{opacity: Math.min(1, scrollY / 100)}}>
-              All events, retreats, yoga, restaurants, and conscious spaces in Mazunte. 
-              <span className="text-orange-400"> No more WhatsApp chaos.</span>
+              {t.hero.subtitle}
             </p>
 
             {/* Waitlist form - Stacked Version */}
@@ -188,7 +195,7 @@ function App() {
                           </>
                         ) : (
                           <>
-                            Get Early Access
+                            {t.hero.cta}
                             <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
                           </>
                         )}
@@ -199,7 +206,7 @@ function App() {
                 </div>
                 <p className="text-sm text-gray-600 mt-4 flex items-center justify-center gap-2">
                   <Users className="w-4 h-4 text-orange-400" />
-                  Join {count}+ people on the waitlist
+                  {t.hero.waitlist.replace('{count}', count.toString())}
                 </p>
               </div>
             ) : (
@@ -210,11 +217,11 @@ function App() {
                     <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full mb-6 animate-bounce">
                       <CheckCircle className="w-10 h-10 text-white" />
                     </div>
-                    <h3 className="text-3xl font-bold mb-3">You're in! 🎉</h3>
-                    <p className="text-gray-400 text-lg mb-4">We'll notify you when Mazunte Connect launches.</p>
+                    <h3 className="text-3xl font-bold mb-3">{t.success.title}</h3>
+                    <p className="text-gray-400 text-lg mb-4">{t.success.message}</p>
                     <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4">
                       <p className="text-blue-300 text-sm">
-                        📧 <strong>Check your email!</strong> We sent you a confirmation link to complete your subscription.
+                        {t.success.email}
                       </p>
                     </div>
                   </div>
@@ -254,10 +261,10 @@ function App() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Everything Mazunte, one app
+                {t.features.title}
               </h2>
               <p className="text-xl text-gray-400">
-                Your digital guide to paradise
+                {t.features.subtitle}
               </p>
             </div>
             
@@ -267,20 +274,20 @@ function App() {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500 to-pink-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative h-full bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-10 hover:border-white/10 transition-all overflow-hidden">
                   <Calendar className="w-12 h-12 text-orange-400 mb-6" />
-                  <h3 className="text-3xl font-bold mb-4">Never miss an event</h3>
-                  <p className="text-gray-400 text-lg mb-6">Cacao ceremonies, ecstatic dance, yoga classes, full moon gatherings. See everything happening.</p>
+                  <h3 className="text-3xl font-bold mb-4">{t.features.events.title}</h3>
+                  <p className="text-gray-400 text-lg mb-6">{t.features.events.description}</p>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-sm text-gray-500">
                       <div className="w-2 h-2 bg-orange-400 rounded-full"></div>
-                      <span>Calendar & list views</span>
+                      <span>{t.features.events.features[0]}</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm text-gray-500">
                       <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
-                      <span>Smart filters & search</span>
+                      <span>{t.features.events.features[1]}</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm text-gray-500">
                       <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                      <span>Save favorites</span>
+                      <span>{t.features.events.features[2]}</span>
                     </div>
                   </div>
                   <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-gradient-to-br from-orange-500/10 to-transparent rounded-full blur-3xl"></div>
@@ -292,8 +299,8 @@ function App() {
                 <div className="absolute -inset-0.5 bg-gradient-to-b from-pink-500 to-purple-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative h-full bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-10 hover:border-white/10 transition-all">
                   <MapPin className="w-12 h-12 text-pink-400 mb-6" />
-                  <h3 className="text-2xl font-bold mb-4">Discover everything</h3>
-                  <p className="text-gray-400 mb-8">Retreat centers, wellness studios, vegan restaurants, healers, surf spots. All mapped.</p>
+                  <h3 className="text-2xl font-bold mb-4">{t.features.discover.title}</h3>
+                  <p className="text-gray-400 mb-8">{t.features.discover.description}</p>
                   <div className="relative h-48 bg-zinc-800/50 rounded-2xl overflow-hidden border border-zinc-700/50">
                     <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 to-transparent"></div>
                     <div className="absolute top-4 left-4 w-3 h-3 bg-pink-400 rounded-full animate-ping"></div>
@@ -312,8 +319,8 @@ function App() {
                       <Leaf className="w-12 h-12 text-green-400" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold mb-3">Conscious & eco-friendly</h3>
-                      <p className="text-gray-400">Supporting businesses with regenerative practices and authentic community values.</p>
+                      <h3 className="text-2xl font-bold mb-3">{t.features.conscious.title}</h3>
+                      <p className="text-gray-400">{t.features.conscious.description}</p>
                     </div>
                   </div>
                 </div>
@@ -324,8 +331,8 @@ function App() {
                 <div className="absolute -inset-0.5 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-8 hover:border-white/10 transition-all h-full">
                   <Bell className="w-10 h-10 text-blue-400 mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Push reminders</h3>
-                  <p className="text-gray-400 text-sm">Never forget an event</p>
+                  <h3 className="text-xl font-bold mb-2">{t.features.reminders.title}</h3>
+                  <p className="text-gray-400 text-sm">{t.features.reminders.description}</p>
                 </div>
               </div>
 
@@ -333,8 +340,8 @@ function App() {
                 <div className="absolute -inset-0.5 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-8 hover:border-white/10 transition-all h-full">
                   <Zap className="w-10 h-10 text-yellow-400 mb-4" />
-                  <h3 className="text-xl font-bold mb-2">Always fresh</h3>
-                  <p className="text-gray-400 text-sm">Updated daily</p>
+                  <h3 className="text-xl font-bold mb-2">{t.features.fresh.title}</h3>
+                  <p className="text-gray-400 text-sm">{t.features.fresh.description}</p>
                 </div>
               </div>
 
@@ -342,8 +349,8 @@ function App() {
                 <div className="absolute -inset-0.5 bg-gradient-to-br from-purple-500 to-pink-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-8 hover:border-white/10 transition-all h-full">
                   <Users className="w-10 h-10 text-purple-400 mb-4" />
-                  <h3 className="text-xl font-bold mb-2">By travelers</h3>
-                  <p className="text-gray-400 text-sm">For the community</p>
+                  <h3 className="text-xl font-bold mb-2">{t.features.community.title}</h3>
+                  <p className="text-gray-400 text-sm">{t.features.community.description}</p>
                 </div>
               </div>
             </div>
@@ -357,7 +364,7 @@ function App() {
               <div className="absolute -inset-4 bg-gradient-to-r from-red-500/20 via-orange-500/20 to-green-500/20 rounded-3xl blur-2xl"></div>
               <div className="relative bg-zinc-900/80 backdrop-blur-2xl rounded-3xl border border-white/10 p-12 md:p-16">
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-                  No more WhatsApp chaos
+                  {t.problem.title}
                 </h2>
                 
                 <div className="grid md:grid-cols-2 gap-12">
@@ -365,19 +372,19 @@ function App() {
                     <div className="flex items-start gap-4 p-5 rounded-2xl bg-red-950/20 border border-red-900/20">
                       <span className="text-red-400 font-bold text-2xl">✗</span>
                       <div>
-                        <p className="text-gray-300">Events buried in 500 messages</p>
+                        <p className="text-gray-300">{t.problem.problems[0]}</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4 p-5 rounded-2xl bg-red-950/20 border border-red-900/20">
                       <span className="text-red-400 font-bold text-2xl">✗</span>
                       <div>
-                        <p className="text-gray-300">"What's happening tonight?" asked daily</p>
+                        <p className="text-gray-300">{t.problem.problems[1]}</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4 p-5 rounded-2xl bg-red-950/20 border border-red-900/20">
                       <span className="text-red-400 font-bold text-2xl">✗</span>
                       <div>
-                        <p className="text-gray-300">Newcomers miss everything</p>
+                        <p className="text-gray-300">{t.problem.problems[2]}</p>
                       </div>
                     </div>
                   </div>
@@ -386,19 +393,19 @@ function App() {
                     <div className="flex items-start gap-4 p-5 rounded-2xl bg-green-950/20 border border-green-900/20">
                       <span className="text-green-400 font-bold text-2xl">✓</span>
                       <div>
-                        <p className="text-gray-300">Searchable calendar view</p>
+                        <p className="text-gray-300">{t.problem.solutions[0]}</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4 p-5 rounded-2xl bg-green-950/20 border border-green-900/20">
                       <span className="text-green-400 font-bold text-2xl">✓</span>
                       <div>
-                        <p className="text-gray-300">See the whole week instantly</p>
+                        <p className="text-gray-300">{t.problem.solutions[1]}</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4 p-5 rounded-2xl bg-green-950/20 border border-green-900/20">
                       <span className="text-green-400 font-bold text-2xl">✓</span>
                       <div>
-                        <p className="text-gray-300">Everyone finds everything</p>
+                        <p className="text-gray-300">{t.problem.solutions[2]}</p>
                       </div>
                     </div>
                   </div>
@@ -415,10 +422,10 @@ function App() {
               <div className="absolute -inset-8 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 rounded-3xl blur-3xl opacity-30"></div>
               <div className="relative bg-zinc-900/80 backdrop-blur-2xl rounded-3xl border border-white/10 p-16">
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                  Your guide to Mazunte
+                  {t.cta.title}
                 </h2>
                 <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-                  Every event, retreat, restaurant, and conscious space. Always updated, beautifully organized.
+                  {t.cta.subtitle}
                 </p>
                 
                 {!submitted && (
@@ -439,7 +446,7 @@ function App() {
                           disabled={loading || !email}
                           className="w-full px-8 py-4 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition-all disabled:opacity-50"
                         >
-                          {loading ? 'Joining...' : 'Join Waitlist'}
+                          {loading ? 'Joining...' : t.cta.button}
                         </button>
                       </div>
                     </div>
@@ -454,10 +461,10 @@ function App() {
         <div className="container mx-auto px-4 py-16 border-t border-white/5">
           <div className="max-w-6xl mx-auto text-center space-y-4">
             <p className="text-gray-500">
-              Made with 💚 by travelers, for Mazunte
+              {t.footer.made}
             </p>
             <p className="text-sm text-gray-600">
-              <span className="text-orange-400">hello@mazunteconnect.com</span>
+              <span className="text-orange-400">{t.footer.email}</span>
             </p>
           </div>
         </div>

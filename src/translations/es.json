@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Nunca te pierdas lo que pasa en Mazunte",
+    "subtitle": "Todos los eventos, retiros, yoga, restaurantes y espacios conscientes en Mazunte. No más caos de WhatsApp.",
+    "cta": "Obtener Acceso Temprano",
+    "waitlist": "Únete a {count}+ personas en la lista de espera",
+    "launching": "Lanzando Pronto"
+  },
+  "features": {
+    "title": "Todo Mazunte, una app",
+    "subtitle": "Tu guía digital al paraíso",
+    "events": {
+      "title": "Nunca te pierdas un evento",
+      "description": "Ceremonias de cacao, danza extática, clases de yoga, reuniones de luna llena. Ve todo lo que pasa.",
+      "features": [
+        "Vista de calendario y lista",
+        "Filtros inteligentes y búsqueda",
+        "Guarda favoritos"
+      ]
+    },
+    "discover": {
+      "title": "Descubre todo",
+      "description": "Centros de retiro, estudios de bienestar, restaurantes veganos, sanadores, spots de surf. Todo mapeado."
+    },
+    "conscious": {
+      "title": "Consciente y ecológico",
+      "description": "Apoyando negocios con prácticas regenerativas y valores auténticos de comunidad."
+    },
+    "reminders": {
+      "title": "Recordatorios push",
+      "description": "Nunca olvides un evento"
+    },
+    "fresh": {
+      "title": "Siempre fresco",
+      "description": "Actualizado diariamente"
+    },
+    "community": {
+      "title": "Por viajeros",
+      "description": "Para la comunidad"
+    }
+  },
+  "problem": {
+    "title": "No más caos de WhatsApp",
+    "problems": [
+      "Eventos enterrados en 500 mensajes",
+      "\"¿Qué pasa esta noche?\" preguntado diariamente",
+      "Los recién llegados se pierden todo"
+    ],
+    "solutions": [
+      "Vista de calendario buscable",
+      "Ve toda la semana al instante",
+      "Todos encuentran todo"
+    ]
+  },
+  "cta": {
+    "title": "Tu guía a Mazunte",
+    "subtitle": "Cada evento, retiro, restaurante y espacio consciente. Siempre actualizado, hermosamente organizado.",
+    "button": "Únete a la Lista"
+  },
+  "footer": {
+    "made": "Hecho con 💚 por viajeros, para Mazunte",
+    "email": "hello@mazunteconnect.com"
+  },
+  "success": {
+    "title": "¡Estás dentro! 🎉",
+    "message": "Te notificaremos cuando Mazunte Connect se lance.",
+    "email": "📧 ¡Revisa tu email! Te enviamos un enlace de confirmación para completar tu suscripción."
+  }
+}

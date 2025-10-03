@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Never miss what's happening in Mazunte",
+    "subtitle": "All events, retreats, yoga, restaurants, and conscious spaces in Mazunte. No more WhatsApp chaos.",
+    "cta": "Get Early Access",
+    "waitlist": "Join {count}+ people on the waitlist",
+    "launching": "Launching Soon"
+  },
+  "features": {
+    "title": "Everything Mazunte, one app",
+    "subtitle": "Your digital guide to paradise",
+    "events": {
+      "title": "Never miss an event",
+      "description": "Cacao ceremonies, ecstatic dance, yoga classes, full moon gatherings. See everything happening.",
+      "features": [
+        "Calendar & list views",
+        "Smart filters & search",
+        "Save favorites"
+      ]
+    },
+    "discover": {
+      "title": "Discover everything",
+      "description": "Retreat centers, wellness studios, vegan restaurants, healers, surf spots. All mapped."
+    },
+    "conscious": {
+      "title": "Conscious & eco-friendly",
+      "description": "Supporting businesses with regenerative practices and authentic community values."
+    },
+    "reminders": {
+      "title": "Push reminders",
+      "description": "Never forget an event"
+    },
+    "fresh": {
+      "title": "Always fresh",
+      "description": "Updated daily"
+    },
+    "community": {
+      "title": "By travelers",
+      "description": "For the community"
+    }
+  },
+  "problem": {
+    "title": "No more WhatsApp chaos",
+    "problems": [
+      "Events buried in 500 messages",
+      "\"What's happening tonight?\" asked daily",
+      "Newcomers miss everything"
+    ],
+    "solutions": [
+      "Searchable calendar view",
+      "See the whole week instantly",
+      "Everyone finds everything"
+    ]
+  },
+  "cta": {
+    "title": "Your guide to Mazunte",
+    "subtitle": "Every event, retreat, restaurant, and conscious space. Always updated, beautifully organized.",
+    "button": "Join Waitlist"
+  },
+  "footer": {
+    "made": "Made with 💚 by travelers, for Mazunte",
+    "email": "hello@mazunteconnect.com"
+  },
+  "success": {
+    "title": "You're in! 🎉",
+    "message": "We'll notify you when Mazunte Connect launches.",
+    "email": "📧 Check your email! We sent you a confirmation link to complete your subscription."
+  }
+}
