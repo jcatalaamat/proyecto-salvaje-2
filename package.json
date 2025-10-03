@@ -6,7 +6,7 @@
   "homepage": "https://astralamat.github.io/mazunte-landing",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && node scripts/preserve-cname.js",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
