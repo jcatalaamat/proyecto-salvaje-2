@@ -37,8 +37,8 @@ function App() {
     
     try {
       // ConvertKit API integration
-      const convertKitApiKey = (import.meta as any).env.VITE_CONVERTKIT_API_KEY;
-      const convertKitFormId = (import.meta as any).env.VITE_CONVERTKIT_FORM_ID;
+      const convertKitApiKey = (import.meta as any).env.VITE_CONVERTKIT_API_KEY || 'WL4dvqOgWKNB2eq6RLOflQ';
+      const convertKitFormId = (import.meta as any).env.VITE_CONVERTKIT_FORM_ID || '8630317';
       
       if (convertKitApiKey && convertKitFormId) {
         console.log('Sending to ConvertKit:', { apiKey: convertKitApiKey, formId: convertKitFormId, email });
