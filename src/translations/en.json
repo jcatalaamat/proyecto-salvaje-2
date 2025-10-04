@@ -6,6 +6,11 @@
     "waitlist": "Join {count}+ people on the waitlist",
     "launching": "Launching Soon"
   },
+  "platform": {
+    "title": "Coming to iOS & Android",
+    "subtitle": "Your pocket guide to Mazunte, wherever you are",
+    "availableOn": "Available on"
+  },
   "features": {
     "title": "Everything Mazunte, one app",
     "subtitle": "Your digital guide to paradise",

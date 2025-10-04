@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves, Globe } from 'lucide-react';
+import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves, Globe, Apple, Smartphone } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 
@@ -129,7 +129,7 @@ function App() {
         </div>
 
         {/* Hero Section */}
-        <div className="container mx-auto px-4 pt-20 pb-32 md:pt-32 md:pb-48">
+        <div className="container mx-auto px-4 pt-20 pb-16 md:pt-32 md:pb-24">
           <div className="max-w-6xl mx-auto text-center">
             
             {/* Logo */}
@@ -229,6 +229,43 @@ function App() {
               </div>
             )}
 
+          </div>
+        </div>
+
+        {/* Platform Availability */}
+        <div className="container mx-auto px-4 pt-8 pb-40">
+          <div className="max-w-4xl mx-auto">
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-3xl blur-xl opacity-20 group-hover:opacity-30 transition duration-500"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-white/10 p-8 md:p-12">
+                <div className="text-center mb-8">
+                  <h3 className="text-2xl md:text-3xl font-bold mb-3">{t.platform.title}</h3>
+                  <p className="text-gray-400 text-lg">{t.platform.subtitle}</p>
+                </div>
+                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
+                  <div className="group/badge relative">
+                    <div className="absolute -inset-0.5 bg-gradient-to-r from-gray-400 to-gray-600 rounded-2xl blur opacity-40 group-hover/badge:opacity-60 transition"></div>
+                    <div className="relative flex items-center gap-3 px-6 py-4 bg-zinc-800/90 backdrop-blur-xl rounded-2xl border border-white/10 hover:border-white/20 transition-all">
+                      <Apple className="w-8 h-8 text-white" />
+                      <div className="text-left">
+                        <div className="text-xs text-gray-400">{t.platform.availableOn}</div>
+                        <div className="text-lg font-semibold text-white">iOS</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="group/badge relative">
+                    <div className="absolute -inset-0.5 bg-gradient-to-r from-green-400 to-green-600 rounded-2xl blur opacity-40 group-hover/badge:opacity-60 transition"></div>
+                    <div className="relative flex items-center gap-3 px-6 py-4 bg-zinc-800/90 backdrop-blur-xl rounded-2xl border border-white/10 hover:border-white/20 transition-all">
+                      <Smartphone className="w-8 h-8 text-green-400" />
+                      <div className="text-left">
+                        <div className="text-xs text-gray-400">{t.platform.availableOn}</div>
+                        <div className="text-lg font-semibold text-white">Android</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
