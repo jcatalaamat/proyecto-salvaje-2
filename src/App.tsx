@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useParams } from 'react-router-dom';
 import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves, Globe, Apple, Smartphone } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
-import EventPreview from './components/EventPreview';
-import PlacePreview from './components/PlacePreview';
 
-// Main Landing Page Component
-function LandingPage() {
+function App() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -487,37 +483,6 @@ function LandingPage() {
         </div>
       </div>
     </div>
-  );
-}
-
-// Event Route Component
-function EventRoute() {
-  const { id } = useParams<{ id: string }>();
-  const [language] = useState<'en' | 'es'>('en');
-  
-  return <EventPreview eventId={id || ''} language={language} />;
-}
-
-// Place Route Component  
-function PlaceRoute() {
-  const { id } = useParams<{ id: string }>();
-  const [language] = useState<'en' | 'es'>('en');
-  
-  return <PlacePreview placeId={id || ''} language={language} />;
-}
-
-// Main App with Routing
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/event/:id" element={<EventRoute />} />
-        <Route path="/place/:id" element={<PlaceRoute />} />
-        {/* Catch all other routes and redirect to home */}
-        <Route path="*" element={<LandingPage />} />
-      </Routes>
-    </Router>
   );
 }
 
