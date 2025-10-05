@@ -17,10 +17,9 @@ if (!fs.existsSync(distPath)) {
 // Write CNAME file
 fs.writeFileSync(cnamePath, 'mazunteconnect.com\n');
 
-<<<<<<< Updated upstream
-=======
 // Copy index.html as 404.html for GitHub Pages SPA routing
 const indexPath = path.join(distPath, 'index.html');
+const dest404Path = path.join(distPath, '404.html');
 if (fs.existsSync(indexPath)) {
   fs.copyFileSync(indexPath, dest404Path);
   console.log('index.html copied as 404.html for GitHub Pages SPA routing');
@@ -28,5 +27,4 @@ if (fs.existsSync(indexPath)) {
   console.warn('index.html not found in dist directory');
 }
 
->>>>>>> Stashed changes
 console.log('CNAME file preserved in dist directory');
