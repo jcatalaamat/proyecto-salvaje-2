@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useParams, Link } from 'react-router-dom';
 import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves, Globe, Apple, Smartphone } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
@@ -478,13 +478,24 @@ function LandingPage() {
 
         {/* Footer */}
         <div className="container mx-auto px-4 py-16 border-t border-white/5">
-          <div className="max-w-6xl mx-auto text-center space-y-4">
-            <p className="text-gray-500">
-              {t.footer.made}
-            </p>
-            <p className="text-sm text-gray-600">
-              <span className="text-orange-400">{t.footer.email}</span>
-            </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center space-y-4 mb-8">
+              <p className="text-gray-500">
+                {t.footer.made}
+              </p>
+              <p className="text-sm text-gray-600">
+                <span className="text-orange-400">{t.footer.email}</span>
+              </p>
+            </div>
+            <div className="flex items-center justify-center gap-6 text-sm">
+              <Link to="/support" className="text-gray-400 hover:text-orange-400 transition-colors">
+                Support
+              </Link>
+              <span className="text-gray-700">•</span>
+              <Link to="/privacy" className="text-gray-400 hover:text-orange-400 transition-colors">
+                Privacy
+              </Link>
+            </div>
           </div>
         </div>
       </div>
