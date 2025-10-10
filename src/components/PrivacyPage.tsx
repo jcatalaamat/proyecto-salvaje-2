@@ -12,7 +12,7 @@ const privacyTranslations = {
       title: "Privacy Policy",
       subtitle: "How we protect and handle your data",
       backToHome: "Back to Home",
-      lastUpdated: "Last Updated: October 2024",
+      lastUpdated: "Last Updated: October 2025",
       sections: [
         {
           icon: "shield",
@@ -95,7 +95,7 @@ const privacyTranslations = {
       title: "Política de Privacidad",
       subtitle: "Cómo protegemos y manejamos tus datos",
       backToHome: "Volver al Inicio",
-      lastUpdated: "Última Actualización: Octubre 2024",
+      lastUpdated: "Última Actualización: Octubre 2025",
       sections: [
         {
           icon: "shield",
