@@ -136,25 +136,26 @@ export default function SupportPage() {
       }}></div>
 
       <div className="relative z-10">
-        {/* Header */}
-        <div className="container mx-auto px-4 pt-8">
-          <div className="max-w-4xl mx-auto flex items-center justify-between">
-            <Link
-              to="/"
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              <span className="text-sm font-medium">{t.support.backToHome}</span>
-            </Link>
+        {/* Back Button */}
+        <div className="fixed top-4 left-4 z-50">
+          <Link
+            to="/"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span className="text-sm font-medium">{t.support.backToHome}</span>
+          </Link>
+        </div>
 
-            <button
-              onClick={() => setLanguage(language === 'en' ? 'es' : 'en')}
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
-            >
-              <Globe className="w-4 h-4" />
-              <span className="text-sm font-medium">{language === 'en' ? 'EN' : 'ES'}</span>
-            </button>
-          </div>
+        {/* Language Toggle */}
+        <div className="fixed top-4 right-4 z-50">
+          <button
+            onClick={() => setLanguage(language === 'en' ? 'es' : 'en')}
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
+          >
+            <Globe className="w-4 h-4" />
+            <span className="text-sm font-medium">{language === 'en' ? 'EN' : 'ES'}</span>
+          </button>
         </div>
 
         {/* Hero Section */}
