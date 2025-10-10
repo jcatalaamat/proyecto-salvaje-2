@@ -24,7 +24,7 @@ const supportTranslations = {
           items: [
             {
               q: "When will Mazunte Connect launch?",
-              a: "We're currently in development and plan to launch in early 2025. Join our waitlist to be notified!"
+              a: "We're currently in development and plan to launch soon! Join our waitlist to be notified when we go live."
             },
             {
               q: "Is the app free?",
@@ -69,7 +69,7 @@ const supportTranslations = {
           items: [
             {
               q: "¿Cuándo se lanzará Mazunte Connect?",
-              a: "Estamos en desarrollo y planeamos lanzar a principios de 2025. ¡Únete a nuestra lista de espera para ser notificado!"
+              a: "¡Estamos en desarrollo y planeamos lanzar pronto! Únete a nuestra lista de espera para ser notificado cuando estemos en vivo."
             },
             {
               q: "¿La app es gratis?",
