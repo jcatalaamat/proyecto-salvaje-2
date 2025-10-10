@@ -5,6 +5,8 @@ import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import EventPreview from './components/EventPreview';
 import PlacePreview from './components/PlacePreview';
+import SupportPage from './components/SupportPage';
+import PrivacyPage from './components/PrivacyPage';
 
 // Main Landing Page Component
 function LandingPage() {
@@ -514,6 +516,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/event/:id" element={<EventRoute />} />
         <Route path="/place/:id" element={<PlaceRoute />} />
+        <Route path="/support" element={<SupportPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
         {/* Catch all other routes and redirect to home */}
         <Route path="*" element={<LandingPage />} />
       </Routes>
