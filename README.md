@@ -1,3 +1,5 @@
-# Astral Integration - Tamagui
+# Astral Amat - Software Engineer Portfolio
 
-Beautiful Tamagui components and integration solutions for cross-platform applications.
+Professional portfolio and CV for Astral Amat - Full-Stack Engineer, CTO, and Blockchain Developer.
+
+Tech stack: React, TypeScript, Vite, Tailwind CSS
