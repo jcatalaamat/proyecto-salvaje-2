@@ -38,6 +38,13 @@ function InvestmentPage() {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -90,23 +97,35 @@ function InvestmentPage() {
               </span>
             </Link>
 
-            <div className="flex items-center gap-4">
-              <Link to="/" className="text-gray-400 hover:text-sage-400 transition-colors">
-                Main Site
-              </Link>
-              <button
-                onClick={() => {
-                  const languages: Array<'en' | 'es' | 'fr' | 'ca' | 'de'> = ['en', 'es', 'fr', 'ca', 'de'];
-                  const currentIndex = languages.indexOf(language);
-                  const nextIndex = (currentIndex + 1) % languages.length;
-                  setLanguage(languages[nextIndex]);
-                }}
-                className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
-              >
-                <Globe className="w-4 h-4" />
-                <span className="text-sm font-medium">{language.toUpperCase()}</span>
+            {/* Nav Links - Hidden on mobile */}
+            <div className="hidden md:flex items-center gap-8">
+              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-400 hover:text-sage-400 transition-colors">
+                Overview
+              </button>
+              <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-terra-400 transition-colors">
+                Packages
+              </button>
+              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-sage-400 transition-colors">
+                Property
+              </button>
+              <button onClick={() => scrollToSection('contact')} className="px-6 py-2 bg-gradient-to-r from-sage-500 to-terra-500 rounded-full font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all">
+                Contact
               </button>
             </div>
+
+            {/* Language Toggle */}
+            <button
+              onClick={() => {
+                const languages: Array<'en' | 'es' | 'fr' | 'ca' | 'de'> = ['en', 'es', 'fr', 'ca', 'de'];
+                const currentIndex = languages.indexOf(language);
+                const nextIndex = (currentIndex + 1) % languages.length;
+                setLanguage(languages[nextIndex]);
+              }}
+              className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="text-sm font-medium">{language.toUpperCase()}</span>
+            </button>
           </div>
         </div>
       </nav>
@@ -287,7 +306,7 @@ function InvestmentPage() {
       </section>
 
       {/* Investment Packages */}
-      <section className="py-20 px-4 bg-black">
+      <section id="packages" className="py-20 px-4 bg-black">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">{inv.packages.title}</h2>
@@ -583,7 +602,7 @@ function InvestmentPage() {
       </section>
 
       {/* Property Gallery */}
-      <section className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
+      <section id="property" className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Explore the Property</h2>
