@@ -18,7 +18,7 @@ const privacyTranslations = {
           icon: "shield",
           title: "Our Commitment",
           content: [
-            "At Astral Amat, your privacy is fundamental. I'm committed to being transparent about what data is collected and how it's used.",
+            "At Proyecto Salvaje, your privacy is fundamental. We're committed to being transparent about what data is collected and how it's used.",
             "This policy explains practices regarding your personal information when you use this website and contact forms."
           ]
         },
@@ -26,7 +26,7 @@ const privacyTranslations = {
           icon: "database",
           title: "Information Collected",
           content: [
-            "Contact Information: When you reach out via email or contact forms, I collect your email address and any information you provide to respond to your inquiry.",
+            "Contact Information: When you reach out via email or contact forms, we collect your email address and any information you provide to respond to your inquiry.",
             "Usage Data: Basic analytics are collected to improve the website, such as page views and navigation patterns. This data is anonymized.",
             "No Third-Party Tracking: This site does not use invasive tracking or sell data to third parties."
           ]
@@ -59,7 +59,7 @@ const privacyTranslations = {
             "Correction: You can request corrections to your information",
             "Deletion: You can request deletion of your data at any time",
             "Opt-out: You can unsubscribe from any communications",
-            "Contact hello@astralamat.com to exercise these rights"
+            "Contact info@proyectosalvaje.com to exercise these rights"
           ]
         },
         {
@@ -85,7 +85,7 @@ const privacyTranslations = {
       contact: {
         title: "Questions?",
         description: "If you have any questions about this Privacy Policy, please contact:",
-        email: "hello@astralamat.com"
+        email: "info@proyectosalvaje.com"
       }
     }
   },
@@ -101,7 +101,7 @@ const privacyTranslations = {
           icon: "shield",
           title: "Nuestro Compromiso",
           content: [
-            "En Astral Amat, tu privacidad es fundamental. Me comprometo a ser transparente sobre qué datos se recopilan y cómo se usan.",
+            "En Proyecto Salvaje, tu privacidad es fundamental. Nos comprometemos a ser transparentes sobre qué datos se recopilan y cómo se usan.",
             "Esta política explica las prácticas con respecto a tu información personal cuando usas este sitio web y formularios de contacto."
           ]
         },
@@ -109,7 +109,7 @@ const privacyTranslations = {
           icon: "database",
           title: "Información Recopilada",
           content: [
-            "Información de Contacto: Cuando te comunicas por email o formularios de contacto, recopilo tu dirección de correo electrónico y la información que proporciones para responder a tu consulta.",
+            "Información de Contacto: Cuando te comunicas por email o formularios de contacto, recopilamos tu dirección de correo electrónico y la información que proporciones para responder a tu consulta.",
             "Datos de Uso: Se recopilan análisis básicos para mejorar el sitio web, como vistas de página y patrones de navegación. Estos datos son anónimos.",
             "Sin Seguimiento de Terceros: Este sitio no usa seguimiento invasivo ni vende datos a terceros."
           ]
@@ -142,7 +142,7 @@ const privacyTranslations = {
             "Corrección: Puedes solicitar correcciones a tu información",
             "Eliminación: Puedes solicitar la eliminación de tus datos en cualquier momento",
             "Cancelación: Puedes cancelar la suscripción a cualquier comunicación",
-            "Contacta hello@astralamat.com para ejercer estos derechos"
+            "Contacta info@proyectosalvaje.com para ejercer estos derechos"
           ]
         },
         {
@@ -168,7 +168,7 @@ const privacyTranslations = {
       contact: {
         title: "¿Preguntas?",
         description: "Si tienes alguna pregunta sobre esta Política de Privacidad, contacta:",
-        email: "hello@astralamat.com"
+        email: "info@proyectosalvaje.com"
       }
     }
   }

@@ -10,43 +10,43 @@ const supportTranslations = {
     ...enTranslations,
     support: {
       title: "How can we help?",
-      subtitle: "Get support and technical assistance",
+      subtitle: "Get in touch with Proyecto Salvaje",
       backToHome: "Back to Home",
       sections: {
         email: {
-          title: "Email Support",
-          description: "Send us an email and we'll get back to you within 24 hours",
-          action: "hello@astralamat.com"
+          title: "Email Us",
+          description: "Send us an email and we'll get back to you as soon as possible",
+          action: "info@proyectosalvaje.com"
         },
         faq: {
           title: "Frequently Asked Questions",
           description: "Find answers to common questions",
           items: [
             {
-              q: "What services do you offer?",
-              a: "I offer full-stack development, cloud infrastructure architecture, AI/ML integration, and technical consulting for startups and enterprises."
+              q: "What is Proyecto Salvaje?",
+              a: "Proyecto Salvaje is a regenerative land development project in Mazunte, Oaxaca, Mexico. We're creating an ecological community focused on sustainable living, permaculture, and indigenous wisdom integration."
             },
             {
-              q: "What's your availability for new projects?",
-              a: "I'm currently available for select consulting engagements and project collaborations. Contact me to discuss your specific needs."
+              q: "How can I get involved?",
+              a: "There are multiple ways to participate: as a founding land steward, aligned investor, community contributor, or future visitor. Visit our homepage to learn more about each path."
             },
             {
-              q: "What technologies do you specialize in?",
-              a: "I specialize in React, TypeScript, Node.js, Python, AWS, and modern web technologies. I'm also experienced in AI/ML integration and cloud architecture."
+              q: "Where is the project located?",
+              a: "We're located in Mazunte, Oaxaca, Mexico - a beautiful coastal region known for its ecological diversity and indigenous heritage."
             },
             {
-              q: "Do you work with startups?",
-              a: "Yes! I have extensive experience working with startups, from early-stage MVPs to scaling production systems."
+              q: "Can I visit the property?",
+              a: "Yes! We welcome visitors who are interested in learning about the project. Please contact us to arrange a visit."
             }
           ]
         },
         community: {
-          title: "Connect & Collaborate",
-          description: "Let's discuss your next project or explore collaboration opportunities"
+          title: "Join Our Community",
+          description: "Connect with like-minded individuals building a regenerative future together"
         },
         docs: {
-          title: "Case Studies & Portfolio",
-          description: "Explore my work and technical documentation"
+          title: "Project Information",
+          description: "Learn more about our vision, timeline, and development plans"
         }
       }
     }
@@ -55,43 +55,43 @@ const supportTranslations = {
     ...esTranslations,
     support: {
       title: "¿Cómo podemos ayudarte?",
-      subtitle: "Obtén soporte y asistencia técnica",
+      subtitle: "Comunícate con Proyecto Salvaje",
       backToHome: "Volver al Inicio",
       sections: {
         email: {
-          title: "Soporte por Email",
-          description: "Envíanos un email y te responderemos en 24 horas",
-          action: "hello@astralamat.com"
+          title: "Envíanos un Email",
+          description: "Envíanos un correo y te responderemos lo antes posible",
+          action: "info@proyectosalvaje.com"
         },
         faq: {
           title: "Preguntas Frecuentes",
           description: "Encuentra respuestas a preguntas comunes",
           items: [
             {
-              q: "¿Qué servicios ofreces?",
-              a: "Ofrezco desarrollo full-stack, arquitectura de infraestructura en la nube, integración de IA/ML y consultoría técnica para startups y empresas."
+              q: "¿Qué es Proyecto Salvaje?",
+              a: "Proyecto Salvaje es un proyecto de desarrollo de tierra regenerativa en Mazunte, Oaxaca, México. Estamos creando una comunidad ecológica enfocada en vida sostenible, permacultura e integración de sabiduría indígena."
             },
             {
-              q: "¿Cuál es tu disponibilidad para nuevos proyectos?",
-              a: "Actualmente estoy disponible para proyectos de consultoría selectos y colaboraciones. Contáctame para discutir tus necesidades específicas."
+              q: "¿Cómo puedo participar?",
+              a: "Hay múltiples formas de participar: como custodio fundador de la tierra, inversionista alineado, colaborador comunitario o futuro visitante. Visita nuestra página principal para aprender más sobre cada camino."
             },
             {
-              q: "¿En qué tecnologías te especializas?",
-              a: "Me especializo en React, TypeScript, Node.js, Python, AWS y tecnologías web modernas. También tengo experiencia en integración de IA/ML y arquitectura en la nube."
+              q: "¿Dónde está ubicado el proyecto?",
+              a: "Estamos ubicados en Mazunte, Oaxaca, México - una hermosa región costera conocida por su diversidad ecológica y herencia indígena."
             },
             {
-              q: "¿Trabajas con startups?",
-              a: "¡Sí! Tengo amplia experiencia trabajando con startups, desde MVPs en etapas tempranas hasta escalar sistemas en producción."
+              q: "¿Puedo visitar la propiedad?",
+              a: "¡Sí! Damos la bienvenida a visitantes interesados en conocer el proyecto. Por favor contáctanos para organizar una visita."
             }
           ]
         },
         community: {
-          title: "Conectar y Colaborar",
-          description: "Discutamos tu próximo proyecto o exploremos oportunidades de colaboración"
+          title: "Únete a Nuestra Comunidad",
+          description: "Conéctate con personas afines construyendo un futuro regenerativo juntos"
         },
         docs: {
-          title: "Casos de Estudio y Portfolio",
-          description: "Explora mi trabajo y documentación técnica"
+          title: "Información del Proyecto",
+          description: "Aprende más sobre nuestra visión, cronograma y planes de desarrollo"
         }
       }
     }
