@@ -845,8 +845,10 @@
         "submit": "Agendar Consulta"
       },
       "info": {
-        "email": "invest@proyectosalvaje.com",
+        "email": "info@proyectosalvaje.com",
         "phone": "+52 (XXX) XXX-XXXX",
+        "whatsapp": "+33 6 46 39 63 25",
+        "whatsappText": "Message us on WhatsApp",
         "location": "Mazunte, Oaxaca, México"
       },
       "download": {

@@ -72,7 +72,7 @@ Back in ImprovMX dashboard:
    - `info@proyectosalvaje.com` → your-personal-email@gmail.com
    - `hello@proyectosalvaje.com` → your-personal-email@gmail.com
    - `contact@proyectosalvaje.com` → your-personal-email@gmail.com
-   - `invest@proyectosalvaje.com` → your-personal-email@gmail.com
+   - `info@proyectosalvaje.com` → your-personal-email@gmail.com
 
    **Or use a catch-all:**
    - `*@proyectosalvaje.com` → your-personal-email@gmail.com

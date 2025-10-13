@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {
   Leaf, Globe, MapPin, TrendingUp, Shield, Home, Droplet,
   Mountain, Check, AlertCircle, Send, Download, Clock, Users,
-  DollarSign, Grid, BarChart3
+  DollarSign, Grid, BarChart3, Mail, MessageCircle
 } from 'lucide-react';
 import enTranslations from '../translations/en.json';
 import esTranslations from '../translations/es.json';
@@ -17,9 +17,7 @@ function InvestmentPage() {
     name: '',
     email: '',
     phone: '',
-    citizenship: '',
     package: 'exploring',
-    visit: '',
     message: ''
   });
 
@@ -51,13 +49,11 @@ function InvestmentPage() {
       `=========================================\n` +
       `Name: ${formData.name}\n` +
       `Email: ${formData.email}\n` +
-      `Phone: ${formData.phone}\n` +
-      `Citizenship: ${formData.citizenship}\n\n` +
+      `Phone: ${formData.phone}\n\n` +
       `=========================================\n` +
-      `INVESTMENT DETAILS\n` +
+      `INVESTMENT INTEREST\n` +
       `=========================================\n` +
-      `Package Interest: ${formData.package}\n` +
-      `Preferred Visit Date: ${formData.visit}\n\n` +
+      `Package: ${formData.package}\n\n` +
       `=========================================\n` +
       `MESSAGE\n` +
       `=========================================\n` +
@@ -665,90 +661,66 @@ function InvestmentPage() {
       </section>
 
       {/* Contact Form */}
-      <section id="contact" className="py-20 px-4 bg-gradient-to-b from-earth-900/20 to-black">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">{inv.contact.title}</h2>
-            <p className="text-xl text-sage-300 mb-6">{inv.contact.subtitle}</p>
-            <p className="text-gray-400">{inv.contact.description}</p>
+      <section id="contact" className="py-24 px-4 bg-earth-900/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-sage-400 via-terra-400 to-earth-400 bg-clip-text text-transparent">{inv.contact.title}</h2>
+            <p className="text-xl text-sage-300 max-w-2xl mx-auto">{inv.contact.subtitle}</p>
           </div>
 
-          <div className="relative">
-            <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-20"></div>
-            <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-terra-500/20 p-8 md:p-12">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.name}</label>
-                    <input
-                      type="text"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.email}</label>
-                    <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
-                    />
-                  </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Contact Form */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-terra-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-sage-500/20 p-8">
+                <form onSubmit={handleSubmit} className="space-y-6">
+                <div>
+                  <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.name}</label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
+                  />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.phone}</label>
-                    <input
-                      type="tel"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.citizenship}</label>
-                    <input
-                      type="text"
-                      name="citizenship"
-                      value={formData.citizenship}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
-                    />
-                  </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.email}</label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
+                  />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.package}</label>
-                    <select
-                      name="package"
-                      value={formData.package}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white focus:outline-none focus:border-sage-500 transition-colors"
-                    >
-                      {Object.entries(inv.contact.form.packageOptions).map(([key, value]) => (
-                        <option key={key} value={key}>{value as string}</option>
-                      ))}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.visit}</label>
-                    <input
-                      type="date"
-                      name="visit"
-                      value={formData.visit}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white focus:outline-none focus:border-sage-500 transition-colors"
-                    />
-                  </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.phone}</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-sage-500 transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-400 mb-2">{inv.contact.form.package}</label>
+                  <select
+                    name="package"
+                    value={formData.package}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 bg-white/5 border border-sage-500/20 rounded-lg text-white focus:outline-none focus:border-sage-500 transition-colors"
+                  >
+                    {Object.entries(inv.contact.form.packageOptions).map(([key, value]) => (
+                      <option key={key} value={key}>{value as string}</option>
+                    ))}
+                  </select>
                 </div>
 
                 <div>
@@ -764,25 +736,69 @@ function InvestmentPage() {
 
                 <button
                   type="submit"
-                  className="w-full flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-terra-500 to-sage-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-terra-500/50 transform hover:scale-[1.02] transition-all"
+                  className="w-full flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-sage-500 to-terra-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-sage-500/50 transform hover:scale-[1.02] transition-all"
                 >
                   <span>{inv.contact.form.submit}</span>
                   <Send className="w-5 h-5" />
                 </button>
               </form>
+              </div>
+            </div>
 
-              <div className="mt-8 pt-8 border-t border-white/10 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                <div>
-                  <p className="text-sm text-gray-400 mb-1">Email</p>
-                  <p className="text-sage-300">{inv.contact.info.email}</p>
+            {/* Contact Info */}
+            <div className="space-y-8">
+              {/* Email Card */}
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-terra-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+                <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-sage-500/20 p-8">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="p-3 rounded-xl bg-gradient-to-r from-sage-500 to-terra-500">
+                      <Mail className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white">Email</h3>
+                  </div>
+                  <a
+                    href={`mailto:${inv.contact.info.email}`}
+                    className="text-sage-400 hover:text-sage-300 transition-colors"
+                  >
+                    {inv.contact.info.email}
+                  </a>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-400 mb-1">Phone</p>
-                  <p className="text-sage-300">{inv.contact.info.phone}</p>
+              </div>
+
+              {/* WhatsApp Card */}
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+                <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-green-500/20 p-8">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="p-3 rounded-xl bg-gradient-to-r from-green-500 to-emerald-500">
+                      <MessageCircle className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white">WhatsApp</h3>
+                  </div>
+                  <a
+                    href={`https://wa.me/${inv.contact.info.whatsapp.replace(/[^0-9]/g, '')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-400 hover:text-green-300 transition-colors block"
+                  >
+                    {inv.contact.info.whatsappText}
+                  </a>
+                  <p className="text-gray-400 text-sm mt-2">{inv.contact.info.whatsapp}</p>
                 </div>
-                <div>
-                  <p className="text-sm text-gray-400 mb-1">Location</p>
-                  <p className="text-sage-300">{inv.contact.info.location}</p>
+              </div>
+
+              {/* Location Card */}
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-earth-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+                <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-terra-500/20 p-8">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="p-3 rounded-xl bg-gradient-to-r from-terra-500 to-earth-500">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-white">Location</h3>
+                  </div>
+                  <p className="text-terra-400">{inv.contact.info.location}</p>
                 </div>
               </div>
             </div>
