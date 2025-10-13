@@ -51,6 +51,13 @@
     "intro": "El proyecto está naciendo en México, un país que mantiene una energía muy poderosa de resistencia social, derechos indígenas e integridad, y que tiene peso en la escena política global por defender a las minorías.",
     "description": "Esta tierra está rodeada de campos agrícolas con árboles antiguos y suelo rico. Es un área rica en cultura e historia, con presencia de océano, laguna y manglares — un lugar que ya alberga varias iniciativas colectivas, centros de sanación y proyectos de regeneración de tierras.",
     "quote": "La tierra está anidada frente a una reserva natural... ofreciendo privacidad y paz profunda — siendo a la vez protegida y conectada.",
+    "gallery": {
+      "title": "Explora la Propiedad",
+      "subtitle": "Tour Visual de la Tierra",
+      "description": "Observa la belleza y el potencial de Proyecto Salvaje a través de vistas aéreas y fotografía del sitio.",
+      "videoTitle": "Tour en Video",
+      "downloadTopo": "Descargar Mapa Topográfico Completo"
+    },
     "features": {
       "topography": {
         "title": "Topografía y Acceso",
@@ -368,5 +375,426 @@
     },
     "made": "© 2025 Proyecto Salvaje. Todos los derechos reservados.",
     "rights": ""
+  },
+  "investment": {
+    "hero": {
+      "title": "Invierte en Vida Regenerativa",
+      "subtitle": "Asegura Tu Lugar en una Eco-Comunidad Próspera",
+      "description": "Una rara oportunidad de invertir en una de las últimas parcelas intactas en Mazunte, Oaxaca. Combina retornos financieros con impacto significativo en una comunidad regenerativa.",
+      "stats": {
+        "land": "12 Acres Totales",
+        "lots": "20 Lotes Exclusivos",
+        "phase": "Fase 1 Activa",
+        "roi": "2x ROI en 1-2 Años"
+      },
+      "cta": "Agendar Consulta",
+      "secondaryCta": "Descargar Brief de Inversión"
+    },
+    "pricing": {
+      "title": "Oportunidad de Inversión",
+      "subtitle": "Asegura tu lugar en una comunidad regenerativa única con excepcional potencial de crecimiento. Lotes de Fase 1 disponibles ahora a precio de pre-construcción.",
+      "cards": [
+        {
+          "label": "PRECIO ACTUAL",
+          "value": "$450 MXN",
+          "subtitle": "por m² (~$25 USD/m²)",
+          "description": "Lotes residenciales espaciosos"
+        },
+        {
+          "label": "TAMAÑOS DE LOTE",
+          "value": "2,000-2,500 m²",
+          "subtitle": "Lotes residenciales espaciosos",
+          "description": ""
+        },
+        {
+          "label": "INVERSIÓN TOTAL",
+          "value": "~1M MXN",
+          "subtitle": "por lote (~$55,000 USD)",
+          "description": ""
+        },
+        {
+          "label": "CRECIMIENTO DE VALOR",
+          "value": "2x en 1-2 años",
+          "subtitle": "Apreciación proyectada",
+          "description": ""
+        }
+      ]
+    },
+    "location": {
+      "title": "Ubicación Privilegiada",
+      "subtitle": "Donde la Sierra Madre se Encuentra con el Pacífico",
+      "description": "Anidado frente a una reserva natural protegida con acceso único a océano, montañas y comunidad vibrante.",
+      "highlights": [
+        "5 minutos de Playa Ventanilla",
+        "10 minutos del centro de Mazunte",
+        "1 hora de aeropuertos internacionales (Puerto Escondido y Huatulco)",
+        "3 horas de la Ciudad de Oaxaca vía nueva carretera",
+        "Adyacente a reserva de manglares protegida de 100 hectáreas"
+      ],
+      "mapTitle": "Mapa de Ubicación Estratégica"
+    },
+    "development": {
+      "title": "Estrategia de Desarrollo por Fases",
+      "subtitle": "Crecimiento Estratégico para Máximo Valor",
+      "intro": "Nuestro plan de desarrollo de 5 fases asegura crecimiento sostenible mientras maximiza la apreciación del terreno para inversionistas tempranos.",
+      "phases": [
+        {
+          "number": 1,
+          "title": "Fase 1",
+          "status": "Activa Ahora",
+          "period": "Abril - Septiembre 2025",
+          "description": "Fase de fundación: Adquisición del terreno, seguridad perimetral, pozos de agua, infraestructura básica y formación del consejo de miembros fundadores.",
+          "price": "$450 MXN/m²",
+          "availability": "8 lotes restantes"
+        },
+        {
+          "number": 2,
+          "title": "Fase 2",
+          "status": "Próximamente",
+          "period": "Año 1",
+          "description": "Expansión de infraestructura: Electricidad subterránea, senderos pavimentados, primeros edificios residenciales y espacios comunales.",
+          "price": "$650 MXN/m²",
+          "availability": "Proyectado"
+        },
+        {
+          "number": 3,
+          "title": "Fase 3",
+          "status": "Planeado",
+          "period": "Año 2",
+          "description": "Amenidades comunitarias: Centro educativo, bio-piscina, sistemas de permacultura e integración de energías renovables.",
+          "price": "$850 MXN/m²",
+          "availability": "Proyectado"
+        },
+        {
+          "number": 4,
+          "title": "Fase 4",
+          "status": "Futuro",
+          "period": "Año 3",
+          "description": "Comunidad completa: Toda infraestructura completa, gobernanza establecida, programas de visitantes lanzados.",
+          "price": "$1,100 MXN/m²",
+          "availability": "Proyectado"
+        }
+      ]
+    },
+    "packages": {
+      "title": "Paquetes de Inversión",
+      "subtitle": "Elige Tu Camino hacia la Propiedad",
+      "intro": "Múltiples formas de participar, desde propiedad completa del terreno hasta inversión de impacto.",
+      "items": [
+        {
+          "title": "Custodio Fundador del Terreno",
+          "price": "$180,000 USD",
+          "popular": true,
+          "description": "Propiedad completa del lote con derechos de gobernanza y membresía en el consejo.",
+          "features": [
+            "Lote completo: 2,000-2,500 m²",
+            "Derechos de voto en todas las decisiones",
+            "Asiento en el Consejo de Miembros Fundadores",
+            "Acceso prioritario a amenidades",
+            "Escritura al completar",
+            "Acceso a programas educativos",
+            "Participación en prácticas ceremoniales"
+          ],
+          "roi": "2-3x valor en 2-3 años",
+          "timeline": "Listo para habitar después de Fase 1"
+        },
+        {
+          "title": "Contribuidor Comunitario",
+          "price": "$50,000 - $75,000 USD",
+          "popular": false,
+          "description": "Lote parcial o parcela compartida con derechos de participación comunitaria.",
+          "features": [
+            "Lote parcial o parcela compartida",
+            "Derechos de voto en decisiones comunitarias",
+            "Acceso a todos los espacios comunales",
+            "Descuentos en talleres educativos",
+            "Estructuras de propiedad flexibles",
+            "Prioridad de ocupación Fase 2"
+          ],
+          "roi": "1.5-2x valor en 2-3 años",
+          "timeline": "Ocupación Año 2"
+        },
+        {
+          "title": "Inversor de Impacto",
+          "price": "$10,000+ USD",
+          "popular": false,
+          "description": "Bonos de desarrollo de infraestructura con retornos fijos más bono de éxito.",
+          "features": [
+            "Sin propiedad del terreno",
+            "Retorno fijo: 8-12% anual",
+            "Potencial de bono por éxito del proyecto",
+            "Rol asesor en desarrollo",
+            "Inversión transferible",
+            "Líquida después del Año 2",
+            "Privilegios de visita"
+          ],
+          "roi": "Fijo 8-12% + bono",
+          "timeline": "Inversión líquida después del Año 2"
+        }
+      ],
+      "comparison": {
+        "title": "Comparación de Paquetes",
+        "headers": ["Característica", "Custodio Fundador", "Contribuidor Comunitario", "Inversor de Impacto"],
+        "rows": [
+          ["Inversión", "$180K", "$50-75K", "$10K+"],
+          ["Propiedad del Terreno", "Lote completo (2,000-2,500m²)", "Parcial/Compartida", "Ninguna"],
+          ["Gobernanza", "Asiento completo en Consejo", "Derechos de voto", "Rol asesor"],
+          ["Proyección ROI", "2-3x en 2-3 años", "1.5-2x en 2-3 años", "8-12% anual + bono"],
+          ["Ocupación", "Terminación Fase 1", "Año 2", "Solo privilegios de visita"],
+          ["Liquidez", "Después de Fase 4", "Después de Fase 3", "Después del Año 2"]
+        ]
+      }
+    },
+    "infrastructure": {
+      "title": "Qué Está Incluido",
+      "subtitle": "Infraestructura y Amenidades Premium",
+      "intro": "Tu inversión incluye infraestructura esencial más acceso a características comunitarias regenerativas.",
+      "included": [
+        {
+          "title": "Seguridad y Acceso",
+          "items": [
+            "Cercado perimetral con materiales naturales",
+            "Entrada con portón con casa de custodio",
+            "Presencia de seguridad 24/7",
+            "Senderos demarcados"
+          ]
+        },
+        {
+          "title": "Utilidades y Servicios",
+          "items": [
+            "2 pozos profundos de agua (todo el año)",
+            "Electricidad subterránea a cada lote",
+            "Fibra óptica lista para internet",
+            "Sistemas de captación de agua de lluvia"
+          ]
+        },
+        {
+          "title": "Características Naturales",
+          "items": [
+            "Vistas al océano desde lotes elevados",
+            "Vistas a montañas/sierra",
+            "Acceso a reserva protegida",
+            "Preservación de árboles nativos"
+          ]
+        },
+        {
+          "title": "Beneficios Comunitarios",
+          "items": [
+            "Acceso a programas educativos",
+            "Consulta de permacultura",
+            "Participación en gobernanza",
+            "Acceso a prácticas ceremoniales",
+            "Privilegios de programa de visitantes"
+          ]
+        }
+      ],
+      "clubhouse": {
+        "title": "Centro Comunitario (Opcional)",
+        "description": "Votado por miembros fundadores, el centro comunitario servirá como el corazón de las actividades de la aldea.",
+        "price": "$300,000 MXN por lote (único pago)",
+        "features": [
+          "Bio-piscina con filtración natural",
+          "Espacios de reunión y co-trabajo",
+          "Instalaciones para talleres educativos",
+          "Áreas de reunión ceremonial",
+          "Cocina comercial",
+          "Estudio de yoga/movimiento",
+          "Biblioteca y centro de recursos"
+        ],
+        "note": "Se requiere voto mayoritario para proceder con construcción"
+      }
+    },
+    "appreciation": {
+      "title": "Potencial de Apreciación de Valor",
+      "subtitle": "Inversión Estratégica con Crecimiento Comprobado",
+      "intro": "Basado en análisis de mercado y desarrollos comparables en la región, inversionistas tempranos pueden esperar apreciación significativa.",
+      "projection": {
+        "title": "Proyección Conservadora",
+        "description": "Duplica el valor de tu inversión en 1-2 años",
+        "phases": [
+          {
+            "phase": "Fase 1 (Ahora)",
+            "price": "$450 MXN/m²",
+            "totalLot": "~$1,000,000 MXN ($55,000 USD)"
+          },
+          {
+            "phase": "Fase 2 (Año 1)",
+            "price": "$650 MXN/m²",
+            "totalLot": "~$1,400,000 MXN ($77,000 USD)"
+          },
+          {
+            "phase": "Fase 3 (Año 2)",
+            "price": "$850 MXN/m²",
+            "totalLot": "~$1,800,000 MXN ($100,000 USD)"
+          },
+          {
+            "phase": "Fase 4 (Año 3)",
+            "price": "$1,100 MXN/m²",
+            "totalLot": "~$2,400,000 MXN ($133,000 USD)"
+          }
+        ]
+      },
+      "factors": {
+        "title": "Impulsores Clave de Apreciación",
+        "items": [
+          {
+            "title": "Desarrollo de Infraestructura",
+            "description": "Cada fase completada añade valor significativo a través de mejores caminos, utilidades y amenidades."
+          },
+          {
+            "title": "Demanda Creciente",
+            "description": "Interés creciente en comunidades regenerativas y ubicaciones amigables para trabajo remoto impulsa los precios."
+          },
+          {
+            "title": "Oferta Limitada",
+            "description": "Una de las últimas parcelas intactas en el área de Mazunte con este tamaño y características naturales."
+          },
+          {
+            "title": "Proximidad a Reserva Protegida",
+            "description": "Adyacente a reserva de manglares protegida de 100 hectáreas asegura amortiguamiento natural permanente y exclusividad."
+          },
+          {
+            "title": "Crecimiento Regional",
+            "description": "Costa de Oaxaca experimenta apreciación de propiedad del 15-20% anual, superando promedios nacionales."
+          },
+          {
+            "title": "Premium Comunitario",
+            "description": "Comunidades intencionales comandan premium del 30-50% sobre terrenos comparables sin estructura de gobernanza."
+          }
+        ]
+      }
+    },
+    "guidelines": {
+      "title": "Lineamientos de Construcción y Uso",
+      "subtitle": "Construyendo un Futuro Regenerativo Juntos",
+      "intro": "Nuestros lineamientos aseguran integridad ecológica mientras permiten expresión creativa y usos diversos.",
+      "permitted": {
+        "title": "Actividades Permitidas",
+        "items": [
+          "Uso de residencia familiar y casa de vacaciones",
+          "Renta de corto plazo y hospedaje turístico",
+          "Actividades culturales, tradicionales y artísticas",
+          "Permacultura de uso personal y bosques de alimentos",
+          "Operaciones de eco-turismo de bajo impacto",
+          "Talleres y programas educativos",
+          "Prácticas ceremoniales y espirituales",
+          "Negocios basados en casa (no industriales)"
+        ]
+      },
+      "restricted": {
+        "title": "Actividades Restringidas",
+        "items": [
+          "Agricultura comercial u operaciones ganaderas",
+          "Caza comercial o explotación de vida silvestre",
+          "Destrucción de sitios de anidación/reproducción de vida silvestre",
+          "Uso irresponsable de fuego o quema y tala",
+          "Introducción de especies exóticas invasoras",
+          "Manufactura industrial o pesada",
+          "Actividades que causan contaminación acústica/lumínica",
+          "Extracción de recursos naturales para venta"
+        ]
+      },
+      "building": {
+        "title": "Estándares de Construcción",
+        "items": [
+          "Máximo 2 pisos sobre el suelo",
+          "Materiales naturales y locales incentivados",
+          "Integración de principios de diseño de permacultura",
+          "Sistemas de captación de agua de lluvia requeridos",
+          "Sistemas de tratamiento de aguas grises obligatorios",
+          "Integración de energía solar incentivada",
+          "Paisajismo nativo con reforestación",
+          "Mínimo 40% del lote mantenido como espacio natural"
+        ]
+      },
+      "governance": {
+        "title": "Marco de Gobernanza",
+        "description": "Lineamientos iniciales establecidos por desarrollador, con control comunitario completo después de que todos los lotes sean vendidos. Todas las decisiones mayores hechas a través de proceso de consentimiento sociocrático con transparencia DAO.",
+        "note": "El Reglamento (reglas comunitarias) solo puede ser modificado por voto mayoritario de la asamblea de miembros fundadores una vez completada la fase de desarrollador."
+      }
+    },
+    "legal": {
+      "title": "Soporte Legal y Seguridad",
+      "subtitle": "Acompañamiento Legal Integral",
+      "intro": "Proveemos soporte legal completo para asegurar que tu inversión sea segura y cumpla con la ley mexicana.",
+      "services": {
+        "title": "Servicios Legales Incluidos",
+        "items": [
+          {
+            "title": "Soporte de Adquisición",
+            "description": "Guía legal completa a través del proceso de compra del terreno, incluyendo revisión de documentos y negociación de contratos."
+          },
+          {
+            "title": "Configuración de Fideicomiso",
+            "description": "Para compradores extranjeros, arreglamos y manejamos el fideicomiso bancario (fideicomiso) requerido para propiedad costera en México."
+          },
+          {
+            "title": "Gestión de Título y Escritura",
+            "description": "Gestión de escrituración (proceso de escritura de título) y certificado de posesión comunal para asegurar propiedad clara."
+          },
+          {
+            "title": "Integración DAO",
+            "description": "Configuración de estructura de gobernanza basada en blockchain para transparencia completa en toma de decisiones y asignación de recursos."
+          },
+          {
+            "title": "Asesoría Legal Continua",
+            "description": "Soporte legal continuo a través del proceso de desarrollo, incluyendo permisos de construcción y cumplimiento."
+          }
+        ]
+      },
+      "fideicomiso": {
+        "title": "Entendiendo el Fideicomiso",
+        "description": "La ley mexicana requiere que la propiedad extranjera de propiedad costera (dentro de 50km del océano) se mantenga en un fideicomiso bancario. Este es un proceso estándar y seguro que provee los mismos derechos de propiedad que la propiedad directa.",
+        "benefits": [
+          "Derechos completos de propiedad (vender, arrendar, heredar)",
+          "Término de 30 años, renovable indefinidamente",
+          "Protegido por regulaciones bancarias mexicanas",
+          "Puede ser transferido o vendido como propiedad normal",
+          "Incluido en nuestro paquete de servicios legales"
+        ]
+      },
+      "transparency": {
+        "title": "Transparencia Blockchain",
+        "description": "Nuestra estructura DAO (Organización Autónoma Descentralizada) asegura transparencia completa en todas las transacciones financieras, votos y decisiones de gobernanza.",
+        "features": [
+          "Todas las decisiones mayores registradas en blockchain",
+          "Seguimiento transparente de asignación de fondos",
+          "Gestión de tesorería multi-firma",
+          "Registros de votación inmutables",
+          "Actualizaciones de progreso del proyecto en tiempo real"
+        ]
+      }
+    },
+    "contact": {
+      "title": "¿Listo para Invertir?",
+      "subtitle": "Hablemos sobre cómo puedes ser parte de esta visión regenerativa",
+      "description": "Agenda una consulta para aprender más sobre paquetes de inversión, visitar el terreno y conocer al equipo fundador.",
+      "form": {
+        "name": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "phone": "Número de Teléfono",
+        "citizenship": "Ciudadanía/Residencia",
+        "package": "Interés en Paquete de Inversión",
+        "packageOptions": {
+          "steward": "Custodio Fundador del Terreno ($180K)",
+          "contributor": "Contribuidor Comunitario ($50-75K)",
+          "investor": "Inversor de Impacto ($10K+)",
+          "exploring": "Aún Explorando Opciones"
+        },
+        "visit": "Fecha Preferida de Visita",
+        "message": "Preguntas o Información Adicional",
+        "submit": "Agendar Consulta"
+      },
+      "info": {
+        "email": "invest@proyectosalvaje.com",
+        "phone": "+52 (XXX) XXX-XXXX",
+        "location": "Mazunte, Oaxaca, México"
+      },
+      "download": {
+        "title": "Descargar Brief de Inversión",
+        "description": "Obtén nuestro prospecto de inversión integral con finanzas detalladas, planos del sitio y documentación legal.",
+        "button": "Descargar PDF"
+      }
+    }
   }
 }

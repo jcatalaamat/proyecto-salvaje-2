@@ -129,9 +129,9 @@ const LandSection = ({ translations }: LandSectionProps) => {
         {/* Property Photo Gallery */}
         <div>
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-white mb-2">Explore the Property</h3>
-            <p className="text-xl text-sage-300 mb-6">Visual Tour of the Land</p>
-            <p className="text-gray-400 max-w-3xl mx-auto">See the beauty and potential of Proyecto Salvaje through aerial views and on-site photography.</p>
+            <h3 className="text-3xl font-bold text-white mb-2">{t.gallery.title}</h3>
+            <p className="text-xl text-sage-300 mb-6">{t.gallery.subtitle}</p>
+            <p className="text-gray-400 max-w-3xl mx-auto">{t.gallery.description}</p>
           </div>
 
           {/* Featured Aerial Views + Topographic View */}
@@ -167,7 +167,7 @@ const LandSection = ({ translations }: LandSectionProps) => {
 
           {/* Video Embed */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-white mb-8">Video Tour</h3>
+            <h3 className="text-2xl font-bold text-center text-white mb-8">{t.gallery.videoTitle}</h3>
             <div className="relative group max-w-4xl mx-auto">
               <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30"></div>
               <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-terra-500/30 overflow-hidden">
@@ -193,7 +193,7 @@ const LandSection = ({ translations }: LandSectionProps) => {
               className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-sage-500 to-earth-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all"
             >
               <Download className="w-5 h-5" />
-              <span>Download Full Topographic Map</span>
+              <span>{t.gallery.downloadTopo}</span>
             </a>
           </div>
         </div>

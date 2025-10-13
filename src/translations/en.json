@@ -51,6 +51,13 @@
     "intro": "The project is being birthed in Mexico, a country that upholds a very powerful energy of social resistance, indigenous rights, and integrity, and that holds weight on the global political scene for defending minorities.",
     "description": "This land is surrounded by agricultural fields with old trees and rich soil. It's an area rich in culture and history, with the presence of ocean, lagoon, and mangroves — a place that already hosts various collective initiatives, healing centers, and land regeneration projects.",
     "quote": "The land is nestled in front of a natural reserve… offering privacy and deep peace — being both protected and connected.",
+    "gallery": {
+      "title": "Explore the Property",
+      "subtitle": "Visual Tour of the Land",
+      "description": "See the beauty and potential of Proyecto Salvaje through aerial views and on-site photography.",
+      "videoTitle": "Video Tour",
+      "downloadTopo": "Download Full Topographic Map"
+    },
     "features": {
       "topography": {
         "title": "Topography & Access",
