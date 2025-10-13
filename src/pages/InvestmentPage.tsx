@@ -135,18 +135,18 @@ function InvestmentPage() {
               const Icon = icons[index];
               return (
                 <div key={index} className="relative group">
-                  <div className="absolute -inset-1 bg-gradient-to-br from-sage-500/20 to-terra-500/20 rounded-2xl blur-sm"></div>
-                  <div className="relative bg-white rounded-2xl p-8 h-full flex flex-col shadow-2xl">
-                    <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-sage-100 to-terra-100 mb-6 mx-auto">
-                      <Icon className="w-7 h-7 text-terra-600" />
+                  <div className="absolute -inset-1 bg-gradient-to-br from-terra-500 to-sage-500 rounded-2xl blur opacity-20"></div>
+                  <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-terra-500/20 p-8 h-full flex flex-col">
+                    <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-terra-500/20 to-sage-500/20 border border-terra-500/30 mb-6 mx-auto">
+                      <Icon className="w-7 h-7 text-terra-400" />
                     </div>
-                    <p className="text-xs font-bold tracking-widest text-gray-500 mb-3 text-center">
+                    <p className="text-xs font-bold tracking-widest text-gray-400 mb-3 text-center">
                       {card.label}
                     </p>
-                    <p className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 text-center">
+                    <p className="text-3xl md:text-4xl font-bold text-white mb-2 text-center">
                       {card.value}
                     </p>
-                    <p className="text-sm text-gray-600 text-center">
+                    <p className="text-sm text-gray-400 text-center">
                       {card.subtitle}
                     </p>
                   </div>

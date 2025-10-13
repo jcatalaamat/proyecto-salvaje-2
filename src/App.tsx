@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Leaf, Globe, Mountain, Droplet, Sprout } from 'lucide-react';
+import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import VisionSection from './components/VisionSection';
@@ -140,12 +140,13 @@ function LandingPage() {
               >
                 {t.hero.secondaryCta}
               </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all"
+              <Link
+                to="/invest"
+                className="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all inline-flex items-center gap-2"
               >
                 {t.hero.tertiaryCta}
-              </button>
+                <TrendingUp className="w-5 h-5" />
+              </Link>
             </div>
 
             {/* Stats */}
