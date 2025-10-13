@@ -98,23 +98,26 @@ function InvestmentPage() {
             </Link>
 
             {/* Nav Links - Hidden on mobile */}
-            <div className="hidden md:flex items-center gap-6">
-              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-400 hover:text-sage-400 transition-colors">
+            <div className="hidden lg:flex items-center gap-5">
+              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 Overview
               </button>
-              <button onClick={() => scrollToSection('timeline')} className="text-gray-400 hover:text-terra-400 transition-colors">
+              <button onClick={() => scrollToSection('timeline')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 Timeline
               </button>
-              <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-sage-400 transition-colors">
+              <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 Packages
               </button>
-              <button onClick={() => scrollToSection('guidelines')} className="text-gray-400 hover:text-terra-400 transition-colors">
+              <button onClick={() => scrollToSection('guidelines')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 Guidelines
               </button>
-              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-sage-400 transition-colors">
+              <button onClick={() => scrollToSection('legal')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
+                Legal
+              </button>
+              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 Property
               </button>
-              <button onClick={() => scrollToSection('contact')} className="px-6 py-2 bg-gradient-to-r from-sage-500 to-terra-500 rounded-full font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all">
+              <button onClick={() => scrollToSection('contact')} className="px-5 py-2 bg-gradient-to-r from-sage-500 to-terra-500 rounded-full font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all text-sm">
                 Contact
               </button>
             </div>
@@ -549,7 +552,7 @@ function InvestmentPage() {
       </section>
 
       {/* Legal Support */}
-      <section className="py-20 px-4 bg-black">
+      <section id="legal" className="py-20 px-4 bg-black">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">{inv.legal.title}</h2>
