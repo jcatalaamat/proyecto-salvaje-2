@@ -98,7 +98,7 @@ function InvestmentPage() {
             </Link>
 
             {/* Nav Links - Hidden on mobile */}
-            <div className="hidden md:flex items-center gap-8">
+            <div className="hidden md:flex items-center gap-6">
               <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-400 hover:text-sage-400 transition-colors">
                 Overview
               </button>
@@ -108,7 +108,10 @@ function InvestmentPage() {
               <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-sage-400 transition-colors">
                 Packages
               </button>
-              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-terra-400 transition-colors">
+              <button onClick={() => scrollToSection('guidelines')} className="text-gray-400 hover:text-terra-400 transition-colors">
+                Guidelines
+              </button>
+              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-sage-400 transition-colors">
                 Property
               </button>
               <button onClick={() => scrollToSection('contact')} className="px-6 py-2 bg-gradient-to-r from-sage-500 to-terra-500 rounded-full font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all">
@@ -466,7 +469,7 @@ function InvestmentPage() {
       </section>
 
       {/* Guidelines */}
-      <section className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
+      <section id="guidelines" className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">{inv.guidelines.title}</h2>
