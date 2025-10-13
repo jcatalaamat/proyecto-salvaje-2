@@ -1,178 +1,372 @@
 {
-  "hero": {
-    "title": "Construyendo el Futuro, Una Línea a la Vez",
-    "subtitle": "Ingeniero Full-Stack | CTO | Desarrollador Blockchain",
-    "tagline": "Especializado en aplicaciones web escalables, integración crypto y liderazgo técnico",
-    "cta": "Ver Proyectos",
-    "secondaryCta": "Contactar",
-    "stats": {
-      "experience": "10+ años de experiencia",
-      "projects": "50+ proyectos entregados",
-      "technologies": "15+ tecnologías dominadas"
-    }
-  },
   "navigation": {
-    "about": "Acerca",
-    "experience": "Experiencia",
-    "skills": "Habilidades",
-    "projects": "Proyectos",
-    "services": "Servicios",
+    "home": "Inicio",
+    "vision": "Visión",
+    "land": "La Tierra",
+    "programs": "Programas",
+    "community": "Comunidad",
+    "join": "Únete",
     "contact": "Contacto"
   },
-  "about": {
-    "title": "¿Quién es Astral Amat?",
-    "intro": "Ingeniero de software con una década de experiencia construyendo aplicaciones escalables, liderando equipos técnicos y arquitectando soluciones blockchain.",
-    "description": "Ex-CTO en múltiples startups, apasionado por Web3, NFTs y el futuro de la tecnología descentralizada. Conecto ideas innovadoras con soluciones listas para producción.",
-    "highlights": [
-      "Liderazgo Técnico",
-      "Desarrollo Full-Stack",
-      "Experto en Blockchain",
-      "Arquitectura de Sistemas"
-    ]
+  "hero": {
+    "title": "Escuela Aldea Regenerativa",
+    "subtitle": "Creación de una comunidad regenerativa intencional para la integridad humana y la vida soberana",
+    "description": "Una aldea de sanación, escuela de vida real y centro educativo dedicado a proteger la libertad, la autonomía corporal y vivir en armonía con la naturaleza.",
+    "cta": "Únete a Nuestra Comunidad",
+    "secondaryCta": "Explora Nuestra Visión",
+    "tertiaryCta": "Comienza el Viaje",
+    "stats": {
+      "land": "12 Acres",
+      "capacity": "40 Personas",
+      "water": "Agua Todo el Año"
+    }
   },
-  "experience": {
-    "title": "Trayectoria Profesional",
-    "subtitle": "Construyendo soluciones impactantes en múltiples industrias",
-    "roles": [
+  "vision": {
+    "title": "Nuestra Visión",
+    "subtitle": "Una Visión Regenerativa para la Vida Soberana",
+    "intro": "Creación de una comunidad regenerativa intencional dedicada a proteger la integridad humana y los derechos soberanos de nacimiento: libertad, autonomía corporal, autodeterminación espiritual y el derecho a vivir en armonía con la naturaleza.",
+    "description": "Un proyecto social regenerativo guiado por el corazón, dedicado a las futuras generaciones y la defensa de la integridad humana. Una comunidad hecha para irradiar hacia afuera y plantar semillas de cambio, en lugar de ser una burbuja aislada.",
+    "pillars": [
       {
-        "title": "Director de Tecnología (CTO)",
-        "company": "Tech Startup",
-        "period": "2022 - Presente",
-        "description": "Liderando estrategia técnica, construcción de equipos y decisiones de arquitectura para startup de rápido crecimiento."
+        "title": "Crecimiento Impulsado por la Comunidad",
+        "description": "Saliendo de la sobre-capitalización de la industria del bienestar priorizando el crecimiento impulsado por la comunidad, el acceso equitativo y el apoyo mutuo sobre el beneficio."
       },
       {
-        "title": "Ingeniero Full-Stack Senior",
-        "company": "Empresa Web3",
-        "period": "2020 - 2022",
-        "description": "Desarrollé marketplace NFT y protocolos DeFi usando React, Node.js y Solidity."
+        "title": "Sanación Centrada en el Ser Humano",
+        "description": "Una tercera vía enfocada en el factor humano — en cómo sanarnos y apoyarnos mutuamente mientras vivimos en reciprocidad con la Tierra, arraigados en la dignidad y el recuerdo de lo sagrado."
       },
       {
-        "title": "Desarrollador Principal",
-        "company": "Agencia Digital",
-        "period": "2018 - 2020",
-        "description": "Arquitectura y entrega de 20+ aplicaciones web para clientes empresariales."
+        "title": "Sabiduría Indígena",
+        "description": "Formas sostenibles de participar en un diálogo descolonizado con comunidades indígenas y minorías reprimidas, reclamando un enfoque arraigado hacia lo sagrado."
       },
       {
-        "title": "Ingeniero de Software",
-        "company": "Empresa Tech",
-        "period": "2015 - 2018",
-        "description": "Desarrollo full-stack usando frameworks JavaScript modernos e infraestructura cloud."
+        "title": "Soberanía y Autonomía",
+        "description": "Redefiniendo la convivencia y mejorando la autosuficiencia y soberanía sin depender de estructuras de poder externas u obediencia a sistemas gubernamentales abarcadores."
       }
     ]
   },
-  "skills": {
-    "title": "Experiencia Técnica",
-    "subtitle": "Tecnologías con las que trabajo",
-    "categories": {
-      "frontend": {
-        "title": "Frontend",
-        "items": ["React", "TypeScript", "Next.js", "Tailwind CSS", "React Native"]
+  "land": {
+    "title": "La Tierra Sagrada",
+    "subtitle": "La Tierra Que Nos Llama a Casa",
+    "intro": "El proyecto está naciendo en México, un país que mantiene una energía muy poderosa de resistencia social, derechos indígenas e integridad, y que tiene peso en la escena política global por defender a las minorías.",
+    "description": "Esta tierra está rodeada de campos agrícolas con árboles antiguos y suelo rico. Es un área rica en cultura e historia, con presencia de océano, laguna y manglares — un lugar que ya alberga varias iniciativas colectivas, centros de sanación y proyectos de regeneración de tierras.",
+    "quote": "La tierra está anidada frente a una reserva natural... ofreciendo privacidad y paz profunda — siendo a la vez protegida y conectada.",
+    "features": {
+      "topography": {
+        "title": "Topografía y Acceso",
+        "items": [
+          "12 acres de paisaje diverso",
+          "Áreas planas aptas para permacultura",
+          "Colinas con vistas panorámicas",
+          "Acceso a agua todo el año",
+          "Acceso por camino privado"
+        ]
       },
-      "backend": {
-        "title": "Backend",
-        "items": ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"]
+      "location": {
+        "title": "Ubicación y Comunidad",
+        "items": [
+          "Cerca del pueblo de Mazunte, Oaxaca",
+          "1 hora de aeropuerto internacional",
+          "Conectado a Oaxaca por carretera",
+          "Comunidad vibrante de gente ecléctica",
+          "Varias iniciativas colectivas cercanas"
+        ]
       },
-      "blockchain": {
-        "title": "Blockchain",
-        "items": ["Solidity", "Web3.js", "Ethers.js", "Smart Contracts", "DeFi"]
+      "development": {
+        "title": "Potencial de Desarrollo",
+        "items": [
+          "Puede soportar 20 casas pequeñas",
+          "Albergar alrededor de 40 personas cómodamente",
+          "Una de las últimas parcelas intactas del área",
+          "Suelo rico, fácil de construir",
+          "Acceso a electricidad"
+        ]
+      }
+    },
+    "highlights": [
+      {
+        "title": "Océano y Manglares",
+        "description": "Ubicado en la costa de Oaxaca donde la Sierra Madre se encuentra con el Océano Pacífico, con proximidad a lagunas y manglares."
       },
-      "devops": {
-        "title": "DevOps",
-        "items": ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform"]
+      {
+        "title": "Reserva Natural",
+        "description": "Anidado frente a una reserva natural con topografía única que lo hace perfecto para este proyecto."
+      },
+      {
+        "title": "Acceso al Agua",
+        "description": "Acceso a agua, áreas planas para permacultura y colinas con vistas abiertas, perfecto para desarrollo sostenible."
+      },
+      {
+        "title": "Privacidad y Conexión",
+        "description": "Distribuido a lo largo de pequeños senderos que brindan privacidad, con una sensación de paz profunda — siendo a la vez protegido y conectado."
+      }
+    ]
+  },
+  "community": {
+    "title": "Viviendo Juntos",
+    "subtitle": "Nuestra Estructura Comunitaria",
+    "intro": "Buscamos ofrecer refugio para aquellos dedicados a apoyar el colectivo y luchar por la verdad y la dignidad. Nuestros sistemas de gobernanza se basan en la sabiduría antigua y el diseño organizacional moderno para crear una estructura resiliente y adaptativa.",
+    "values": {
+      "title": "Valores Comunitarios Fundamentales",
+      "items": [
+        {
+          "title": "Regeneración",
+          "description": "Diseñamos sistemas que mejoran la salud y vitalidad de los ecosistemas naturales, asegurando que nuestras acciones construyan en lugar de agotar."
+        },
+        {
+          "title": "Soberanía",
+          "description": "Honramos la autonomía de cada individuo mientras reconocemos nuestra interdependencia dentro de la comunidad y el ecosistema más amplio."
+        },
+        {
+          "title": "Reciprocidad",
+          "description": "Construimos relaciones basadas en el beneficio mutuo, asegurando un intercambio justo que respete a todos los seres, incluida la tierra misma."
+        },
+        {
+          "title": "Integración",
+          "description": "Abrazamos el espectro completo de la experiencia humana, entrelazando el trabajo interno y externo, la sabiduría tradicional y el conocimiento moderno."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Cronograma de Desarrollo",
+      "phases": [
+        {
+          "title": "Fase 1",
+          "period": "Actual",
+          "description": "Adquisición de tierras y desarrollo de infraestructura inicial. Formación del consejo de miembros fundadores y adoptadores tempranos."
+        },
+        {
+          "title": "Fase 2",
+          "period": "Año 1",
+          "description": "Primeros edificios residenciales, espacios comunales y sistemas de permacultura establecidos. Programas educativos iniciales lanzados."
+        },
+        {
+          "title": "Año 2",
+          "period": "Año 2",
+          "description": "Integración de infraestructura tecnológica, sistemas de energía renovable y gobernanza comunitaria refinada."
+        },
+        {
+          "title": "Año 3",
+          "period": "Año 3",
+          "description": "Comunidad completa establecida con programas educativos integrados, opciones de visitantes e iniciativas de impacto expandidas."
+        }
+      ]
+    },
+    "governance": {
+      "title": "Nuestra Estructura de Gobernanza",
+      "items": [
+        {
+          "title": "Sociocracia",
+          "description": "Nuestro marco de toma de decisiones basado en el consentimiento en lugar del consenso, asegurando que todas las voces sean escuchadas mientras se permite la acción efectiva."
+        },
+        {
+          "title": "Círculos de Trabajo",
+          "description": "Equipos autoorganizados enfocados en dominios específicos de la vida comunitaria, desde la administración de la tierra hasta la programación educativa."
+        },
+        {
+          "title": "Reuniones de Consejo",
+          "description": "Reuniones comunitarias regulares donde compartimos información, tomamos decisiones colectivas y profundizamos nuestras conexiones."
+        }
+      ]
+    },
+    "transparency": {
+      "title": "Estructura Basada en Confianza y Transparencia",
+      "quote": "Usando tecnología blockchain para proporcionar total transparencia en la toma de decisiones y el flujo de recursos — desde inversores hasta participantes.",
+      "dao": {
+        "title": "Gobernanza Descentralizada",
+        "description": "Nuestra DAO (Organización Autónoma Descentralizada) permite votación transparente, asignación de recursos y toma de decisiones para todos los miembros de la comunidad.",
+        "features": [
+          "Mecanismos de votación transparentes",
+          "Seguimiento de asignación de recursos",
+          "Gestión de tesorería multifirma"
+        ]
+      },
+      "contribution": {
+        "title": "Rutas de Contribución",
+        "description": "Múltiples formas de participar y contribuir a nuestra comunidad, con diferentes niveles de compromiso e involucramiento.",
+        "paths": [
+          "Miembros fundadores principales",
+          "Contribuyentes residentes",
+          "Participantes de programas y visitantes",
+          "Contribuyentes y partidarios remotos"
+        ],
+        "note": "Juntos, formarán el Consejo de Miembros Fundadores."
       }
     }
   },
-  "projects": {
-    "title": "Proyectos Destacados",
-    "subtitle": "Portfolio de aplicaciones y plataformas",
-    "categories": ["Todos", "NFT", "Crypto", "Apps Web", "Móvil"],
-    "items": [
+  "indigenous": {
+    "title": "Sabiduría Ancestral, Tiempos Modernos",
+    "subtitle": "Integración Indígena",
+    "intro": "Estamos comprometidos con relaciones respetuosas y recíprocas con las comunidades locales. Nuestro enfoque de integración se centra en el beneficio mutuo y el intercambio intercultural genuino.",
+    "quotes": [
       {
-        "title": "Marketplace NFT",
-        "category": "NFT",
-        "description": "Marketplace NFT completo con minting, trading y regalías.",
-        "tech": ["React", "Solidity", "Web3", "Node.js"],
-        "link": "#"
+        "text": "Somos la tierra, y la tierra somos nosotros. Lo que hacemos a la tierra, nos lo hacemos a nosotros mismos.",
+        "author": "Sabiduría indígena"
       },
       {
-        "title": "Plataforma de Trading DeFi",
-        "category": "Crypto",
-        "description": "Plataforma de trading descentralizada con pools de liquidez y yield farming.",
-        "tech": ["Next.js", "Ethers.js", "Smart Contracts"],
-        "link": "#"
+        "text": "No heredamos la tierra de nuestros ancestros; la tomamos prestada de nuestros hijos.",
+        "author": "Proverbio nativo americano"
       },
       {
-        "title": "Dashboard SaaS",
-        "category": "Apps Web",
-        "description": "Dashboard empresarial con visualización de datos en tiempo real.",
-        "tech": ["React", "TypeScript", "PostgreSQL", "AWS"],
-        "link": "#"
-      },
-      {
-        "title": "Wallet Crypto Móvil",
-        "category": "Móvil",
-        "description": "Wallet multi-cadena segura para iOS y Android.",
-        "tech": ["React Native", "Web3", "Biométricos"],
-        "link": "#"
+        "text": "La tierra es sagrada. Estas palabras están en el centro de tu ser. La tierra es nuestra madre, los ríos nuestra sangre, el aire nuestro aliento y el bosque nuestra mente.",
+        "author": "Enseñanza ancestral"
       }
-    ]
-  },
-  "services": {
-    "title": "Lo Que Ofrezco",
-    "subtitle": "Servicios para startups y empresas",
-    "items": [
-      {
-        "title": "Consultoría CTO",
-        "description": "Estrategia técnica, construcción de equipos y planificación de arquitectura para tu startup.",
-        "features": ["Selección de Tech Stack", "Contratación de Equipo", "Arquitectura de Sistemas", "Planificación de Escalabilidad"]
-      },
-      {
-        "title": "Desarrollo Full-Stack",
-        "description": "Desarrollo de aplicaciones de extremo a extremo desde concepto hasta despliegue.",
-        "features": ["Aplicaciones Web", "Apps Móviles", "Desarrollo de APIs", "Diseño de Bases de Datos"]
-      },
-      {
-        "title": "Integración Blockchain",
-        "description": "Desarrollo de smart contracts e integración Web3 para tu plataforma.",
-        "features": ["Smart Contracts", "Desarrollo NFT", "Protocolos DeFi", "Integración de Wallets"]
-      }
-    ]
-  },
-  "investment": {
-    "title": "Abierto a Oportunidades",
-    "subtitle": "Buscando inversión y colaboración",
-    "description": "Busco activamente oportunidades de inversión y asociaciones en el espacio crypto, NFT y Web3. Construyamos el futuro juntos.",
-    "interests": [
-      "Proyectos Crypto & DeFi",
-      "Plataformas NFT",
-      "Aplicaciones Web3",
-      "Productos SaaS"
     ],
-    "cta": "Hablemos"
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Abordamos nuestra relación con la sabiduría indígena con profunda reverencia y un compromiso con la colaboración ética. Este proyecto se opone firmemente a la apropiación cultural y la extracción, buscando en su lugar honrar la soberanía indígena y construir relaciones recíprocas.",
+      "commitment": "Nuestros valores fundamentales incluyen respeto por el conocimiento tradicional, reconocimiento de la administración indígena de la tierra y un compromiso con el intercambio justo que beneficie a las comunidades de las que aprendemos."
+    },
+    "approach": {
+      "title": "Nuestro Enfoque",
+      "description": "Estamos saliendo de varias formas de apropiación cultural y buscando formas sostenibles de participar en un diálogo descolonizado con comunidades indígenas y minorías reprimidas, reclamando un enfoque arraigado hacia lo sagrado.",
+      "integration": "A través de la ceremonia, prácticas sostenibles y escucha profunda, buscamos reintegrar la dimensión espiritual de la administración de la tierra que ha sido preservada por las culturas indígenas en todo el mundo."
+    },
+    "principles": {
+      "title": "Principios Guía",
+      "items": [
+        {
+          "title": "Empleo",
+          "description": "Ofrecer oportunidades de empleo significativas a miembros de la comunidad indígena local."
+        },
+        {
+          "title": "Talleres Gratuitos",
+          "description": "Proporcionar acceso gratuito a talleres y programas educativos para participantes indígenas."
+        },
+        {
+          "title": "Ofertas Educativas",
+          "description": "Crear ofertas educativas para niños y adultos incluyendo permacultura, salud y habilidades comerciales."
+        },
+        {
+          "title": "Recaudaciones Comunitarias",
+          "description": "Organizar eventos de recaudación de fondos comunitarios que beneficien iniciativas indígenas locales."
+        }
+      ]
+    },
+    "ceremonies": {
+      "title": "Prácticas Ceremoniales",
+      "items": [
+        {
+          "title": "Ceremonias de la Tierra",
+          "description": "Rituales para honrar y conectar con la tierra antes de hacerle cambios."
+        },
+        {
+          "title": "Celebraciones Estacionales",
+          "description": "Marcando el cambio de estaciones y ciclos naturales con reuniones comunitarias."
+        },
+        {
+          "title": "Ritos de Transición",
+          "description": "Ceremonias que honran transiciones personales y comunitarias significativas."
+        },
+        {
+          "title": "Prácticas de Gratitud",
+          "description": "Expresiones regulares de agradecimiento a la tierra, las aguas y todos los seres."
+        }
+      ]
+    }
+  },
+  "join": {
+    "title": "La Invitación Sagrada",
+    "subtitle": "Únete a Nuestra Comunidad",
+    "intro": "Este es un llamado para aquellos que sienten el fuego — para defender la verdad, cuidar la tierra y encarnar el liderazgo sagrado. Si sientes la resonancia, hay muchas maneras de ofrecer tus dones y convertirte en parte de esta visión viva.",
+    "timeline": {
+      "title": "Cronograma y Fases",
+      "phase1": {
+        "title": "Fase 1",
+        "period": "Abril a Febrero",
+        "steps": [
+          "Encontrar inversión y asociaciones alineadas",
+          "Creación de la plataforma web del proyecto",
+          "Formación de las estructuras NGO y DAO",
+          "1 de Mayo: Pago de $50K para asegurar la tierra",
+          "1 de Septiembre: Pago de $200K para título legal completo",
+          "Estructura legal para gestionar la tierra e integración DAO"
+        ]
+      },
+      "phase2": {
+        "title": "Fase 2",
+        "period": "Febrero a Mayo"
+      },
+      "year2": {
+        "title": "Año 2"
+      },
+      "year3": {
+        "title": "Año 3"
+      }
+    },
+    "structure": {
+      "title": "Estructura y Contribuciones",
+      "description": "La estructura legal consistirá en una organización sin fines de lucro mexicana y una DAO (Organización Autónoma Descentralizada), usando tecnología blockchain para proporcionar total transparencia en la toma de decisiones y el flujo de recursos.",
+      "calling": "Estamos llamando a tres familias fundadoras como custodios de la tierra ($180K cada una), 10 contribuyentes ($50K-$75K), e inversores de impacto alineados para apoyar el desarrollo de infraestructura clave."
+    },
+    "ways": {
+      "title": "Formas de Participar",
+      "items": [
+        {
+          "title": "Custodios Fundadores de la Tierra",
+          "description": "Para aquellos listos para vivir en la tierra y contribuir a construir nuestra aldea regenerativa desde cero. Requiere compromiso financiero y dedicación a largo plazo."
+        },
+        {
+          "title": "Inversores Alineados",
+          "description": "Apoya nuestra visión financieramente mientras obtienes un retorno alineado con principios regenerativos. Las inversiones comienzan en $10,000 con varios niveles de participación."
+        },
+        {
+          "title": "Contribuyentes Comunitarios",
+          "description": "Comparte tus habilidades, tiempo y sabiduría para ayudar a nuestra comunidad a prosperar. Desde diseño de permacultura hasta gobernanza y educación, damos la bienvenida a tus dones."
+        },
+        {
+          "title": "Futuros Visitantes y Participantes",
+          "description": "Únete a nosotros para programas educativos, retiros y experiencias una vez que nuestra aldea esté establecida. Suscríbete para mantenerte informado sobre las próximas oportunidades."
+        }
+      ]
+    }
   },
   "contact": {
-    "title": "Conectemos",
-    "subtitle": "Contacta para oportunidades y colaboraciones",
+    "title": "Conecta Con Nosotros",
+    "subtitle": "Leemos cada mensaje con cuidado e intención",
     "form": {
       "name": "Tu Nombre",
-      "email": "Tu Email",
+      "email": "Correo Electrónico",
+      "interest": "Tu Interés",
+      "interestOptions": {
+        "general": "Interés General",
+        "steward": "Custodio Fundador de la Tierra",
+        "investor": "Inversor Alineado",
+        "contributor": "Contribuyente Comunitario",
+        "visitor": "Futuro Visitante / Participante"
+      },
       "message": "Tu Mensaje",
+      "messagePlaceholder": "Cuéntanos qué te atrae de este proyecto...",
       "submit": "Enviar Mensaje"
     },
-    "social": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "twitter": "Twitter"
-    },
-    "email": "hello@astralamat.com"
+    "email": "info@proyectosalvaje.com",
+    "location": "Mazunte, Oaxaca, México"
   },
   "footer": {
-    "tagline": "Construyendo soluciones innovadoras con código y creatividad",
-    "made": "© 2025 Astral Amat - Ingeniero de Software & CTO",
-    "rights": "Todos los derechos reservados",
-    "links": {
-      "privacy": "Privacidad",
-      "terms": "Términos"
-    }
+    "tagline": "Sé parte de nuestra creciente comunidad dedicada a la vida regenerativa y la administración ecológica.",
+    "explore": {
+      "title": "Explorar",
+      "about": "Sobre Nosotros",
+      "vision": "Nuestra Visión",
+      "practices": "Prácticas Regenerativas",
+      "integration": "Integración Indígena",
+      "events": "Eventos y Programas"
+    },
+    "join": {
+      "title": "Únete",
+      "volunteer": "Voluntariado",
+      "residency": "Programas de Residencia",
+      "workshops": "Talleres",
+      "stewardship": "Custodia de la Tierra",
+      "support": "Apoya Nuestra Misión"
+    },
+    "newsletter": {
+      "title": "Boletín",
+      "description": "Mantente actualizado con nuestras últimas noticias y eventos.",
+      "placeholder": "Tu correo electrónico",
+      "submit": "Suscribirse"
+    },
+    "made": "© 2025 Proyecto Salvaje. Todos los derechos reservados.",
+    "rights": ""
   }
 }
