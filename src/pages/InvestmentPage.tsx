@@ -611,18 +611,6 @@ function InvestmentPage() {
                   </div>
                 </div>
               ))}
-              {/* Add topographic view as 6th image */}
-              <div className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-br from-sage-500 to-earth-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
-                <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-sage-500/20 overflow-hidden group-hover:border-sage-500/40 transition-all">
-                  <img
-                    src="/images/property/property-photo-04.jpg"
-                    alt="Topographic view of property"
-                    className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
             </div>
           </div>
 
@@ -641,6 +629,22 @@ function InvestmentPage() {
                     allowFullScreen
                   ></iframe>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Topographic Map Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center text-white mb-8">Topographic Map</h3>
+            <div className="relative group max-w-4xl mx-auto">
+              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-earth-500 rounded-3xl blur opacity-30"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-sage-500/30 overflow-hidden">
+                <img
+                  src="/images/property/property-photo-04.jpg"
+                  alt="Topographic Map of Proyecto Salvaje"
+                  className="w-full h-auto object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
