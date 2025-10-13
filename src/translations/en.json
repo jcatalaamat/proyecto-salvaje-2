@@ -383,6 +383,36 @@
       "cta": "Schedule Consultation",
       "secondaryCta": "Download Investment Brief"
     },
+    "pricing": {
+      "title": "Investment Opportunity",
+      "subtitle": "Secure your place in a unique regenerative community with exceptional growth potential. Phase 1 lots available now at pre-construction pricing.",
+      "cards": [
+        {
+          "label": "CURRENT PRICE",
+          "value": "$450 MXN",
+          "subtitle": "per m² (~$25 USD/m²)",
+          "description": "Spacious residential plots"
+        },
+        {
+          "label": "LOT SIZES",
+          "value": "2,000-2,500 m²",
+          "subtitle": "Spacious residential plots",
+          "description": ""
+        },
+        {
+          "label": "TOTAL INVESTMENT",
+          "value": "~1M MXN",
+          "subtitle": "per lot (~$55,000 USD)",
+          "description": ""
+        },
+        {
+          "label": "VALUE GROWTH",
+          "value": "2x in 1-2 years",
+          "subtitle": "Projected appreciation",
+          "description": ""
+        }
+      ]
+    },
     "location": {
       "title": "Prime Location",
       "subtitle": "Where Sierra Madre Meets the Pacific",

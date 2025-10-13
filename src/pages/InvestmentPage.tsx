@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Leaf, Globe, MapPin, TrendingUp, Shield, Home, Droplet,
-  Mountain, Check, AlertCircle, Send, Download, Clock, Users
+  Mountain, Check, AlertCircle, Send, Download, Clock, Users,
+  DollarSign, Grid, BarChart3
 } from 'lucide-react';
 import enTranslations from '../translations/en.json';
 import esTranslations from '../translations/es.json';
@@ -110,6 +111,48 @@ function InvestmentPage() {
               <Download className="w-5 h-5" />
               {inv.hero.secondaryCta}
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Cards Section */}
+      <section className="py-20 px-4 bg-black">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <p className="text-sm uppercase tracking-widest text-terra-400 mb-4">INVESTMENT OPPORTUNITY</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+              Proyecto Salvaje: Where Investment Meets Regeneration
+            </h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+              {inv.pricing?.subtitle || "Secure your place in a unique regenerative community with exceptional growth potential. Phase 1 lots available now at pre-construction pricing."}
+            </p>
+          </div>
+
+          {/* 4 Pricing Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {inv.pricing?.cards.map((card: any, index: number) => {
+              const icons = [DollarSign, Grid, TrendingUp, BarChart3];
+              const Icon = icons[index];
+              return (
+                <div key={index} className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-br from-sage-500/20 to-terra-500/20 rounded-2xl blur-sm"></div>
+                  <div className="relative bg-white rounded-2xl p-8 h-full flex flex-col shadow-2xl">
+                    <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-sage-100 to-terra-100 mb-6 mx-auto">
+                      <Icon className="w-7 h-7 text-terra-600" />
+                    </div>
+                    <p className="text-xs font-bold tracking-widest text-gray-500 mb-3 text-center">
+                      {card.label}
+                    </p>
+                    <p className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 text-center">
+                      {card.value}
+                    </p>
+                    <p className="text-sm text-gray-600 text-center">
+                      {card.subtitle}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
