@@ -1,4 +1,4 @@
-import { Heart, TrendingUp, Users, Calendar, ArrowRight } from 'lucide-react';
+import { Heart, Users, Calendar, ArrowRight, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface JoinCTASectionProps {
@@ -171,6 +171,7 @@ const JoinCTASection = ({ translations }: JoinCTASectionProps) => {
           <Link
             to="/invest"
             className="group inline-flex items-center gap-3 px-10 py-5 bg-white/10 border border-white/20 text-white text-lg font-bold rounded-xl hover:bg-white/20 transform hover:scale-105 transition-all"
+            style={{ display: 'none' }}
           >
             <span>View Investment Details</span>
             <TrendingUp className="w-5 h-5 group-hover:translate-y-[-2px] transition-transform" />
