@@ -194,6 +194,19 @@ function InvestmentPage() {
                   <span className="text-gray-300">{highlight}</span>
                 </div>
               ))}
+
+              {/* Topographic Map Download */}
+              <div className="mt-6">
+                <a
+                  href="/images/property/topographic-map.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 p-4 bg-gradient-to-r from-terra-500 to-sage-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-terra-500/50 transition-all"
+                >
+                  <Download className="w-5 h-5" />
+                  <span>View Topographic Map</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -536,48 +549,39 @@ function InvestmentPage() {
             <p className="text-gray-400 max-w-3xl mx-auto">See the beauty and potential of Proyecto Salvaje through aerial views and on-site photography.</p>
           </div>
 
-          {/* Featured Aerial Views */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-terra-300 mb-8">Aerial Perspectives</h3>
+          {/* Featured Aerial Views + Topographic View */}
+          <div className="mb-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3].map((num) => (
+              {[1, 2, 3, 4, 5].map((num) => (
                 <div key={num} className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-br from-terra-500 to-sage-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
                   <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-terra-500/20 overflow-hidden group-hover:border-terra-500/40 transition-all">
                     <img
                       src={`/images/property/property-screenshot-0${num}.png`}
-                      alt={`Aerial perspective ${num} of investment property`}
+                      alt={`Aerial view ${num} of investment property`}
                       className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
                   </div>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Ground-Level Property Photos */}
-          <div>
-            <h3 className="text-2xl font-bold text-center text-sage-300 mb-8">On-Site Views</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[4, 7].map((num) => (
-                <div key={num} className="relative group">
-                  <div className="absolute -inset-0.5 bg-gradient-to-br from-sage-500 to-earth-500 rounded-xl blur opacity-20 group-hover:opacity-40 transition"></div>
-                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-xl border border-sage-500/20 overflow-hidden group-hover:border-sage-500/40 transition-all">
-                    <img
-                      src={`/images/property/property-photo-0${num}.jpg`}
-                      alt={`Property detail view ${num}`}
-                      className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                  </div>
+              {/* Add topographic view as 6th image */}
+              <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-br from-sage-500 to-earth-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-sage-500/20 overflow-hidden group-hover:border-sage-500/40 transition-all">
+                  <img
+                    src="/images/property/property-photo-04.jpg"
+                    alt="Topographic view of property"
+                    className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
                 </div>
-              ))}
+              </div>
             </div>
           </div>
 
           {/* Video Embed */}
-          <div className="mt-12">
+          <div className="mb-12">
             <h3 className="text-2xl font-bold text-center text-white mb-8">Video Tour</h3>
             <div className="relative group max-w-4xl mx-auto">
               <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30"></div>
@@ -593,6 +597,19 @@ function InvestmentPage() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Topographic Map Download */}
+          <div className="text-center">
+            <a
+              href="/images/property/topographic-map.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-sage-500 to-earth-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all"
+            >
+              <Download className="w-5 h-5" />
+              <span>Download Full Topographic Map</span>
+            </a>
           </div>
         </div>
       </section>
