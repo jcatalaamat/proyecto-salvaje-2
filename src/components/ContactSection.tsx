@@ -184,10 +184,11 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
                   href={`https://wa.me/${t.whatsapp.replace(/[^0-9]/g, '')}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-green-400 hover:text-green-300 transition-colors"
+                  className="text-green-400 hover:text-green-300 transition-colors block"
                 >
-                  {t.whatsapp}
+                  {t.whatsappText}
                 </a>
+                <p className="text-gray-400 text-sm mt-2">{t.whatsapp}</p>
               </div>
             </div>
 
