@@ -1,7 +1,7 @@
 import { Download, Lock, FileText, Compass } from 'lucide-react';
 
 interface ResourcesSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 

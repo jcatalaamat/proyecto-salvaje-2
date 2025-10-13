@@ -1,7 +1,7 @@
 import { Star, ArrowRight } from 'lucide-react';
 
 interface TestimonialsSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 

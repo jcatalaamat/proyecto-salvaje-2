@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 
 interface TransformationStagesProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 

@@ -1,7 +1,7 @@
 import { Sparkles, Heart, Eye } from 'lucide-react';
 
 interface AboutSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 

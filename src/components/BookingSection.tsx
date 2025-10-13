@@ -1,7 +1,7 @@
 import { Calendar, Zap, Clock, AlertCircle } from 'lucide-react';
 
 interface BookingSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 

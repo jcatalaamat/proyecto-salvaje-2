@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useParams, Link } from 'react-r
 import { Sparkles, Globe, ArrowRight, TrendingUp, Users, Clock } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
+import caTranslations from './translations/ca.json';
 import EventPreview from './components/EventPreview';
 import PlacePreview from './components/PlacePreview';
 import SupportPage from './components/SupportPage';
@@ -18,9 +19,9 @@ import NewsletterSection from './components/NewsletterSection';
 // Main Landing Page Component
 function LandingPage() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [language, setLanguage] = useState<'en' | 'es'>('en');
+  const [language, setLanguage] = useState<'en' | 'es' | 'ca'>('en');
 
-  const t = language === 'es' ? esTranslations : enTranslations;
+  const t = language === 'es' ? esTranslations : language === 'ca' ? caTranslations : enTranslations;
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -92,11 +93,11 @@ function LandingPage() {
 
               {/* Language Toggle */}
               <button
-                onClick={() => setLanguage(language === 'en' ? 'es' : 'en')}
+                onClick={() => setLanguage(language === 'en' ? 'es' : language === 'es' ? 'ca' : 'en')}
                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
               >
                 <Globe className="w-4 h-4" />
-                <span className="text-sm font-medium">{language === 'en' ? 'EN' : 'ES'}</span>
+                <span className="text-sm font-medium">{language === 'en' ? 'EN' : language === 'es' ? 'ES' : 'CA'}</span>
               </button>
             </div>
           </div>
@@ -164,7 +165,7 @@ function LandingPage() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
                 <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-white/10 p-6">
                   <Users className="w-8 h-8 text-purple-400 mb-3 mx-auto" />
-                  <div className="text-2xl font-bold text-white mb-1">{language === 'es' ? 'Linajes' : 'Lineages'}</div>
+                  <div className="text-2xl font-bold text-white mb-1">{language === 'es' ? 'Linajes' : language === 'ca' ? 'Llinatges' : 'Lineages'}</div>
                   <div className="text-sm text-gray-500">{t.hero.stats.lineages}</div>
                 </div>
               </div>

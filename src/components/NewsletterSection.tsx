@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Mail, ArrowRight, CheckCircle } from 'lucide-react';
 
 interface NewsletterSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 

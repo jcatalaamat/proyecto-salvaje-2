@@ -1,7 +1,7 @@
 import { Sparkles, Heart, Zap, CheckCircle, ArrowRight } from 'lucide-react';
 
 interface OfferingsSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'ca';
   translations: any;
 }
 
