@@ -80,6 +80,7 @@ const JoinCTASection = ({ translations }: JoinCTASectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-white">{t.timeline.year2.title}</h4>
+                    <p className="text-sm text-earth-400">{t.timeline.year2.period}</p>
                   </div>
                 </div>
               </div>
@@ -95,25 +96,77 @@ const JoinCTASection = ({ translations }: JoinCTASectionProps) => {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-white">{t.timeline.year3.title}</h4>
+                    <p className="text-sm text-sage-400">{t.timeline.year3.period}</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Phase 1 Details */}
-          <div className="relative">
-            <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-terra-500 rounded-2xl blur opacity-20"></div>
-            <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-sage-500/20 p-8">
-              <h4 className="text-xl font-bold text-white mb-6">{t.timeline.phase1.title} ({t.timeline.phase1.period})</h4>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {t.timeline.phase1.steps.map((step: string, index: number) => (
-                  <li key={index} className="flex items-start gap-3 text-gray-400">
-                    <span className="text-sage-400 mt-1">→</span>
-                    <span>{step}</span>
-                  </li>
-                ))}
-              </ul>
+          {/* All Phases Details */}
+          <div className="space-y-6">
+            {/* Phase 1 Details */}
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-terra-500 rounded-2xl blur opacity-20"></div>
+              <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-sage-500/20 p-8">
+                <h4 className="text-xl font-bold text-white mb-6">{t.timeline.phase1.title} ({t.timeline.phase1.period})</h4>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {t.timeline.phase1.steps.map((step: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3 text-gray-400">
+                      <span className="text-sage-400 mt-1">→</span>
+                      <span>{step}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Phase 2 Details */}
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-earth-500 rounded-2xl blur opacity-20"></div>
+              <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-terra-500/20 p-8">
+                <h4 className="text-xl font-bold text-white mb-6">{t.timeline.phase2.title} ({t.timeline.phase2.period})</h4>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {t.timeline.phase2.steps.map((step: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3 text-gray-400">
+                      <span className="text-terra-400 mt-1">→</span>
+                      <span>{step}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Year 2 Details */}
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-earth-500 to-sage-500 rounded-2xl blur opacity-20"></div>
+              <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-earth-500/20 p-8">
+                <h4 className="text-xl font-bold text-white mb-6">{t.timeline.year2.title} ({t.timeline.year2.period})</h4>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {t.timeline.year2.steps.map((step: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3 text-gray-400">
+                      <span className="text-earth-400 mt-1">→</span>
+                      <span>{step}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Year 3 Details */}
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-terra-500 rounded-2xl blur opacity-20"></div>
+              <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border border-sage-500/20 p-8">
+                <h4 className="text-xl font-bold text-white mb-6">{t.timeline.year3.title} ({t.timeline.year3.period})</h4>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {t.timeline.year3.steps.map((step: string, index: number) => (
+                    <li key={index} className="flex items-start gap-3 text-gray-400">
+                      <span className="text-sage-400 mt-1">→</span>
+                      <span>{step}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

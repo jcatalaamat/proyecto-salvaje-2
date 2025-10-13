@@ -292,13 +292,36 @@
       },
       "phase2": {
         "title": "Phase 2",
-        "period": "February to May"
+        "period": "February to May",
+        "steps": [
+          "First residential buildings and infrastructure",
+          "Permaculture systems and food forest establishment",
+          "Community spaces and gathering areas",
+          "Educational program development",
+          "Renewable energy integration begins"
+        ]
       },
       "year2": {
-        "title": "Year 2"
+        "title": "Year 2",
+        "period": "Full Community Development",
+        "steps": [
+          "Expanded residential capacity",
+          "Bio-pool and wellness facilities",
+          "Workshop and education center operational",
+          "Visitor and retreat programs launched",
+          "Governance systems fully established"
+        ]
       },
       "year3": {
-        "title": "Year 3"
+        "title": "Year 3",
+        "period": "Mature Regenerative Village",
+        "steps": [
+          "Full community of 40 residents established",
+          "Self-sufficient food production systems",
+          "Regional impact and outreach programs",
+          "Indigenous partnership programs active",
+          "Model for regenerative communities worldwide"
+        ]
       }
     },
     "structure": {

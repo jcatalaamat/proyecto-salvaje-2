@@ -292,13 +292,36 @@
       },
       "phase2": {
         "title": "Fase 2",
-        "period": "Febrero a Mayo"
+        "period": "Febrero a Mayo",
+        "steps": [
+          "Primeros edificios residenciales e infraestructura",
+          "Establecimiento de sistemas de permacultura y bosque de alimentos",
+          "Espacios comunitarios y áreas de reunión",
+          "Desarrollo de programas educativos",
+          "Comienza integración de energías renovables"
+        ]
       },
       "year2": {
-        "title": "Año 2"
+        "title": "Año 2",
+        "period": "Desarrollo Comunitario Completo",
+        "steps": [
+          "Capacidad residencial expandida",
+          "Bio-piscina e instalaciones de bienestar",
+          "Centro de talleres y educación operacional",
+          "Programas de visitantes y retiros lanzados",
+          "Sistemas de gobernanza completamente establecidos"
+        ]
       },
       "year3": {
-        "title": "Año 3"
+        "title": "Año 3",
+        "period": "Aldea Regenerativa Madura",
+        "steps": [
+          "Comunidad completa de 40 residentes establecida",
+          "Sistemas de producción de alimentos autosuficientes",
+          "Programas de impacto y alcance regional",
+          "Programas de asociación indígena activos",
+          "Modelo para comunidades regenerativas en todo el mundo"
+        ]
       }
     },
     "structure": {
