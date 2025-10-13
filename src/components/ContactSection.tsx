@@ -186,7 +186,7 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
                   rel="noopener noreferrer"
                   className="text-green-400 hover:text-green-300 transition-colors"
                 >
-                  {t.whatsappText}
+                  {t.whatsapp}
                 </a>
               </div>
             </div>
