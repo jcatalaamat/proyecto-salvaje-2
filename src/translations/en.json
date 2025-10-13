@@ -285,7 +285,7 @@
         "rounds": [
           {
             "round": "First Round",
-            "amount": "$700,000",
+            "amount": "$400,000",
             "period": "Year 1-2"
           },
           {
@@ -302,7 +302,7 @@
           "period": "Foundation & Infrastructure",
           "status": "In Progress",
           "highlights": [
-            "Finalize first ReFi funding round ($700k)",
+            "Finalize first ReFi funding round ($400k)",
             "Secure land title and design infrastructure",
             "Create legal structure and DAO governance",
             "Design membership program",

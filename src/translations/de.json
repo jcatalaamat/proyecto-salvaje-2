@@ -285,7 +285,7 @@
         "rounds": [
           {
             "round": "Erste Runde",
-            "amount": "700.000 USD",
+            "amount": "400.000 USD",
             "period": "Jahr 1-2"
           },
           {
@@ -302,7 +302,7 @@
           "period": "Fundament und Infrastruktur",
           "status": "In Bearbeitung",
           "highlights": [
-            "Abschluss der ersten ReFi-Finanzierungsrunde (700.000 USD)",
+            "Abschluss der ersten ReFi-Finanzierungsrunde (400.000 USD)",
             "Sicherung des Landtitels und Planung der Infrastruktur",
             "Schaffung rechtlicher Struktur und DAO-Governance",
             "Gestaltung des Mitgliedschaftsprogramms",

@@ -129,7 +129,7 @@ function LandingPage() {
           {/* Hero Background Image */}
           <div className="absolute inset-0 w-full h-full">
             <img
-              src="/images/property/property-photo-04.jpg"
+              src="/images/property/property-screenshot-01.png"
               alt="Proyecto Salvaje Land"
               className="w-full h-full object-cover"
             />

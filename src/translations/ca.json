@@ -285,7 +285,7 @@
         "rounds": [
           {
             "round": "Primera Ronda",
-            "amount": "$700.000",
+            "amount": "$400.000",
             "period": "Any 1-2"
           },
           {
@@ -302,7 +302,7 @@
           "period": "Fonamentació i Infraestructura",
           "status": "En Progrés",
           "highlights": [
-            "Finalitzar primera ronda de finançament ReFi ($700k)",
+            "Finalitzar primera ronda de finançament ReFi ($400k)",
             "Assegurar títol de la terra i dissenyar infraestructura",
             "Crear estructura legal i govern DAO",
             "Dissenyar programa de membres",
