@@ -78,12 +78,15 @@ function LandingPage() {
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between h-20">
               {/* Logo */}
-              <div className="flex items-center gap-3">
+              <button
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
+              >
                 <Leaf className="w-8 h-8 text-sage-400" />
                 <span className="text-xl font-bold bg-gradient-to-r from-sage-400 via-terra-400 to-earth-400 bg-clip-text text-transparent">
                   Proyecto Salvaje
                 </span>
-              </div>
+              </button>
 
               {/* Nav Links - Hidden on mobile */}
               <div className="hidden md:flex items-center gap-8">
@@ -208,12 +211,15 @@ function LandingPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
               {/* Logo & Tagline */}
               <div>
-                <div className="flex items-center gap-3 mb-4">
+                <button
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  className="flex items-center gap-3 mb-4 cursor-pointer hover:opacity-80 transition-opacity"
+                >
                   <Leaf className="w-8 h-8 text-sage-400" />
                   <span className="text-xl font-bold bg-gradient-to-r from-sage-400 via-terra-400 to-earth-400 bg-clip-text text-transparent">
                     Proyecto Salvaje
                   </span>
-                </div>
+                </button>
                 <p className="text-gray-500 text-sm leading-relaxed">
                   {t.footer.tagline}
                 </p>
