@@ -1,74 +1,143 @@
 {
   "hero": {
-    "title": "Transforma Cada Desafío en Oportunidad",
-    "subtitle": "Sanación de presencia chamánica, liberación emocional y guía intuitiva para elevar tu propósito y desbloquear tu verdadero potencial.",
-    "cta": "Comienza Tu Viaje",
-    "waitlist": "Únete a {count}+ personas transformando sus vidas",
-    "launching": "Lanzando Pronto"
-  },
-  "platform": {
-    "title": "Próximamente en iOS y Android",
-    "subtitle": "Tu compañero de sanación, donde sea que estés",
-    "availableOn": "Disponible en"
-  },
-  "features": {
-    "title": "Tu Camino hacia la Transformación",
-    "subtitle": "Eleva tu propósito al siguiente nivel",
-    "events": {
-      "title": "Sanación de Presencia Chamánica",
-      "description": "Conviértete en el espacio de la transformación. Libera dolores y heridas antiguas, despierta tu intuición interior.",
-      "features": [
-        "Sesiones de sanación energética",
-        "Guía intuitiva",
-        "Liberación de traumas"
-      ]
-    },
-    "discover": {
-      "title": "Liberación Emocional",
-      "description": "Libérate de traumas pasados. Crea la vida de tus sueños y permite que todo caiga en su lugar."
-    },
-    "conscious": {
-      "title": "Emprendimiento y Propósito",
-      "description": "Alinea tu visión de negocio con tu propósito para hacer un impacto positivo en el mundo."
-    },
-    "reminders": {
-      "title": "Crecimiento Personal",
-      "description": "Desbloquea tu potencial"
-    },
-    "fresh": {
-      "title": "Sabiduría Interior",
-      "description": "Accede a tus profundidades"
-    },
-    "community": {
-      "title": "Para Buscadores",
-      "description": "Transforma y Eleva"
+    "title": "Cambio de Línea Temporal Hacia Tu Ser Superior",
+    "subtitle": "Realineación del alma para iniciados listos para trascender limitaciones y convertirse en agentes de cambio",
+    "tagline": "Mentoría 1:1 • Trabajo del Alma • Integración",
+    "cta": "Comienza Tu Iniciación",
+    "secondaryCta": "Explora el Trabajo del Alma",
+    "stats": {
+      "transformations": "1,500+ almas despertadas",
+      "sessions": "10,000+ horas de sanación",
+      "lineages": "Tradiciones de sabiduría ancestral"
     }
   },
-  "problem": {
-    "title": "Conviértete en el Ser que Nunca Te Has Atrevido a Ser",
-    "problems": [
-      "Sintiéndote atrapado en patrones y traumas antiguos",
-      "Incapaz de alcanzar tu máximo potencial",
-      "Negocio no alineado con tu propósito"
-    ],
-    "solutions": [
-      "Libera energía estancada y heridas pasadas",
-      "Despierta tu diseño interior e intuición",
-      "Alinea tu visión con tu verdadero propósito"
+  "navigation": {
+    "offerings": "Trabajo Sagrado",
+    "about": "El Viaje",
+    "testimonials": "Transformaciones",
+    "resources": "Integración",
+    "booking": "Trabaja Conmigo"
+  },
+  "offerings": {
+    "title": "Caminos Sagrados hacia la Liberación",
+    "subtitle": "Elige tu iniciación",
+    "soulWork": {
+      "title": "Sesiones de Trabajo del Alma 1:1",
+      "tagline": "Inmersión Profunda en Tu Esencia",
+      "description": "Sanación de presencia chamánica que revela lo oculto en tu cuerpo, corazón y alma. Ve más allá del velo de tu mente.",
+      "includes": [
+        "Cambio de línea temporal y reestructuración de realidad",
+        "Sanación y liberación ancestral",
+        "Disolución de heridas centrales",
+        "Activación del tercer ojo"
+      ],
+      "cta": "Agenda Llamada de Descubrimiento",
+      "price": "Intercambio Sagrado: $444"
+    },
+    "integration": {
+      "title": "Integración de Medicina",
+      "tagline": "Puente entre lo Místico y lo Material",
+      "description": "Transforma las percepciones de tu ceremonia en sabiduría encarnada. Para quienes trabajan con Bufo, Ayahuasca y otras medicinas sagradas.",
+      "includes": [
+        "Preparación pre-ceremonia",
+        "Integración post-viaje",
+        "Procesamiento somático",
+        "Técnicas de anclaje a la realidad"
+      ],
+      "cta": "Agenda Integración",
+      "price": "Apoyo del Viaje: $333"
+    },
+    "entrepreneur": {
+      "title": "Alquimia Empresarial Espiritual",
+      "tagline": "Propósito Encuentra Prosperidad",
+      "description": "Alinea tu negocio con el flujo universal. Para sanadores, coaches y emprendedores conscientes listos para magnetizar abundancia.",
+      "includes": [
+        "Limpia bloqueos de dinero y patrones de escasez",
+        "Canaliza el diseño empresarial de tu alma",
+        "Estrategias de salto cuántico",
+        "Balance masculino/femenino divino"
+      ],
+      "cta": "Activa Tu Visión",
+      "price": "Trabajo del Alma Empresarial: $555"
+    }
+  },
+  "transformation": {
+    "title": "El Proceso de Iniciación",
+    "stages": [
+      {
+        "phase": "Disolución",
+        "description": "Suelta lo que ya no sirve. Limpia patrones ancestrales, heridas de la infancia y escombros energéticos."
+      },
+      {
+        "phase": "Activación",
+        "description": "Despierta dones dormidos. Abre tu canal, activa la intuición, recuerda tu diseño cósmico."
+      },
+      {
+        "phase": "Integración",
+        "description": "Encarna tu verdad. Ancla nuevas frecuencias, alinea acciones con propósito del alma, manifiesta tu visión."
+      },
+      {
+        "phase": "Maestría",
+        "description": "Conviértete en la medicina. Entra en servicio, sostén espacio para otros, crea olas de transformación."
+      }
     ]
   },
-  "cta": {
-    "title": "¿Listo para Transformar?",
-    "subtitle": "Experimenta sanación chamánica, liberación emocional y guía intuitiva. Accede a toda la información dentro y alrededor de ti.",
-    "button": "Comienza Tu Viaje"
+  "testimonials": {
+    "title": "Voces del Viaje",
+    "subtitle": "Transformaciones reales de almas valientes",
+    "cta": "Lee Historias Completas"
+  },
+  "about": {
+    "title": "Más Allá de Conceptos y Limitaciones",
+    "intro": "Veo dentro del cuerpo y corazón de una persona—más allá de palabras, en las capas de mente, corazón y alma.",
+    "journey": "A través de mi propia muerte y renacimiento vía trabajo profundo de medicina e iniciación chamánica, he aprendido a sostener espacio para las transformaciones más profundas.",
+    "gift": "Mi mayor don es convertirme en el espacio de transformación mismo—una presencia amorosa que permite que tu viejo ser se disuelva y tu esencia verdadera emerja.",
+    "cta": "Descubre Mi Viaje"
+  },
+  "booking": {
+    "title": "¿Listo para Cambiar de Línea Temporal?",
+    "subtitle": "Tu alma te trajo aquí. Confía en el llamado.",
+    "discovery": {
+      "title": "Llamada de Descubrimiento Sagrada",
+      "description": "Una conexión del alma de 30 minutos para explorar si estamos destinados a viajar juntos",
+      "free": "Gratuita",
+      "cta": "Agenda Llamada de Descubrimiento"
+    },
+    "intensive": {
+      "title": "Intensivo Salto Cuántico",
+      "description": "Contenedor de transformación profunda de 3 meses para iniciados serios",
+      "cta": "Aplica al Intensivo"
+    },
+    "urgency": {
+      "limited": "Solo 4 espacios de trabajo del alma disponibles este mes"
+    }
+  },
+  "resources": {
+    "title": "Herramientas de Integración",
+    "subtitle": "Recursos gratuitos para tu viaje",
+    "items": [
+      "Meditación de Cambio de Línea Temporal",
+      "Guía de Sanación Ancestral",
+      "Cuaderno de Integración Post-Ceremonia",
+      "Diseño de Negocio Sagrado"
+    ],
+    "cta": "Accede a la Bóveda"
+  },
+  "newsletter": {
+    "title": "Únete al Círculo Interior",
+    "subtitle": "Recibe transmisiones, prácticas de integración y medicina del alma",
+    "placeholder": "Tu portal de email",
+    "cta": "Entra al Misterio",
+    "frequency": "Transmisiones sagradas 2 veces al mes"
   },
   "footer": {
-    "made": "Guiado con 💚 por sanadores intuitivos, para buscadores",
-    "email": "hello@astral-integration.com"
-  },
-  "success": {
-    "title": "¡Estás dentro! 🎉",
-    "message": "Te notificaremos cuando Astral Integration se lance.",
-    "email": "📧 ¡Revisa tu email! Te enviamos un enlace de confirmación para completar tu suscripción."
+    "tagline": "Realineación para iniciados y agentes de cambio",
+    "made": "© Astral Integration - Trabajo Sagrado",
+    "email": "hello@astral-integration.com",
+    "disclaimer": "Este trabajo no es sustituto de tratamiento médico o psicológico",
+    "social": {
+      "instagram": "@astralintegration",
+      "bio": "bio.site/astralintegration"
+    }
   }
 }
