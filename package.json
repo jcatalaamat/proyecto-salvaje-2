@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/jcatalaamat/proyecto-salvaje-2",
+  "homepage": "https://proyectosalvaje.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node scripts/preserve-cname.js",
