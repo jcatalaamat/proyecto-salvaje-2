@@ -125,8 +125,20 @@ function LandingPage() {
         </nav>
 
         {/* Hero Section */}
-        <div className="container mx-auto px-4 pt-32 pb-20 md:pt-40 md:pb-32">
-          <div className="max-w-6xl mx-auto text-center">
+        <div className="relative">
+          {/* Hero Background Image */}
+          <div className="absolute inset-0 w-full h-full">
+            <img
+              src="/images/property/property-photo-04.jpg"
+              alt="Proyecto Salvaje Land"
+              className="w-full h-full object-cover"
+            />
+            {/* Dark overlay for readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black"></div>
+          </div>
+
+          <div className="relative container mx-auto px-4 pt-32 pb-20 md:pt-40 md:pb-32">
+            <div className="max-w-6xl mx-auto text-center">
             {/* Main Headline */}
             <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
               <span className="inline-block animate-fadeIn bg-gradient-to-r from-sage-400 via-terra-400 to-earth-400 bg-clip-text text-transparent" style={{
@@ -194,6 +206,7 @@ function LandingPage() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
 
