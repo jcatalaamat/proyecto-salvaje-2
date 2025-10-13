@@ -153,22 +153,6 @@ const LandSection = ({ translations }: LandSectionProps) => {
             </div>
           </div>
 
-          {/* Topographic Map Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-white mb-8">Topographic Map</h3>
-            <div className="relative group max-w-4xl mx-auto">
-              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-earth-500 rounded-3xl blur opacity-30"></div>
-              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-sage-500/30 overflow-hidden">
-                <img
-                  src="/images/property/property-photo-04.jpg"
-                  alt="Topographic Map of Proyecto Salvaje"
-                  className="w-full h-auto object-contain"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
           {/* Video Embed */}
           <div className="mb-12">
             <h3 className="text-2xl font-bold text-center text-white mb-8">{t.gallery.videoTitle}</h3>
@@ -184,6 +168,22 @@ const LandSection = ({ translations }: LandSectionProps) => {
                     allowFullScreen
                   ></iframe>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Topographic Map Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center text-white mb-8">Topographic Map</h3>
+            <div className="relative group max-w-4xl mx-auto">
+              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-earth-500 rounded-3xl blur opacity-30"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-sage-500/30 overflow-hidden">
+                <img
+                  src="/images/property/property-photo-04.jpg"
+                  alt="Topographic Map of Proyecto Salvaje"
+                  className="w-full h-auto object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
