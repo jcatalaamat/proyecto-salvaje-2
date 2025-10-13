@@ -404,6 +404,8 @@
       "submit": "Enviar Mensaje"
     },
     "email": "info@proyectosalvaje.com",
+    "whatsapp": "+33 6 46 39 63 25",
+    "whatsappText": "Envíanos un mensaje por WhatsApp",
     "location": "Mazunte, Oaxaca, México"
   },
   "footer": {

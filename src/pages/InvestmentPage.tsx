@@ -29,7 +29,35 @@ function InvestmentPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:${inv.contact.info.email}?subject=Investment Inquiry from ${formData.name}&body=${formData.message}%0D%0A%0D%0APackage Interest: ${formData.package}%0D%0APhone: ${formData.phone}%0D%0ACitizenship: ${formData.citizenship}%0D%0APreferred Visit: ${formData.visit}`;
+
+    // Create detailed email body with all form information
+    const emailBody = encodeURIComponent(
+      `Investment Inquiry from proyectosalvaje.com/invest\n\n` +
+      `=========================================\n` +
+      `CONTACT INFORMATION\n` +
+      `=========================================\n` +
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Phone: ${formData.phone}\n` +
+      `Citizenship: ${formData.citizenship}\n\n` +
+      `=========================================\n` +
+      `INVESTMENT DETAILS\n` +
+      `=========================================\n` +
+      `Package Interest: ${formData.package}\n` +
+      `Preferred Visit Date: ${formData.visit}\n\n` +
+      `=========================================\n` +
+      `MESSAGE\n` +
+      `=========================================\n` +
+      `${formData.message}\n\n` +
+      `=========================================\n` +
+      `Sent from: proyectosalvaje.com/invest`
+    );
+
+    const emailSubject = encodeURIComponent(
+      `Investment Inquiry: ${formData.name} - ${formData.package}`
+    );
+
+    const mailtoLink = `mailto:${inv.contact.info.email}?subject=${emailSubject}&body=${emailBody}`;
     window.location.href = mailtoLink;
   };
 

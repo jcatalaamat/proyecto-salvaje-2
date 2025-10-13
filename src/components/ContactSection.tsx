@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { Mail, Send, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
-import emailjs from '@emailjs/browser';
+import { Mail, Send, MapPin, MessageCircle } from 'lucide-react';
 
 interface ContactSectionProps {
   language: 'en' | 'es';
@@ -15,58 +14,29 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
     interest: 'general',
     message: ''
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
 
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_CONTACT;
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    // Create detailed email body with all form information
+    const emailBody = encodeURIComponent(
+      `Contact Form Submission from proyectosalvaje.com\n\n` +
+      `-----------------------------------\n` +
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Interest: ${formData.interest}\n` +
+      `-----------------------------------\n\n` +
+      `Message:\n${formData.message}\n\n` +
+      `-----------------------------------\n` +
+      `Sent from: proyectosalvaje.com contact form`
+    );
 
-    // Fallback to mailto if EmailJS is not configured
-    if (!serviceId || !templateId || !publicKey ||
-        serviceId === 'your_service_id_here' ||
-        templateId === 'your_contact_template_id' ||
-        publicKey === 'your_public_key_here') {
-      console.warn('EmailJS not configured, falling back to mailto');
-      const mailtoLink = `mailto:${t.email}?subject=Contact from ${formData.name} - ${formData.interest}&body=${formData.message}`;
-      window.location.href = mailtoLink;
-      setIsSubmitting(false);
-      return;
-    }
+    const emailSubject = encodeURIComponent(
+      `Contact Form: ${formData.name} - ${formData.interest}`
+    );
 
-    try {
-      await emailjs.send(
-        serviceId,
-        templateId,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          interest: formData.interest,
-          message: formData.message,
-          to_email: t.email
-        },
-        publicKey
-      );
-
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', interest: 'general', message: '' });
-
-      // Reset success message after 5 seconds
-      setTimeout(() => setSubmitStatus('idle'), 5000);
-    } catch (error) {
-      console.error('EmailJS error:', error);
-      setSubmitStatus('error');
-
-      // Reset error message after 5 seconds
-      setTimeout(() => setSubmitStatus('idle'), 5000);
-    } finally {
-      setIsSubmitting(false);
-    }
+    const mailtoLink = `mailto:${t.email}?subject=${emailSubject}&body=${emailBody}`;
+    window.location.href = mailtoLink;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -170,31 +140,11 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  disabled={isSubmitting}
-                  className="w-full flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-sage-500 to-terra-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-sage-500/50 transform hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  className="w-full flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-sage-500 to-terra-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-sage-500/50 transform hover:scale-[1.02] transition-all"
                 >
-                  <span>{isSubmitting ? 'Sending...' : t.form.submit}</span>
-                  {isSubmitting ? (
-                    <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                  ) : (
-                    <Send className="w-5 h-5" />
-                  )}
+                  <span>{t.form.submit}</span>
+                  <Send className="w-5 h-5" />
                 </button>
-
-                {/* Status Messages */}
-                {submitStatus === 'success' && (
-                  <div className="flex items-center gap-2 text-sage-400 bg-sage-500/10 border border-sage-500/20 rounded-lg p-3">
-                    <CheckCircle className="w-5 h-5" />
-                    <span>Message sent successfully! We'll get back to you soon.</span>
-                  </div>
-                )}
-
-                {submitStatus === 'error' && (
-                  <div className="flex items-center gap-2 text-red-400 bg-red-500/10 border border-red-500/20 rounded-lg p-3">
-                    <AlertCircle className="w-5 h-5" />
-                    <span>Failed to send message. Please try again or email us directly.</span>
-                  </div>
-                )}
               </form>
             </div>
           </div>
@@ -216,6 +166,27 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
                   className="text-sage-400 hover:text-sage-300 transition-colors"
                 >
                   {t.email}
+                </a>
+              </div>
+            </div>
+
+            {/* WhatsApp Card */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-green-500/20 p-8">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 rounded-xl bg-gradient-to-r from-green-500 to-emerald-500">
+                    <MessageCircle className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white">WhatsApp</h3>
+                </div>
+                <a
+                  href={`https://wa.me/${t.whatsapp.replace(/[^0-9]/g, '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-400 hover:text-green-300 transition-colors"
+                >
+                  {t.whatsappText}
                 </a>
               </div>
             </div>

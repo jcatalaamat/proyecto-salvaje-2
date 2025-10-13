@@ -1,59 +1,110 @@
-# Email Subscription Setup Guide
+# Email Setup Guide for Proyecto Salvaje
 
-Your landing page now has email subscription functionality! Choose one of these options:
+Your website has **two contact forms** that now use EmailJS to send emails:
 
-## Option 1: ConvertKit (Recommended)
+1. **Contact Form** (Homepage) - General inquiries
+2. **Investment Form** (/invest page) - Investment inquiries
 
-ConvertKit is perfect for landing pages and has a generous free tier.
+## Current Setup: EmailJS (Recommended)
 
-### Setup Steps:
-1. Go to [ConvertKit](https://convertkit.com) and create a free account
-2. Create a new form in ConvertKit
-3. Go to Settings → Advanced → API Keys
-4. Copy your API Key and Form ID
-5. Create a `.env` file in your project root:
+EmailJS is already installed and integrated! It sends form submissions directly to your email without needing a backend server.
+
+### Step-by-Step Setup Instructions
+
+#### 1. Create EmailJS Account
+1. Go to [EmailJS Dashboard](https://dashboard.emailjs.com/) and sign up for a free account
+2. The free tier includes **200 emails/month** (perfect for most needs)
+
+#### 2. Connect Your Email Service
+1. In EmailJS dashboard, go to **Email Services**
+2. Click **Add New Service**
+3. Choose your email provider (Gmail, Outlook, etc.)
+4. Follow the connection steps for your provider
+5. **Copy your Service ID** (e.g., `service_abc123`)
+
+#### 3. Create Email Templates
+
+You need **TWO templates** (one for each form):
+
+##### Template 1: Contact Form
+1. Go to **Email Templates** → **Create New Template**
+2. **Template Name**: `Contact Form - Proyecto Salvaje`
+3. **Template Content**:
+```
+Subject: New Contact Form Submission from {{from_name}}
+
+From: {{from_name}} ({{from_email}})
+Interest: {{interest}}
+
+Message:
+{{message}}
+
+---
+Sent via proyectosalvaje.com contact form
+```
+4. Save and **copy the Template ID** (e.g., `template_contact123`)
+
+##### Template 2: Investment Inquiry Form
+1. Create another template
+2. **Template Name**: `Investment Inquiry - Proyecto Salvaje`
+3. **Template Content**:
+```
+Subject: Investment Inquiry from {{from_name}}
+
+Name: {{from_name}}
+Email: {{from_email}}
+Phone: {{phone}}
+Citizenship: {{citizenship}}
+Package Interest: {{package}}
+Preferred Visit Date: {{visit}}
+
+Message:
+{{message}}
+
+---
+Sent via proyectosalvaje.com/invest
+```
+4. Save and **copy the Template ID** (e.g., `template_invest123`)
+
+#### 4. Get Your Public Key
+1. Go to **Account** → **General**
+2. Find your **Public Key** (e.g., `abc123XYZ`)
+
+#### 5. Update Your .env File
+Open your `.env` file and replace the placeholder values:
 
 ```bash
-VITE_CONVERTKIT_API_KEY=your_api_key_here
-VITE_CONVERTKIT_FORM_ID=your_form_id_here
+# Replace these with your actual EmailJS credentials
+VITE_EMAILJS_SERVICE_ID=service_abc123
+VITE_EMAILJS_TEMPLATE_ID_CONTACT=template_contact123
+VITE_EMAILJS_TEMPLATE_ID_INVESTMENT=template_invest123
+VITE_EMAILJS_PUBLIC_KEY=abc123XYZ
 ```
 
-6. Restart your dev server: `npm run dev`
+#### 6. Test It!
+1. Restart your dev server: `npm run dev`
+2. Test the contact form on homepage
+3. Test the investment form at `/invest`
+4. Check your email inbox for the submissions!
 
-## Option 2: EmailJS (Simpler)
+### Fallback Behavior
+If EmailJS is not configured (env variables are missing), the forms will automatically fall back to opening the user's email client with a pre-filled mailto: link.
 
-EmailJS sends emails directly to your inbox without a backend.
+---
 
-### Setup Steps:
-1. Go to [EmailJS](https://emailjs.com) and create a free account
-2. Create a new service (Gmail, Outlook, etc.)
-3. Create an email template
-4. Get your Service ID, Template ID, and Public Key
-5. Create a `.env` file in your project root:
+## Alternative: ConvertKit (For Email Lists)
+
+If you want to build an email subscriber list, ConvertKit is already configured in your .env file:
 
 ```bash
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
+VITE_CONVERTKIT_API_KEY=WL4dvqOgWKNB2eq6RLOflQ
+VITE_CONVERTKIT_FORM_ID=8630317
 ```
 
-6. Restart your dev server: `npm run dev`
+This is useful if you want to add a newsletter subscription form later.
 
-## Option 3: Simple Backend (Advanced)
+---
 
-If you want full control, you can create a simple API endpoint using:
-- Netlify Functions
-- Vercel Functions
-- Railway
-- Or any other serverless platform
+## Need Professional Email Addresses?
 
-## Testing
-
-1. Start your dev server: `npm run dev`
-2. Try submitting an email
-3. Check your email service dashboard to see the subscription
-4. Deploy: `npm run build && npm run deploy`
-
-## Current Status
-
-Right now, the form will show success even without email service configured (for demo purposes). Once you set up one of the services above, it will actually collect emails!
+To **receive** emails at `info@proyectosalvaje.com` or `hello@proyectosalvaje.com`, see the [DNS_EMAIL_SETUP.md](./DNS_EMAIL_SETUP.md) guide.
