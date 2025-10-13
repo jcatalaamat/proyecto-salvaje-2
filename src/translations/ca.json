@@ -1,178 +1,859 @@
 {
-  "hero": {
-    "title": "Construint el Futur, Una Línia alhora",
-    "subtitle": "Enginyer Full-Stack | CTO | Desenvolupador Blockchain",
-    "tagline": "Especialitzat en aplicacions web escalables, integració crypto i lideratge tècnic",
-    "cta": "Veure Projectes",
-    "secondaryCta": "Contacta",
-    "stats": {
-      "experience": "10+ anys d'experiència",
-      "projects": "50+ projectes lliurats",
-      "technologies": "15+ tecnologies dominades"
-    }
-  },
   "navigation": {
-    "about": "Sobre Mi",
-    "experience": "Experiència",
-    "skills": "Habilitats",
-    "projects": "Projectes",
-    "services": "Serveis",
+    "home": "Inici",
+    "vision": "Visió",
+    "land": "La Terra",
+    "programs": "Programes",
+    "community": "Comunitat",
+    "join": "Uneix-te",
     "contact": "Contacte"
   },
-  "about": {
-    "title": "Qui és Astral Amat?",
-    "intro": "Enginyer de software amb una dècada d'experiència construint aplicacions escalables, liderant equips tècnics i arquitectant solucions blockchain.",
-    "description": "Ex-CTO en múltiples startups, apassionat per Web3, NFTs i el futur de la tecnologia descentralitzada. Faig de pont entre idees innovadores i solucions production-ready.",
-    "highlights": [
-      "Lideratge Tècnic",
-      "Desenvolupament Full-Stack",
-      "Expert en Blockchain",
-      "Arquitectura de Sistemes"
-    ]
+  "hero": {
+    "title": "Escola de Poblet Regeneratiu",
+    "subtitle": "Creació d'una comunitat regenerativa intencional per a la integritat humana i la vida sobirana",
+    "description": "Un poblet sanador, escola de vida real i centre educatiu dedicat a protegir la llibertat, l'autonomia corporal i viure en harmonia amb la natura.",
+    "cta": "Uneix-te a la Comunitat",
+    "secondaryCta": "Explora la Nostra Visió",
+    "tertiaryCta": "Veure Detalls d'Inversió",
+    "stats": {
+      "land": "5 Hectàrees",
+      "capacity": "40 Persones",
+      "water": "Aigua Tot l'Any"
+    }
   },
-  "experience": {
-    "title": "Trajectòria Professional",
-    "subtitle": "Construint solucions impactants en diverses indústries",
-    "roles": [
+  "vision": {
+    "title": "La Nostra Visió",
+    "subtitle": "Una Visió Regenerativa per a la Vida Sobirana",
+    "intro": "Creació d'una comunitat regenerativa intencional dedicada a protegir la integritat humana i els drets natius soberans: llibertat, autonomia corporal, autodeterminació espiritual i el dret a viure en harmonia amb la natura.",
+    "description": "Un projecte social regeneratiu guiat pel cor, dedicat a les futures generacions i a la defensa de la integritat humana. Una comunitat feta per irradiar cap enfora i plantar llavors de canvi, més que no pas ser una bombolla aïllada.",
+    "pillars": [
       {
-        "title": "Chief Technology Officer",
-        "company": "Tech Startup",
-        "period": "2022 - Present",
-        "description": "Liderant estratègia tècnica, construcció d'equip i decisions d'arquitectura per startup en ràpid creixement."
+        "title": "Creixement Impulsat per la Comunitat",
+        "description": "Sortir de la sobrecapitalització de la indústria del benestar prioritzant el creixement impulsat per la comunitat, l'accés equitatiu i el suport mutu per sobre del lucre."
       },
       {
-        "title": "Enginyer Senior Full-Stack",
-        "company": "Empresa Web3",
-        "period": "2020 - 2022",
-        "description": "Construcció de marketplace NFT i protocols DeFi utilitzant React, Node.js i Solidity."
+        "title": "Sanació Centrada en l'Humà",
+        "description": "Una tercera via centrada en el factor humà — en com sanar-nos i recolzar-nos mútuament mentre vivim en reciprocitat amb la Terra, arrelats en la dignitat i la memòria del sagrat."
       },
       {
-        "title": "Lead Developer",
-        "company": "Agència Digital",
-        "period": "2018 - 2020",
-        "description": "Arquitectura i lliurament de 20+ aplicacions web per clients empresarials."
+        "title": "Saviesa Indígena",
+        "description": "Maneres sostenibles d'involucrar-se en un diàleg descolonitzat amb comunitats indígenes i minories reprimides, reclamant una aproximació arrelada al sagrat."
       },
       {
-        "title": "Enginyer de Software",
-        "company": "Empresa Tech",
-        "period": "2015 - 2018",
-        "description": "Desenvolupament full-stack utilitzant frameworks JavaScript moderns i infraestructura cloud."
+        "title": "Sobirania i Autonomia",
+        "description": "Redefinir la convivència i millorar l'autosuficiència i la sobirania sense dependència d'estructures de poder externes o obediència a sistemes governamentals abarcadors."
       }
     ]
   },
-  "skills": {
-    "title": "Expertesa Tècnica",
-    "subtitle": "Tecnologies amb les que treballo",
-    "categories": {
-      "frontend": {
-        "title": "Frontend",
-        "items": ["React", "TypeScript", "Next.js", "Tailwind CSS", "React Native"]
+  "land": {
+    "title": "La Terra Sagrada",
+    "subtitle": "La Terra que Ens Crida a Casa",
+    "intro": "El projecte està naixent a Mèxic, un país que sosté una energia molt poderosa de resistència social, drets indígenes i integritat, i que té pes en l'escena política global per defensar les minories.",
+    "description": "Aquesta terra està envoltada de camps agrícoles amb arbres antics i sòl ric. És una àrea rica en cultura i història, amb presència d'oceà, llacuna i manglars — un lloc que ja acull diverses iniciatives col·lectives, centres de sanació i projectes de regeneració de la terra.",
+    "quote": "La terra està enclavada davant d'una reserva natural... oferint privacitat i pau profunda — estant alhora protegida i connectada.",
+    "gallery": {
+      "title": "Explora la Propietat",
+      "subtitle": "Visita Visual de la Terra",
+      "description": "Descobreix la bellesa i el potencial de Proyecto Salvaje a través de vistes aèries i fotografia in situ.",
+      "videoTitle": "Vídeo del Recorregut",
+      "downloadTopo": "Descarregar Mapa Topogràfic Complet"
+    },
+    "features": {
+      "topography": {
+        "title": "Topografia i Accés",
+        "items": [
+          "5 hectàrees de paisatge divers",
+          "Àrees planes adequades per a permacultura",
+          "Turons que ofereixen vistes escèniques obertes",
+          "Accés a aigua durant tot l'any",
+          "Accés per camí privat a la propietat"
+        ]
       },
-      "backend": {
-        "title": "Backend",
-        "items": ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"]
+      "location": {
+        "title": "Ubicació i Comunitat",
+        "items": [
+          "Prop del poble de Mazunte, Oaxaca",
+          "1 hora d'un aeroport internacional",
+          "Connectada a Oaxaca per autopista",
+          "Comunitat vibrant de gent eclèctica",
+          "Diverses iniciatives col·lectives a prop"
+        ]
       },
-      "blockchain": {
-        "title": "Blockchain",
-        "items": ["Solidity", "Web3.js", "Ethers.js", "Smart Contracts", "DeFi"]
+      "development": {
+        "title": "Potencial de Desenvolupament",
+        "items": [
+          "Pot sostenir 20 cases petites",
+          "Allotjar unes 40 persones còmodament",
+          "Una de les últimes parcel·les intactes de la zona",
+          "Sòl ric, fàcil de construir-hi",
+          "Accés a electricitat"
+        ]
+      }
+    },
+    "highlights": [
+      {
+        "title": "Oceà i Manglars",
+        "description": "Situada a la costa d'Oaxaca on la Sierra Madre es troba amb l'oceà Pacífic, amb proximitat a llacunes i manglars."
       },
-      "devops": {
-        "title": "DevOps",
-        "items": ["Docker", "AWS", "CI/CD", "Kubernetes", "Terraform"]
+      {
+        "title": "Reserva Natural",
+        "description": "Enclavada davant d'una reserva natural amb topografia única que la fa perfecta per a aquest projecte."
+      },
+      {
+        "title": "Accés a Aigua",
+        "description": "Accés a aigua, àrees planes per a permacultura i turons que ofereixen vistes obertes, perfecte per a desenvolupament sostenible."
+      },
+      {
+        "title": "Privacitat i Connexió",
+        "description": "Estesa al llarg de petits camins que proporcionen privacitat, amb una sensació de pau profunda — estant alhora protegida i connectada."
+      }
+    ]
+  },
+  "community": {
+    "title": "Viure Junts",
+    "subtitle": "La Nostra Estructura Comunitària",
+    "intro": "Volem oferir refugi per a aquells dedicats a recolzar el col·lectiu i lluitar per la veritat i la dignitat. Els nostres sistemes de govern s'inspiren en la saviesa ancestral i el disseny organitzacional modern per crear una estructura que sigui alhora resilient i adaptativa.",
+    "values": {
+      "title": "Valors Comunitaris Centrals",
+      "items": [
+        {
+          "title": "Regeneració",
+          "description": "Dissenyem sistemes que milloren la salut i vitalitat dels ecosistemes naturals, assegurant que les nostres accions construeixin en lloc de esgotar."
+        },
+        {
+          "title": "Sobirania",
+          "description": "Honrem l'autonomia de cada individu alhora que reconeixem la nostra interdependència dins la comunitat més àmplia i l'ecosistema."
+        },
+        {
+          "title": "Reciprocitat",
+          "description": "Construïm relacions basades en el benefici mutu, assegurant un intercanvi just que respecti tots els éssers, incloent la terra mateixa."
+        },
+        {
+          "title": "Integració",
+          "description": "Acollim tot l'espectre de l'experiència humana, entreteixint el treball interior i exterior, la saviesa tradicional i el coneixement modern."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Línia Temporal de Desenvolupament",
+      "phases": [
+        {
+          "title": "Fase 1",
+          "period": "Actual",
+          "description": "Adquisició de la terra i desenvolupament inicial de la infraestructura. Formació del consell de membres fundadors i primers adoptants."
+        },
+        {
+          "title": "Fase 2",
+          "period": "Any 1",
+          "description": "Primers edificis residencials, espais comunals i sistemes de permacultura establerts. Programes educatius inicials llançats."
+        },
+        {
+          "title": "Any 2",
+          "period": "Any 2",
+          "description": "Integració d'infraestructura tecnològica, sistemes d'energia renovable i governança comunitària refinada."
+        },
+        {
+          "title": "Any 3",
+          "period": "Any 3",
+          "description": "Comunitat completa establerta amb programes educatius integrats, opcions per a visitants i iniciatives d'impacte ampliades."
+        }
+      ]
+    },
+    "governance": {
+      "title": "La Nostra Estructura de Govern",
+      "items": [
+        {
+          "title": "Sociocràcia",
+          "description": "El nostre marc de presa de decisions basat en el consentiment en lloc del consens, assegurant que totes les veus siguin escoltades alhora que permet l'acció efectiva."
+        },
+        {
+          "title": "Cercles de Treball",
+          "description": "Equips auto-organitzats centrats en dominis específics de la vida comunitària, des de la custòdia de la terra fins a la programació educativa."
+        },
+        {
+          "title": "Reunions del Consell",
+          "description": "Trobades comunitàries regulars on compartim informació, prenem decisions col·lectives i aprofundim les nostres connexions."
+        }
+      ]
+    },
+    "transparency": {
+      "title": "Estructura Arrelada en la Confiança i la Transparència",
+      "quote": "Utilitzant tecnologia blockchain per proporcionar transparència total sobre la presa de decisions i el flux de recursos — des d'inversors fins a participants.",
+      "dao": {
+        "title": "Govern Descentralitzat",
+        "description": "La nostra DAO (Organització Autònoma Descentralitzada) permet votació transparent, assignació de recursos i presa de decisions per a tots els membres de la comunitat.",
+        "features": [
+          "Mecanismes de votació transparents",
+          "Seguiment de l'assignació de recursos",
+          "Gestió de tresoreria amb múltiples signatures"
+        ]
+      },
+      "contribution": {
+        "title": "Camins de Contribució",
+        "description": "Múltiples maneres de participar i contribuir a la nostra comunitat, amb diferents nivells de compromís i implicació.",
+        "paths": [
+          "Membres fundadors principals",
+          "Contribuïdors residents",
+          "Participants en programes i visitants",
+          "Contribuïdors i col·laboradors remots"
+        ],
+        "note": "Junts, formaran el Consell de Membres Fundadors."
       }
     }
   },
-  "projects": {
-    "title": "Projectes Destacats",
-    "subtitle": "Portfolio d'aplicacions i plataformes",
-    "categories": ["Tots", "NFT", "Crypto", "Web Apps", "Mòbil"],
-    "items": [
+  "indigenous": {
+    "title": "Saviesa Ancestral, Temps Moderns",
+    "subtitle": "Integració Indígena",
+    "intro": "Estem compromesos amb relacions respectuoses i recíproques amb les comunitats locals. La nostra aproximació d'integració es centra en el benefici mutu i l'intercanvi intercultural genuí.",
+    "quotes": [
       {
-        "title": "Marketplace NFT",
-        "category": "NFT",
-        "description": "Marketplace NFT complet amb minting, trading i royalties.",
-        "tech": ["React", "Solidity", "Web3", "Node.js"],
-        "link": "#"
+        "text": "Som la terra, i la terra és nosaltres. El que fem a la terra, ens ho fem a nosaltres mateixos.",
+        "author": "Saviesa indígena"
       },
       {
-        "title": "Plataforma Trading DeFi",
-        "category": "Crypto",
-        "description": "Plataforma de trading descentralitzada amb liquidity pools i yield farming.",
-        "tech": ["Next.js", "Ethers.js", "Smart Contracts"],
-        "link": "#"
+        "text": "No heredem la terra dels nostres ancestres; la prenem prestada dels nostres fills.",
+        "author": "Proverbi natiuamericà"
       },
       {
-        "title": "Dashboard SaaS",
-        "category": "Web Apps",
-        "description": "Dashboard analític empresarial amb visualització de dades en temps real.",
-        "tech": ["React", "TypeScript", "PostgreSQL", "AWS"],
-        "link": "#"
-      },
-      {
-        "title": "Wallet Crypto Mòbil",
-        "category": "Mòbil",
-        "description": "Wallet de criptomonedes multi-chain segur per iOS i Android.",
-        "tech": ["React Native", "Web3", "Biometrics"],
-        "link": "#"
+        "text": "La terra és sagrada. Aquestes paraules són al cor del vostre ésser. La terra és la nostra mare, els rius la nostra sang, l'aire el nostre alè i el bosc la nostra ment.",
+        "author": "Ensenyament ancestral"
       }
-    ]
-  },
-  "services": {
-    "title": "El Que Ofereixo",
-    "subtitle": "Serveis per startups i empreses",
-    "items": [
-      {
-        "title": "Consultoria CTO",
-        "description": "Estratègia tècnica, construcció d'equip i planificació d'arquitectura per la teva startup.",
-        "features": ["Selecció de Tech Stack", "Contractació d'Equip", "Arquitectura de Sistemes", "Planificació d'Escalabilitat"]
-      },
-      {
-        "title": "Desenvolupament Full-Stack",
-        "description": "Desenvolupament d'aplicacions end-to-end des del concepte fins al desplegament.",
-        "features": ["Aplicacions Web", "Apps Mòbils", "Desenvolupament API", "Disseny de Base de Dades"]
-      },
-      {
-        "title": "Integració Blockchain",
-        "description": "Desenvolupament de smart contracts i integració Web3 per la teva plataforma.",
-        "features": ["Smart Contracts", "Desenvolupament NFT", "Protocols DeFi", "Integració de Wallets"]
-      }
-    ]
-  },
-  "investment": {
-    "title": "Obert a Oportunitats",
-    "subtitle": "Buscant inversió i col·laboració",
-    "description": "Estic buscant activament oportunitats d'inversió i col·laboracions en l'espai crypto, NFT i Web3. Construïm el futur junts.",
-    "interests": [
-      "Projectes Crypto & DeFi",
-      "Plataformes NFT",
-      "Aplicacions Web3",
-      "Productes SaaS"
     ],
-    "cta": "Parlem"
+    "values": {
+      "title": "Els Nostres Valors",
+      "description": "Abordem la nostra relació amb la saviesa indígena amb profunda reverència i un compromís amb la col·laboració ètica. Aquest projecte es posiciona fermament contra l'apropiació cultural i l'extracció, buscant en canvi honrar la sobirania indígena i construir relacions recíproques.",
+      "commitment": "Els nostres valors centrals inclouen el respecte pel coneixement tradicional, el reconeixement de la custòdia indígena de la terra i un compromís amb l'intercanvi just que beneficiï les comunitats de les quals aprenem."
+    },
+    "approach": {
+      "title": "La Nostra Aproximació",
+      "description": "Estem sortint de diverses formes d'apropiació cultural i buscant maneres sostenibles d'involucrar-nos en un diàleg descolonitzat amb comunitats indígenes i minories reprimides, reclamant una aproximació arrelada al sagrat.",
+      "integration": "A través de cerimònies, pràctiques sostenibles i escolta profunda, aspirem a reintegrar la dimensió espiritual de la custòdia de la terra que ha estat preservada per les cultures indígenes arreu del món."
+    },
+    "principles": {
+      "title": "Principis Rectors",
+      "items": [
+        {
+          "title": "Ocupació",
+          "description": "Oferir oportunitats d'ocupació significatives a membres de la comunitat indígena local."
+        },
+        {
+          "title": "Tallers Gratuïts",
+          "description": "Proporcionar accés gratuït a tallers i programes educatius per a participants indígenes."
+        },
+        {
+          "title": "Ofertes Educatives",
+          "description": "Crear ofertes educatives per a infants i adults incloent permacultura, salut i habilitats professionals."
+        },
+        {
+          "title": "Recaptació de Fons Comunitària",
+          "description": "Organitzar esdeveniments de recaptació de fons comunitària que beneficiïn iniciatives indígenes locals."
+        }
+      ]
+    },
+    "ceremonies": {
+      "title": "Pràctiques Cerimonials",
+      "items": [
+        {
+          "title": "Cerimònies de la Terra",
+          "description": "Rituals per honrar i connectar amb la terra abans de fer-hi canvis."
+        },
+        {
+          "title": "Celebracions Estacionals",
+          "description": "Marcar el gir de les estacions i els cicles naturals amb trobades comunitàries."
+        },
+        {
+          "title": "Ritus de Transició",
+          "description": "Cerimònies que honren transicions personals i comunitàries significatives."
+        },
+        {
+          "title": "Pràctiques de Gratitud",
+          "description": "Expressions regulars d'agraïment a la terra, les aigües i tots els éssers."
+        }
+      ]
+    }
+  },
+  "join": {
+    "title": "La Crida Sagrada",
+    "subtitle": "Uneix-te a la Nostra Comunitat",
+    "intro": "Aquesta és una crida per a aquells que senten el foc — per defensar la veritat, cuidar la terra i encarnar el lideratge sagrat. Si sents la ressonància, hi ha moltes maneres d'oferir els teus dons i formar part d'aquesta visió viva.",
+    "timeline": {
+      "title": "Línia Temporal de Desenvolupament del Projecte",
+      "subtitle": "Full de Ruta de 3 Anys cap a la Vida Regenerativa",
+      "intro": "Una línia temporal comprensiva amb rondes de finançament distintes i fases de desenvolupament. Cost total del projecte: $1.250.000 amb dues rondes de finançament ReFi.",
+      "funding": {
+        "title": "Línia Temporal de Finançament",
+        "rounds": [
+          {
+            "round": "Primera Ronda",
+            "amount": "$700.000",
+            "period": "Any 1-2"
+          },
+          {
+            "round": "Segona Ronda",
+            "amount": "$1.000.000",
+            "period": "Any 2"
+          }
+        ]
+      },
+      "phases": [
+        {
+          "number": "1",
+          "title": "Any 1 - Fase de Fonamentació",
+          "period": "Fonamentació i Infraestructura",
+          "status": "En Progrés",
+          "highlights": [
+            "Finalitzar primera ronda de finançament ReFi ($700k)",
+            "Assegurar títol de la terra i dissenyar infraestructura",
+            "Crear estructura legal i govern DAO",
+            "Dissenyar programa de membres",
+            "Establir sistema de token comunal + NFT",
+            "Configurar programa de voluntariat durant tot l'any",
+            "Realitzar curs de construcció ecològica com a base per a la construcció",
+            "Neteja de la terra + plantar arbres fruiters i perennes",
+            "Realitzar curs de permacultura per a la configuració de l'hort comunal",
+            "Establir infraestructura d'aigua i electricitat",
+            "Començar a construir la shala principal i àrea comunal",
+            "Formar aliances amb mestres/practicants alineats",
+            "Contractar fins a 5 treballadors locals"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Any 2 - Fase d'Expansió",
+          "period": "Construcció i Creixement de la Comunitat",
+          "status": "Properament",
+          "highlights": [
+            "Ampliar ofertes de retirs i acadèmia educativa",
+            "Govern operatiu complet de la DAO",
+            "Començar segona ronda de finançament ReFi ($1 milió)",
+            "Continuar construcció d'edificis ecològics i àrees comunals",
+            "Construir shala de retirs",
+            "Optimitzar sistemes d'aigua i electricitat",
+            "Continuar plantant arbres i plantes endèmiques",
+            "Retirs i cursos regulars en funcionament",
+            "Desenvolupar ecosistema de tokens i plataforma web",
+            "Contractar fins a 10 treballadors locals"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Any 3 - Fase de Maduresa",
+          "period": "Programa de Regeneració Complet",
+          "status": "Planificat",
+          "highlights": [
+            "Programa de regeneració complet en funcionament",
+            "Ampliar propietat de terra a àrees agrícoles circumdants",
+            "Restablir ecosistema local mitjançant replantació d'espècies endèmiques",
+            "Establir projecte d'hort comunal local amb comunitats natives",
+            "Aconseguir plena capacitat de reserves per al centre de retirs",
+            "Completar infraestructura per a 20+ participants per retir",
+            "Contractar fins a 20 treballadors locals"
+          ]
+        }
+      ],
+      "landDevelopment": {
+        "title": "Desenvolupament de Terrenys Residencials",
+        "subtitle": "Desenvolupament en 5 Fases per Aproximadament 20 Parcel·les",
+        "lotSize": "2.000-2.500 m² per parcel·la",
+        "currentPhase": "Fase 1 - Vendes inicials de terra actives"
+      }
+    },
+    "structure": {
+      "title": "Estructura i Contribucions",
+      "description": "L'estructura legal consistirà en una organització mexicana sense ànim de lucre i una DAO (Organització Autònoma Descentralitzada), utilitzant tecnologia blockchain per proporcionar transparència total sobre la presa de decisions i el flux de recursos.",
+      "calling": "Cridem tres famílies fundadores com a custodis de la terra ($180K cadascuna), 10 contribuïdors ($50K-$75K) i inversors d'impacte alineats per recolzar el desenvolupament d'infraestructura clau."
+    },
+    "ways": {
+      "title": "Maneres de Participar",
+      "items": [
+        {
+          "title": "Custodis Fundadors de la Terra",
+          "description": "Per a aquells preparats per viure a la terra i contribuir a construir el nostre poblet regeneratiu des de zero. Requereix compromís financer i dedicació a llarg termini."
+        },
+        {
+          "title": "Inversors Alineats",
+          "description": "Recolza la nostra visió financerament mentre obtens un retorn en alineació amb principis regeneratius. Les inversions comencen en $10.000 amb diversos nivells de participació."
+        },
+        {
+          "title": "Contribuïdors Comunitaris",
+          "description": "Comparteix les teves habilitats, temps i saviesa per ajudar la nostra comunitat a prosperar. Des de disseny de permacultura fins a govern i educació, acollim els teus dons."
+        },
+        {
+          "title": "Futurs Visitants i Participants",
+          "description": "Uneix-te a nosaltres per a programes educatius, retirs i experiències una vegada el nostre poblet estigui establert. Subscriu-te per mantenir-te informat sobre properes oportunitats."
+        }
+      ]
+    }
   },
   "contact": {
-    "title": "Connectem",
-    "subtitle": "Contacta per oportunitats i col·laboracions",
+    "title": "Connecta amb Nosaltres",
+    "subtitle": "Llegim cada missatge amb cura i intenció",
     "form": {
       "name": "El Teu Nom",
-      "email": "El Teu Email",
+      "email": "Adreça de Correu",
+      "interest": "El Teu Interès",
+      "interestOptions": {
+        "general": "Interès General",
+        "steward": "Custodi Fundador de la Terra",
+        "investor": "Inversor Alineat",
+        "contributor": "Contribuïdor Comunitari",
+        "visitor": "Futur Visitant / Participant"
+      },
       "message": "El Teu Missatge",
+      "messagePlaceholder": "Explica'ns què t'atreu d'aquest projecte...",
       "submit": "Enviar Missatge"
     },
-    "social": {
-      "linkedin": "LinkedIn",
-      "github": "GitHub",
-      "twitter": "Twitter"
-    },
-    "email": "hello@astralamat.com"
+    "email": "info@proyectosalvaje.com",
+    "whatsapp": "+33 6 46 39 63 25",
+    "whatsappText": "Envia'ns un missatge per WhatsApp",
+    "location": "Mazunte, Oaxaca, Mexico"
   },
   "footer": {
-    "tagline": "Construint solucions innovadores amb codi i creativitat",
-    "made": "© 2025 Astral Amat - Enginyer de Software & CTO",
-    "rights": "Tots els drets reservats",
-    "links": {
-      "privacy": "Privacitat",
-      "terms": "Termes"
+    "tagline": "Forma part de la nostra comunitat creixent dedicada a la vida regenerativa i la custòdia ecològica.",
+    "explore": {
+      "title": "Explora",
+      "about": "Sobre Nosaltres",
+      "vision": "La Nostra Visió",
+      "practices": "Pràctiques Regeneratives",
+      "integration": "Integració Indígena",
+      "events": "Esdeveniments i Programes"
+    },
+    "join": {
+      "title": "Uneix-te",
+      "volunteer": "Voluntariat",
+      "residency": "Programes de Residència",
+      "workshops": "Tallers",
+      "stewardship": "Custòdia de la Terra",
+      "support": "Recolza la Nostra Missió"
+    },
+    "newsletter": {
+      "title": "Butlletí",
+      "description": "Mantingues-te informat amb les nostres últimes notícies i esdeveniments.",
+      "placeholder": "El teu correu",
+      "submit": "Subscriu-te"
+    },
+    "made": "© 2025 Proyecto Salvaje. Tots els drets reservats.",
+    "rights": ""
+  },
+  "investment": {
+    "hero": {
+      "title": "Inverteix en Vida Regenerativa",
+      "subtitle": "Assegura el Teu Lloc en una Ecocomunitat Pròspera",
+      "description": "Una oportunitat única d'invertir en una de les últimes parcel·les intactes a Mazunte, Oaxaca. Combina retorns financers amb impacte significatiu en una comunitat de poblet regeneratiu.",
+      "stats": {
+        "land": "5 Hectàrees Total",
+        "lots": "20 Parcel·les Exclusives",
+        "phase": "Fase 1 Activa",
+        "roi": "2x ROI en 1-2 Anys"
+      },
+      "cta": "Programa Consulta",
+      "secondaryCta": "Descarrega Dossier d'Inversió"
+    },
+    "pricing": {
+      "title": "Oportunitat d'Inversió",
+      "subtitle": "Assegura el teu lloc en una comunitat regenerativa única amb potencial de creixement excepcional. Parcel·les de la Fase 1 disponibles ara amb preus de preconstrucció.",
+      "cards": [
+        {
+          "label": "PREU ACTUAL",
+          "value": "$450 MXN",
+          "subtitle": "per m² (~$25 USD/m²)",
+          "description": "Parcel·les residencials espaioses"
+        },
+        {
+          "label": "MIDES DE PARCEL·LES",
+          "value": "2.000-2.500 m²",
+          "subtitle": "Parcel·les residencials espaioses",
+          "description": ""
+        },
+        {
+          "label": "INVERSIÓ TOTAL",
+          "value": "~1M MXN",
+          "subtitle": "per parcel·la (~$55.000 USD)",
+          "description": ""
+        },
+        {
+          "label": "CREIXEMENT DE VALOR",
+          "value": "2x en 1-2 anys",
+          "subtitle": "Apreciació projectada",
+          "description": ""
+        }
+      ]
+    },
+    "location": {
+      "title": "Ubicació Privilegiada",
+      "subtitle": "On la Sierra Madre Troba el Pacífic",
+      "description": "Enclavada davant d'una reserva natural protegida amb accés únic a oceà, muntanyes i comunitat vibrant.",
+      "highlights": [
+        "5 minuts de la Platja Ventanilla",
+        "10 minuts del centre de Mazunte",
+        "1 hora d'aeroports internacionals (Puerto Escondido i Huatulco)",
+        "3 hores de la Ciutat d'Oaxaca per la nova autopista",
+        "Adjacent a reserva de manglars protegida de 100 hectàrees"
+      ],
+      "mapTitle": "Mapa d'Ubicació Estratègica"
+    },
+    "development": {
+      "title": "Estratègia de Desenvolupament per Fases",
+      "subtitle": "Creixement Estratègic per al Màxim Valor",
+      "intro": "El nostre pla de desenvolupament de 5 fases assegura creixement sostenible mentre maximitza l'apreciació de la terra per als primers inversors.",
+      "phases": [
+        {
+          "number": 1,
+          "title": "Fase 1",
+          "status": "Activa Ara",
+          "period": "Abril - Setembre 2025",
+          "description": "Fase de fonamentació: Adquisició de terra, seguretat perimetral, pous d'aigua, infraestructura bàsica i formació del consell de membres fundadors.",
+          "price": "$450 MXN/m²",
+          "availability": "Queden 8 parcel·les"
+        },
+        {
+          "number": 2,
+          "title": "Fase 2",
+          "status": "Properament",
+          "period": "Any 1",
+          "description": "Expansió d'infraestructura: Electricitat subterrània, camins pavimentats, primers edificis residencials i espais comunals.",
+          "price": "$650 MXN/m²",
+          "availability": "Projectat"
+        },
+        {
+          "number": 3,
+          "title": "Fase 3",
+          "status": "Planificat",
+          "period": "Any 2",
+          "description": "Amenitats comunitàries: Centre educatiu, bio-piscina, sistemes de permacultura i integració d'energia renovable.",
+          "price": "$850 MXN/m²",
+          "availability": "Projectat"
+        },
+        {
+          "number": 4,
+          "title": "Fase 4",
+          "status": "Futur",
+          "period": "Any 3",
+          "description": "Comunitat completa: Tota la infraestructura completa, govern establert, programes per a visitants llançats.",
+          "price": "$1.100 MXN/m²",
+          "availability": "Projectat"
+        }
+      ]
+    },
+    "packages": {
+      "title": "Paquets d'Inversió",
+      "subtitle": "Tria el Teu Camí cap a la Propietat",
+      "intro": "Múltiples maneres de participar, des de la propietat completa de la terra fins a la inversió d'impacte.",
+      "items": [
+        {
+          "title": "Custodi Fundador de la Terra",
+          "price": "$180.000 USD",
+          "popular": true,
+          "description": "Propietat completa de la parcel·la amb drets de govern i membre del consell.",
+          "features": [
+            "Parcel·la completa: 2.000-2.500 m²",
+            "Drets de vot en totes les decisions",
+            "Seient al Consell de Membres Fundadors",
+            "Accés prioritari a les amenitats",
+            "Escriptura de títol en completar-se",
+            "Accés a programes educatius",
+            "Participació en pràctiques cerimonials"
+          ],
+          "roi": "2-3x valor en 2-3 anys",
+          "timeline": "Llest per mudar-se després de la Fase 1"
+        },
+        {
+          "title": "Contribuïdor Comunitari",
+          "price": "$50.000 - $75.000 USD",
+          "popular": false,
+          "description": "Parcel·la parcial o parcel·la compartida amb drets de participació comunitària.",
+          "features": [
+            "Parcel·la parcial o parcel·la compartida",
+            "Drets de vot en decisions comunitàries",
+            "Accés a tots els espais comunals",
+            "Descomptes en tallers educatius",
+            "Estructures de propietat flexibles",
+            "Prioritat d'ocupació Fase 2"
+          ],
+          "roi": "1,5-2x valor en 2-3 anys",
+          "timeline": "Ocupació Any 2"
+        },
+        {
+          "title": "Inversor d'Impacte",
+          "price": "$10.000+ USD",
+          "popular": false,
+          "description": "Bons de desenvolupament d'infraestructura amb retorns fixos més bonus d'èxit.",
+          "features": [
+            "Sense propietat de terra",
+            "Retorn fix: 8-12% anual",
+            "Potencial de bonus d'èxit del projecte",
+            "Rol d'assessorament en el desenvolupament",
+            "Inversió transferible",
+            "Líquid després de l'Any 2",
+            "Privilegis de visita"
+          ],
+          "roi": "Fix 8-12% + bonus",
+          "timeline": "Inversió líquida després de l'Any 2"
+        }
+      ],
+      "comparison": {
+        "title": "Comparació de Paquets",
+        "headers": ["Característica", "Custodi Fundador", "Contribuïdor Comunitari", "Inversor d'Impacte"],
+        "rows": [
+          ["Inversió", "$180K", "$50-75K", "$10K+"],
+          ["Propietat Terra", "Parcel·la completa (2.000-2.500m²)", "Parcial/Compartida", "Cap"],
+          ["Govern", "Seient complet al Consell", "Drets de vot", "Rol d'assessorament"],
+          ["Projecció ROI", "2-3x en 2-3 anys", "1,5-2x en 2-3 anys", "8-12% anual + bonus"],
+          ["Ocupació", "Compleció Fase 1", "Any 2", "Només privilegis de visita"],
+          ["Liquiditat", "Després Fase 4", "Després Fase 3", "Després Any 2"]
+        ]
+      }
+    },
+    "infrastructure": {
+      "title": "Què S'Inclou",
+      "subtitle": "Infraestructura i Amenitats Premium",
+      "intro": "La teva inversió inclou infraestructura essencial més accés a característiques de la comunitat regenerativa.",
+      "included": [
+        {
+          "title": "Seguretat i Accés",
+          "items": [
+            "Tancament perimetral amb materials naturals",
+            "Entrada amb porta i casa del custodi",
+            "Presència de seguretat 24/7",
+            "Camins demarcats"
+          ]
+        },
+        {
+          "title": "Serveis i Utilitats",
+          "items": [
+            "2 pous d'aigua profunds (tot l'any)",
+            "Electricitat subterrània a cada parcel·la",
+            "Internet de fibra òptica preparat",
+            "Sistemes de recollida d'aigua de pluja"
+          ]
+        },
+        {
+          "title": "Característiques Naturals",
+          "items": [
+            "Vistes a l'oceà des de parcel·les elevades",
+            "Vistes a la muntanya/serra",
+            "Accés a reserva protegida",
+            "Preservació d'arbres natius"
+          ]
+        },
+        {
+          "title": "Beneficis Comunitaris",
+          "items": [
+            "Accés a programes educatius",
+            "Consultoria de permacultura",
+            "Participació en el govern",
+            "Accés a pràctiques cerimonials",
+            "Privilegis de programes per a visitants"
+          ]
+        }
+      ],
+      "clubhouse": {
+        "title": "Centre Comunitari (Opcional)",
+        "description": "Votat pels membres fundadors, el centre comunitari servirà com el cor de les activitats del poblet.",
+        "price": "$300.000 MXN per parcel·la (pagament únic)",
+        "features": [
+          "Bio-piscina amb filtració natural",
+          "Espais de reunió i cotreball",
+          "Instal·lacions per a tallers educatius",
+          "Àrees de reunió cerimonials",
+          "Cuina comercial",
+          "Estudi de ioga/moviment",
+          "Biblioteca i centre de recursos"
+        ],
+        "note": "Es requereix vot majoritari per procedir amb la construcció"
+      }
+    },
+    "appreciation": {
+      "title": "Potencial d'Apreciació del Valor",
+      "subtitle": "Inversió Estratègica amb Creixement Provat",
+      "intro": "Basant-nos en l'anàlisi de mercat i desenvolupaments comparables a la regió, els primers inversors poden esperar una apreciació significativa.",
+      "projection": {
+        "title": "Projecció Conservadora",
+        "description": "Duplica el valor de la teva inversió en 1-2 anys",
+        "phases": [
+          {
+            "phase": "Fase 1 (Ara)",
+            "price": "$450 MXN/m²",
+            "totalLot": "~$1.000.000 MXN ($55.000 USD)"
+          },
+          {
+            "phase": "Fase 2 (Any 1)",
+            "price": "$650 MXN/m²",
+            "totalLot": "~$1.400.000 MXN ($77.000 USD)"
+          },
+          {
+            "phase": "Fase 3 (Any 2)",
+            "price": "$850 MXN/m²",
+            "totalLot": "~$1.800.000 MXN ($100.000 USD)"
+          },
+          {
+            "phase": "Fase 4 (Any 3)",
+            "price": "$1.100 MXN/m²",
+            "totalLot": "~$2.400.000 MXN ($133.000 USD)"
+          }
+        ]
+      },
+      "factors": {
+        "title": "Motors Clau d'Apreciació",
+        "items": [
+          {
+            "title": "Desenvolupament d'Infraestructura",
+            "description": "Cada fase completada afegeix valor significatiu mitjançant millores en camins, serveis i amenitats."
+          },
+          {
+            "title": "Demanda Creixent",
+            "description": "L'interès creixent en comunitats regeneratives i ubicacions amigables per al treball remot impulsa els preus cap amunt."
+          },
+          {
+            "title": "Oferta Limitada",
+            "description": "Una de les últimes parcel·les intactes a la zona de Mazunte amb aquesta mida i característiques naturals."
+          },
+          {
+            "title": "Proximitat a Reserva Protegida",
+            "description": "Adjacent a reserva de manglars protegida de 100 hectàrees assegura zona natural permanent i exclusivitat."
+          },
+          {
+            "title": "Creixement Regional",
+            "description": "La costa d'Oaxaca està veient una apreciació anual de propietats del 15-20%, superant les mitjanes nacionals."
+          },
+          {
+            "title": "Prima Comunitària",
+            "description": "Les comunitats intencionals demanden una prima del 30-50% sobre terra comparable sense estructura de govern."
+          }
+        ]
+      }
+    },
+    "guidelines": {
+      "title": "Directrius de Construcció i Ús",
+      "subtitle": "Construint un Futur Regeneratiu Junts",
+      "intro": "Les nostres directrius asseguren integritat ecològica alhora que permeten expressió creativa i usos diversos.",
+      "permitted": {
+        "title": "Activitats Permeses",
+        "items": [
+          "Ús de residència familiar i casa de vacances",
+          "Lloguer a curt termini i allotjament turístic",
+          "Activitats culturals, tradicionals i artístiques",
+          "Permacultura d'ús personal i boscos d'aliments",
+          "Operacions d'ecoturisme de baix impacte",
+          "Tallers i programes educatius",
+          "Pràctiques cerimonials i espirituals",
+          "Negocis basats a casa (no industrials)"
+        ]
+      },
+      "restricted": {
+        "title": "Activitats Restringides",
+        "items": [
+          "Agricultura comercial o operacions ramaderes",
+          "Caça comercial o explotació de vida salvatge",
+          "Destrucció de llocs de niu/reproducció de vida salvatge",
+          "Ús irresponsable del foc o tala i crema",
+          "Introducció d'espècies exòtiques invasores",
+          "Manufactura industrial o pesada",
+          "Activitats que causin contaminació acústica/lumínica",
+          "Extracció de recursos naturals per a venda"
+        ]
+      },
+      "building": {
+        "title": "Estàndards de Construcció",
+        "items": [
+          "Màxim 2 pisos sobre terra",
+          "Materials naturals i locals recomanats",
+          "Integració de principis de disseny de permacultura",
+          "Sistemes de recollida d'aigua de pluja requerits",
+          "Sistemes de tractament d'aigües grises obligatoris",
+          "Integració d'energia solar recomanada",
+          "Paisatgisme nadiu amb reforestació",
+          "Mínim 40% de parcel·la mantinguda com espai natural"
+        ]
+      },
+      "governance": {
+        "title": "Marc de Govern",
+        "description": "Directrius inicials establertes pel promotor, amb control comunitari complet després de vendre's totes les parcel·les. Totes les decisions importants preses mitjançant procés de consentiment sociocràtic amb transparència DAO.",
+        "note": "El reglament (normes comunitàries) només pot ser modificat per vot majoritari de l'assemblea de membres fundadors una vegada completada la fase del promotor."
+      }
+    },
+    "legal": {
+      "title": "Suport Legal i Seguretat",
+      "subtitle": "Acompanyament Legal Comprensiu",
+      "intro": "Proporcionem suport legal complet per assegurar que la teva inversió sigui segura i compleixi amb la llei mexicana.",
+      "services": {
+        "title": "Serveis Legals Inclosos",
+        "items": [
+          {
+            "title": "Suport d'Adquisició",
+            "description": "Guia legal completa durant el procés de compra de terra, incloent revisió de documents i negociació de contractes."
+          },
+          {
+            "title": "Configuració de Fideicomís",
+            "description": "Per a compradors estrangers, organitzem i gestionem el fideicomís bancari (fideicomiso) requerit per a la propietat de propietats costaneres a Mèxic."
+          },
+          {
+            "title": "Gestió de Títol i Escriptura",
+            "description": "Gestió de l'escrituració (procés d'escriptura de títol) i certificat de possessió comunal per assegurar propietat clara."
+          },
+          {
+            "title": "Integració DAO",
+            "description": "Configuració d'estructura de govern basada en blockchain per a transparència completa en la presa de decisions i assignació de recursos."
+          },
+          {
+            "title": "Assessorament Legal Continu",
+            "description": "Suport legal continu durant tot el procés de desenvolupament, incloent permisos de construcció i compliment."
+          }
+        ]
+      },
+      "fideicomiso": {
+        "title": "Comprensió del Fideicomís",
+        "description": "La llei mexicana requereix que la propietat estrangera de propietat costera (dins de 50km de l'oceà) es mantingui en un fideicomís bancari. Aquest és un procés estàndard i segur que proporciona els mateixos drets de propietat que la propietat directa.",
+        "benefits": [
+          "Drets de propietat complets (vendre, llogar, heretar)",
+          "Termini de 30 anys, renovable indefinidament",
+          "Protegit per les regulacions bancàries mexicanes",
+          "Es pot transferir o vendre com propietat normal",
+          "Inclòs al nostre paquet de serveis legals"
+        ]
+      },
+      "transparency": {
+        "title": "Transparència Blockchain",
+        "description": "La nostra estructura DAO (Organització Autònoma Descentralitzada) assegura transparència completa en totes les transaccions financeres, vots i decisions de govern.",
+        "features": [
+          "Totes les decisions importants registrades en blockchain",
+          "Seguiment transparent d'assignació de fons",
+          "Gestió de tresoreria amb múltiples signatures",
+          "Registres de votació immutables",
+          "Actualitzacions de progrés del projecte en temps real"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Preparat per Invertir?",
+      "subtitle": "Parlem de com pots formar part d'aquesta visió regenerativa",
+      "description": "Programa una consulta per aprendre més sobre els paquets d'inversió, visitar la terra i conèixer l'equip fundador.",
+      "form": {
+        "name": "Nom Complet",
+        "email": "Adreça de Correu",
+        "phone": "Número de Telèfon",
+        "citizenship": "Ciutadania/Residència",
+        "package": "Interès en Paquet d'Inversió",
+        "packageOptions": {
+          "steward": "Custodi Fundador de la Terra ($180K)",
+          "contributor": "Contribuïdor Comunitari ($50-75K)",
+          "investor": "Inversor d'Impacte ($10K+)",
+          "exploring": "Encara Explorant Opcions"
+        },
+        "visit": "Data de Visita Preferida",
+        "message": "Preguntes o Informació Addicional",
+        "submit": "Programa Consulta"
+      },
+      "info": {
+        "email": "invest@proyectosalvaje.com",
+        "phone": "+52 (XXX) XXX-XXXX",
+        "location": "Mazunte, Oaxaca, Mexico"
+      },
+      "download": {
+        "title": "Descarrega Dossier d'Inversió",
+        "description": "Obtingues el nostre prospecte d'inversió comprensiu amb finançament detallat, plans del lloc i documentació legal.",
+        "button": "Descarrega PDF"
+      }
     }
   }
 }

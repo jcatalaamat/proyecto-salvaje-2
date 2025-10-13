@@ -1,0 +1,859 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "vision": "Vision",
+    "land": "Das Land",
+    "programs": "Programme",
+    "community": "Gemeinschaft",
+    "join": "Mitmachen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Regeneratives Dorfschulprojekt",
+    "subtitle": "Schaffung einer intentionalen regenerativen Gemeinschaft für menschliche Integrität und souveränes Leben",
+    "description": "Ein Heilungsdorf, eine Schule des wirklichen Lebens und ein Bildungszentrum, das sich dem Schutz der Freiheit, der körperlichen Autonomie und dem Leben im Einklang mit der Natur widmet.",
+    "cta": "Treten Sie unserer Gemeinschaft bei",
+    "secondaryCta": "Entdecken Sie unsere Vision",
+    "tertiaryCta": "Investitionsdetails ansehen",
+    "stats": {
+      "land": "5 Hektar",
+      "capacity": "40 Menschen",
+      "water": "Ganzjähriger Wasserzugang"
+    }
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "subtitle": "Eine regenerative Vision für souveränes Leben",
+    "intro": "Schaffung einer intentionalen regenerativen Gemeinschaft, die sich dem Schutz der menschlichen Integrität und souveränen Geburtsrechte widmet: Freiheit, körperliche Autonomie, spirituelle Selbstbestimmung und das Recht, im Einklang mit der Natur zu leben.",
+    "description": "Ein regeneratives, herzgeführtes Sozialprojekt, das zukünftigen Generationen und der Verteidigung menschlicher Integrität gewidmet ist. Eine Gemeinschaft, die nach außen strahlt und Samen des Wandels pflanzt, anstatt eine isolierte Blase zu sein.",
+    "pillars": [
+      {
+        "title": "Gemeinschaftsgetriebenes Wachstum",
+        "description": "Wir treten aus der Überkommerzialisierung der Wellnessbranche heraus, indem wir gemeinschaftsgetriebenes Wachstum, gerechten Zugang und gegenseitige Unterstützung über Profit stellen."
+      },
+      {
+        "title": "Menschenzentrierte Heilung",
+        "description": "Ein dritter Weg, der sich auf den menschlichen Faktor konzentriert — darauf, wie wir einander heilen und unterstützen können, während wir in Gegenseitigkeit mit der Erde leben, gegründet in Würde und Erinnerung an das Heilige."
+      },
+      {
+        "title": "Indigene Weisheit",
+        "description": "Nachhaltige Wege, um in einen dekolonisierten Dialog mit indigenen Gemeinschaften und unterdrückten Minderheiten einzutreten und einen geerdeteten Zugang zum Heiligen zurückzugewinnen."
+      },
+      {
+        "title": "Souveränität und Autonomie",
+        "description": "Neudefinition von Gemeinsamkeit und Stärkung von Selbstversorgung und Souveränität ohne Abhängigkeit von externen Machtstrukturen oder Gehorsam gegenüber übergeordneten Regierungssystemen."
+      }
+    ]
+  },
+  "land": {
+    "title": "Das heilige Land",
+    "subtitle": "Das Land, das uns nach Hause ruft",
+    "intro": "Das Projekt entsteht in Mexiko, einem Land, das eine sehr kraftvolle Energie des sozialen Widerstands, der indigenen Rechte und der Integrität verkörpert und auf der globalen politischen Bühne Gewicht für die Verteidigung von Minderheiten hat.",
+    "description": "Dieses Land ist umgeben von landwirtschaftlichen Feldern mit alten Bäumen und reichem Boden. Es ist eine kulturell und historisch reiche Gegend mit Ozean, Lagune und Mangroven — ein Ort, der bereits verschiedene kollektive Initiativen, Heilzentren und Landregenerationsprojekte beherbergt.",
+    "quote": "Das Land liegt vor einem Naturschutzgebiet... bietet Privatsphäre und tiefen Frieden — sowohl geschützt als auch verbunden.",
+    "gallery": {
+      "title": "Entdecken Sie das Grundstück",
+      "subtitle": "Visuelle Tour durch das Land",
+      "description": "Erleben Sie die Schönheit und das Potenzial von Proyecto Salvaje durch Luftaufnahmen und Fotografien vor Ort.",
+      "videoTitle": "Videotour",
+      "downloadTopo": "Vollständige topografische Karte herunterladen"
+    },
+    "features": {
+      "topography": {
+        "title": "Topografie und Zugang",
+        "items": [
+          "5 Hektar vielfältige Landschaft",
+          "Flache Bereiche geeignet für Permakultur",
+          "Hügel mit offenem landschaftlichem Ausblick",
+          "Ganzjähriger Wasserzugang",
+          "Private Straßenzufahrt zum Grundstück"
+        ]
+      },
+      "location": {
+        "title": "Lage und Gemeinschaft",
+        "items": [
+          "In der Nähe der Stadt Mazunte, Oaxaca",
+          "1 Stunde vom internationalen Flughafen",
+          "Über Autobahn mit Oaxaca verbunden",
+          "Lebendige Gemeinschaft vielfältiger Menschen",
+          "Verschiedene kollektive Initiativen in der Nähe"
+        ]
+      },
+      "development": {
+        "title": "Entwicklungspotenzial",
+        "items": [
+          "Kann 20 kleine Häuser tragen",
+          "Beherbergt bequem etwa 40 Menschen",
+          "Eine der letzten intakten Parzellen in der Gegend",
+          "Reicher Boden, leicht bebaubar",
+          "Zugang zu Elektrizität"
+        ]
+      }
+    },
+    "highlights": [
+      {
+        "title": "Ozean und Mangroven",
+        "description": "An der Küste von Oaxaca gelegen, wo die Sierra Madre auf den Pazifischen Ozean trifft, mit Nähe zu Lagunen und Mangroven."
+      },
+      {
+        "title": "Naturschutzgebiet",
+        "description": "Vor einem Naturschutzgebiet gelegen, mit einzigartiger Topografie, die es perfekt für dieses Projekt macht."
+      },
+      {
+        "title": "Wasserzugang",
+        "description": "Zugang zu Wasser, flache Bereiche für Permakultur und Hügel mit offenem Ausblick, perfekt für nachhaltige Entwicklung."
+      },
+      {
+        "title": "Privatsphäre und Verbindung",
+        "description": "Verteilt entlang kleiner Pfade, die Privatsphäre bieten, mit einem Gefühl tiefen Friedens — sowohl geschützt als auch verbunden."
+      }
+    ]
+  },
+  "community": {
+    "title": "Zusammenleben",
+    "subtitle": "Unsere Gemeinschaftsstruktur",
+    "intro": "Wir möchten denjenigen Zuflucht bieten, die sich der Unterstützung des Kollektivs und dem Kampf für Wahrheit und Würde widmen. Unsere Governance-Systeme schöpfen aus alter Weisheit und modernem Organisationsdesign, um eine Struktur zu schaffen, die sowohl widerstandsfähig als auch anpassungsfähig ist.",
+    "values": {
+      "title": "Zentrale Gemeinschaftswerte",
+      "items": [
+        {
+          "title": "Regeneration",
+          "description": "Wir gestalten Systeme, die die Gesundheit und Vitalität natürlicher Ökosysteme fördern und sicherstellen, dass unsere Handlungen aufbauen, statt zu erschöpfen."
+        },
+        {
+          "title": "Souveränität",
+          "description": "Wir ehren die Autonomie jedes Einzelnen, während wir unsere Interdependenz innerhalb der größeren Gemeinschaft und des Ökosystems anerkennen."
+        },
+        {
+          "title": "Gegenseitigkeit",
+          "description": "Wir bauen Beziehungen auf gegenseitigem Nutzen auf und stellen einen fairen Austausch sicher, der alle Wesen respektiert, einschließlich des Landes selbst."
+        },
+        {
+          "title": "Integration",
+          "description": "Wir umarmen das gesamte Spektrum menschlicher Erfahrung und weben innere und äußere Arbeit, traditionelle Weisheit und modernes Wissen zusammen."
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Entwicklungszeitplan",
+      "phases": [
+        {
+          "title": "Phase 1",
+          "period": "Aktuell",
+          "description": "Landerwerb und anfängliche Infrastrukturentwicklung. Bildung des Gründungsmitgliederrats und frühe Adoptierende."
+        },
+        {
+          "title": "Phase 2",
+          "period": "Jahr 1",
+          "description": "Erste Wohngebäude, Gemeinschaftsräume und Permakultursysteme etabliert. Erste Bildungsprogramme gestartet."
+        },
+        {
+          "title": "Jahr 2",
+          "period": "Jahr 2",
+          "description": "Integration technologischer Infrastruktur, erneuerbare Energiesysteme und Verfeinerung der Gemeinschafts-Governance."
+        },
+        {
+          "title": "Jahr 3",
+          "period": "Jahr 3",
+          "description": "Vollständig etablierte Gemeinschaft mit integrierten Bildungsprogrammen, Besuchermöglichkeiten und erweiterten Wirkungsinitiativen."
+        }
+      ]
+    },
+    "governance": {
+      "title": "Unsere Governance-Struktur",
+      "items": [
+        {
+          "title": "Soziokratie",
+          "description": "Unser Entscheidungsfindungsrahmen basiert auf Konsent statt Konsens und stellt sicher, dass alle Stimmen gehört werden, während effektives Handeln ermöglicht wird."
+        },
+        {
+          "title": "Arbeitskreise",
+          "description": "Selbstorganisierende Teams, die sich auf spezifische Bereiche des Gemeinschaftslebens konzentrieren, von Landpflege bis zu Bildungsprogrammen."
+        },
+        {
+          "title": "Ratsversammlungen",
+          "description": "Regelmäßige gemeinschaftsweite Treffen, bei denen wir Informationen teilen, kollektive Entscheidungen treffen und unsere Verbindungen vertiefen."
+        }
+      ]
+    },
+    "transparency": {
+      "title": "Struktur verwurzelt in Vertrauen und Transparenz",
+      "quote": "Nutzung der Blockchain-Technologie, um vollständige Transparenz bei Entscheidungsfindung und Ressourcenfluss zu bieten — von Investoren zu Teilnehmern.",
+      "dao": {
+        "title": "Dezentrale Governance",
+        "description": "Unsere DAO (Dezentrale Autonome Organisation) ermöglicht transparente Abstimmungen, Ressourcenzuweisung und Entscheidungsfindung für alle Gemeinschaftsmitglieder.",
+        "features": [
+          "Transparente Abstimmungsmechanismen",
+          "Verfolgung der Ressourcenzuweisung",
+          "Multi-Signatur-Schatzverwaltung"
+        ]
+      },
+      "contribution": {
+        "title": "Beitragswege",
+        "description": "Mehrere Wege, um an unserer Gemeinschaft teilzunehmen und zu ihr beizutragen, mit verschiedenen Ebenen von Engagement und Beteiligung.",
+        "paths": [
+          "Kern-Gründungsmitglieder",
+          "Ansässige Beitragende",
+          "Programmteilnehmer und Besucher",
+          "Remote-Beitragende und Unterstützer"
+        ],
+        "note": "Gemeinsam bilden sie den Rat der Gründungsmitglieder."
+      }
+    }
+  },
+  "indigenous": {
+    "title": "Alte Weisheit, moderne Zeiten",
+    "subtitle": "Indigene Integration",
+    "intro": "Wir verpflichten uns zu respektvollen und gegenseitigen Beziehungen mit lokalen Gemeinschaften. Unser Integrationsansatz konzentriert sich auf gegenseitigen Nutzen und echten interkulturellen Austausch.",
+    "quotes": [
+      {
+        "text": "Wir sind das Land, und das Land ist wir. Was wir dem Land antun, tun wir uns selbst an.",
+        "author": "Indigene Weisheit"
+      },
+      {
+        "text": "Wir erben die Erde nicht von unseren Vorfahren; wir leihen sie uns von unseren Kindern.",
+        "author": "Indianisches Sprichwort"
+      },
+      {
+        "text": "Das Land ist heilig. Diese Worte sind im Kern Ihres Seins. Das Land ist unsere Mutter, die Flüsse unser Blut, die Luft unser Atem und der Wald unser Geist.",
+        "author": "Ahnenweisheit"
+      }
+    ],
+    "values": {
+      "title": "Unsere Werte",
+      "description": "Wir gehen unsere Beziehung zur indigenen Weisheit mit tiefer Ehrfurcht und einem Engagement für ethische Zusammenarbeit an. Dieses Projekt steht fest gegen kulturelle Aneignung und Ausbeutung und strebt stattdessen danach, indigene Souveränität zu ehren und gegenseitige Beziehungen aufzubauen.",
+      "commitment": "Unsere Kernwerte umfassen Respekt für traditionelles Wissen, Anerkennung indigener Landpflege und ein Engagement für fairen Austausch, der den Gemeinschaften zugutekommt, von denen wir lernen."
+    },
+    "approach": {
+      "title": "Unser Ansatz",
+      "description": "Wir treten aus verschiedenen Formen kultureller Aneignung heraus und suchen nach nachhaltigen Wegen, um in einen dekolonisierten Dialog mit indigenen Gemeinschaften und unterdrückten Minderheiten einzutreten und einen geerdeteten Zugang zum Heiligen zurückzugewinnen.",
+      "integration": "Durch Zeremonien, nachhaltige Praktiken und tiefes Zuhören streben wir danach, die spirituelle Dimension der Landpflege wieder zu integrieren, die von indigenen Kulturen weltweit bewahrt wurde."
+    },
+    "principles": {
+      "title": "Leitprinzipien",
+      "items": [
+        {
+          "title": "Beschäftigung",
+          "description": "Angebot bedeutungsvoller Beschäftigungsmöglichkeiten für lokale indigene Gemeinschaftsmitglieder."
+        },
+        {
+          "title": "Kostenlose Workshops",
+          "description": "Bereitstellung kostenfreien Zugangs zu Workshops und Bildungsprogrammen für indigene Teilnehmer."
+        },
+        {
+          "title": "Bildungsangebote",
+          "description": "Schaffung von Bildungsangeboten für Kinder und Erwachsene, einschließlich Permakultur, Gesundheit und handwerklichen Fähigkeiten."
+        },
+        {
+          "title": "Gemeinnützige Veranstaltungen",
+          "description": "Ausrichtung gemeinnütziger Veranstaltungen, die lokalen indigenen Initiativen zugutekommen."
+        }
+      ]
+    },
+    "ceremonies": {
+      "title": "Zeremonielle Praktiken",
+      "items": [
+        {
+          "title": "Landzeremonien",
+          "description": "Rituale, um das Land zu ehren und sich mit ihm zu verbinden, bevor Veränderungen vorgenommen werden."
+        },
+        {
+          "title": "Jahreszeitliche Feiern",
+          "description": "Markierung der Jahreszeiten und natürlichen Zyklen mit Gemeinschaftsversammlungen."
+        },
+        {
+          "title": "Übergangsriten",
+          "description": "Zeremonien, die bedeutende persönliche und gemeinschaftliche Übergänge ehren."
+        },
+        {
+          "title": "Dankbarkeitspraktiken",
+          "description": "Regelmäßige Dankesbekundungen an das Land, die Gewässer und alle Wesen."
+        }
+      ]
+    }
+  },
+  "join": {
+    "title": "Die heilige Einladung",
+    "subtitle": "Treten Sie unserer Gemeinschaft bei",
+    "intro": "Dies ist ein Ruf an diejenigen, die das Feuer spüren — für Wahrheit einzustehen, sich um das Land zu kümmern und heilige Führung zu verkörpern. Wenn Sie die Resonanz spüren, gibt es viele Wege, Ihre Gaben anzubieten und Teil dieser lebendigen Vision zu werden.",
+    "timeline": {
+      "title": "Projektentwicklungszeitplan",
+      "subtitle": "3-Jahres-Fahrplan zum regenerativen Leben",
+      "intro": "Ein umfassender Zeitplan mit unterschiedlichen Finanzierungsrunden und Entwicklungsphasen. Gesamtprojektkosten: 1.250.000 USD mit zwei ReFi-Finanzierungsrunden.",
+      "funding": {
+        "title": "Finanzierungszeitplan",
+        "rounds": [
+          {
+            "round": "Erste Runde",
+            "amount": "700.000 USD",
+            "period": "Jahr 1-2"
+          },
+          {
+            "round": "Zweite Runde",
+            "amount": "1.000.000 USD",
+            "period": "Jahr 2"
+          }
+        ]
+      },
+      "phases": [
+        {
+          "number": "1",
+          "title": "Jahr 1 - Grundlagenphase",
+          "period": "Fundament und Infrastruktur",
+          "status": "In Bearbeitung",
+          "highlights": [
+            "Abschluss der ersten ReFi-Finanzierungsrunde (700.000 USD)",
+            "Sicherung des Landtitels und Planung der Infrastruktur",
+            "Schaffung rechtlicher Struktur und DAO-Governance",
+            "Gestaltung des Mitgliedschaftsprogramms",
+            "Etablierung kommunaler Token + NFT-System",
+            "Einrichtung ganzjähriges Freiwilligenprogramm",
+            "Durchführung Öko-Baukurs als Grundlage für Konstruktion",
+            "Landbereinigung + Pflanzung Obstbäume und Stauden",
+            "Durchführung Permakulturkurs für Gemeinschaftsgartenaufbau",
+            "Etablierung Wasser- und Strominfrastruktur",
+            "Beginn Bau Hauptshala und Gemeinschaftsbereich",
+            "Bildung Partnerschaften mit ausgerichteten Lehrern/Praktizierenden",
+            "Einstellung von bis zu 5 lokalen Arbeitern"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Jahr 2 - Expansionsphase",
+          "period": "Gemeinschaftsaufbau und Wachstum",
+          "status": "Demnächst",
+          "highlights": [
+            "Erweiterung Retreat-Angebote und Bildungsakademie",
+            "Vollständig operative DAO-Governance",
+            "Beginn zweite ReFi-Finanzierungsrunde (1 Million USD)",
+            "Fortsetzung Bau Öko-Gebäude und Gemeinschaftsbereiche",
+            "Bau Retreat-Shala",
+            "Optimierung Wasser- und Stromsysteme",
+            "Fortsetzung Pflanzung endemischer Bäume und Pflanzen",
+            "Regelmäßige Retreats und Kurse laufen",
+            "Entwicklung Token-Ökosystem und Webplattform",
+            "Einstellung von bis zu 10 lokalen Arbeitern"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Jahr 3 - Reifephase",
+          "period": "Vollständiges Regenerationsprogramm",
+          "status": "Geplant",
+          "highlights": [
+            "Vollständiges Regenerationsprogramm in Betrieb",
+            "Erweiterung Landbesitz auf umliegende landwirtschaftliche Flächen",
+            "Wiederherstellung lokales Ökosystem durch Bepflanzung endemischer Arten",
+            "Einrichtung lokales Gemeinschaftsgartenprojekt mit einheimischen Gemeinschaften",
+            "Erreichung voller Buchungskapazität für Retreat-Zentrum",
+            "Fertigstellung Infrastruktur für 20+ Teilnehmer pro Retreat",
+            "Einstellung von bis zu 20 lokalen Arbeitern"
+          ]
+        }
+      ],
+      "landDevelopment": {
+        "title": "Wohnlandentwicklung",
+        "subtitle": "5-Phasen-Entwicklung für ca. 20 Grundstücke",
+        "lotSize": "2.000-2.500 m² pro Grundstück",
+        "currentPhase": "Phase 1 - Erste Grundstücksverkäufe aktiv"
+      }
+    },
+    "structure": {
+      "title": "Struktur und Beiträge",
+      "description": "Die rechtliche Struktur besteht aus einer mexikanischen gemeinnützigen Organisation und einer DAO (Dezentrale Autonome Organisation), die Blockchain-Technologie nutzt, um vollständige Transparenz bei Entscheidungsfindung und Ressourcenfluss zu bieten.",
+      "calling": "Wir suchen drei Gründungsfamilien als Landhüter (je 180.000 USD), 10 Beitragende (50.000-75.000 USD) und ausgerichtete Impact-Investoren zur Unterstützung wichtiger Infrastrukturentwicklung."
+    },
+    "ways": {
+      "title": "Möglichkeiten zur Teilnahme",
+      "items": [
+        {
+          "title": "Gründende Landhüter",
+          "description": "Für diejenigen, die bereit sind, auf dem Land zu leben und zum Aufbau unseres regenerativen Dorfes von Grund auf beizutragen. Erfordert finanzielle Verpflichtung und langfristige Hingabe."
+        },
+        {
+          "title": "Ausgerichtete Investoren",
+          "description": "Unterstützen Sie unsere Vision finanziell und erzielen Sie gleichzeitig eine Rendite im Einklang mit regenerativen Prinzipien. Investitionen beginnen bei 10.000 USD mit verschiedenen Teilnahmeebenen."
+        },
+        {
+          "title": "Gemeinschaftsbeitragende",
+          "description": "Teilen Sie Ihre Fähigkeiten, Zeit und Weisheit, um unserer Gemeinschaft zum Gedeihen zu verhelfen. Von Permakulturgestaltung über Governance bis Bildung — wir begrüßen Ihre Gaben."
+        },
+        {
+          "title": "Zukünftige Besucher und Teilnehmer",
+          "description": "Schließen Sie sich uns für Bildungsprogramme, Retreats und Erfahrungen an, sobald unser Dorf etabliert ist. Abonnieren Sie, um über kommende Möglichkeiten informiert zu bleiben."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Verbinden Sie sich mit uns",
+    "subtitle": "Wir lesen jede Nachricht mit Sorgfalt und Intention",
+    "form": {
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "interest": "Ihr Interesse",
+      "interestOptions": {
+        "general": "Allgemeines Interesse",
+        "steward": "Gründender Landhüter",
+        "investor": "Ausgerichteter Investor",
+        "contributor": "Gemeinschaftsbeitragender",
+        "visitor": "Zukünftiger Besucher / Teilnehmer"
+      },
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns, was Sie zu diesem Projekt zieht...",
+      "submit": "Nachricht senden"
+    },
+    "email": "info@proyectosalvaje.com",
+    "whatsapp": "+33 6 46 39 63 25",
+    "whatsappText": "Schreiben Sie uns auf WhatsApp",
+    "location": "Mazunte, Oaxaca, Mexico"
+  },
+  "footer": {
+    "tagline": "Werden Sie Teil unserer wachsenden Gemeinschaft, die sich regenerativem Leben und ökologischer Verantwortung widmet.",
+    "explore": {
+      "title": "Entdecken",
+      "about": "Über uns",
+      "vision": "Unsere Vision",
+      "practices": "Regenerative Praktiken",
+      "integration": "Indigene Integration",
+      "events": "Veranstaltungen und Programme"
+    },
+    "join": {
+      "title": "Mitmachen",
+      "volunteer": "Freiwillige",
+      "residency": "Residenzprogramme",
+      "workshops": "Workshops",
+      "stewardship": "Landpflege",
+      "support": "Unterstützen Sie unsere Mission"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Bleiben Sie über unsere neuesten Nachrichten und Veranstaltungen informiert.",
+      "placeholder": "Ihre E-Mail",
+      "submit": "Abonnieren"
+    },
+    "made": "© 2025 Proyecto Salvaje. Alle Rechte vorbehalten.",
+    "rights": ""
+  },
+  "investment": {
+    "hero": {
+      "title": "Investieren Sie in regeneratives Leben",
+      "subtitle": "Sichern Sie sich Ihren Platz in einer blühenden Öko-Gemeinschaft",
+      "description": "Eine seltene Gelegenheit, in eine der letzten intakten Parzellen in Mazunte, Oaxaca zu investieren. Kombinieren Sie finanzielle Renditen mit bedeutungsvoller Wirkung in einer regenerativen Dorfgemeinschaft.",
+      "stats": {
+        "land": "5 Hektar insgesamt",
+        "lots": "20 exklusive Grundstücke",
+        "phase": "Phase 1 aktiv",
+        "roi": "2x ROI in 1-2 Jahren"
+      },
+      "cta": "Beratung vereinbaren",
+      "secondaryCta": "Investitionsunterlagen herunterladen"
+    },
+    "pricing": {
+      "title": "Investitionsmöglichkeit",
+      "subtitle": "Sichern Sie sich Ihren Platz in einer einzigartigen regenerativen Gemeinschaft mit außergewöhnlichem Wachstumspotenzial. Phase-1-Grundstücke jetzt zu Vorbauphasenpreisen verfügbar.",
+      "cards": [
+        {
+          "label": "AKTUELLER PREIS",
+          "value": "450 MXN",
+          "subtitle": "pro m² (~25 USD/m²)",
+          "description": "Großzügige Wohngrundstücke"
+        },
+        {
+          "label": "GRUNDSTÜCKSGRÖSSEN",
+          "value": "2.000-2.500 m²",
+          "subtitle": "Großzügige Wohngrundstücke",
+          "description": ""
+        },
+        {
+          "label": "GESAMTINVESTITION",
+          "value": "~1M MXN",
+          "subtitle": "pro Grundstück (~55.000 USD)",
+          "description": ""
+        },
+        {
+          "label": "WERTWACHSTUM",
+          "value": "2x in 1-2 Jahren",
+          "subtitle": "Projizierte Wertsteigerung",
+          "description": ""
+        }
+      ]
+    },
+    "location": {
+      "title": "Erstklassige Lage",
+      "subtitle": "Wo die Sierra Madre auf den Pazifik trifft",
+      "description": "Vor einem geschützten Naturschutzgebiet mit einzigartigem Zugang zu Ozean, Bergen und lebendiger Gemeinschaft gelegen.",
+      "highlights": [
+        "5 Minuten vom Strand Ventanilla",
+        "10 Minuten vom Stadtzentrum Mazunte",
+        "1 Stunde von internationalen Flughäfen (Puerto Escondido und Huatulco)",
+        "3 Stunden von Oaxaca-Stadt über neue Autobahn",
+        "Angrenzend an 100 Hektar geschütztes Mangrovenreservat"
+      ],
+      "mapTitle": "Strategische Lagekarte"
+    },
+    "development": {
+      "title": "Phasenweise Entwicklungsstrategie",
+      "subtitle": "Strategisches Wachstum für maximalen Wert",
+      "intro": "Unser 5-Phasen-Entwicklungsplan gewährleistet nachhaltiges Wachstum bei gleichzeitiger Maximierung der Landwertsteigerung für frühe Investoren.",
+      "phases": [
+        {
+          "number": 1,
+          "title": "Phase 1",
+          "status": "Jetzt aktiv",
+          "period": "April - September 2025",
+          "description": "Grundlagenphase: Landerwerb, Umgrenzungssicherheit, Wasserbrunnen, Basisinfrastruktur und Bildung des Gründungsmitgliederrats.",
+          "price": "450 MXN/m²",
+          "availability": "8 Grundstücke verbleibend"
+        },
+        {
+          "number": 2,
+          "title": "Phase 2",
+          "status": "Demnächst",
+          "period": "Jahr 1",
+          "description": "Infrastrukturerweiterung: Unterirdische Elektrizität, gepflasterte Wege, erste Wohngebäude und Gemeinschaftsräume.",
+          "price": "650 MXN/m²",
+          "availability": "Projiziert"
+        },
+        {
+          "number": 3,
+          "title": "Phase 3",
+          "status": "Geplant",
+          "period": "Jahr 2",
+          "description": "Gemeinschaftseinrichtungen: Bildungszentrum, Bio-Pool, Permakultursysteme und Integration erneuerbarer Energien.",
+          "price": "850 MXN/m²",
+          "availability": "Projiziert"
+        },
+        {
+          "number": 4,
+          "title": "Phase 4",
+          "status": "Zukünftig",
+          "period": "Jahr 3",
+          "description": "Vollständige Gemeinschaft: Gesamte Infrastruktur fertiggestellt, Governance etabliert, Besucherprogramme gestartet.",
+          "price": "1.100 MXN/m²",
+          "availability": "Projiziert"
+        }
+      ]
+    },
+    "packages": {
+      "title": "Investitionspakete",
+      "subtitle": "Wählen Sie Ihren Weg zum Eigentum",
+      "intro": "Mehrere Möglichkeiten zur Teilnahme, vom vollständigen Landeigentum bis zur Impact-Investition.",
+      "items": [
+        {
+          "title": "Gründender Landhüter",
+          "price": "180.000 USD",
+          "popular": true,
+          "description": "Vollständiges Grundstückseigentum mit Governance-Rechten und Ratsmitgliedschaft.",
+          "features": [
+            "Vollständiges Grundstück: 2.000-2.500 m²",
+            "Stimmrecht bei allen Entscheidungen",
+            "Sitz im Rat der Gründungsmitglieder",
+            "Prioritätszugang zu Einrichtungen",
+            "Eigentumsurkunde nach Fertigstellung",
+            "Zugang zu Bildungsprogrammen",
+            "Teilnahme an zeremoniellen Praktiken"
+          ],
+          "roi": "2-3x Wert in 2-3 Jahren",
+          "timeline": "Einzugsbereit nach Phase 1"
+        },
+        {
+          "title": "Gemeinschaftsbeitragender",
+          "price": "50.000 - 75.000 USD",
+          "popular": false,
+          "description": "Teilgrundstück oder gemeinsame Parzelle mit Gemeinschaftsteilnahmerechten.",
+          "features": [
+            "Teilgrundstück oder gemeinsame Parzelle",
+            "Stimmrecht bei Gemeinschaftsentscheidungen",
+            "Zugang zu allen Gemeinschaftsräumen",
+            "Rabatte auf Bildungsworkshops",
+            "Flexible Eigentumsstrukturen",
+            "Phase-2-Bezugspriorität"
+          ],
+          "roi": "1,5-2x Wert in 2-3 Jahren",
+          "timeline": "Jahr-2-Bezug"
+        },
+        {
+          "title": "Impact-Investor",
+          "price": "10.000+ USD",
+          "popular": false,
+          "description": "Infrastrukturentwicklungsanleihen mit festen Renditen plus Erfolgsbonus.",
+          "features": [
+            "Kein Landeigentum",
+            "Feste Rendite: 8-12% jährlich",
+            "Projekterfolgs-Bonuspotenzial",
+            "Beratende Rolle in der Entwicklung",
+            "Übertragbare Investition",
+            "Liquide nach Jahr 2",
+            "Besuchsprivilegien"
+          ],
+          "roi": "Fest 8-12% + Bonus",
+          "timeline": "Liquide Investition nach Jahr 2"
+        }
+      ],
+      "comparison": {
+        "title": "Paketvergleich",
+        "headers": ["Merkmal", "Gründender Hüter", "Gemeinschaftsbeitragender", "Impact-Investor"],
+        "rows": [
+          ["Investition", "180.000 USD", "50-75.000 USD", "10.000+ USD"],
+          ["Landeigentum", "Vollständiges Grundstück (2.000-2.500m²)", "Teil/Geteilt", "Keines"],
+          ["Governance", "Voller Ratssitz", "Stimmrechte", "Beratende Rolle"],
+          ["ROI-Prognose", "2-3x in 2-3 Jahren", "1,5-2x in 2-3 Jahren", "8-12% jährlich + Bonus"],
+          ["Bezug", "Phase-1-Fertigstellung", "Jahr 2", "Nur Besuchsprivilegien"],
+          ["Liquidität", "Nach Phase 4", "Nach Phase 3", "Nach Jahr 2"]
+        ]
+      }
+    },
+    "infrastructure": {
+      "title": "Was enthalten ist",
+      "subtitle": "Premium-Infrastruktur und Einrichtungen",
+      "intro": "Ihre Investition umfasst wesentliche Infrastruktur plus Zugang zu regenerativen Gemeinschaftsmerkmalen.",
+      "included": [
+        {
+          "title": "Sicherheit und Zugang",
+          "items": [
+            "Umgrenzungszaun mit natürlichen Materialien",
+            "Bewachter Eingang mit Verwaltungshaus",
+            "24/7-Sicherheitspräsenz",
+            "Abgegrenzte Wege"
+          ]
+        },
+        {
+          "title": "Versorgung und Dienstleistungen",
+          "items": [
+            "2 Tiefbrunnen (ganzjährig)",
+            "Unterirdische Elektrizität zu jedem Grundstück",
+            "Glasfaser-Internet bereit",
+            "Regenwassersammelsysteme"
+          ]
+        },
+        {
+          "title": "Natürliche Merkmale",
+          "items": [
+            "Meerblick von erhöhten Grundstücken",
+            "Berg-/Sierra-Ausblicke",
+            "Zugang zum geschützten Reservat",
+            "Erhaltung einheimischer Bäume"
+          ]
+        },
+        {
+          "title": "Gemeinschaftsvorteile",
+          "items": [
+            "Zugang zu Bildungsprogrammen",
+            "Permakultur-Beratung",
+            "Governance-Teilnahme",
+            "Zugang zu zeremoniellen Praktiken",
+            "Besucherprogramm-Privilegien"
+          ]
+        }
+      ],
+      "clubhouse": {
+        "title": "Gemeinschaftszentrum (Optional)",
+        "description": "Wird von Gründungsmitgliedern abgestimmt, das Gemeinschaftszentrum wird als Herz der Dorfaktivitäten dienen.",
+        "price": "300.000 MXN pro Grundstück (einmalig)",
+        "features": [
+          "Bio-Pool mit natürlicher Filterung",
+          "Besprechungs- und Co-Working-Räume",
+          "Bildungsworkshop-Einrichtungen",
+          "Zeremonielle Versammlungsbereiche",
+          "Gemeinschaftsküche",
+          "Yoga-/Bewegungsstudio",
+          "Bibliothek und Ressourcenzentrum"
+        ],
+        "note": "Mehrheitsstimme erforderlich für Baufortschritt"
+      }
+    },
+    "appreciation": {
+      "title": "Wertsteigerungspotenzial",
+      "subtitle": "Strategische Investition mit nachgewiesenem Wachstum",
+      "intro": "Basierend auf Marktanalysen und vergleichbaren Entwicklungen in der Region können frühe Investoren mit erheblicher Wertsteigerung rechnen.",
+      "projection": {
+        "title": "Konservative Prognose",
+        "description": "Verdoppeln Sie Ihren Investitionswert in 1-2 Jahren",
+        "phases": [
+          {
+            "phase": "Phase 1 (Jetzt)",
+            "price": "450 MXN/m²",
+            "totalLot": "~1.000.000 MXN (55.000 USD)"
+          },
+          {
+            "phase": "Phase 2 (Jahr 1)",
+            "price": "650 MXN/m²",
+            "totalLot": "~1.400.000 MXN (77.000 USD)"
+          },
+          {
+            "phase": "Phase 3 (Jahr 2)",
+            "price": "850 MXN/m²",
+            "totalLot": "~1.800.000 MXN (100.000 USD)"
+          },
+          {
+            "phase": "Phase 4 (Jahr 3)",
+            "price": "1.100 MXN/m²",
+            "totalLot": "~2.400.000 MXN (133.000 USD)"
+          }
+        ]
+      },
+      "factors": {
+        "title": "Wichtige Wertsteigerungstreiber",
+        "items": [
+          {
+            "title": "Infrastrukturentwicklung",
+            "description": "Jede abgeschlossene Phase fügt erheblichen Wert durch verbesserte Straßen, Versorgung und Einrichtungen hinzu."
+          },
+          {
+            "title": "Wachsende Nachfrage",
+            "description": "Zunehmendes Interesse an regenerativen Gemeinschaften und Remote-Work-freundlichen Standorten treibt Preise in die Höhe."
+          },
+          {
+            "title": "Begrenztes Angebot",
+            "description": "Eine der letzten intakten Parzellen im Mazunte-Gebiet mit dieser Größe und diesen natürlichen Merkmalen."
+          },
+          {
+            "title": "Nähe zu geschütztem Reservat",
+            "description": "Angrenzend an 100 Hektar geschütztes Mangrovenreservat gewährleistet permanente natürliche Pufferzone und Exklusivität."
+          },
+          {
+            "title": "Regionales Wachstum",
+            "description": "Oaxaca-Küste verzeichnet 15-20% jährliche Immobilienwertsteigerung, übertrifft nationale Durchschnittswerte."
+          },
+          {
+            "title": "Gemeinschaftsprämie",
+            "description": "Intentionale Gemeinschaften erzielen 30-50% Aufschlag gegenüber vergleichbarem Land ohne Governance-Struktur."
+          }
+        ]
+      }
+    },
+    "guidelines": {
+      "title": "Bau- und Nutzungsrichtlinien",
+      "subtitle": "Gemeinsam eine regenerative Zukunft bauen",
+      "intro": "Unsere Richtlinien gewährleisten ökologische Integrität und ermöglichen gleichzeitig kreativen Ausdruck und vielfältige Nutzungen.",
+      "permitted": {
+        "title": "Zulässige Aktivitäten",
+        "items": [
+          "Familienwohnsitz und Ferienhaus-Nutzung",
+          "Kurzzeitvermietung und Tourismus-Hosting",
+          "Kulturelle, traditionelle und künstlerische Aktivitäten",
+          "Persönliche Permakultur- und Nahrungswaldnutzung",
+          "Öko-Tourismus-Betriebe mit geringer Auswirkung",
+          "Bildungsworkshops und Programme",
+          "Zeremonielle und spirituelle Praktiken",
+          "Heimbasierte Geschäfte (nicht-industriell)"
+        ]
+      },
+      "restricted": {
+        "title": "Eingeschränkte Aktivitäten",
+        "items": [
+          "Kommerzielle Landwirtschaft oder Viehzucht",
+          "Kommerzielle Jagd oder Wildtierausbeutung",
+          "Zerstörung von Wildtier-Nist-/Brutstätten",
+          "Unverantwortlicher Feuergebrauch oder Brandrodung",
+          "Einführung invasiver exotischer Arten",
+          "Industrielle oder Schwerfertigung",
+          "Aktivitäten, die Lärm-/Lichtverschmutzung verursachen",
+          "Entnahme natürlicher Ressourcen zum Verkauf"
+        ]
+      },
+      "building": {
+        "title": "Baustandards",
+        "items": [
+          "Maximal 2 Stockwerke über dem Boden",
+          "Natürliche und lokale Materialien empfohlen",
+          "Integration von Permakultur-Gestaltungsprinzipien",
+          "Regenwassersammelsysteme erforderlich",
+          "Grauwasseraufbereitungssysteme verpflichtend",
+          "Solarenergieintegration empfohlen",
+          "Landschaftsgestaltung mit einheimischen Pflanzen und Wiederaufforstung",
+          "Mindestens 40% des Grundstücks als natürlicher Raum erhalten"
+        ]
+      },
+      "governance": {
+        "title": "Governance-Rahmen",
+        "description": "Erste Richtlinien werden vom Entwickler festgelegt, mit vollständiger Gemeinschaftskontrolle nach Verkauf aller Grundstücke. Alle wichtigen Entscheidungen werden durch soziokratischen Konsent-Prozess mit DAO-Transparenz getroffen.",
+        "note": "Reglamento (Gemeinschaftsregeln) kann nur durch Mehrheitsstimme der Gründungsmitgliederversammlung geändert werden, sobald die Entwicklerphase abgeschlossen ist."
+      }
+    },
+    "legal": {
+      "title": "Rechtliche Unterstützung und Sicherheit",
+      "subtitle": "Umfassende rechtliche Begleitung",
+      "intro": "Wir bieten vollständige rechtliche Unterstützung, um sicherzustellen, dass Ihre Investition sicher und mit mexikanischem Recht konform ist.",
+      "services": {
+        "title": "Enthaltene rechtliche Dienstleistungen",
+        "items": [
+          {
+            "title": "Erwerbsunterstützung",
+            "description": "Vollständige rechtliche Führung durch den Landkaufprozess, einschließlich Dokumentenprüfung und Vertragsverhandlung."
+          },
+          {
+            "title": "Fideicomiso-Einrichtung",
+            "description": "Für ausländische Käufer organisieren und verwalten wir das Banktrust (Fideicomiso), das für Küstenimmobilieneigentum in Mexiko erforderlich ist."
+          },
+          {
+            "title": "Titel- und Urkundenverwaltung",
+            "description": "Verwaltung der Escrituración (Eigentumsurkundenprozess) und gemeinschaftliches Besitzzertifikat zur Gewährleistung klaren Eigentums."
+          },
+          {
+            "title": "DAO-Integration",
+            "description": "Einrichtung einer Blockchain-basierten Governance-Struktur für vollständige Transparenz bei Entscheidungsfindung und Ressourcenzuweisung."
+          },
+          {
+            "title": "Fortlaufende Rechtsberatung",
+            "description": "Kontinuierliche rechtliche Unterstützung während des gesamten Entwicklungsprozesses, einschließlich Baugenehmigungen und Compliance."
+          }
+        ]
+      },
+      "fideicomiso": {
+        "title": "Fideicomiso verstehen",
+        "description": "Das mexikanische Recht erfordert, dass ausländisches Eigentum an Küstenimmobilien (innerhalb von 50 km vom Meer) in einem Banktrust gehalten wird. Dies ist ein standardisierter, sicherer Prozess, der die gleichen Eigentumsrechte wie direktes Eigentum bietet.",
+        "benefits": [
+          "Vollständige Eigentumsrechte (verkaufen, vermieten, vererben)",
+          "30-jährige Laufzeit, unbegrenzt verlängerbar",
+          "Geschützt durch mexikanische Bankenvorschriften",
+          "Kann wie normale Immobilie übertragen oder verkauft werden",
+          "In unserem rechtlichen Dienstleistungspaket enthalten"
+        ]
+      },
+      "transparency": {
+        "title": "Blockchain-Transparenz",
+        "description": "Unsere DAO-Struktur (Dezentrale Autonome Organisation) gewährleistet vollständige Transparenz bei allen Finanztransaktionen, Abstimmungen und Governance-Entscheidungen.",
+        "features": [
+          "Alle wichtigen Entscheidungen auf Blockchain aufgezeichnet",
+          "Transparente Fondszuweisungsverfolgung",
+          "Multi-Signatur-Schatzverwaltung",
+          "Unveränderliche Abstimmungsprotokolle",
+          "Echtzeit-Projektfortschrittsaktualisierungen"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Bereit zu investieren?",
+      "subtitle": "Lassen Sie uns besprechen, wie Sie Teil dieser regenerativen Vision werden können",
+      "description": "Vereinbaren Sie eine Beratung, um mehr über Investitionspakete zu erfahren, das Land zu besuchen und das Gründungsteam kennenzulernen.",
+      "form": {
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefonnummer",
+        "citizenship": "Staatsbürgerschaft/Wohnsitz",
+        "package": "Interesse an Investitionspaket",
+        "packageOptions": {
+          "steward": "Gründender Landhüter (180.000 USD)",
+          "contributor": "Gemeinschaftsbeitragender (50-75.000 USD)",
+          "investor": "Impact-Investor (10.000+ USD)",
+          "exploring": "Optionen noch prüfend"
+        },
+        "visit": "Bevorzugtes Besuchsdatum",
+        "message": "Fragen oder zusätzliche Informationen",
+        "submit": "Beratung vereinbaren"
+      },
+      "info": {
+        "email": "invest@proyectosalvaje.com",
+        "phone": "+52 (XXX) XXX-XXXX",
+        "location": "Mazunte, Oaxaca, Mexico"
+      },
+      "download": {
+        "title": "Investitionsunterlagen herunterladen",
+        "description": "Erhalten Sie unseren umfassenden Investitionsprospekt mit detaillierten Finanzdaten, Bebauungsplänen und rechtlicher Dokumentation.",
+        "button": "PDF herunterladen"
+      }
+    }
+  }
+}

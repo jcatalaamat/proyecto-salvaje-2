@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
+import caTranslations from './translations/ca.json';
+import frTranslations from './translations/fr.json';
+import deTranslations from './translations/de.json';
 import VisionSection from './components/VisionSection';
 import LandSection from './components/LandSection';
 import CommunitySection from './components/CommunitySection';
@@ -16,9 +19,19 @@ import InvestmentPage from './pages/InvestmentPage';
 // Main Landing Page Component
 function LandingPage() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [language, setLanguage] = useState<'en' | 'es'>('en');
+  const [language, setLanguage] = useState<'en' | 'es' | 'fr' | 'ca' | 'de'>('en');
 
-  const t = language === 'es' ? esTranslations : enTranslations;
+  const getTranslations = () => {
+    switch (language) {
+      case 'es': return esTranslations;
+      case 'fr': return frTranslations;
+      case 'ca': return caTranslations;
+      case 'de': return deTranslations;
+      default: return enTranslations;
+    }
+  };
+
+  const t = getTranslations();
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -93,11 +106,16 @@ function LandingPage() {
 
               {/* Language Toggle */}
               <button
-                onClick={() => setLanguage(language === 'en' ? 'es' : 'en')}
+                onClick={() => {
+                  const languages: Array<'en' | 'es' | 'fr' | 'ca' | 'de'> = ['en', 'es', 'fr', 'ca', 'de'];
+                  const currentIndex = languages.indexOf(language);
+                  const nextIndex = (currentIndex + 1) % languages.length;
+                  setLanguage(languages[nextIndex]);
+                }}
                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
               >
                 <Globe className="w-4 h-4" />
-                <span className="text-sm font-medium">{language === 'en' ? 'EN' : 'ES'}</span>
+                <span className="text-sm font-medium">{language.toUpperCase()}</span>
               </button>
             </div>
           </div>
