@@ -1,9 +1,9 @@
 {
-  "name": "astral-amat",
+  "name": "proyecto-salvaje",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://astralamat.com",
+  "homepage": "https://github.com/jcatalaamat/proyecto-salvaje-2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node scripts/preserve-cname.js",
