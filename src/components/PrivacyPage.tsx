@@ -18,56 +18,56 @@ const privacyTranslations = {
           icon: "shield",
           title: "Our Commitment",
           content: [
-            "At Mazunte Connect, we believe your privacy is fundamental. We're committed to being transparent about what data we collect and how we use it.",
-            "This policy explains our practices regarding your personal information when you use our app and services."
+            "At Astral Amat, your privacy is fundamental. I'm committed to being transparent about what data is collected and how it's used.",
+            "This policy explains practices regarding your personal information when you use this website and contact forms."
           ]
         },
         {
           icon: "database",
-          title: "Information We Collect",
+          title: "Information Collected",
           content: [
-            "Email Address: When you join our waitlist or create an account, we collect your email address to communicate with you about Mazunte Connect.",
-            "Usage Data: We collect anonymous usage data to improve the app, such as which features you use and how you navigate the app.",
-            "Location Data: With your permission, we use your location to show you nearby events and places in Mazunte. This data is never shared with third parties."
+            "Contact Information: When you reach out via email or contact forms, I collect your email address and any information you provide to respond to your inquiry.",
+            "Usage Data: Basic analytics are collected to improve the website, such as page views and navigation patterns. This data is anonymized.",
+            "No Third-Party Tracking: This site does not use invasive tracking or sell data to third parties."
           ]
         },
         {
           icon: "lock",
-          title: "How We Use Your Information",
+          title: "How Information is Used",
           content: [
-            "To provide and improve our services",
-            "To send you updates about events and features (you can unsubscribe anytime)",
-            "To personalize your experience in the app",
-            "To ensure the security and integrity of our platform",
-            "We never sell your personal data to third parties"
+            "To respond to your inquiries and provide requested services",
+            "To improve website functionality and user experience",
+            "To maintain security and prevent abuse",
+            "Your personal data is never sold to third parties",
+            "Data is retained only as long as necessary"
           ]
         },
         {
           icon: "eye",
           title: "Data Sharing",
           content: [
-            "We do not sell, rent, or share your personal information with third parties for their marketing purposes.",
-            "We may share anonymized, aggregated data with event organizers and businesses to help them understand their audience.",
-            "We use trusted service providers (like email services) who are bound by confidentiality agreements."
+            "Personal information is not sold, rented, or shared with third parties for marketing purposes.",
+            "Anonymized analytics may be used to improve services.",
+            "Trusted service providers (email, hosting) are used with appropriate confidentiality agreements."
           ]
         },
         {
           icon: "users",
           title: "Your Rights",
           content: [
-            "Access: You can request a copy of your personal data at any time",
-            "Correction: You can update or correct your information through the app",
-            "Deletion: You can request deletion of your account and data",
-            "Opt-out: You can unsubscribe from marketing emails at any time",
-            "Contact us at hello@mazunteconnect.com to exercise these rights"
+            "Access: You can request information about what personal data is stored",
+            "Correction: You can request corrections to your information",
+            "Deletion: You can request deletion of your data at any time",
+            "Opt-out: You can unsubscribe from any communications",
+            "Contact hello@astralamat.com to exercise these rights"
           ]
         },
         {
           icon: "bell",
           title: "Cookies and Tracking",
           content: [
-            "We use essential cookies to make the app function properly.",
-            "We use analytics to understand how people use Mazunte Connect so we can make it better.",
+            "Essential cookies are used for basic functionality.",
+            "Analytics help understand how visitors use the site to make improvements.",
             "You can disable cookies in your browser settings, though some features may not work properly."
           ]
         },
@@ -75,17 +75,17 @@ const privacyTranslations = {
           icon: "shield",
           title: "Security",
           content: [
-            "We use industry-standard security measures to protect your data.",
-            "Your data is encrypted in transit and at rest.",
-            "We regularly review and update our security practices.",
-            "However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
+            "Industry-standard security measures protect your data.",
+            "Data is encrypted in transit using HTTPS.",
+            "Security practices are regularly reviewed and updated.",
+            "However, no internet transmission method is 100% secure, and absolute security cannot be guaranteed."
           ]
         }
       ],
       contact: {
         title: "Questions?",
-        description: "If you have any questions about this Privacy Policy, please contact us at:",
-        email: "hello@mazunteconnect.com"
+        description: "If you have any questions about this Privacy Policy, please contact:",
+        email: "hello@astralamat.com"
       }
     }
   },
@@ -101,56 +101,56 @@ const privacyTranslations = {
           icon: "shield",
           title: "Nuestro Compromiso",
           content: [
-            "En Mazunte Connect, creemos que tu privacidad es fundamental. Nos comprometemos a ser transparentes sobre qué datos recopilamos y cómo los usamos.",
-            "Esta política explica nuestras prácticas con respecto a tu información personal cuando usas nuestra app y servicios."
+            "En Astral Amat, tu privacidad es fundamental. Me comprometo a ser transparente sobre qué datos se recopilan y cómo se usan.",
+            "Esta política explica las prácticas con respecto a tu información personal cuando usas este sitio web y formularios de contacto."
           ]
         },
         {
           icon: "database",
-          title: "Información que Recopilamos",
+          title: "Información Recopilada",
           content: [
-            "Correo Electrónico: Cuando te unes a nuestra lista de espera o creas una cuenta, recopilamos tu dirección de correo electrónico para comunicarnos contigo sobre Mazunte Connect.",
-            "Datos de Uso: Recopilamos datos de uso anónimos para mejorar la app, como qué funciones usas y cómo navegas por la app.",
-            "Datos de Ubicación: Con tu permiso, usamos tu ubicación para mostrarte eventos y lugares cercanos en Mazunte. Estos datos nunca se comparten con terceros."
+            "Información de Contacto: Cuando te comunicas por email o formularios de contacto, recopilo tu dirección de correo electrónico y la información que proporciones para responder a tu consulta.",
+            "Datos de Uso: Se recopilan análisis básicos para mejorar el sitio web, como vistas de página y patrones de navegación. Estos datos son anónimos.",
+            "Sin Seguimiento de Terceros: Este sitio no usa seguimiento invasivo ni vende datos a terceros."
           ]
         },
         {
           icon: "lock",
-          title: "Cómo Usamos tu Información",
+          title: "Cómo se Usa la Información",
           content: [
-            "Para proporcionar y mejorar nuestros servicios",
-            "Para enviarte actualizaciones sobre eventos y funciones (puedes cancelar la suscripción en cualquier momento)",
-            "Para personalizar tu experiencia en la app",
-            "Para garantizar la seguridad e integridad de nuestra plataforma",
-            "Nunca vendemos tus datos personales a terceros"
+            "Para responder a tus consultas y proporcionar servicios solicitados",
+            "Para mejorar la funcionalidad del sitio web y la experiencia del usuario",
+            "Para mantener la seguridad y prevenir abusos",
+            "Tus datos personales nunca se venden a terceros",
+            "Los datos se conservan solo el tiempo necesario"
           ]
         },
         {
           icon: "eye",
           title: "Compartir Datos",
           content: [
-            "No vendemos, alquilamos ni compartimos tu información personal con terceros para sus fines de marketing.",
-            "Podemos compartir datos anónimos y agregados con organizadores de eventos y negocios para ayudarles a entender a su audiencia.",
-            "Usamos proveedores de servicios confiables (como servicios de correo electrónico) que están sujetos a acuerdos de confidencialidad."
+            "La información personal no se vende, alquila ni comparte con terceros para fines de marketing.",
+            "Los análisis anónimos pueden usarse para mejorar los servicios.",
+            "Se utilizan proveedores de servicios confiables (email, hosting) con acuerdos de confidencialidad apropiados."
           ]
         },
         {
           icon: "users",
           title: "Tus Derechos",
           content: [
-            "Acceso: Puedes solicitar una copia de tus datos personales en cualquier momento",
-            "Corrección: Puedes actualizar o corregir tu información a través de la app",
-            "Eliminación: Puedes solicitar la eliminación de tu cuenta y datos",
-            "Cancelación: Puedes cancelar la suscripción a correos de marketing en cualquier momento",
-            "Contáctanos en hello@mazunteconnect.com para ejercer estos derechos"
+            "Acceso: Puedes solicitar información sobre qué datos personales se almacenan",
+            "Corrección: Puedes solicitar correcciones a tu información",
+            "Eliminación: Puedes solicitar la eliminación de tus datos en cualquier momento",
+            "Cancelación: Puedes cancelar la suscripción a cualquier comunicación",
+            "Contacta hello@astralamat.com para ejercer estos derechos"
           ]
         },
         {
           icon: "bell",
           title: "Cookies y Seguimiento",
           content: [
-            "Usamos cookies esenciales para que la app funcione correctamente.",
-            "Usamos análisis para entender cómo las personas usan Mazunte Connect para poder mejorarlo.",
+            "Se utilizan cookies esenciales para la funcionalidad básica.",
+            "Los análisis ayudan a entender cómo los visitantes usan el sitio para hacer mejoras.",
             "Puedes deshabilitar las cookies en la configuración de tu navegador, aunque algunas funciones pueden no funcionar correctamente."
           ]
         },
@@ -158,17 +158,17 @@ const privacyTranslations = {
           icon: "shield",
           title: "Seguridad",
           content: [
-            "Usamos medidas de seguridad estándar de la industria para proteger tus datos.",
-            "Tus datos están encriptados en tránsito y en reposo.",
-            "Revisamos y actualizamos regularmente nuestras prácticas de seguridad.",
-            "Sin embargo, ningún método de transmisión por internet es 100% seguro, y no podemos garantizar seguridad absoluta."
+            "Se usan medidas de seguridad estándar de la industria para proteger tus datos.",
+            "Los datos se encriptan en tránsito usando HTTPS.",
+            "Las prácticas de seguridad se revisan y actualizan regularmente.",
+            "Sin embargo, ningún método de transmisión por internet es 100% seguro, y no se puede garantizar seguridad absoluta."
           ]
         }
       ],
       contact: {
         title: "¿Preguntas?",
-        description: "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en:",
-        email: "hello@mazunteconnect.com"
+        description: "Si tienes alguna pregunta sobre esta Política de Privacidad, contacta:",
+        email: "hello@astralamat.com"
       }
     }
   }
@@ -198,15 +198,15 @@ export default function PrivacyPage() {
   }, []);
 
   const spotlightStyle = {
-    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(251, 146, 60, 0.15), transparent 40%)`
+    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(6, 182, 212, 0.15), transparent 40%)`
   };
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden relative">
       {/* Animated mesh background */}
       <div className="fixed inset-0 opacity-30">
-        <div className="absolute top-0 -left-4 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
-        <div className="absolute top-0 -right-4 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
+        <div className="absolute top-0 -left-4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
+        <div className="absolute top-0 -right-4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
         <div className="absolute -bottom-8 left-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '11s', animationDelay: '4s'}}></div>
       </div>
 
@@ -245,7 +245,7 @@ export default function PrivacyPage() {
         {/* Hero Section */}
         <div className="container mx-auto px-4 pt-16 pb-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
               {t.privacy.title}
             </h1>
             <p className="text-xl text-gray-400 mb-4">
@@ -263,13 +263,13 @@ export default function PrivacyPage() {
             {t.privacy.sections.map((section, index) => {
               const IconComponent = iconMap[section.icon as keyof typeof iconMap] || Shield;
               const gradients = [
-                'from-orange-500 to-pink-500',
-                'from-pink-500 to-purple-500',
-                'from-purple-500 to-blue-500',
-                'from-blue-500 to-cyan-500',
-                'from-cyan-500 to-green-500',
-                'from-green-500 to-emerald-500',
-                'from-emerald-500 to-orange-500'
+                'from-cyan-500 to-blue-500',
+                'from-blue-500 to-purple-500',
+                'from-purple-500 to-indigo-500',
+                'from-indigo-500 to-cyan-500',
+                'from-cyan-500 to-teal-500',
+                'from-teal-500 to-blue-500',
+                'from-blue-500 to-cyan-500'
               ];
               const gradient = gradients[index % gradients.length];
 
@@ -301,13 +301,13 @@ export default function PrivacyPage() {
 
             {/* Contact Section */}
             <div className="group relative">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
               <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4">{t.privacy.contact.title}</h3>
                 <p className="text-gray-400 mb-4">{t.privacy.contact.description}</p>
                 <a
                   href={`mailto:${t.privacy.contact.email}`}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-orange-500/50 transform hover:scale-105 transition-all"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-cyan-500/50 transform hover:scale-105 transition-all"
                 >
                   {t.privacy.contact.email}
                 </a>

@@ -10,43 +10,43 @@ const supportTranslations = {
     ...enTranslations,
     support: {
       title: "How can we help?",
-      subtitle: "Get support for Mazunte Connect",
+      subtitle: "Get support and technical assistance",
       backToHome: "Back to Home",
       sections: {
         email: {
           title: "Email Support",
           description: "Send us an email and we'll get back to you within 24 hours",
-          action: "hello@mazunteconnect.com"
+          action: "hello@astralamat.com"
         },
         faq: {
           title: "Frequently Asked Questions",
           description: "Find answers to common questions",
           items: [
             {
-              q: "When will Mazunte Connect launch?",
-              a: "We're currently in development and plan to launch soon! Join our waitlist to be notified when we go live."
+              q: "What services do you offer?",
+              a: "I offer full-stack development, cloud infrastructure architecture, AI/ML integration, and technical consulting for startups and enterprises."
             },
             {
-              q: "Is the app free?",
-              a: "Yes! Mazunte Connect is free for everyone. We want to make Mazunte accessible to all."
+              q: "What's your availability for new projects?",
+              a: "I'm currently available for select consulting engagements and project collaborations. Contact me to discuss your specific needs."
             },
             {
-              q: "Can I add my business or event?",
-              a: "Absolutely! Once we launch, you'll be able to add and manage your own listings through the app."
+              q: "What technologies do you specialize in?",
+              a: "I specialize in React, TypeScript, Node.js, Python, AWS, and modern web technologies. I'm also experienced in AI/ML integration and cloud architecture."
             },
             {
-              q: "Which platforms will be supported?",
-              a: "We're launching on both iOS and Android simultaneously."
+              q: "Do you work with startups?",
+              a: "Yes! I have extensive experience working with startups, from early-stage MVPs to scaling production systems."
             }
           ]
         },
         community: {
-          title: "Join the Community",
-          description: "Connect with other Mazunte lovers and stay updated on our progress"
+          title: "Connect & Collaborate",
+          description: "Let's discuss your next project or explore collaboration opportunities"
         },
         docs: {
-          title: "Documentation",
-          description: "Learn more about how to use Mazunte Connect (coming soon)"
+          title: "Case Studies & Portfolio",
+          description: "Explore my work and technical documentation"
         }
       }
     }
@@ -55,43 +55,43 @@ const supportTranslations = {
     ...esTranslations,
     support: {
       title: "¿Cómo podemos ayudarte?",
-      subtitle: "Obtén soporte para Mazunte Connect",
+      subtitle: "Obtén soporte y asistencia técnica",
       backToHome: "Volver al Inicio",
       sections: {
         email: {
           title: "Soporte por Email",
           description: "Envíanos un email y te responderemos en 24 horas",
-          action: "hello@mazunteconnect.com"
+          action: "hello@astralamat.com"
         },
         faq: {
           title: "Preguntas Frecuentes",
           description: "Encuentra respuestas a preguntas comunes",
           items: [
             {
-              q: "¿Cuándo se lanzará Mazunte Connect?",
-              a: "¡Estamos en desarrollo y planeamos lanzar pronto! Únete a nuestra lista de espera para ser notificado cuando estemos en vivo."
+              q: "¿Qué servicios ofreces?",
+              a: "Ofrezco desarrollo full-stack, arquitectura de infraestructura en la nube, integración de IA/ML y consultoría técnica para startups y empresas."
             },
             {
-              q: "¿La app es gratis?",
-              a: "¡Sí! Mazunte Connect es gratis para todos. Queremos hacer Mazunte accesible para todos."
+              q: "¿Cuál es tu disponibilidad para nuevos proyectos?",
+              a: "Actualmente estoy disponible para proyectos de consultoría selectos y colaboraciones. Contáctame para discutir tus necesidades específicas."
             },
             {
-              q: "¿Puedo agregar mi negocio o evento?",
-              a: "¡Por supuesto! Una vez que lancemos, podrás agregar y gestionar tus propios listados a través de la app."
+              q: "¿En qué tecnologías te especializas?",
+              a: "Me especializo en React, TypeScript, Node.js, Python, AWS y tecnologías web modernas. También tengo experiencia en integración de IA/ML y arquitectura en la nube."
             },
             {
-              q: "¿Qué plataformas estarán soportadas?",
-              a: "Lanzaremos en iOS y Android simultáneamente."
+              q: "¿Trabajas con startups?",
+              a: "¡Sí! Tengo amplia experiencia trabajando con startups, desde MVPs en etapas tempranas hasta escalar sistemas en producción."
             }
           ]
         },
         community: {
-          title: "Únete a la Comunidad",
-          description: "Conéctate con otros amantes de Mazunte y mantente actualizado sobre nuestro progreso"
+          title: "Conectar y Colaborar",
+          description: "Discutamos tu próximo proyecto o exploremos oportunidades de colaboración"
         },
         docs: {
-          title: "Documentación",
-          description: "Aprende más sobre cómo usar Mazunte Connect (próximamente)"
+          title: "Casos de Estudio y Portfolio",
+          description: "Explora mi trabajo y documentación técnica"
         }
       }
     }
@@ -114,15 +114,15 @@ export default function SupportPage() {
   }, []);
 
   const spotlightStyle = {
-    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(251, 146, 60, 0.15), transparent 40%)`
+    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(6, 182, 212, 0.15), transparent 40%)`
   };
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden relative">
       {/* Animated mesh background */}
       <div className="fixed inset-0 opacity-30">
-        <div className="absolute top-0 -left-4 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
-        <div className="absolute top-0 -right-4 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
+        <div className="absolute top-0 -left-4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
+        <div className="absolute top-0 -right-4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
         <div className="absolute -bottom-8 left-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '11s', animationDelay: '4s'}}></div>
       </div>
 
@@ -161,7 +161,7 @@ export default function SupportPage() {
         {/* Hero Section */}
         <div className="container mx-auto px-4 pt-16 pb-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
               {t.support.title}
             </h1>
             <p className="text-xl text-gray-400 mb-12">
@@ -176,11 +176,11 @@ export default function SupportPage() {
 
             {/* Email Support */}
             <div className="group relative">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500 to-pink-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
               <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-8 hover:border-white/10 transition-all">
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-pink-500 rounded-2xl flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center">
                       <Mail className="w-8 h-8 text-white" />
                     </div>
                   </div>
@@ -189,7 +189,7 @@ export default function SupportPage() {
                     <p className="text-gray-400 mb-4">{t.support.sections.email.description}</p>
                     <a
                       href={`mailto:${t.support.sections.email.action}`}
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-orange-500/50 transform hover:scale-105 transition-all"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-cyan-500/50 transform hover:scale-105 transition-all"
                     >
                       {t.support.sections.email.action}
                     </a>
@@ -200,11 +200,11 @@ export default function SupportPage() {
 
             {/* FAQ Section */}
             <div className="group relative">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-purple-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
               <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border border-white/5 p-8 hover:border-white/10 transition-all">
                 <div className="flex items-start gap-6 mb-8">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-purple-500 rounded-2xl flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center">
                       <HelpCircle className="w-8 h-8 text-white" />
                     </div>
                   </div>
@@ -222,7 +222,7 @@ export default function SupportPage() {
                         className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-white/5 transition-all"
                       >
                         <span className="font-semibold text-white">{item.q}</span>
-                        <MessageCircle className={`w-5 h-5 text-pink-400 transition-transform ${openFaq === index ? 'rotate-180' : ''}`} />
+                        <MessageCircle className={`w-5 h-5 text-blue-400 transition-transform ${openFaq === index ? 'rotate-180' : ''}`} />
                       </button>
                       {openFaq === index && (
                         <div className="px-6 py-4 border-t border-white/5 bg-white/5">
