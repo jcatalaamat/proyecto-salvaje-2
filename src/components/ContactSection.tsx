@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Mail, Send, MapPin } from 'lucide-react';
+import { Mail, Send, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 interface ContactSectionProps {
   language: 'en' | 'es';
@@ -14,12 +15,58 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
     interest: 'general',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission (can integrate with email service later)
-    const mailtoLink = `mailto:${t.email}?subject=Contact from ${formData.name} - ${formData.interest}&body=${formData.message}`;
-    window.location.href = mailtoLink;
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID_CONTACT;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    // Fallback to mailto if EmailJS is not configured
+    if (!serviceId || !templateId || !publicKey ||
+        serviceId === 'your_service_id_here' ||
+        templateId === 'your_contact_template_id' ||
+        publicKey === 'your_public_key_here') {
+      console.warn('EmailJS not configured, falling back to mailto');
+      const mailtoLink = `mailto:${t.email}?subject=Contact from ${formData.name} - ${formData.interest}&body=${formData.message}`;
+      window.location.href = mailtoLink;
+      setIsSubmitting(false);
+      return;
+    }
+
+    try {
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          interest: formData.interest,
+          message: formData.message,
+          to_email: t.email
+        },
+        publicKey
+      );
+
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', interest: 'general', message: '' });
+
+      // Reset success message after 5 seconds
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      setSubmitStatus('error');
+
+      // Reset error message after 5 seconds
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -123,11 +170,31 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-sage-500 to-terra-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-sage-500/50 transform hover:scale-[1.02] transition-all"
+                  disabled={isSubmitting}
+                  className="w-full flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-sage-500 to-terra-500 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-sage-500/50 transform hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                 >
-                  <span>{t.form.submit}</span>
-                  <Send className="w-5 h-5" />
+                  <span>{isSubmitting ? 'Sending...' : t.form.submit}</span>
+                  {isSubmitting ? (
+                    <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                  ) : (
+                    <Send className="w-5 h-5" />
+                  )}
                 </button>
+
+                {/* Status Messages */}
+                {submitStatus === 'success' && (
+                  <div className="flex items-center gap-2 text-sage-400 bg-sage-500/10 border border-sage-500/20 rounded-lg p-3">
+                    <CheckCircle className="w-5 h-5" />
+                    <span>Message sent successfully! We'll get back to you soon.</span>
+                  </div>
+                )}
+
+                {submitStatus === 'error' && (
+                  <div className="flex items-center gap-2 text-red-400 bg-red-500/10 border border-red-500/20 rounded-lg p-3">
+                    <AlertCircle className="w-5 h-5" />
+                    <span>Failed to send message. Please try again or email us directly.</span>
+                  </div>
+                )}
               </form>
             </div>
           </div>

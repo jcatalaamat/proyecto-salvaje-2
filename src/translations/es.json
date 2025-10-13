@@ -277,51 +277,85 @@
     "subtitle": "Únete a Nuestra Comunidad",
     "intro": "Este es un llamado para aquellos que sienten el fuego — para defender la verdad, cuidar la tierra y encarnar el liderazgo sagrado. Si sientes la resonancia, hay muchas maneras de ofrecer tus dones y convertirte en parte de esta visión viva.",
     "timeline": {
-      "title": "Cronograma y Fases",
-      "phase1": {
-        "title": "Fase 1",
-        "period": "Abril a Febrero",
-        "steps": [
-          "Encontrar inversión y asociaciones alineadas",
-          "Creación de la plataforma web del proyecto",
-          "Formación de las estructuras NGO y DAO",
-          "1 de Mayo: Pago de $50K para asegurar la tierra",
-          "1 de Septiembre: Pago de $200K para título legal completo",
-          "Estructura legal para gestionar la tierra e integración DAO"
+      "title": "Cronograma de Desarrollo del Proyecto",
+      "subtitle": "Hoja de Ruta de 3 Años hacia la Vida Regenerativa",
+      "intro": "Un cronograma integral con rondas de financiación distintas y fases de desarrollo. Costo total del proyecto: $1,250,000 con dos rondas de financiación ReFi.",
+      "funding": {
+        "title": "Cronograma de Financiación",
+        "rounds": [
+          {
+            "round": "Primera Ronda",
+            "amount": "$700,000",
+            "period": "Año 1-2"
+          },
+          {
+            "round": "Segunda Ronda",
+            "amount": "$1,000,000",
+            "period": "Año 2"
+          }
         ]
       },
-      "phase2": {
-        "title": "Fase 2",
-        "period": "Febrero a Mayo",
-        "steps": [
-          "Primeros edificios residenciales e infraestructura",
-          "Establecimiento de sistemas de permacultura y bosque de alimentos",
-          "Espacios comunitarios y áreas de reunión",
-          "Desarrollo de programas educativos",
-          "Comienza integración de energías renovables"
-        ]
-      },
-      "year2": {
-        "title": "Año 2",
-        "period": "Desarrollo Comunitario Completo",
-        "steps": [
-          "Capacidad residencial expandida",
-          "Bio-piscina e instalaciones de bienestar",
-          "Centro de talleres y educación operacional",
-          "Programas de visitantes y retiros lanzados",
-          "Sistemas de gobernanza completamente establecidos"
-        ]
-      },
-      "year3": {
-        "title": "Año 3",
-        "period": "Aldea Regenerativa Madura",
-        "steps": [
-          "Comunidad completa de 40 residentes establecida",
-          "Sistemas de producción de alimentos autosuficientes",
-          "Programas de impacto y alcance regional",
-          "Programas de asociación indígena activos",
-          "Modelo para comunidades regenerativas en todo el mundo"
-        ]
+      "phases": [
+        {
+          "number": "1",
+          "title": "Año 1 - Fase de Fundación",
+          "period": "Fundación e Infraestructura",
+          "status": "En Progreso",
+          "highlights": [
+            "Finalizar primera ronda de financiación ReFi ($700k)",
+            "Asegurar título de la tierra y diseñar infraestructura",
+            "Crear estructura legal y gobernanza DAO",
+            "Diseñar programa de membresía",
+            "Establecer token comunal + sistema NFT",
+            "Configurar programa de voluntariado todo el año",
+            "Realizar curso de eco-construcción como base para la construcción",
+            "Limpieza de la tierra + plantar árboles frutales y perennes",
+            "Realizar curso de permacultura para configurar jardín comunal",
+            "Establecer infraestructura de agua y electricidad",
+            "Comenzar construcción de shala principal y área comunal",
+            "Formar alianzas con maestros/practicantes alineados",
+            "Contratar hasta 5 trabajadores locales"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Año 2 - Fase de Expansión",
+          "period": "Construcción y Crecimiento Comunitario",
+          "status": "Próximamente",
+          "highlights": [
+            "Expandir ofertas de retiros y academia educativa",
+            "Gobernanza DAO completamente operacional",
+            "Comenzar segunda ronda de financiación ReFi ($1 millón)",
+            "Continuar construcción de eco-edificios y áreas comunales",
+            "Construir shala de retiros",
+            "Optimizar sistemas de agua y electricidad",
+            "Continuar plantando árboles y plantas endémicas",
+            "Retiros y cursos regulares en funcionamiento",
+            "Desarrollar ecosistema de tokens y plataforma web",
+            "Contratar hasta 10 trabajadores locales"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Año 3 - Fase de Madurez",
+          "period": "Programa de Regeneración Completo",
+          "status": "Planificado",
+          "highlights": [
+            "Programa de regeneración completo en funcionamiento",
+            "Expandir propiedad de tierra a áreas agrícolas circundantes",
+            "Reestablecer ecosistema local mediante replantación de especies endémicas",
+            "Configurar proyecto de jardín comunal local con comunidades nativas",
+            "Lograr capacidad completa de reservas para centro de retiros",
+            "Completar infraestructura para más de 20 participantes por retiro",
+            "Contratar hasta 20 trabajadores locales"
+          ]
+        }
+      ],
+      "landDevelopment": {
+        "title": "Desarrollo de Tierra Residencial",
+        "subtitle": "Desarrollo en 5 Fases para Aproximadamente 20 Lotes",
+        "lotSize": "2,000-2,500 m² por lote",
+        "currentPhase": "Fase 1 - Ventas iniciales de tierra activas"
       }
     },
     "structure": {

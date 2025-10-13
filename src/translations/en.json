@@ -277,51 +277,85 @@
     "subtitle": "Join Our Community",
     "intro": "This is a call to those who feel the fire — to stand for truth, to care for the land, and to embody sacred leadership. If you feel the resonance, there are many ways to offer your gifts and become part of this living vision.",
     "timeline": {
-      "title": "Timeline & Phases",
-      "phase1": {
-        "title": "Phase 1",
-        "period": "April to February",
-        "steps": [
-          "Finding aligned investment and partnerships",
-          "Creation of the project's web platform",
-          "Formation of the NGO and DAO structures",
-          "May 1: $50K payment to secure the land",
-          "September 1: $200K payment for full legal title",
-          "Legal structure to manage land and DAO integration"
+      "title": "Project Development Timeline",
+      "subtitle": "3-Year Roadmap to Regenerative Living",
+      "intro": "A comprehensive timeline with distinct funding rounds and development phases. Total project cost: $1,250,000 with two ReFi funding rounds.",
+      "funding": {
+        "title": "Funding Timeline",
+        "rounds": [
+          {
+            "round": "First Round",
+            "amount": "$700,000",
+            "period": "Year 1-2"
+          },
+          {
+            "round": "Second Round",
+            "amount": "$1,000,000",
+            "period": "Year 2"
+          }
         ]
       },
-      "phase2": {
-        "title": "Phase 2",
-        "period": "February to May",
-        "steps": [
-          "First residential buildings and infrastructure",
-          "Permaculture systems and food forest establishment",
-          "Community spaces and gathering areas",
-          "Educational program development",
-          "Renewable energy integration begins"
-        ]
-      },
-      "year2": {
-        "title": "Year 2",
-        "period": "Full Community Development",
-        "steps": [
-          "Expanded residential capacity",
-          "Bio-pool and wellness facilities",
-          "Workshop and education center operational",
-          "Visitor and retreat programs launched",
-          "Governance systems fully established"
-        ]
-      },
-      "year3": {
-        "title": "Year 3",
-        "period": "Mature Regenerative Village",
-        "steps": [
-          "Full community of 40 residents established",
-          "Self-sufficient food production systems",
-          "Regional impact and outreach programs",
-          "Indigenous partnership programs active",
-          "Model for regenerative communities worldwide"
-        ]
+      "phases": [
+        {
+          "number": "1",
+          "title": "Year 1 - Foundation Phase",
+          "period": "Foundation & Infrastructure",
+          "status": "In Progress",
+          "highlights": [
+            "Finalize first ReFi funding round ($700k)",
+            "Secure land title and design infrastructure",
+            "Create legal structure and DAO governance",
+            "Design membership program",
+            "Establish communal token + NFT system",
+            "Set up year-round volunteering program",
+            "Run eco-building course as foundation for construction",
+            "Land cleanup + plant fruit trees and perennials",
+            "Run permaculture course for communal garden setup",
+            "Establish water and electricity infrastructure",
+            "Begin building main shala and communal area",
+            "Form partnerships with aligned teachers/practitioners",
+            "Hire up to 5 local workers"
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Year 2 - Expansion Phase",
+          "period": "Community Building & Growth",
+          "status": "Coming Soon",
+          "highlights": [
+            "Expand retreat offerings and educational academy",
+            "Full DAO operational governance",
+            "Begin second ReFi funding round ($1 million)",
+            "Continue construction of eco-buildings and communal areas",
+            "Build retreat shala",
+            "Optimize water and electricity systems",
+            "Continue planting endemic trees and plants",
+            "Regular retreats and courses running",
+            "Develop token ecosystem and web platform",
+            "Hire up to 10 local workers"
+          ]
+        },
+        {
+          "number": "3",
+          "title": "Year 3 - Maturity Phase",
+          "period": "Full Regeneration Program",
+          "status": "Planned",
+          "highlights": [
+            "Full regeneration program operating",
+            "Expand land ownership to surrounding agricultural areas",
+            "Reestablish local ecosystem through endemic species replanting",
+            "Set up local communal garden project with native communities",
+            "Achieve full booking capacity for retreat center",
+            "Complete infrastructure for 20+ participants per retreat",
+            "Hire up to 20 local workers"
+          ]
+        }
+      ],
+      "landDevelopment": {
+        "title": "Residential Land Development",
+        "subtitle": "5-Phase Development for Approximately 20 Lots",
+        "lotSize": "2,000-2,500 m² per lot",
+        "currentPhase": "Phase 1 - Initial land sales active"
       }
     },
     "structure": {
