@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useParams, Link } from 'react-router-dom';
-import { Sparkles, Globe, ArrowRight, TrendingUp, Users, Clock } from 'lucide-react';
+import { Code2, Globe, ArrowRight, Briefcase, Rocket, TrendingUp } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import caTranslations from './translations/ca.json';
@@ -8,13 +8,12 @@ import EventPreview from './components/EventPreview';
 import PlacePreview from './components/PlacePreview';
 import SupportPage from './components/SupportPage';
 import PrivacyPage from './components/PrivacyPage';
-import OfferingsSection from './components/OfferingsSection';
-import TransformationStages from './components/TransformationStages';
-import AboutSection from './components/AboutSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import BookingSection from './components/BookingSection';
-import ResourcesSection from './components/ResourcesSection';
-import NewsletterSection from './components/NewsletterSection';
+import SkillsSection from './components/SkillsSection';
+import ExperienceTimeline from './components/ExperienceTimeline';
+import ProjectsShowcase from './components/ProjectsShowcase';
+import ServicesSection from './components/ServicesSection';
+import InvestmentCTA from './components/InvestmentCTA';
+import ContactSection from './components/ContactSection';
 
 // Main Landing Page Component
 function LandingPage() {
@@ -34,7 +33,7 @@ function LandingPage() {
   }, []);
 
   const spotlightStyle = {
-    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(251, 146, 60, 0.15), transparent 40%)`
+    background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(6, 182, 212, 0.15), transparent 40%)`
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -48,8 +47,8 @@ function LandingPage() {
     <div className="min-h-screen bg-black text-white overflow-hidden relative">
       {/* Animated mesh background */}
       <div className="fixed inset-0 opacity-30">
-        <div className="absolute top-0 -left-4 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
-        <div className="absolute top-0 -right-4 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
+        <div className="absolute top-0 -left-4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
+        <div className="absolute top-0 -right-4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
         <div className="absolute -bottom-8 left-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '11s', animationDelay: '4s'}}></div>
       </div>
 
@@ -69,25 +68,28 @@ function LandingPage() {
             <div className="flex items-center justify-between h-20">
               {/* Logo */}
               <div className="flex items-center gap-3">
-                <Sparkles className="w-8 h-8 text-orange-400" />
-                <span className="text-xl font-bold bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-                  Astral Integration
+                <Code2 className="w-8 h-8 text-cyan-400" />
+                <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+                  Astral Amat
                 </span>
               </div>
 
               {/* Nav Links - Hidden on mobile */}
               <div className="hidden md:flex items-center gap-8">
-                <button onClick={() => scrollToSection('offerings')} className="text-gray-400 hover:text-white transition-colors">
-                  {t.navigation.offerings}
+                <button onClick={() => scrollToSection('experience')} className="text-gray-400 hover:text-white transition-colors">
+                  {t.navigation.experience}
                 </button>
-                <button onClick={() => scrollToSection('about')} className="text-gray-400 hover:text-white transition-colors">
-                  {t.navigation.about}
+                <button onClick={() => scrollToSection('skills')} className="text-gray-400 hover:text-white transition-colors">
+                  {t.navigation.skills}
                 </button>
-                <button onClick={() => scrollToSection('testimonials')} className="text-gray-400 hover:text-white transition-colors">
-                  {t.navigation.testimonials}
+                <button onClick={() => scrollToSection('projects')} className="text-gray-400 hover:text-white transition-colors">
+                  {t.navigation.projects}
                 </button>
-                <button onClick={() => scrollToSection('booking')} className="px-6 py-2 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full font-semibold hover:shadow-lg hover:shadow-orange-500/50 transition-all">
-                  {t.navigation.booking}
+                <button onClick={() => scrollToSection('services')} className="text-gray-400 hover:text-white transition-colors">
+                  {t.navigation.services}
+                </button>
+                <button onClick={() => scrollToSection('contact')} className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition-all">
+                  {t.navigation.contact}
                 </button>
               </div>
 
@@ -108,7 +110,7 @@ function LandingPage() {
           <div className="max-w-6xl mx-auto text-center">
             {/* Main Headline */}
             <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
-              <span className="inline-block animate-fadeIn bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent" style={{
+              <span className="inline-block animate-fadeIn bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent" style={{
                 backgroundSize: '200% auto',
                 animation: 'gradient 3s linear infinite'
               }}>
@@ -129,14 +131,14 @@ function LandingPage() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
               <button
-                onClick={() => scrollToSection('booking')}
-                className="group px-8 py-4 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-orange-500/50 transform hover:scale-105 transition-all flex items-center gap-3"
+                onClick={() => scrollToSection('projects')}
+                className="group px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-cyan-500/50 transform hover:scale-105 transition-all flex items-center gap-3"
               >
                 <span>{t.hero.cta}</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               <button
-                onClick={() => scrollToSection('offerings')}
+                onClick={() => scrollToSection('contact')}
                 className="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all"
               >
                 {t.hero.secondaryCta}
@@ -146,27 +148,27 @@ function LandingPage() {
             {/* Stats */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-r from-orange-500 to-pink-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
                 <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-white/10 p-6">
-                  <TrendingUp className="w-8 h-8 text-orange-400 mb-3 mx-auto" />
-                  <div className="text-2xl font-bold text-white mb-1">{t.hero.stats.transformations.split(' ')[0]}</div>
-                  <div className="text-sm text-gray-500">{t.hero.stats.transformations.split(' ').slice(1).join(' ')}</div>
+                  <Briefcase className="w-8 h-8 text-cyan-400 mb-3 mx-auto" />
+                  <div className="text-2xl font-bold text-white mb-1">{t.hero.stats.experience.split(' ')[0]}</div>
+                  <div className="text-sm text-gray-500">{t.hero.stats.experience.split(' ').slice(1).join(' ')}</div>
                 </div>
               </div>
               <div className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
                 <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-white/10 p-6">
-                  <Clock className="w-8 h-8 text-pink-400 mb-3 mx-auto" />
-                  <div className="text-2xl font-bold text-white mb-1">{t.hero.stats.sessions.split(' ')[0]}</div>
-                  <div className="text-sm text-gray-500">{t.hero.stats.sessions.split(' ').slice(1).join(' ')}</div>
+                  <Rocket className="w-8 h-8 text-blue-400 mb-3 mx-auto" />
+                  <div className="text-2xl font-bold text-white mb-1">{t.hero.stats.projects.split(' ')[0]}</div>
+                  <div className="text-sm text-gray-500">{t.hero.stats.projects.split(' ').slice(1).join(' ')}</div>
                 </div>
               </div>
               <div className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
                 <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-white/10 p-6">
-                  <Users className="w-8 h-8 text-purple-400 mb-3 mx-auto" />
-                  <div className="text-2xl font-bold text-white mb-1">{language === 'es' ? 'Linajes' : language === 'ca' ? 'Llinatges' : 'Lineages'}</div>
-                  <div className="text-sm text-gray-500">{t.hero.stats.lineages}</div>
+                  <TrendingUp className="w-8 h-8 text-purple-400 mb-3 mx-auto" />
+                  <div className="text-2xl font-bold text-white mb-1">{t.hero.stats.technologies.split(' ')[0]}</div>
+                  <div className="text-sm text-gray-500">{t.hero.stats.technologies.split(' ').slice(1).join(' ')}</div>
                 </div>
               </div>
             </div>
@@ -174,13 +176,12 @@ function LandingPage() {
         </div>
 
         {/* All Sections */}
-        <OfferingsSection language={language} translations={t} />
-        <TransformationStages language={language} translations={t} />
-        <AboutSection language={language} translations={t} />
-        <TestimonialsSection language={language} translations={t} />
-        <BookingSection language={language} translations={t} />
-        <ResourcesSection language={language} translations={t} />
-        <NewsletterSection language={language} translations={t} />
+        <ExperienceTimeline language={language} translations={t} />
+        <SkillsSection language={language} translations={t} />
+        <ProjectsShowcase language={language} translations={t} />
+        <ServicesSection language={language} translations={t} />
+        <InvestmentCTA language={language} translations={t} />
+        <ContactSection language={language} translations={t} />
 
         {/* Footer */}
         <footer className="container mx-auto px-4 py-16 border-t border-white/5">
@@ -188,9 +189,9 @@ function LandingPage() {
             <div className="text-center space-y-6 mb-8">
               {/* Logo */}
               <div className="flex items-center justify-center gap-3 mb-4">
-                <Sparkles className="w-8 h-8 text-orange-400" />
-                <span className="text-xl font-bold bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-                  Astral Integration
+                <Code2 className="w-8 h-8 text-cyan-400" />
+                <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+                  Astral Amat
                 </span>
               </div>
 
@@ -198,44 +199,34 @@ function LandingPage() {
               <p className="text-gray-500 text-lg">
                 {t.footer.tagline}
               </p>
-
-              {/* Email */}
-              <p className="text-sm">
-                <a href={`mailto:${t.footer.email}`} className="text-orange-400 hover:text-orange-300 transition-colors">
-                  {t.footer.email}
-                </a>
-              </p>
-
-              {/* Social */}
-              <div className="flex items-center justify-center gap-6 text-sm">
-                <a href={`https://instagram.com/${t.footer.social.instagram.replace('@', '')}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-400 transition-colors">
-                  Instagram
-                </a>
-                <span className="text-gray-700">•</span>
-                <a href={`https://${t.footer.social.bio}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  Bio Link
-                </a>
-              </div>
             </div>
 
             {/* Links */}
             <div className="flex items-center justify-center gap-6 text-sm mb-8">
-              <Link to="/support" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <Link to="/support" className="text-gray-400 hover:text-cyan-400 transition-colors">
                 Support
               </Link>
               <span className="text-gray-700">•</span>
-              <Link to="/privacy" className="text-gray-400 hover:text-orange-400 transition-colors">
+              <Link to="/privacy" className="text-gray-400 hover:text-cyan-400 transition-colors">
                 Privacy
               </Link>
+              <span className="text-gray-700">•</span>
+              <a href={t.footer.links?.privacy || '#'} className="text-gray-400 hover:text-cyan-400 transition-colors">
+                {t.footer.links?.privacy || 'Privacy'}
+              </a>
+              <span className="text-gray-700">•</span>
+              <a href={t.footer.links?.terms || '#'} className="text-gray-400 hover:text-cyan-400 transition-colors">
+                {t.footer.links?.terms || 'Terms'}
+              </a>
             </div>
 
-            {/* Copyright & Disclaimer */}
+            {/* Copyright */}
             <div className="text-center space-y-2">
               <p className="text-sm text-gray-600">
                 {t.footer.made}
               </p>
               <p className="text-xs text-gray-700">
-                {t.footer.disclaimer}
+                {t.footer.rights}
               </p>
             </div>
           </div>
