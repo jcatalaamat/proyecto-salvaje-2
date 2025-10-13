@@ -1,74 +1,74 @@
 {
   "hero": {
-    "title": "Nunca te pierdas lo que pasa en Mazunte",
-    "subtitle": "Todos los eventos, retiros, yoga, restaurantes y espacios conscientes en Mazunte. No más caos de WhatsApp.",
-    "cta": "Obtener Acceso Temprano",
-    "waitlist": "Únete a {count}+ personas en la lista de espera",
+    "title": "Transforma Cada Desafío en Oportunidad",
+    "subtitle": "Sanación de presencia chamánica, liberación emocional y guía intuitiva para elevar tu propósito y desbloquear tu verdadero potencial.",
+    "cta": "Comienza Tu Viaje",
+    "waitlist": "Únete a {count}+ personas transformando sus vidas",
     "launching": "Lanzando Pronto"
   },
   "platform": {
     "title": "Próximamente en iOS y Android",
-    "subtitle": "Tu guía de bolsillo a Mazunte, donde sea que estés",
+    "subtitle": "Tu compañero de sanación, donde sea que estés",
     "availableOn": "Disponible en"
   },
   "features": {
-    "title": "Todo Mazunte, una app",
-    "subtitle": "Tu guía digital al paraíso",
+    "title": "Tu Camino hacia la Transformación",
+    "subtitle": "Eleva tu propósito al siguiente nivel",
     "events": {
-      "title": "Nunca te pierdas un evento",
-      "description": "Ceremonias de cacao, danza extática, clases de yoga, reuniones de luna llena. Ve todo lo que pasa.",
+      "title": "Sanación de Presencia Chamánica",
+      "description": "Conviértete en el espacio de la transformación. Libera dolores y heridas antiguas, despierta tu intuición interior.",
       "features": [
-        "Vista de calendario y lista",
-        "Filtros inteligentes y búsqueda",
-        "Guarda favoritos"
+        "Sesiones de sanación energética",
+        "Guía intuitiva",
+        "Liberación de traumas"
       ]
     },
     "discover": {
-      "title": "Descubre todo",
-      "description": "Centros de retiro, estudios de bienestar, restaurantes veganos, sanadores, spots de surf. Todo mapeado."
+      "title": "Liberación Emocional",
+      "description": "Libérate de traumas pasados. Crea la vida de tus sueños y permite que todo caiga en su lugar."
     },
     "conscious": {
-      "title": "Consciente y ecológico",
-      "description": "Apoyando negocios con prácticas regenerativas y valores auténticos de comunidad."
+      "title": "Emprendimiento y Propósito",
+      "description": "Alinea tu visión de negocio con tu propósito para hacer un impacto positivo en el mundo."
     },
     "reminders": {
-      "title": "Recordatorios push",
-      "description": "Nunca olvides un evento"
+      "title": "Crecimiento Personal",
+      "description": "Desbloquea tu potencial"
     },
     "fresh": {
-      "title": "Siempre fresco",
-      "description": "Actualizado diariamente"
+      "title": "Sabiduría Interior",
+      "description": "Accede a tus profundidades"
     },
     "community": {
-      "title": "Por viajeros",
-      "description": "Para la comunidad"
+      "title": "Para Buscadores",
+      "description": "Transforma y Eleva"
     }
   },
   "problem": {
-    "title": "No más caos de WhatsApp",
+    "title": "Conviértete en el Ser que Nunca Te Has Atrevido a Ser",
     "problems": [
-      "Eventos enterrados en 500 mensajes",
-      "\"¿Qué pasa esta noche?\" preguntado diariamente",
-      "Los recién llegados se pierden todo"
+      "Sintiéndote atrapado en patrones y traumas antiguos",
+      "Incapaz de alcanzar tu máximo potencial",
+      "Negocio no alineado con tu propósito"
     ],
     "solutions": [
-      "Vista de calendario buscable",
-      "Ve toda la semana al instante",
-      "Todos encuentran todo"
+      "Libera energía estancada y heridas pasadas",
+      "Despierta tu diseño interior e intuición",
+      "Alinea tu visión con tu verdadero propósito"
     ]
   },
   "cta": {
-    "title": "Tu guía a Mazunte",
-    "subtitle": "Cada evento, retiro, restaurante y espacio consciente. Siempre actualizado, hermosamente organizado.",
-    "button": "Únete a la Lista"
+    "title": "¿Listo para Transformar?",
+    "subtitle": "Experimenta sanación chamánica, liberación emocional y guía intuitiva. Accede a toda la información dentro y alrededor de ti.",
+    "button": "Comienza Tu Viaje"
   },
   "footer": {
-    "made": "Hecho con 💚 por viajeros, para Mazunte",
-    "email": "hello@mazunteconnect.com"
+    "made": "Guiado con 💚 por sanadores intuitivos, para buscadores",
+    "email": "hello@astral-integration.com"
   },
   "success": {
     "title": "¡Estás dentro! 🎉",
-    "message": "Te notificaremos cuando Mazunte Connect se lance.",
+    "message": "Te notificaremos cuando Astral Integration se lance.",
     "email": "📧 ¡Revisa tu email! Te enviamos un enlace de confirmación para completar tu suscripción."
   }
 }

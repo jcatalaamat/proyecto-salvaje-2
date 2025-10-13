@@ -1,9 +1,9 @@
 {
-  "name": "mazunte-landing",
+  "name": "astral-integration-tamagui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://astralamat.github.io/mazunte-landing",
+  "homepage": "https://astral-integration.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node scripts/preserve-cname.js",

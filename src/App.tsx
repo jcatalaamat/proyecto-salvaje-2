@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useParams, Link } from 'react-router-dom';
-import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Waves, Globe, Apple, Smartphone } from 'lucide-react';
+import { CheckCircle, Sparkles, Calendar, MapPin, Leaf, ArrowRight, Zap, Users, Bell, Globe, Apple, Smartphone } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import EventPreview from './components/EventPreview';
@@ -62,7 +62,7 @@ function LandingPage() {
           body: JSON.stringify({
             api_key: convertKitApiKey,
             email: email,
-            tags: ['mazunte-waitlist']
+            tags: ['astral-integration-waitlist']
           })
         });
 
@@ -141,11 +141,11 @@ function LandingPage() {
             {/* Logo */}
             <div className="inline-flex items-center justify-center gap-3 mb-8">
               <div className="relative">
-                <Waves className="w-12 h-12 text-orange-400 relative z-10" />
+                <Sparkles className="w-12 h-12 text-orange-400 relative z-10" />
                 <div className="absolute inset-0 bg-orange-400 blur-xl opacity-50"></div>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-                Mazunte Connect
+                Astral Integration
               </h1>
             </div>
 

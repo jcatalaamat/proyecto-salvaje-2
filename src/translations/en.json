@@ -1,74 +1,74 @@
 {
   "hero": {
-    "title": "Never miss what's happening in Mazunte",
-    "subtitle": "All events, retreats, yoga, restaurants, and conscious spaces in Mazunte. No more WhatsApp chaos.",
-    "cta": "Get Early Access",
-    "waitlist": "Join {count}+ people on the waitlist",
+    "title": "Transform Every Challenge Into Opportunity",
+    "subtitle": "Shamanic presence healing, emotional liberation, and intuitive guidance to elevate your purpose and unlock your true potential.",
+    "cta": "Begin Your Journey",
+    "waitlist": "Join {count}+ people transforming their lives",
     "launching": "Launching Soon"
   },
   "platform": {
     "title": "Coming to iOS & Android",
-    "subtitle": "Your pocket guide to Mazunte, wherever you are",
+    "subtitle": "Your healing companion, wherever you are",
     "availableOn": "Available on"
   },
   "features": {
-    "title": "Everything Mazunte, one app",
-    "subtitle": "Your digital guide to paradise",
+    "title": "Your Path to Transformation",
+    "subtitle": "Elevate your purpose to the next level",
     "events": {
-      "title": "Never miss an event",
-      "description": "Cacao ceremonies, ecstatic dance, yoga classes, full moon gatherings. See everything happening.",
+      "title": "Shamanic Presence Healing",
+      "description": "Become the space of transformation. Release old pains and wounds, awaken your inner intuition.",
       "features": [
-        "Calendar & list views",
-        "Smart filters & search",
-        "Save favorites"
+        "Energy healing sessions",
+        "Intuitive guidance",
+        "Trauma release"
       ]
     },
     "discover": {
-      "title": "Discover everything",
-      "description": "Retreat centers, wellness studios, vegan restaurants, healers, surf spots. All mapped."
+      "title": "Emotional Liberation",
+      "description": "Free yourself from past traumas. Create the dream life you desire and allow everything to fall into place."
     },
     "conscious": {
-      "title": "Conscious & eco-friendly",
-      "description": "Supporting businesses with regenerative practices and authentic community values."
+      "title": "Entrepreneurship & Purpose",
+      "description": "Align your business vision with your purpose to make a positive impact in the world."
     },
     "reminders": {
-      "title": "Push reminders",
-      "description": "Never forget an event"
+      "title": "Personal Growth",
+      "description": "Unlock your potential"
     },
     "fresh": {
-      "title": "Always fresh",
-      "description": "Updated daily"
+      "title": "Inner Wisdom",
+      "description": "Access your depths"
     },
     "community": {
-      "title": "By travelers",
-      "description": "For the community"
+      "title": "For Seekers",
+      "description": "Transform & Elevate"
     }
   },
   "problem": {
-    "title": "No more WhatsApp chaos",
+    "title": "Become the Self You've Never Dared to Be",
     "problems": [
-      "Events buried in 500 messages",
-      "\"What's happening tonight?\" asked daily",
-      "Newcomers miss everything"
+      "Feeling stuck in old patterns and traumas",
+      "Unable to reach your full potential",
+      "Business not aligned with your purpose"
     ],
     "solutions": [
-      "Searchable calendar view",
-      "See the whole week instantly",
-      "Everyone finds everything"
+      "Release stagnant energy and past wounds",
+      "Awaken your inner blueprint and intuition",
+      "Align your vision with your true purpose"
     ]
   },
   "cta": {
-    "title": "Your guide to Mazunte",
-    "subtitle": "Every event, retreat, restaurant, and conscious space. Always updated, beautifully organized.",
-    "button": "Join Waitlist"
+    "title": "Ready to Transform?",
+    "subtitle": "Experience shamanic healing, emotional liberation, and intuitive guidance. Access all the information within and around you.",
+    "button": "Start Your Journey"
   },
   "footer": {
-    "made": "Made with 💚 by travelers, for Mazunte",
-    "email": "hello@mazunteconnect.com"
+    "made": "Guided with 💚 by intuitive healers, for seekers",
+    "email": "hello@astral-integration.com"
   },
   "success": {
     "title": "You're in! 🎉",
-    "message": "We'll notify you when Mazunte Connect launches.",
+    "message": "We'll notify you when Astral Integration launches.",
     "email": "📧 Check your email! We sent you a confirmation link to complete your subscription."
   }
 }

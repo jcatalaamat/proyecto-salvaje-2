@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Star, Clock, Users, Smartphone, Waves, Globe, Apple, Home, ArrowRight, CheckCircle } from 'lucide-react';
+import { MapPin, Star, Clock, Users, Smartphone, Sparkles, Globe, Apple, Home, ArrowRight, CheckCircle } from 'lucide-react';
 
 interface PlacePreviewProps {
   placeId: string;
@@ -14,28 +14,28 @@ const PlacePreview: React.FC<PlacePreviewProps> = ({ language: initialLanguage }
   const [loading, setLoading] = useState(false);
   
   const t = language === 'es' ? {
-    title: "Descubre este lugar en Mazunte Connect",
-    subtitle: "La app que te conecta con todos los espacios conscientes en Mazunte",
+    title: "Descubre este servicio en Astral Integration",
+    subtitle: "La app que te conecta con sanación y transformación",
     platform: {
       title: "Próximamente en iOS y Android",
-      subtitle: "Tu guía de bolsillo a Mazunte, donde sea que estés",
+      subtitle: "Tu compañero de sanación, donde sea que estés",
       availableOn: "Disponible en"
     },
     features: {
       title: "Con la app podrás:",
       items: [
-        "Ver todos los detalles del lugar",
-        "Leer reseñas de la comunidad",
+        "Ver todos los detalles del servicio",
+        "Leer testimonios auténticos",
         "Guardar en favoritos",
-        "Ver horarios y contacto"
+        "Conectar con tu sanador"
       ]
     },
     comingSoon: "Próximamente disponible",
     goHome: "Volver al inicio",
     placeDetails: {
-      rating: "Favorito de la comunidad",
+      rating: "Recomendado por la comunidad",
       hours: "Horarios disponibles",
-      type: "Espacio comunitario consciente"
+      type: "Servicio de transformación"
     },
     waitlist: {
       title: "Únete a la lista de espera",
@@ -47,28 +47,28 @@ const PlacePreview: React.FC<PlacePreviewProps> = ({ language: initialLanguage }
       }
     }
   } : {
-    title: "Discover this place in Mazunte Connect",
-    subtitle: "The app that connects you with all conscious spaces in Mazunte",
+    title: "Discover this service in Astral Integration",
+    subtitle: "The app that connects you with healing and transformation",
     platform: {
       title: "Coming to iOS & Android",
-      subtitle: "Your pocket guide to Mazunte, wherever you are",
+      subtitle: "Your healing companion, wherever you are",
       availableOn: "Available on"
     },
     features: {
       title: "With the app you can:",
       items: [
-        "See all place details",
-        "Read community reviews",
+        "See all service details",
+        "Read authentic testimonials",
         "Save to favorites",
-        "View hours and contact info"
+        "Connect with your healer"
       ]
     },
     comingSoon: "Coming Soon",
     goHome: "Go Back Home",
     placeDetails: {
-      rating: "Community favorite",
-      hours: "Open hours available",
-      type: "Conscious community space"
+      rating: "Community recommended",
+      hours: "Hours available",
+      type: "Transformation service"
     },
     waitlist: {
       title: "Join the waitlist",
@@ -112,7 +112,7 @@ const PlacePreview: React.FC<PlacePreviewProps> = ({ language: initialLanguage }
           body: JSON.stringify({
             api_key: convertKitApiKey,
             email: email,
-            tags: ['mazunte-waitlist']
+            tags: ['astral-integration-waitlist']
           })
         });
 
@@ -185,11 +185,11 @@ const PlacePreview: React.FC<PlacePreviewProps> = ({ language: initialLanguage }
             {/* Logo */}
             <div className="inline-flex items-center justify-center gap-3 mb-8">
               <div className="relative">
-                <Waves className="w-12 h-12 text-orange-400 relative z-10" />
+                <Sparkles className="w-12 h-12 text-orange-400 relative z-10" />
                 <div className="absolute inset-0 bg-orange-400 blur-xl opacity-50"></div>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-                Mazunte Connect
+                Astral Integration
               </h1>
             </div>
 
@@ -267,7 +267,7 @@ const PlacePreview: React.FC<PlacePreviewProps> = ({ language: initialLanguage }
                     {t.features.title}
                   </h2>
                   <p className="text-xl text-gray-400">
-                    {language === 'es' ? 'Descubre todos los espacios conscientes de Mazunte' : 'Discover all conscious spaces in Mazunte'}
+                    {language === 'es' ? 'Tu camino hacia la sanación y transformación' : 'Your path to healing and transformation'}
                   </p>
                 </div>
                 
@@ -287,9 +287,9 @@ const PlacePreview: React.FC<PlacePreviewProps> = ({ language: initialLanguage }
                           </div>
                           <h3 className="text-lg font-semibold mb-3 text-white">{item}</h3>
                           <p className="text-gray-400 text-sm">
-                            {language === 'es' 
-                              ? ['Información completa del lugar', 'Lee reseñas auténticas', 'Horarios actualizados', 'Conecta con la comunidad'][index]
-                              : ['Complete place information', 'Read authentic reviews', 'Updated hours', 'Connect with community'][index]
+                            {language === 'es'
+                              ? ['Información completa del servicio', 'Lee testimonios auténticos', 'Horarios actualizados', 'Conecta con tu sanador'][index]
+                              : ['Complete service information', 'Read authentic testimonials', 'Updated hours', 'Connect with your healer'][index]
                             }
                           </p>
                         </div>

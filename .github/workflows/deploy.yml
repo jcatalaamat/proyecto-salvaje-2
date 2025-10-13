@@ -29,6 +29,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
-        cname: mazunteconnect.com
+        cname: astral-integration.com
         keep_files: true
         force_orphan: true

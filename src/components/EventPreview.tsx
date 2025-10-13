@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, MapPin, Clock, Users, Waves, Globe, Apple, Smartphone, Home, ArrowRight, CheckCircle } from 'lucide-react';
+import { Calendar, MapPin, Clock, Users, Sparkles, Globe, Apple, Smartphone, Home, ArrowRight, CheckCircle } from 'lucide-react';
 
 interface EventPreviewProps {
   eventId: string;
@@ -14,28 +14,28 @@ const EventPreview: React.FC<EventPreviewProps> = ({ language: initialLanguage }
   const [loading, setLoading] = useState(false);
   
   const t = language === 'es' ? {
-    title: "Descubre este evento en Mazunte Connect",
-    subtitle: "La app que te conecta con todo lo que pasa en Mazunte",
+    title: "Descubre esta sesión en Astral Integration",
+    subtitle: "La app que te conecta con sanación y transformación",
     platform: {
       title: "Próximamente en iOS y Android",
-      subtitle: "Tu guía de bolsillo a Mazunte, donde sea que estés",
+      subtitle: "Tu compañero de sanación, donde sea que estés",
       availableOn: "Disponible en"
     },
     features: {
       title: "Con la app podrás:",
       items: [
-        "Ver todos los detalles del evento",
+        "Ver todos los detalles de la sesión",
         "Guardar en favoritos",
         "Recibir recordatorios",
-        "Conectar con otros asistentes"
+        "Conectar con tu sanador"
       ]
     },
     comingSoon: "Próximamente disponible",
     goHome: "Volver al inicio",
     eventDetails: {
-      location: "Mazunte, Oaxaca",
-      time: "Detalles del evento",
-      type: "Evento comunitario"
+      location: "Sesión de sanación",
+      time: "Detalles de la sesión",
+      type: "Transformación personal"
     },
     waitlist: {
       title: "Únete a la lista de espera",
@@ -47,28 +47,28 @@ const EventPreview: React.FC<EventPreviewProps> = ({ language: initialLanguage }
       }
     }
   } : {
-    title: "Discover this event in Mazunte Connect",
-    subtitle: "The app that connects you with everything happening in Mazunte",
+    title: "Discover this session in Astral Integration",
+    subtitle: "The app that connects you with healing and transformation",
     platform: {
       title: "Coming to iOS & Android",
-      subtitle: "Your pocket guide to Mazunte, wherever you are",
+      subtitle: "Your healing companion, wherever you are",
       availableOn: "Available on"
     },
     features: {
       title: "With the app you can:",
       items: [
-        "See all event details",
-        "Save to favorites", 
+        "See all session details",
+        "Save to favorites",
         "Get reminders",
-        "Connect with other attendees"
+        "Connect with your healer"
       ]
     },
     comingSoon: "Coming Soon",
     goHome: "Go Back Home",
     eventDetails: {
-      location: "Mazunte, Oaxaca",
-      time: "Event time details",
-      type: "Community event"
+      location: "Healing session",
+      time: "Session details",
+      type: "Personal transformation"
     },
     waitlist: {
       title: "Join the waitlist",
@@ -112,7 +112,7 @@ const EventPreview: React.FC<EventPreviewProps> = ({ language: initialLanguage }
           body: JSON.stringify({
             api_key: convertKitApiKey,
             email: email,
-            tags: ['mazunte-waitlist']
+            tags: ['astral-integration-waitlist']
           })
         });
 
@@ -185,11 +185,11 @@ const EventPreview: React.FC<EventPreviewProps> = ({ language: initialLanguage }
             {/* Logo */}
             <div className="inline-flex items-center justify-center gap-3 mb-8">
               <div className="relative">
-                <Waves className="w-12 h-12 text-orange-400 relative z-10" />
+                <Sparkles className="w-12 h-12 text-orange-400 relative z-10" />
                 <div className="absolute inset-0 bg-orange-400 blur-xl opacity-50"></div>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-                Mazunte Connect
+                Astral Integration
               </h1>
             </div>
 
@@ -267,7 +267,7 @@ const EventPreview: React.FC<EventPreviewProps> = ({ language: initialLanguage }
                     {t.features.title}
                   </h2>
                   <p className="text-xl text-gray-400">
-                    {language === 'es' ? 'Todo lo que necesitas para no perderte nada en Mazunte' : 'Everything you need to never miss anything in Mazunte'}
+                    {language === 'es' ? 'Tu camino hacia la transformación y sanación' : 'Your path to transformation and healing'}
                   </p>
                 </div>
                 
@@ -287,9 +287,9 @@ const EventPreview: React.FC<EventPreviewProps> = ({ language: initialLanguage }
                           </div>
                           <h3 className="text-lg font-semibold mb-3 text-white">{item}</h3>
                           <p className="text-gray-400 text-sm">
-                            {language === 'es' 
-                              ? ['Detalles completos del evento', 'Guarda tus favoritos', 'Recibe notificaciones', 'Conecta con la comunidad'][index]
-                              : ['Complete event details', 'Save your favorites', 'Get notifications', 'Connect with community'][index]
+                            {language === 'es'
+                              ? ['Detalles completos de la sesión', 'Guarda tus favoritos', 'Recibe notificaciones', 'Conecta con tu sanador'][index]
+                              : ['Complete session details', 'Save your favorites', 'Get notifications', 'Connect with your healer'][index]
                             }
                           </p>
                         </div>
