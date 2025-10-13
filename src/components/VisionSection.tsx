@@ -1,7 +1,7 @@
 import { Users, Heart, Sprout, Shield } from 'lucide-react';
 
 interface VisionSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'fr' | 'ca' | 'de';
   translations: any;
 }
 

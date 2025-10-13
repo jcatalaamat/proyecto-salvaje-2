@@ -2,7 +2,7 @@ import { Heart, Users, Calendar, ArrowRight, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface JoinCTASectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'fr' | 'ca' | 'de';
   translations: any;
 }
 

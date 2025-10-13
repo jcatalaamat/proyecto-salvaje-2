@@ -1,7 +1,7 @@
 import { Heart, BookOpen, GraduationCap, DollarSign, Sunset, Calendar, Award, Sparkles } from 'lucide-react';
 
 interface IndigenousSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'fr' | 'ca' | 'de';
   translations: any;
 }
 

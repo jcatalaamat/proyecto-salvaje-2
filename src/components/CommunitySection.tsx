@@ -1,7 +1,7 @@
 import { Leaf, Shield, ArrowRightLeft, Sparkles, Users, Network, Calendar, Vote, Target } from 'lucide-react';
 
 interface CommunitySectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'fr' | 'ca' | 'de';
   translations: any;
 }
 

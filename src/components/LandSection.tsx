@@ -1,7 +1,7 @@
 import { Mountain, Waves, Droplet, Trees, MapPin, Home, Download } from 'lucide-react';
 
 interface LandSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'fr' | 'ca' | 'de';
   translations: any;
 }
 

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Mail, Send, MapPin, MessageCircle } from 'lucide-react';
 
 interface ContactSectionProps {
-  language: 'en' | 'es';
+  language: 'en' | 'es' | 'fr' | 'ca' | 'de';
   translations: any;
 }
 
