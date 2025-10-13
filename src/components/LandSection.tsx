@@ -29,14 +29,24 @@ const LandSection = ({ translations }: LandSectionProps) => {
           </p>
         </div>
 
-        {/* Image Gallery Placeholder */}
+        {/* Video Section */}
         <div className="mb-16">
+          <div className="text-center mb-8">
+            <h3 className="text-3xl font-bold text-white mb-2">Explore the Land</h3>
+            <p className="text-gray-400">Take a visual journey through our sacred space</p>
+          </div>
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30"></div>
-            <div className="relative bg-gradient-to-br from-earth-800 to-earth-900 rounded-3xl border border-terra-500/30 p-12 text-center">
-              <Mountain className="w-16 h-16 text-terra-400 mx-auto mb-4" />
-              <p className="text-xl text-gray-300 mb-2">Image Gallery</p>
-              <p className="text-sm text-gray-500">Land photos will be added here</p>
+            <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-terra-500/30 overflow-hidden">
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/SYMMEFsQ_-g?autoplay=1&mute=1&loop=1&playlist=SYMMEFsQ_-g&controls=1&modestbranding=1&rel=0&showinfo=0"
+                  title="Proyecto Salvaje Land Tour"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -109,7 +119,7 @@ const LandSection = ({ translations }: LandSectionProps) => {
         </div>
 
         {/* Highlights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
           {t.highlights.map((highlight: any, index: number) => {
             const Icon = highlightIcons[index];
             return (
@@ -123,6 +133,54 @@ const LandSection = ({ translations }: LandSectionProps) => {
               </div>
             );
           })}
+        </div>
+
+        {/* Property Photo Gallery */}
+        <div>
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-white mb-2">Property Gallery</h3>
+            <p className="text-gray-400">Aerial views and on-site photos of our land</p>
+          </div>
+
+          {/* Featured Aerial Screenshots */}
+          <div className="mb-8">
+            <h4 className="text-xl font-bold text-terra-300 mb-6 text-center">Aerial Views</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[1, 2, 3, 4, 5].map((num) => (
+                <div key={num} className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-br from-terra-500 to-sage-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-terra-500/20 overflow-hidden group-hover:border-terra-500/40 transition-all">
+                    <img
+                      src={`/images/property/property-screenshot-0${num}.png`}
+                      alt={`Aerial view ${num} of Proyecto Salvaje land`}
+                      className="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Property Photos */}
+          <div>
+            <h4 className="text-xl font-bold text-sage-300 mb-6 text-center">Property Photos</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              {[4, 7].map((num) => (
+                <div key={num} className="relative group">
+                  <div className="absolute -inset-0.5 bg-gradient-to-br from-sage-500 to-earth-500 rounded-xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-xl border border-sage-500/20 overflow-hidden group-hover:border-sage-500/40 transition-all">
+                    <img
+                      src={`/images/property/property-photo-0${num}.jpg`}
+                      alt={`Property view ${num} of Proyecto Salvaje`}
+                      className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>

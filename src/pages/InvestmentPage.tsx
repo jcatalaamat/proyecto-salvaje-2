@@ -167,14 +167,21 @@ function InvestmentPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Map Placeholder */}
+            {/* Property Aerial View */}
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-terra-500 rounded-2xl blur opacity-20"></div>
-              <div className="relative bg-gradient-to-br from-earth-800 to-earth-900 rounded-2xl border border-sage-500/20 p-12 flex items-center justify-center min-h-[300px]">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-sage-400 mx-auto mb-4" />
-                  <p className="text-lg text-gray-300">{inv.location.mapTitle}</p>
-                  <p className="text-sm text-gray-500 mt-2">Interactive map coming soon</p>
+              <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-sage-500/20 overflow-hidden">
+                <img
+                  src="/images/property/property-screenshot-01.png"
+                  alt="Aerial view of Proyecto Salvaje property"
+                  className="w-full h-full object-cover min-h-[300px]"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <div className="flex items-center gap-2">
+                    <MapPin className="w-5 h-5 text-sage-400" />
+                    <p className="text-lg text-white font-semibold">{inv.location.mapTitle}</p>
+                  </div>
+                  <p className="text-sm text-gray-300 mt-1">Aerial view of the property</p>
                 </div>
               </div>
             </div>
@@ -514,6 +521,76 @@ function InvestmentPage() {
                     </li>
                   ))}
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Property Gallery */}
+      <section className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Explore the Property</h2>
+            <p className="text-xl text-sage-300 mb-6">Visual Tour of the Land</p>
+            <p className="text-gray-400 max-w-3xl mx-auto">See the beauty and potential of Proyecto Salvaje through aerial views and on-site photography.</p>
+          </div>
+
+          {/* Featured Aerial Views */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center text-terra-300 mb-8">Aerial Perspectives</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[1, 2, 3].map((num) => (
+                <div key={num} className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-br from-terra-500 to-sage-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-terra-500/20 overflow-hidden group-hover:border-terra-500/40 transition-all">
+                    <img
+                      src={`/images/property/property-screenshot-0${num}.png`}
+                      alt={`Aerial perspective ${num} of investment property`}
+                      className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Ground-Level Property Photos */}
+          <div>
+            <h3 className="text-2xl font-bold text-center text-sage-300 mb-8">On-Site Views</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              {[4, 7].map((num) => (
+                <div key={num} className="relative group">
+                  <div className="absolute -inset-0.5 bg-gradient-to-br from-sage-500 to-earth-500 rounded-xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-xl border border-sage-500/20 overflow-hidden group-hover:border-sage-500/40 transition-all">
+                    <img
+                      src={`/images/property/property-photo-0${num}.jpg`}
+                      alt={`Property detail view ${num}`}
+                      className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Video Embed */}
+          <div className="mt-12">
+            <h3 className="text-2xl font-bold text-center text-white mb-8">Video Tour</h3>
+            <div className="relative group max-w-4xl mx-auto">
+              <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-terra-500/30 overflow-hidden">
+                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/SYMMEFsQ_-g?autoplay=1&mute=1&loop=1&playlist=SYMMEFsQ_-g&controls=1&modestbranding=1&rel=0&showinfo=0"
+                    title="Proyecto Salvaje Property Tour"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
