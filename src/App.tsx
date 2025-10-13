@@ -11,6 +11,7 @@ import JoinCTASection from './components/JoinCTASection';
 import ContactSection from './components/ContactSection';
 import SupportPage from './components/SupportPage';
 import PrivacyPage from './components/PrivacyPage';
+import InvestmentPage from './pages/InvestmentPage';
 
 // Main Landing Page Component
 function LandingPage() {
@@ -278,6 +279,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/invest" element={<InvestmentPage />} />
         <Route path="/support" element={<SupportPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
         {/* Catch all other routes and redirect to home */}

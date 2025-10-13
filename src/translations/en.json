@@ -368,5 +368,396 @@
     },
     "made": "© 2025 Proyecto Salvaje. All rights reserved.",
     "rights": ""
+  },
+  "investment": {
+    "hero": {
+      "title": "Invest in Regenerative Living",
+      "subtitle": "Secure Your Place in a Thriving Eco-Community",
+      "description": "A rare opportunity to invest in one of the last intact parcels in Mazunte, Oaxaca. Combine financial returns with meaningful impact in a regenerative village community.",
+      "stats": {
+        "land": "12 Acres Total",
+        "lots": "20 Exclusive Lots",
+        "phase": "Phase 1 Active",
+        "roi": "2x ROI in 1-2 Years"
+      },
+      "cta": "Schedule Consultation",
+      "secondaryCta": "Download Investment Brief"
+    },
+    "location": {
+      "title": "Prime Location",
+      "subtitle": "Where Sierra Madre Meets the Pacific",
+      "description": "Nestled in front of a protected natural reserve with unique access to ocean, mountains, and vibrant community.",
+      "highlights": [
+        "5 minutes from Ventanilla Beach",
+        "10 minutes from Mazunte town center",
+        "1 hour from international airports (Puerto Escondido & Huatulco)",
+        "3 hours from Oaxaca City via new highway",
+        "Adjacent to 100-hectare protected mangrove reserve"
+      ],
+      "mapTitle": "Strategic Location Map"
+    },
+    "development": {
+      "title": "Phased Development Strategy",
+      "subtitle": "Strategic Growth for Maximum Value",
+      "intro": "Our 5-phase development plan ensures sustainable growth while maximizing land appreciation for early investors.",
+      "phases": [
+        {
+          "number": 1,
+          "title": "Phase 1",
+          "status": "Active Now",
+          "period": "April - September 2025",
+          "description": "Foundation phase: Land acquisition, perimeter security, water wells, basic infrastructure, and founding member council formation.",
+          "price": "$450 MXN/m²",
+          "availability": "8 lots remaining"
+        },
+        {
+          "number": 2,
+          "title": "Phase 2",
+          "status": "Coming Soon",
+          "period": "Year 1",
+          "description": "Infrastructure expansion: Underground electricity, paved pathways, first residential buildings, and communal spaces.",
+          "price": "$650 MXN/m²",
+          "availability": "Projected"
+        },
+        {
+          "number": 3,
+          "title": "Phase 3",
+          "status": "Planned",
+          "period": "Year 2",
+          "description": "Community amenities: Educational center, bio-pool, permaculture systems, and renewable energy integration.",
+          "price": "$850 MXN/m²",
+          "availability": "Projected"
+        },
+        {
+          "number": 4,
+          "title": "Phase 4",
+          "status": "Future",
+          "period": "Year 3",
+          "description": "Full community: All infrastructure complete, governance established, visitor programs launched.",
+          "price": "$1,100 MXN/m²",
+          "availability": "Projected"
+        }
+      ]
+    },
+    "packages": {
+      "title": "Investment Packages",
+      "subtitle": "Choose Your Path to Ownership",
+      "intro": "Multiple ways to participate, from full land ownership to impact investing.",
+      "items": [
+        {
+          "title": "Founding Land Steward",
+          "price": "$180,000 USD",
+          "popular": true,
+          "description": "Full lot ownership with governance rights and council membership.",
+          "features": [
+            "Full lot: 2,000-2,500 m²",
+            "Voting rights in all decisions",
+            "Council of Founding Members seat",
+            "Priority access to amenities",
+            "Title deed upon completion",
+            "Educational program access",
+            "Ceremonial practice participation"
+          ],
+          "roi": "2-3x value in 2-3 years",
+          "timeline": "Move-in ready after Phase 1"
+        },
+        {
+          "title": "Community Contributor",
+          "price": "$50,000 - $75,000 USD",
+          "popular": false,
+          "description": "Partial lot or shared parcel with community participation rights.",
+          "features": [
+            "Partial lot or shared parcel",
+            "Voting rights in community decisions",
+            "Access to all communal spaces",
+            "Educational workshop discounts",
+            "Flexible ownership structures",
+            "Phase 2 occupancy priority"
+          ],
+          "roi": "1.5-2x value in 2-3 years",
+          "timeline": "Year 2 occupancy"
+        },
+        {
+          "title": "Impact Investor",
+          "price": "$10,000+ USD",
+          "popular": false,
+          "description": "Infrastructure development bonds with fixed returns plus success bonus.",
+          "features": [
+            "No land ownership",
+            "Fixed return: 8-12% annually",
+            "Project success bonus potential",
+            "Advisory role in development",
+            "Transferable investment",
+            "Liquid after Year 2",
+            "Visit privileges"
+          ],
+          "roi": "Fixed 8-12% + bonus",
+          "timeline": "Liquid investment after Year 2"
+        }
+      ],
+      "comparison": {
+        "title": "Package Comparison",
+        "headers": ["Feature", "Founding Steward", "Community Contributor", "Impact Investor"],
+        "rows": [
+          ["Investment", "$180K", "$50-75K", "$10K+"],
+          ["Land Ownership", "Full lot (2,000-2,500m²)", "Partial/Shared", "None"],
+          ["Governance", "Full Council seat", "Voting rights", "Advisory role"],
+          ["ROI Projection", "2-3x in 2-3 years", "1.5-2x in 2-3 years", "8-12% annual + bonus"],
+          ["Occupancy", "Phase 1 completion", "Year 2", "Visit privileges only"],
+          ["Liquidity", "After Phase 4", "After Phase 3", "After Year 2"]
+        ]
+      }
+    },
+    "infrastructure": {
+      "title": "What's Included",
+      "subtitle": "Premium Infrastructure & Amenities",
+      "intro": "Your investment includes essential infrastructure plus access to regenerative community features.",
+      "included": [
+        {
+          "title": "Security & Access",
+          "items": [
+            "Perimeter fencing with natural materials",
+            "Gated entrance with steward house",
+            "24/7 security presence",
+            "Demarcated pathways"
+          ]
+        },
+        {
+          "title": "Utilities & Services",
+          "items": [
+            "2 deep water wells (year-round)",
+            "Underground electricity to each lot",
+            "Fiber optic internet ready",
+            "Rainwater collection systems"
+          ]
+        },
+        {
+          "title": "Natural Features",
+          "items": [
+            "Ocean views from elevated lots",
+            "Mountain/sierra vistas",
+            "Access to protected reserve",
+            "Native tree preservation"
+          ]
+        },
+        {
+          "title": "Community Benefits",
+          "items": [
+            "Educational program access",
+            "Permaculture consultation",
+            "Governance participation",
+            "Ceremonial practice access",
+            "Visitor program privileges"
+          ]
+        }
+      ],
+      "clubhouse": {
+        "title": "Community Hub (Optional)",
+        "description": "Voted on by founding members, the community hub will serve as the heart of village activities.",
+        "price": "$300,000 MXN per lot (one-time)",
+        "features": [
+          "Bio-pool with natural filtration",
+          "Meeting & co-working spaces",
+          "Educational workshop facilities",
+          "Ceremonial gathering areas",
+          "Commercial kitchen",
+          "Yoga/movement studio",
+          "Library & resource center"
+        ],
+        "note": "Majority vote required to proceed with construction"
+      }
+    },
+    "appreciation": {
+      "title": "Value Appreciation Potential",
+      "subtitle": "Strategic Investment with Proven Growth",
+      "intro": "Based on market analysis and comparable developments in the region, early investors can expect significant appreciation.",
+      "projection": {
+        "title": "Conservative Projection",
+        "description": "Double your investment value in 1-2 years",
+        "phases": [
+          {
+            "phase": "Phase 1 (Now)",
+            "price": "$450 MXN/m²",
+            "totalLot": "~$1,000,000 MXN ($55,000 USD)"
+          },
+          {
+            "phase": "Phase 2 (Year 1)",
+            "price": "$650 MXN/m²",
+            "totalLot": "~$1,400,000 MXN ($77,000 USD)"
+          },
+          {
+            "phase": "Phase 3 (Year 2)",
+            "price": "$850 MXN/m²",
+            "totalLot": "~$1,800,000 MXN ($100,000 USD)"
+          },
+          {
+            "phase": "Phase 4 (Year 3)",
+            "price": "$1,100 MXN/m²",
+            "totalLot": "~$2,400,000 MXN ($133,000 USD)"
+          }
+        ]
+      },
+      "factors": {
+        "title": "Key Appreciation Drivers",
+        "items": [
+          {
+            "title": "Infrastructure Development",
+            "description": "Each completed phase adds significant value through improved roads, utilities, and amenities."
+          },
+          {
+            "title": "Growing Demand",
+            "description": "Increasing interest in regenerative communities and remote work-friendly locations drives prices up."
+          },
+          {
+            "title": "Limited Supply",
+            "description": "One of the last intact parcels in the Mazunte area with this size and natural features."
+          },
+          {
+            "title": "Protected Reserve Proximity",
+            "description": "Adjacent to 100-hectare protected mangrove reserve ensures permanent natural buffer and exclusivity."
+          },
+          {
+            "title": "Regional Growth",
+            "description": "Oaxaca coast seeing 15-20% annual property appreciation, outpacing national averages."
+          },
+          {
+            "title": "Community Premium",
+            "description": "Intentional communities command 30-50% premium over comparable land without governance structure."
+          }
+        ]
+      }
+    },
+    "guidelines": {
+      "title": "Construction & Usage Guidelines",
+      "subtitle": "Building a Regenerative Future Together",
+      "intro": "Our guidelines ensure ecological integrity while allowing creative expression and diverse uses.",
+      "permitted": {
+        "title": "Permitted Activities",
+        "items": [
+          "Family residence and vacation home use",
+          "Short-term rental and tourism hosting",
+          "Cultural, traditional, and artistic activities",
+          "Personal use permaculture and food forests",
+          "Low-impact eco-tourism operations",
+          "Educational workshops and programs",
+          "Ceremonial and spiritual practices",
+          "Home-based businesses (non-industrial)"
+        ]
+      },
+      "restricted": {
+        "title": "Restricted Activities",
+        "items": [
+          "Commercial agriculture or livestock operations",
+          "Commercial hunting or wildlife exploitation",
+          "Destruction of wildlife nesting/breeding sites",
+          "Irresponsible fire use or slash-and-burn",
+          "Introduction of invasive exotic species",
+          "Industrial or heavy manufacturing",
+          "Activities causing noise/light pollution",
+          "Extraction of natural resources for sale"
+        ]
+      },
+      "building": {
+        "title": "Building Standards",
+        "items": [
+          "Maximum 2 stories above ground",
+          "Natural and local materials encouraged",
+          "Permaculture design principles integration",
+          "Rainwater harvesting systems required",
+          "Greywater treatment systems mandatory",
+          "Solar energy integration encouraged",
+          "Native landscaping with reforestation",
+          "Minimum 40% lot maintained as natural space"
+        ]
+      },
+      "governance": {
+        "title": "Governance Framework",
+        "description": "Initial guidelines set by developer, with full community control after all lots are sold. All major decisions made through sociocratic consent process with DAO transparency.",
+        "note": "Reglamento (community rules) can be modified only by majority vote of the founding members assembly once developer phase completes."
+      }
+    },
+    "legal": {
+      "title": "Legal Support & Security",
+      "subtitle": "Comprehensive Legal Accompaniment",
+      "intro": "We provide full legal support to ensure your investment is secure and compliant with Mexican law.",
+      "services": {
+        "title": "Included Legal Services",
+        "items": [
+          {
+            "title": "Acquisition Support",
+            "description": "Complete legal guidance through the land purchase process, including document review and contract negotiation."
+          },
+          {
+            "title": "Fideicomiso Setup",
+            "description": "For foreign buyers, we arrange and manage the bank trust (fideicomiso) required for coastal property ownership in Mexico."
+          },
+          {
+            "title": "Title & Deed Management",
+            "description": "Management of escrituración (title deed process) and communal possession certificate to ensure clear ownership."
+          },
+          {
+            "title": "DAO Integration",
+            "description": "Setup of blockchain-based governance structure for complete transparency in decision-making and resource allocation."
+          },
+          {
+            "title": "Ongoing Legal Counsel",
+            "description": "Continuous legal support throughout the development process, including construction permits and compliance."
+          }
+        ]
+      },
+      "fideicomiso": {
+        "title": "Understanding Fideicomiso",
+        "description": "Mexican law requires foreign ownership of coastal property (within 50km of ocean) to be held in a bank trust. This is a standard, secure process that provides the same ownership rights as direct ownership.",
+        "benefits": [
+          "Full ownership rights (sell, lease, inherit)",
+          "30-year term, renewable indefinitely",
+          "Protected by Mexican banking regulations",
+          "Can be transferred or sold like normal property",
+          "Included in our legal services package"
+        ]
+      },
+      "transparency": {
+        "title": "Blockchain Transparency",
+        "description": "Our DAO (Decentralized Autonomous Organization) structure ensures complete transparency in all financial transactions, votes, and governance decisions.",
+        "features": [
+          "All major decisions recorded on blockchain",
+          "Transparent fund allocation tracking",
+          "Multi-signature treasury management",
+          "Immutable voting records",
+          "Real-time project progress updates"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Ready to Invest?",
+      "subtitle": "Let's discuss how you can be part of this regenerative vision",
+      "description": "Schedule a consultation to learn more about investment packages, visit the land, and meet the founding team.",
+      "form": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "citizenship": "Citizenship/Residency",
+        "package": "Investment Package Interest",
+        "packageOptions": {
+          "steward": "Founding Land Steward ($180K)",
+          "contributor": "Community Contributor ($50-75K)",
+          "investor": "Impact Investor ($10K+)",
+          "exploring": "Still Exploring Options"
+        },
+        "visit": "Preferred Visit Date",
+        "message": "Questions or Additional Information",
+        "submit": "Schedule Consultation"
+      },
+      "info": {
+        "email": "invest@proyectosalvaje.com",
+        "phone": "+52 (XXX) XXX-XXXX",
+        "location": "Mazunte, Oaxaca, Mexico"
+      },
+      "download": {
+        "title": "Download Investment Brief",
+        "description": "Get our comprehensive investment prospectus with detailed financials, site plans, and legal documentation.",
+        "button": "Download PDF"
+      }
+    }
   }
 }

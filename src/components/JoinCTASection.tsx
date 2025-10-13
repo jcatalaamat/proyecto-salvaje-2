@@ -1,4 +1,5 @@
 import { Heart, TrendingUp, Users, Calendar, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface JoinCTASectionProps {
   language: 'en' | 'es';
@@ -158,8 +159,8 @@ const JoinCTASection = ({ translations }: JoinCTASectionProps) => {
           </div>
         </div>
 
-        {/* CTA Button */}
-        <div className="text-center">
+        {/* CTA Buttons */}
+        <div className="text-center flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
             onClick={scrollToContact}
             className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-sage-500 via-terra-500 to-sage-600 text-white text-lg font-bold rounded-xl hover:shadow-2xl hover:shadow-sage-500/50 transform hover:scale-105 transition-all"
@@ -167,6 +168,13 @@ const JoinCTASection = ({ translations }: JoinCTASectionProps) => {
             <span>{t.subtitle}</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
+          <Link
+            to="/invest"
+            className="group inline-flex items-center gap-3 px-10 py-5 bg-white/10 border border-white/20 text-white text-lg font-bold rounded-xl hover:bg-white/20 transform hover:scale-105 transition-all"
+          >
+            <span>View Investment Details</span>
+            <TrendingUp className="w-5 h-5 group-hover:translate-y-[-2px] transition-transform" />
+          </Link>
         </div>
       </div>
     </section>
