@@ -11,7 +11,7 @@
     "invest": "Invest"
   },
   "hero": {
-    "title": "Regenerative Village Living School",
+    "title": "Regenerative Village & Living School",
     "subtitle": "Creation of an intentional regenerative community for human integrity and sovereign living",
     "description": "A healing village, real-life school, and educational center dedicated to protecting freedom, bodily autonomy, and living in harmony with nature.",
     "cta": "Join Our Community",
@@ -571,7 +571,7 @@
     "navigation": {
       "overview": "Overview",
       "timeline": "Timeline",
-      "packages": "Packages",
+      "packages": "Membership Tiers",
       "guidelines": "Guidelines",
       "dao": "DAO",
       "legal": "Legal",
@@ -678,7 +678,7 @@
       ]
     },
     "packages": {
-      "title": "Investment Packages",
+      "title": "Membership Tiers",
       "subtitle": "Choose Your Path to Ownership",
       "intro": "Multiple ways to participate, from full land ownership to impact investing.",
       "items": [

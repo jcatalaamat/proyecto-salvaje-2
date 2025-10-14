@@ -11,7 +11,7 @@
     "invest": "Investieren"
   },
   "hero": {
-    "title": "Regenerative Dorf-Lebensschule",
+    "title": "Regeneratives Dorf & Lebensschule",
     "subtitle": "Schaffung einer intentionalen regenerativen Gemeinschaft für menschliche Integrität und souveränes Leben",
     "description": "Ein Heilungsdorf, eine Schule des wirklichen Lebens und ein Bildungszentrum, das sich dem Schutz der Freiheit, der körperlichen Autonomie und dem Leben im Einklang mit der Natur widmet.",
     "cta": "Treten Sie unserer Gemeinschaft bei",
@@ -571,7 +571,7 @@
     "navigation": {
       "overview": "Überblick",
       "timeline": "Zeitplan",
-      "packages": "Pakete",
+      "packages": "Mitgliedschaftsstufen",
       "guidelines": "Richtlinien",
       "dao": "DAO",
       "legal": "Rechtliches",
@@ -678,7 +678,7 @@
       ]
     },
     "packages": {
-      "title": "Investitionspakete",
+      "title": "Mitgliedschaftsstufen",
       "subtitle": "Wählen Sie Ihren Weg zum Eigentum",
       "intro": "Mehrere Möglichkeiten zur Teilnahme, vom vollständigen Landeigentum bis zur Impact-Investition.",
       "items": [

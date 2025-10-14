@@ -11,7 +11,7 @@
     "invest": "Investir"
   },
   "hero": {
-    "title": "École de Vie de Village Régénératif",
+    "title": "Village Régénératif & École de Vie",
     "subtitle": "Création d'une communauté régénérative intentionnelle pour l'intégrité humaine et la vie souveraine",
     "description": "Un village de guérison, une école de vie et un centre éducatif dédiés à la protection de la liberté, de l'autonomie corporelle et de la vie en harmonie avec la nature.",
     "cta": "Rejoindre Notre Communauté",
@@ -571,7 +571,7 @@
     "navigation": {
       "overview": "Aperçu",
       "timeline": "Calendrier",
-      "packages": "Forfaits",
+      "packages": "Niveaux d'Adhésion",
       "guidelines": "Directives",
       "dao": "DAO",
       "legal": "Légal",
@@ -678,7 +678,7 @@
       ]
     },
     "packages": {
-      "title": "Forfaits d'Investissement",
+      "title": "Niveaux d'Adhésion",
       "subtitle": "Choisissez Votre Voie vers la Propriété",
       "intro": "Plusieurs façons de participer, de la propriété foncière complète à l'investissement d'impact.",
       "items": [

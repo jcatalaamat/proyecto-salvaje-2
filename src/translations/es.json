@@ -11,7 +11,7 @@
     "invest": "Invertir"
   },
   "hero": {
-    "title": "Escuela de Vida de Aldea Regenerativa",
+    "title": "Aldea Regenerativa & Escuela de Vida",
     "subtitle": "Creación de una comunidad regenerativa intencional para la integridad humana y la vida soberana",
     "description": "Una aldea de sanación, escuela de vida real y centro educativo dedicado a proteger la libertad, la autonomía corporal y vivir en armonía con la naturaleza.",
     "cta": "Únete a Nuestra Comunidad",
@@ -571,7 +571,7 @@
     "navigation": {
       "overview": "Resumen",
       "timeline": "Cronograma",
-      "packages": "Paquetes",
+      "packages": "Niveles de Membresía",
       "guidelines": "Directrices",
       "dao": "DAO",
       "legal": "Legal",
@@ -678,7 +678,7 @@
       ]
     },
     "packages": {
-      "title": "Paquetes de Inversión",
+      "title": "Niveles de Membresía",
       "subtitle": "Elige Tu Camino hacia la Propiedad",
       "intro": "Múltiples formas de participar, desde propiedad completa del terreno hasta inversión de impacto.",
       "items": [

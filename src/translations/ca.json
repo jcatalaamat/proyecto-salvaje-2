@@ -11,7 +11,7 @@
     "invest": "Inverteix"
   },
   "hero": {
-    "title": "Escola de Vida de Poble Regeneratiu",
+    "title": "Poble Regeneratiu & Escola de Vida",
     "subtitle": "Creació d'una comunitat regenerativa intencional per a la integritat humana i la vida sobirana",
     "description": "Un poblet sanador, escola de vida real i centre educatiu dedicat a protegir la llibertat, l'autonomia corporal i viure en harmonia amb la natura.",
     "cta": "Uneix-te a la Comunitat",
@@ -571,7 +571,7 @@
     "navigation": {
       "overview": "Resum",
       "timeline": "Cronologia",
-      "packages": "Paquets",
+      "packages": "Nivells de Membresa",
       "guidelines": "Directrius",
       "dao": "DAO",
       "legal": "Legal",
@@ -678,7 +678,7 @@
       ]
     },
     "packages": {
-      "title": "Paquets d'Inversió",
+      "title": "Nivells de Membresa",
       "subtitle": "Tria el Teu Camí cap a la Propietat",
       "intro": "Múltiples maneres de participar, des de la propietat completa de la terra fins a la inversió d'impacte.",
       "items": [
