@@ -10,7 +10,7 @@
     "invest": "Inverteix"
   },
   "hero": {
-    "title": "Escola de Poblet Regeneratiu",
+    "title": "Escola de Vida de Poble Regeneratiu",
     "subtitle": "Creació d'una comunitat regenerativa intencional per a la integritat humana i la vida sobirana",
     "description": "Un poblet sanador, escola de vida real i centre educatiu dedicat a protegir la llibertat, l'autonomia corporal i viure en harmonia amb la natura.",
     "cta": "Uneix-te a la Comunitat",
@@ -540,17 +540,8 @@
           "title": "Fase 4",
           "status": "Futur",
           "period": "Octubre 2027 - Març 2028",
-          "description": "Comunitat completa: Tota la infraestructura completa, govern establert, programes per a visitants llançats.",
-          "price": "$1.200 MXN/m²",
-          "availability": "Projectat"
-        },
-        {
-          "number": 5,
-          "title": "Fase 5",
-          "status": "Futur",
-          "period": "Abril 2028 - Setembre 2028",
-          "description": "Maduresa comunitària: Fase final amb amenitats completes, àrees residencials ampliades i capacitat operativa total.",
-          "price": "$1.600 MXN/m²",
+          "description": "Comunitat completa: Tota la infraestructura completa, govern establert, programes per a visitants llançats, amenitats completes i capacitat operativa total.",
+          "price": "$1.100 - $1.600 MXN/m²",
           "availability": "Projectat"
         }
       ]
@@ -689,7 +680,7 @@
       "intro": "Basant-nos en l'anàlisi de mercat i desenvolupaments comparables a la regió, els primers inversors poden esperar una apreciació significativa.",
       "projection": {
         "title": "Projecció Conservadora",
-        "description": "Triplica el valor de la teva inversió en 4 anys",
+        "description": "Triplica el valor de la teva inversió en 3 anys",
         "phases": [
           {
             "phase": "Fase 1 (Ara)",
@@ -708,13 +699,8 @@
           },
           {
             "phase": "Fase 4 (Oct 2027)",
-            "price": "$1,200 MXN/m²",
-            "totalLot": "~$2,400,000 MXN (~$133,000 USD)"
-          },
-          {
-            "phase": "Fase 5 (Abr 2028)",
-            "price": "$1,600 MXN/m²",
-            "totalLot": "~$3,200,000 MXN (~$178,000 USD)"
+            "price": "$1,100 - $1,600 MXN/m²",
+            "totalLot": "~$2,200,000 - $3,200,000 MXN ($122,000 - $177,000 USD)"
           }
         ]
       },

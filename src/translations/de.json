@@ -10,7 +10,7 @@
     "invest": "Investieren"
   },
   "hero": {
-    "title": "Regeneratives Dorfschulprojekt",
+    "title": "Regenerative Dorf-Lebensschule",
     "subtitle": "Schaffung einer intentionalen regenerativen Gemeinschaft für menschliche Integrität und souveränes Leben",
     "description": "Ein Heilungsdorf, eine Schule des wirklichen Lebens und ein Bildungszentrum, das sich dem Schutz der Freiheit, der körperlichen Autonomie und dem Leben im Einklang mit der Natur widmet.",
     "cta": "Treten Sie unserer Gemeinschaft bei",
@@ -540,17 +540,8 @@
           "title": "Phase 4",
           "status": "Zukünftig",
           "period": "Oktober 2027 - März 2028",
-          "description": "Vollständige Gemeinschaft: Gesamte Infrastruktur fertiggestellt, Governance etabliert, Besucherprogramme gestartet.",
-          "price": "1.200 MXN/m²",
-          "availability": "Projiziert"
-        },
-        {
-          "number": 5,
-          "title": "Phase 5",
-          "status": "Zukünftig",
-          "period": "April 2028 - September 2028",
-          "description": "Gemeinschaftsreife: Endphase mit vollständigen Einrichtungen, erweiterten Wohnbereichen und voller Betriebskapazität.",
-          "price": "1.600 MXN/m²",
+          "description": "Vollständige Gemeinschaft: Gesamte Infrastruktur fertiggestellt, Governance etabliert, Besucherprogramme gestartet, vollständige Einrichtungen und volle Betriebskapazität.",
+          "price": "1.100 - 1.600 MXN/m²",
           "availability": "Projiziert"
         }
       ]
@@ -689,7 +680,7 @@
       "intro": "Basierend auf Marktanalysen und vergleichbaren Entwicklungen in der Region können frühe Investoren mit erheblicher Wertsteigerung rechnen.",
       "projection": {
         "title": "Konservative Prognose",
-        "description": "Verdreifachen Sie Ihren Investitionswert in 4 Jahren",
+        "description": "Verdreifachen Sie Ihren Investitionswert in 3 Jahren",
         "phases": [
           {
             "phase": "Phase 1 (Jetzt)",
@@ -708,13 +699,8 @@
           },
           {
             "phase": "Phase 4 (Okt 2027)",
-            "price": "$1,200 MXN/m²",
-            "totalLot": "~$2,400,000 MXN (~$133,000 USD)"
-          },
-          {
-            "phase": "Phase 5 (Apr 2028)",
-            "price": "$1,600 MXN/m²",
-            "totalLot": "~$3,200,000 MXN (~$178,000 USD)"
+            "price": "$1,100 - $1,600 MXN/m²",
+            "totalLot": "~$2,200,000 - $3,200,000 MXN ($122,000 - $177,000 USD)"
           }
         ]
       },

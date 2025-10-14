@@ -10,7 +10,7 @@
     "invest": "Invertir"
   },
   "hero": {
-    "title": "Escuela Aldea Regenerativa",
+    "title": "Escuela de Vida de Aldea Regenerativa",
     "subtitle": "Creación de una comunidad regenerativa intencional para la integridad humana y la vida soberana",
     "description": "Una aldea de sanación, escuela de vida real y centro educativo dedicado a proteger la libertad, la autonomía corporal y vivir en armonía con la naturaleza.",
     "cta": "Únete a Nuestra Comunidad",
@@ -540,17 +540,8 @@
           "title": "Fase 4",
           "status": "Futuro",
           "period": "Octubre 2027 - Marzo 2028",
-          "description": "Comunidad completa: Toda infraestructura completa, gobernanza establecida, programas de visitantes lanzados.",
-          "price": "$1,200 MXN/m²",
-          "availability": "Proyectado"
-        },
-        {
-          "number": 5,
-          "title": "Fase 5",
-          "status": "Futuro",
-          "period": "Abril 2028 - Septiembre 2028",
-          "description": "Madurez comunitaria: Fase final con amenidades completas, áreas residenciales expandidas y capacidad operativa total.",
-          "price": "$1,600 MXN/m²",
+          "description": "Comunidad completa: Toda infraestructura completa, gobernanza establecida, programas de visitantes lanzados, amenidades completas y capacidad operativa total.",
+          "price": "$1,100 - $1,600 MXN/m²",
           "availability": "Proyectado"
         }
       ]
@@ -689,7 +680,7 @@
       "intro": "Basado en análisis de mercado y desarrollos comparables en la región, inversionistas tempranos pueden esperar apreciación significativa.",
       "projection": {
         "title": "Proyección Conservadora",
-        "description": "Triplica el valor de tu inversión en 4 años",
+        "description": "Triplica el valor de tu inversión en 3 años",
         "phases": [
           {
             "phase": "Fase 1 (Ahora)",
@@ -708,13 +699,8 @@
           },
           {
             "phase": "Fase 4 (Oct 2027)",
-            "price": "$1,200 MXN/m²",
-            "totalLot": "~$2,400,000 MXN (~$133,000 USD)"
-          },
-          {
-            "phase": "Fase 5 (Abr 2028)",
-            "price": "$1,600 MXN/m²",
-            "totalLot": "~$3,200,000 MXN (~$178,000 USD)"
+            "price": "$1,100 - $1,600 MXN/m²",
+            "totalLot": "~$2,200,000 - $3,200,000 MXN ($122,000 - $177,000 USD)"
           }
         ]
       },

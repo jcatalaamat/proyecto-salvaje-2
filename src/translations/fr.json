@@ -10,7 +10,7 @@
     "invest": "Investir"
   },
   "hero": {
-    "title": "Village École Régénératif",
+    "title": "École de Vie de Village Régénératif",
     "subtitle": "Création d'une communauté régénérative intentionnelle pour l'intégrité humaine et la vie souveraine",
     "description": "Un village de guérison, une école de vie et un centre éducatif dédiés à la protection de la liberté, de l'autonomie corporelle et de la vie en harmonie avec la nature.",
     "cta": "Rejoindre Notre Communauté",
@@ -540,17 +540,8 @@
           "title": "Phase 4",
           "status": "Futur",
           "period": "Octobre 2027 - Mars 2028",
-          "description": "Communauté complète : Toute l'infrastructure terminée, gouvernance établie, programmes pour visiteurs lancés.",
-          "price": "1 200 MXN/m²",
-          "availability": "Projeté"
-        },
-        {
-          "number": 5,
-          "title": "Phase 5",
-          "status": "Futur",
-          "period": "Avril 2028 - Septembre 2028",
-          "description": "Maturité communautaire : Phase finale avec équipements complets, zones résidentielles élargies et capacité opérationnelle totale.",
-          "price": "1 600 MXN/m²",
+          "description": "Communauté complète : Toute l'infrastructure terminée, gouvernance établie, programmes pour visiteurs lancés, équipements complets et capacité opérationnelle totale.",
+          "price": "1 100 - 1 600 MXN/m²",
           "availability": "Projeté"
         }
       ]
@@ -689,7 +680,7 @@
       "intro": "Basé sur l'analyse du marché et les développements comparables dans la région, les investisseurs précoces peuvent s'attendre à une appréciation significative.",
       "projection": {
         "title": "Projection Conservatrice",
-        "description": "Triplez la valeur de votre investissement en 4 ans",
+        "description": "Triplez la valeur de votre investissement en 3 ans",
         "phases": [
           {
             "phase": "Phase 1 (Maintenant)",
@@ -708,13 +699,8 @@
           },
           {
             "phase": "Phase 4 (Oct 2027)",
-            "price": "$1,200 MXN/m²",
-            "totalLot": "~$2,400,000 MXN (~$133,000 USD)"
-          },
-          {
-            "phase": "Phase 5 (Avr 2028)",
-            "price": "$1,600 MXN/m²",
-            "totalLot": "~$3,200,000 MXN (~$178,000 USD)"
+            "price": "$1,100 - $1,600 MXN/m²",
+            "totalLot": "~$2,200,000 - $3,200,000 MXN ($122,000 - $177,000 USD)"
           }
         ]
       },
