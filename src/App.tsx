@@ -97,14 +97,14 @@ function LandingPage() {
                 <button onClick={() => scrollToSection('land')} className="text-gray-400 hover:text-terra-400 transition-colors">
                   {t.navigation.land}
                 </button>
-                <button onClick={() => scrollToSection('community')} className="text-gray-400 hover:text-sage-400 transition-colors">
-                  {t.navigation.community}
-                </button>
-                <button onClick={() => scrollToSection('dao')} className="text-gray-400 hover:text-terra-400 transition-colors">
-                  {t.navigation.dao}
-                </button>
                 <button onClick={() => scrollToSection('indigenous')} className="text-gray-400 hover:text-sage-400 transition-colors">
                   {t.navigation.programs}
+                </button>
+                <button onClick={() => scrollToSection('community')} className="text-gray-400 hover:text-terra-400 transition-colors">
+                  {t.navigation.community}
+                </button>
+                <button onClick={() => scrollToSection('dao')} className="text-gray-400 hover:text-sage-400 transition-colors">
+                  {t.navigation.dao}
                 </button>
                 <button onClick={() => scrollToSection('join')} className="text-gray-400 hover:text-terra-400 transition-colors">
                   {t.navigation.join}
@@ -242,9 +242,9 @@ function LandingPage() {
         {/* All Sections */}
         <VisionSection language={language} translations={t} />
         <LandSection language={language} translations={t} />
+        <IndigenousSection language={language} translations={t} />
         <CommunitySection language={language} translations={t} />
         <DAOSection language={language} translations={t} />
-        <IndigenousSection language={language} translations={t} />
         <JoinCTASection language={language} translations={t} />
         <ContactSection language={language} translations={t} />
 
