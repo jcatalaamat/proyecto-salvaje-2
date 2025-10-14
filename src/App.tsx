@@ -96,13 +96,13 @@ function LandingPage() {
                 <button onClick={() => scrollToSection('land')} className="text-gray-400 hover:text-terra-400 transition-colors">
                   {t.navigation.land}
                 </button>
-                <button onClick={() => scrollToSection('indigenous')} className="text-gray-400 hover:text-sage-400 transition-colors">
-                  {t.navigation.programs}
-                </button>
                 <button onClick={() => scrollToSection('community')} className="text-gray-400 hover:text-sage-400 transition-colors">
                   {t.navigation.community}
                 </button>
-                <button onClick={() => scrollToSection('join')} className="text-gray-400 hover:text-terra-400 transition-colors">
+                <button onClick={() => scrollToSection('indigenous')} className="text-gray-400 hover:text-terra-400 transition-colors">
+                  {t.navigation.programs}
+                </button>
+                <button onClick={() => scrollToSection('join')} className="text-gray-400 hover:text-sage-400 transition-colors">
                   {t.navigation.join}
                 </button>
                 <button onClick={() => scrollToSection('contact')} className="px-6 py-2 bg-gradient-to-r from-sage-500 to-terra-500 rounded-full font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all">
