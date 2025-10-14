@@ -301,7 +301,7 @@
         {
           "number": "1",
           "title": "Year 1 - Foundation Phase",
-          "period": "Foundation & Infrastructure",
+          "period": "April 2025 - September 2025",
           "status": "In Progress",
           "highlights": [
             "Finalize first ReFi funding round ($400k)",
@@ -322,7 +322,7 @@
         {
           "number": "2",
           "title": "Year 2 - Expansion Phase",
-          "period": "Community Building & Growth",
+          "period": "October 2025 - September 2026",
           "status": "Coming Soon",
           "highlights": [
             "Expand retreat offerings and educational academy",
@@ -340,7 +340,7 @@
         {
           "number": "3",
           "title": "Year 3 - Maturity Phase",
-          "period": "Full Regeneration Program",
+          "period": "October 2026 - September 2027",
           "status": "Planned",
           "highlights": [
             "Full regeneration program operating",
@@ -521,7 +521,7 @@
           "number": 2,
           "title": "Phase 2",
           "status": "Coming Soon",
-          "period": "Year 1",
+          "period": "October 2025 - March 2026",
           "description": "Infrastructure expansion: Underground electricity, paved pathways, first residential buildings, and communal spaces.",
           "price": "$650 MXN/m²",
           "availability": "Projected"
@@ -530,7 +530,7 @@
           "number": 3,
           "title": "Phase 3",
           "status": "Planned",
-          "period": "Year 2",
+          "period": "April 2026 - September 2027",
           "description": "Community amenities: Educational center, bio-pool, permaculture systems, and renewable energy integration.",
           "price": "$850 MXN/m²",
           "availability": "Projected"
@@ -539,9 +539,18 @@
           "number": 4,
           "title": "Phase 4",
           "status": "Future",
-          "period": "Year 3",
+          "period": "October 2027 - March 2028",
           "description": "Full community: All infrastructure complete, governance established, visitor programs launched.",
-          "price": "$1,100 MXN/m²",
+          "price": "$1,200 MXN/m²",
+          "availability": "Projected"
+        },
+        {
+          "number": 5,
+          "title": "Phase 5",
+          "status": "Future",
+          "period": "April 2028 - September 2028",
+          "description": "Community maturity: Final phase with complete amenities, expanded residential areas, and full operational capacity.",
+          "price": "$1,600 MXN/m²",
           "availability": "Projected"
         }
       ]
@@ -680,7 +689,7 @@
       "intro": "Based on market analysis and comparable developments in the region, early investors can expect significant appreciation.",
       "projection": {
         "title": "Conservative Projection",
-        "description": "Double your investment value in 1-2 years",
+        "description": "Triple your investment value in 4 years",
         "phases": [
           {
             "phase": "Phase 1 (Now)",
@@ -688,19 +697,24 @@
             "totalLot": "~$1,000,000 MXN ($55,000 USD)"
           },
           {
-            "phase": "Phase 2 (Year 1)",
+            "phase": "Phase 2 (Oct 2025)",
             "price": "$650 MXN/m²",
-            "totalLot": "~$1,400,000 MXN ($77,000 USD)"
+            "totalLot": "~$1,300,000 MXN ($72,000 USD)"
           },
           {
-            "phase": "Phase 3 (Year 2)",
+            "phase": "Phase 3 (Apr 2026)",
             "price": "$850 MXN/m²",
-            "totalLot": "~$1,800,000 MXN ($100,000 USD)"
+            "totalLot": "~$1,700,000 MXN ($94,000 USD)"
           },
           {
-            "phase": "Phase 4 (Year 3)",
-            "price": "$1,100 MXN/m²",
+            "phase": "Phase 4 (Oct 2027)",
+            "price": "$1,200 MXN/m²",
             "totalLot": "~$2,400,000 MXN ($133,000 USD)"
+          },
+          {
+            "phase": "Phase 5 (Apr 2028)",
+            "price": "$1,600 MXN/m²",
+            "totalLot": "~$3,200,000 MXN ($177,000 USD)"
           }
         ]
       },

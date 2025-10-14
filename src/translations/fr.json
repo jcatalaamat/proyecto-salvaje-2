@@ -521,7 +521,7 @@
           "number": 2,
           "title": "Phase 2",
           "status": "Bientôt Disponible",
-          "period": "Année 1",
+          "period": "Octobre 2025 - Mars 2026",
           "description": "Expansion de l'infrastructure : Électricité souterraine, sentiers pavés, premiers bâtiments résidentiels et espaces communaux.",
           "price": "650 MXN/m²",
           "availability": "Projeté"
@@ -530,7 +530,7 @@
           "number": 3,
           "title": "Phase 3",
           "status": "Planifié",
-          "period": "Année 2",
+          "period": "Avril 2026 - Septembre 2027",
           "description": "Équipements communautaires : Centre éducatif, bio-piscine, systèmes de permaculture et intégration d'énergies renouvelables.",
           "price": "850 MXN/m²",
           "availability": "Projeté"
@@ -539,9 +539,18 @@
           "number": 4,
           "title": "Phase 4",
           "status": "Futur",
-          "period": "Année 3",
+          "period": "Octobre 2027 - Mars 2028",
           "description": "Communauté complète : Toute l'infrastructure terminée, gouvernance établie, programmes pour visiteurs lancés.",
-          "price": "1 100 MXN/m²",
+          "price": "1 200 MXN/m²",
+          "availability": "Projeté"
+        },
+        {
+          "number": 5,
+          "title": "Phase 5",
+          "status": "Futur",
+          "period": "Avril 2028 - Septembre 2028",
+          "description": "Maturité communautaire : Phase finale avec équipements complets, zones résidentielles élargies et capacité opérationnelle totale.",
+          "price": "1 600 MXN/m²",
           "availability": "Projeté"
         }
       ]
@@ -680,27 +689,32 @@
       "intro": "Basé sur l'analyse du marché et les développements comparables dans la région, les investisseurs précoces peuvent s'attendre à une appréciation significative.",
       "projection": {
         "title": "Projection Conservatrice",
-        "description": "Doublez la valeur de votre investissement en 1-2 ans",
+        "description": "Triplez la valeur de votre investissement en 4 ans",
         "phases": [
           {
             "phase": "Phase 1 (Maintenant)",
-            "price": "450 MXN/m²",
-            "totalLot": "~1 000 000 MXN (55 000 USD)"
+            "price": "$450 MXN/m²",
+            "totalLot": "~$1,000,000 MXN (~$55,000 USD)"
           },
           {
-            "phase": "Phase 2 (Année 1)",
-            "price": "650 MXN/m²",
-            "totalLot": "~1 400 000 MXN (77 000 USD)"
+            "phase": "Phase 2 (Oct 2025)",
+            "price": "$650 MXN/m²",
+            "totalLot": "~$1,300,000 MXN (~$72,000 USD)"
           },
           {
-            "phase": "Phase 3 (Année 2)",
-            "price": "850 MXN/m²",
-            "totalLot": "~1 800 000 MXN (100 000 USD)"
+            "phase": "Phase 3 (Avr 2026)",
+            "price": "$850 MXN/m²",
+            "totalLot": "~$1,700,000 MXN (~$94,000 USD)"
           },
           {
-            "phase": "Phase 4 (Année 3)",
-            "price": "1 100 MXN/m²",
-            "totalLot": "~2 400 000 MXN (133 000 USD)"
+            "phase": "Phase 4 (Oct 2027)",
+            "price": "$1,200 MXN/m²",
+            "totalLot": "~$2,400,000 MXN (~$133,000 USD)"
+          },
+          {
+            "phase": "Phase 5 (Avr 2028)",
+            "price": "$1,600 MXN/m²",
+            "totalLot": "~$3,200,000 MXN (~$178,000 USD)"
           }
         ]
       },

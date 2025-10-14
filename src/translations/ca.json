@@ -521,7 +521,7 @@
           "number": 2,
           "title": "Fase 2",
           "status": "Properament",
-          "period": "Any 1",
+          "period": "Octubre 2025 - Març 2026",
           "description": "Expansió d'infraestructura: Electricitat subterrània, camins pavimentats, primers edificis residencials i espais comunals.",
           "price": "$650 MXN/m²",
           "availability": "Projectat"
@@ -530,7 +530,7 @@
           "number": 3,
           "title": "Fase 3",
           "status": "Planificat",
-          "period": "Any 2",
+          "period": "Abril 2026 - Setembre 2027",
           "description": "Amenitats comunitàries: Centre educatiu, bio-piscina, sistemes de permacultura i integració d'energia renovable.",
           "price": "$850 MXN/m²",
           "availability": "Projectat"
@@ -539,9 +539,18 @@
           "number": 4,
           "title": "Fase 4",
           "status": "Futur",
-          "period": "Any 3",
+          "period": "Octubre 2027 - Març 2028",
           "description": "Comunitat completa: Tota la infraestructura completa, govern establert, programes per a visitants llançats.",
-          "price": "$1.100 MXN/m²",
+          "price": "$1.200 MXN/m²",
+          "availability": "Projectat"
+        },
+        {
+          "number": 5,
+          "title": "Fase 5",
+          "status": "Futur",
+          "period": "Abril 2028 - Setembre 2028",
+          "description": "Maduresa comunitària: Fase final amb amenitats completes, àrees residencials ampliades i capacitat operativa total.",
+          "price": "$1.600 MXN/m²",
           "availability": "Projectat"
         }
       ]
@@ -680,27 +689,32 @@
       "intro": "Basant-nos en l'anàlisi de mercat i desenvolupaments comparables a la regió, els primers inversors poden esperar una apreciació significativa.",
       "projection": {
         "title": "Projecció Conservadora",
-        "description": "Duplica el valor de la teva inversió en 1-2 anys",
+        "description": "Triplica el valor de la teva inversió en 4 anys",
         "phases": [
           {
             "phase": "Fase 1 (Ara)",
             "price": "$450 MXN/m²",
-            "totalLot": "~$1.000.000 MXN ($55.000 USD)"
+            "totalLot": "~$1,000,000 MXN (~$55,000 USD)"
           },
           {
-            "phase": "Fase 2 (Any 1)",
+            "phase": "Fase 2 (Oct 2025)",
             "price": "$650 MXN/m²",
-            "totalLot": "~$1.400.000 MXN ($77.000 USD)"
+            "totalLot": "~$1,300,000 MXN (~$72,000 USD)"
           },
           {
-            "phase": "Fase 3 (Any 2)",
+            "phase": "Fase 3 (Abr 2026)",
             "price": "$850 MXN/m²",
-            "totalLot": "~$1.800.000 MXN ($100.000 USD)"
+            "totalLot": "~$1,700,000 MXN (~$94,000 USD)"
           },
           {
-            "phase": "Fase 4 (Any 3)",
-            "price": "$1.100 MXN/m²",
-            "totalLot": "~$2.400.000 MXN ($133.000 USD)"
+            "phase": "Fase 4 (Oct 2027)",
+            "price": "$1,200 MXN/m²",
+            "totalLot": "~$2,400,000 MXN (~$133,000 USD)"
+          },
+          {
+            "phase": "Fase 5 (Abr 2028)",
+            "price": "$1,600 MXN/m²",
+            "totalLot": "~$3,200,000 MXN (~$178,000 USD)"
           }
         ]
       },
