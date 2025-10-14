@@ -119,19 +119,30 @@ function InvestmentPage() {
               </button>
             </div>
 
-            {/* Language Toggle */}
-            <button
-              onClick={() => {
-                const languages: Array<'en' | 'es' | 'fr' | 'ca' | 'de'> = ['en', 'es', 'fr', 'ca', 'de'];
-                const currentIndex = languages.indexOf(language);
-                const nextIndex = (currentIndex + 1) % languages.length;
-                setLanguage(languages[nextIndex]);
-              }}
-              className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
-            >
-              <Globe className="w-4 h-4" />
-              <span className="text-sm font-medium">{language.toUpperCase()}</span>
-            </button>
+            <div className="flex items-center gap-3">
+              {/* Home Button */}
+              <Link
+                to="/"
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all font-semibold"
+              >
+                <Home className="w-4 h-4" />
+                <span className="text-sm">{t.navigation.home}</span>
+              </Link>
+
+              {/* Language Toggle */}
+              <button
+                onClick={() => {
+                  const languages: Array<'en' | 'es' | 'fr' | 'ca' | 'de'> = ['en', 'es', 'fr', 'ca', 'de'];
+                  const currentIndex = languages.indexOf(language);
+                  const nextIndex = (currentIndex + 1) % languages.length;
+                  setLanguage(languages[nextIndex]);
+                }}
+                className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all"
+              >
+                <Globe className="w-4 h-4" />
+                <span className="text-sm font-medium">{language.toUpperCase()}</span>
+              </button>
+            </div>
           </div>
         </div>
       </nav>
