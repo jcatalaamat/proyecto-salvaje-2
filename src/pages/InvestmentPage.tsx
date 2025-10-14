@@ -274,7 +274,7 @@ function InvestmentPage() {
                   className="flex items-center justify-center gap-3 p-4 bg-gradient-to-r from-terra-500 to-sage-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-terra-500/50 transition-all"
                 >
                   <Download className="w-5 h-5" />
-                  <span>View Topographic Map</span>
+                  <span>{t.land.gallery.downloadTopo}</span>
                 </a>
               </div>
             </div>
