@@ -137,8 +137,18 @@ function InvestmentPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-black via-earth-900/20 to-black">
-        <div className="container mx-auto max-w-6xl text-center">
+      <section className="relative pt-32 pb-20 px-4">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0 w-full h-full">
+          <img
+            src="/images/property/property-screenshot-02.png"
+            alt="Proyecto Salvaje Investment Property"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black"></div>
+        </div>
+
+        <div className="relative container mx-auto max-w-6xl text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-terra-400 via-sage-400 to-earth-400 bg-clip-text text-transparent">
             {inv.hero.title}
           </h1>
