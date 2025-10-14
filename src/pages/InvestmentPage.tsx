@@ -322,6 +322,84 @@ function InvestmentPage() {
         </div>
       </section>
 
+      {/* Property Gallery */}
+      <section id="property" className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Explore the Property</h2>
+            <p className="text-xl text-sage-300 mb-6">Visual Tour of the Land</p>
+            <p className="text-gray-400 max-w-3xl mx-auto">See the beauty and potential of Proyecto Salvaje through aerial views and on-site photography.</p>
+          </div>
+
+          {/* Featured Aerial Views + Topographic View */}
+          <div className="mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[1, 2, 3].map((num) => (
+                <div key={num} className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-br from-terra-500 to-sage-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-terra-500/20 overflow-hidden group-hover:border-terra-500/40 transition-all">
+                    <img
+                      src={`/images/property/property-screenshot-0${num}.png`}
+                      alt={`Aerial view ${num} of investment property`}
+                      className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Video Embed */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center text-white mb-8">Video Tour</h3>
+            <div className="relative group max-w-4xl mx-auto">
+              <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-terra-500/30 overflow-hidden">
+                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/SYMMEFsQ_-g?loop=1&playlist=SYMMEFsQ_-g&controls=1&modestbranding=1&rel=0&showinfo=0"
+                    title="Proyecto Salvaje Property Tour"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Topographic Map Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center text-white mb-8">{t.land.gallery.topoTitle}</h3>
+            <div className="relative group max-w-4xl mx-auto">
+              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-earth-500 rounded-3xl blur opacity-30"></div>
+              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-sage-500/30 overflow-hidden">
+                <img
+                  src="/images/property/property-photo-04.jpg"
+                  alt="Topographic Map of Proyecto Salvaje"
+                  className="w-full h-auto object-contain"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Topographic Map Download */}
+          <div className="text-center">
+            <a
+              href="/images/property/topographic-map.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-sage-500 to-earth-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all"
+            >
+              <Download className="w-5 h-5" />
+              <span>{t.land.gallery.downloadTopo}</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Phased Development */}
       <section id="timeline" className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
         <div className="container mx-auto max-w-6xl">
@@ -649,84 +727,6 @@ function InvestmentPage() {
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Property Gallery */}
-      <section id="property" className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Explore the Property</h2>
-            <p className="text-xl text-sage-300 mb-6">Visual Tour of the Land</p>
-            <p className="text-gray-400 max-w-3xl mx-auto">See the beauty and potential of Proyecto Salvaje through aerial views and on-site photography.</p>
-          </div>
-
-          {/* Featured Aerial Views + Topographic View */}
-          <div className="mb-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3].map((num) => (
-                <div key={num} className="relative group">
-                  <div className="absolute -inset-1 bg-gradient-to-br from-terra-500 to-sage-500 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
-                  <div className="relative bg-zinc-900/50 backdrop-blur-xl rounded-2xl border border-terra-500/20 overflow-hidden group-hover:border-terra-500/40 transition-all">
-                    <img
-                      src={`/images/property/property-screenshot-0${num}.png`}
-                      alt={`Aerial view ${num} of investment property`}
-                      className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Video Embed */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-white mb-8">Video Tour</h3>
-            <div className="relative group max-w-4xl mx-auto">
-              <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30"></div>
-              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-terra-500/30 overflow-hidden">
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  <iframe
-                    className="absolute top-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/SYMMEFsQ_-g?loop=1&playlist=SYMMEFsQ_-g&controls=1&modestbranding=1&rel=0&showinfo=0"
-                    title="Proyecto Salvaje Property Tour"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Topographic Map Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-white mb-8">{t.land.gallery.topoTitle}</h3>
-            <div className="relative group max-w-4xl mx-auto">
-              <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-earth-500 rounded-3xl blur opacity-30"></div>
-              <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-sage-500/30 overflow-hidden">
-                <img
-                  src="/images/property/property-photo-04.jpg"
-                  alt="Topographic Map of Proyecto Salvaje"
-                  className="w-full h-auto object-contain"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Topographic Map Download */}
-          <div className="text-center">
-            <a
-              href="/images/property/topographic-map.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-sage-500 to-earth-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all"
-            >
-              <Download className="w-5 h-5" />
-              <span>{t.land.gallery.downloadTopo}</span>
-            </a>
           </div>
         </div>
       </section>
