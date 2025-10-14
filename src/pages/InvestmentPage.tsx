@@ -195,10 +195,14 @@ function InvestmentPage() {
             >
               {inv.hero.cta}
             </a>
-            <button className="px-8 py-4 bg-white/10 border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all flex items-center gap-2">
+            <a
+              href="/images/property/salvaje.pdf"
+              download="Proyecto-Salvaje-Investment-Brief.pdf"
+              className="px-8 py-4 bg-white/10 border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all flex items-center gap-2"
+            >
               <Download className="w-5 h-5" />
               {inv.hero.secondaryCta}
-            </button>
+            </a>
           </div>
         </div>
       </section>
