@@ -114,7 +114,7 @@ function LandingPage() {
                 {/* Invest Button */}
                 <Link
                   to="/invest"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-terra-500 to-amber-500 hover:shadow-lg hover:shadow-terra-500/50 transition-all font-semibold"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all font-semibold"
                 >
                   <TrendingUp className="w-4 h-4" />
                   <span className="text-sm">{t.navigation.invest}</span>
