@@ -436,6 +436,15 @@
     "rights": ""
   },
   "investment": {
+    "navigation": {
+      "overview": "Überblick",
+      "timeline": "Zeitplan",
+      "packages": "Pakete",
+      "guidelines": "Richtlinien",
+      "legal": "Rechtliches",
+      "property": "Immobilie",
+      "contact": "Kontakt"
+    },
     "hero": {
       "title": "Investieren Sie in regeneratives Leben",
       "subtitle": "Sichern Sie sich Ihren Platz in einer blühenden Öko-Gemeinschaft",

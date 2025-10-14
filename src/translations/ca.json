@@ -436,6 +436,15 @@
     "rights": ""
   },
   "investment": {
+    "navigation": {
+      "overview": "Resum",
+      "timeline": "Cronologia",
+      "packages": "Paquets",
+      "guidelines": "Directrius",
+      "legal": "Legal",
+      "property": "Propietat",
+      "contact": "Contacte"
+    },
     "hero": {
       "title": "Inverteix en Vida Regenerativa",
       "subtitle": "Assegura el Teu Lloc en una Ecocomunitat Pròspera",

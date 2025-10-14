@@ -436,6 +436,15 @@
     "rights": ""
   },
   "investment": {
+    "navigation": {
+      "overview": "Aperçu",
+      "timeline": "Calendrier",
+      "packages": "Forfaits",
+      "guidelines": "Directives",
+      "legal": "Légal",
+      "property": "Propriété",
+      "contact": "Contact"
+    },
     "hero": {
       "title": "Investir dans la Vie Régénérative",
       "subtitle": "Sécurisez Votre Place dans une Éco-Communauté Florissante",

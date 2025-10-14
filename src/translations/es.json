@@ -436,6 +436,15 @@
     "rights": ""
   },
   "investment": {
+    "navigation": {
+      "overview": "Resumen",
+      "timeline": "Cronograma",
+      "packages": "Paquetes",
+      "guidelines": "Directrices",
+      "legal": "Legal",
+      "property": "Propiedad",
+      "contact": "Contacto"
+    },
     "hero": {
       "title": "Invierte en Vida Regenerativa",
       "subtitle": "Asegura Tu Lugar en una Eco-Comunidad Próspera",

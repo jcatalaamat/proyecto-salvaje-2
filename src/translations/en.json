@@ -436,6 +436,15 @@
     "rights": ""
   },
   "investment": {
+    "navigation": {
+      "overview": "Overview",
+      "timeline": "Timeline",
+      "packages": "Packages",
+      "guidelines": "Guidelines",
+      "legal": "Legal",
+      "property": "Property",
+      "contact": "Contact"
+    },
     "hero": {
       "title": "Invest in Regenerative Living",
       "subtitle": "Secure Your Place in a Thriving Eco-Community",
