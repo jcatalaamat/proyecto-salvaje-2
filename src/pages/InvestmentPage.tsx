@@ -98,7 +98,7 @@ function InvestmentPage() {
             </Link>
 
             {/* Nav Links - Hidden on mobile */}
-            <div className="hidden lg:flex items-center gap-5">
+            <div className="hidden lg:flex items-center gap-6">
               <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 {inv.navigation.overview}
               </button>
@@ -108,13 +108,10 @@ function InvestmentPage() {
               <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 {inv.navigation.packages}
               </button>
-              <button onClick={() => scrollToSection('guidelines')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
-                {inv.navigation.guidelines}
-              </button>
-              <button onClick={() => scrollToSection('legal')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
+              <button onClick={() => scrollToSection('legal')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 {inv.navigation.legal}
               </button>
-              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
+              <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 {inv.navigation.property}
               </button>
               <button onClick={() => scrollToSection('contact')} className="px-5 py-2 bg-gradient-to-r from-sage-500 to-terra-500 rounded-full font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all text-sm">
