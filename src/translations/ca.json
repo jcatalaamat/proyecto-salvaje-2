@@ -203,6 +203,135 @@
       }
     }
   },
+  "dao": {
+    "title": "Estructura DAO i Tokens",
+    "subtitle": "Governança Transparent amb Blockchain",
+    "intro": "Un sistema de dos tokens amb nivells de membresa NFT que garanteix una presa de decisions transparent i impulsada per la comunitat.",
+    "tokens": {
+      "title": "Sistema de Dos Tokens",
+      "tierra": {
+        "name": "$TIERRA",
+        "type": "Token de Governança",
+        "supply": "Fix: 1.000.000 tokens",
+        "description": "Inicialment no transferible, atorga drets de vot i participació comunitària.",
+        "distribution": [
+          "30% Compradors de terra",
+          "20% Tresoreria comunitària",
+          "20% Fons de desenvolupament",
+          "15% Associacions indígenes",
+          "10% Equip fundador",
+          "5% Reserves de liquiditat"
+        ]
+      },
+      "seeds": {
+        "name": "$SEEDS",
+        "type": "Token d'Utilitat",
+        "supply": "Inflacionari (encunyat per activitats)",
+        "description": "Utilitzat per reserves, tallers i economia interna. Es guanya mitjançant participació.",
+        "uses": [
+          "Reserves d'allotjament",
+          "Pagaments de tallers",
+          "Mercat intern",
+          "Recompenses per contribució"
+        ]
+      }
+    },
+    "nftTiers": {
+      "title": "Nivells de Membresa NFT",
+      "tiers": [
+        {
+          "name": "Guardians Fundadors",
+          "count": "20 NFTs",
+          "price": "$85.000",
+          "tokens": "50.000 $TIERRA",
+          "benefits": [
+            "Inclou propietat de terra",
+            "Seient al consell de governança",
+            "Accés de per vida al santuari",
+            "Màxim poder de vot"
+          ]
+        },
+        {
+          "name": "Socis de Terra",
+          "count": "80 NFTs",
+          "price": "$55.000",
+          "tokens": "10.000 $TIERRA",
+          "benefits": [
+            "Inclou propietat de terra",
+            "Drets de proposta i vot",
+            "30 nits/any d'accés",
+            "Reserva prioritària"
+          ]
+        },
+        {
+          "name": "Membres de la Comunitat",
+          "count": "500 NFTs",
+          "price": "$500",
+          "tokens": "500 $TIERRA",
+          "benefits": [
+            "Drets de vot comunitari",
+            "Descomptes en reserves",
+            "Participació en esdeveniments",
+            "Veu en governança"
+          ]
+        },
+        {
+          "name": "Col·laboradors Digitals",
+          "count": "Il·limitats",
+          "price": "$50",
+          "tokens": "50 $TIERRA",
+          "benefits": [
+            "Participació remota",
+            "Crèdits de visita",
+            "Accés comunitari",
+            "Suport a la regeneració"
+          ]
+        }
+      ]
+    },
+    "governance": {
+      "title": "Governança de Tres Nivells",
+      "intro": "Les decisions es distribueixen en tres nivells garantint eficiència i participació comunitària.",
+      "levels": [
+        {
+          "name": "Decisions del Consell",
+          "description": "Els Guardians Fundadors decideixen sobre ús de terra, construcció major i canvis legals.",
+          "requirement": "Es requereix supermajoria del 66%"
+        },
+        {
+          "name": "Decisions Comunitàries",
+          "description": "Tots els posseïdors d'NFT voten sobre esdeveniments, recursos i programació.",
+          "requirement": "Majoria simple (51%)"
+        },
+        {
+          "name": "Decisions Operacionals",
+          "description": "Els cercles de treball gestionen operacions diàries amb ratificació mensual del DAO.",
+          "requirement": "Autonomia del cercle amb supervisió"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Per Què Funciona",
+      "items": [
+        {
+          "title": "Valor Real",
+          "description": "Recolzat per terra i utilitat reals, no especulació"
+        },
+        {
+          "title": "Governança Transparent",
+          "description": "Totes les decisions registrades en blockchain amb tresoreria multi-signatura"
+        },
+        {
+          "title": "Incentius Alineats",
+          "description": "L'èxit de la comunitat beneficia tots els posseïdors de tokens per igual"
+        },
+        {
+          "title": "Entrada Accessible",
+          "description": "Múltiples punts de preu permeten participació àmplia"
+        }
+      ]
+    }
+  },
   "indigenous": {
     "title": "Saviesa Ancestral, Temps Moderns",
     "subtitle": "Integració Indígena",

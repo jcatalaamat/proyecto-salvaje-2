@@ -203,6 +203,135 @@
       }
     }
   },
+  "dao": {
+    "title": "Structure DAO et Tokens",
+    "subtitle": "Gouvernance Transparente par Blockchain",
+    "intro": "Un système à deux tokens avec des niveaux d'adhésion NFT garantissant une prise de décision transparente et communautaire.",
+    "tokens": {
+      "title": "Système à Deux Tokens",
+      "tierra": {
+        "name": "$TIERRA",
+        "type": "Token de Gouvernance",
+        "supply": "Fixe : 1 000 000 tokens",
+        "description": "Initialement non transférable, accorde des droits de vote et de participation communautaire.",
+        "distribution": [
+          "30% Acheteurs de terrain",
+          "20% Trésorerie communautaire",
+          "20% Fonds de développement",
+          "15% Partenariats autochtones",
+          "10% Équipe fondatrice",
+          "5% Réserves de liquidité"
+        ]
+      },
+      "seeds": {
+        "name": "$SEEDS",
+        "type": "Token Utilitaire",
+        "supply": "Inflationniste (créé pour les activités)",
+        "description": "Utilisé pour les réservations, ateliers et économie interne. Gagné par participation.",
+        "uses": [
+          "Réservations d'hébergement",
+          "Paiements d'ateliers",
+          "Marché interne",
+          "Récompenses de contribution"
+        ]
+      }
+    },
+    "nftTiers": {
+      "title": "Niveaux d'Adhésion NFT",
+      "tiers": [
+        {
+          "name": "Gardiens Fondateurs",
+          "count": "20 NFTs",
+          "price": "$85 000",
+          "tokens": "50 000 $TIERRA",
+          "benefits": [
+            "Inclut propriété foncière",
+            "Siège au conseil de gouvernance",
+            "Accès à vie au sanctuaire",
+            "Pouvoir de vote maximal"
+          ]
+        },
+        {
+          "name": "Partenaires Fonciers",
+          "count": "80 NFTs",
+          "price": "$55 000",
+          "tokens": "10 000 $TIERRA",
+          "benefits": [
+            "Inclut propriété foncière",
+            "Droits de proposition et vote",
+            "30 nuits/an d'accès",
+            "Réservation prioritaire"
+          ]
+        },
+        {
+          "name": "Membres de la Communauté",
+          "count": "500 NFTs",
+          "price": "$500",
+          "tokens": "500 $TIERRA",
+          "benefits": [
+            "Droits de vote communautaire",
+            "Réductions sur réservations",
+            "Participation aux événements",
+            "Voix dans la gouvernance"
+          ]
+        },
+        {
+          "name": "Soutiens Numériques",
+          "count": "Illimité",
+          "price": "$50",
+          "tokens": "50 $TIERRA",
+          "benefits": [
+            "Participation à distance",
+            "Crédits de visite",
+            "Accès communautaire",
+            "Soutien à la régénération"
+          ]
+        }
+      ]
+    },
+    "governance": {
+      "title": "Gouvernance à Trois Niveaux",
+      "intro": "Les décisions sont réparties sur trois niveaux garantissant efficacité et participation communautaire.",
+      "levels": [
+        {
+          "name": "Décisions du Conseil",
+          "description": "Les Gardiens Fondateurs décident de l'usage des terres, construction majeure et changements légaux.",
+          "requirement": "Supermajorité de 66% requise"
+        },
+        {
+          "name": "Décisions Communautaires",
+          "description": "Tous les détenteurs de NFT votent sur les événements, ressources et programmation.",
+          "requirement": "Majorité simple (51%)"
+        },
+        {
+          "name": "Décisions Opérationnelles",
+          "description": "Les cercles de travail gèrent les opérations quotidiennes avec ratification mensuelle du DAO.",
+          "requirement": "Autonomie du cercle avec supervision"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Pourquoi Ça Marche",
+      "items": [
+        {
+          "title": "Valeur Réelle",
+          "description": "Adossé à des terres et utilité réelles, pas de spéculation"
+        },
+        {
+          "title": "Gouvernance Transparente",
+          "description": "Toutes les décisions enregistrées sur blockchain avec trésorerie multi-signature"
+        },
+        {
+          "title": "Incitations Alignées",
+          "description": "Le succès de la communauté profite également à tous les détenteurs de tokens"
+        },
+        {
+          "title": "Entrée Accessible",
+          "description": "Plusieurs points de prix permettent une large participation"
+        }
+      ]
+    }
+  },
   "indigenous": {
     "title": "Sagesse Ancestrale, Temps Modernes",
     "subtitle": "Intégration Autochtone",

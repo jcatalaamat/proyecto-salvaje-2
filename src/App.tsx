@@ -9,6 +9,7 @@ import deTranslations from './translations/de.json';
 import VisionSection from './components/VisionSection';
 import LandSection from './components/LandSection';
 import CommunitySection from './components/CommunitySection';
+import DAOSection from './components/DAOSection';
 import IndigenousSection from './components/IndigenousSection';
 import JoinCTASection from './components/JoinCTASection';
 import ContactSection from './components/ContactSection';
@@ -239,6 +240,7 @@ function LandingPage() {
         <VisionSection language={language} translations={t} />
         <LandSection language={language} translations={t} />
         <CommunitySection language={language} translations={t} />
+        <DAOSection language={language} translations={t} />
         <IndigenousSection language={language} translations={t} />
         <JoinCTASection language={language} translations={t} />
         <ContactSection language={language} translations={t} />

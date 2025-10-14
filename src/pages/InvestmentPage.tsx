@@ -10,6 +10,7 @@ import esTranslations from '../translations/es.json';
 import caTranslations from '../translations/ca.json';
 import frTranslations from '../translations/fr.json';
 import deTranslations from '../translations/de.json';
+import DAOSection from '../components/DAOSection';
 
 function InvestmentPage() {
   const [language, setLanguage] = useState<'en' | 'es' | 'ca' | 'fr' | 'de'>('en');
@@ -583,6 +584,9 @@ function InvestmentPage() {
           </div>
         </div>
       </section>
+
+      {/* DAO Section */}
+      <DAOSection language={language} translations={t} />
 
       {/* Legal Support */}
       <section id="legal" className="py-20 px-4 bg-black">

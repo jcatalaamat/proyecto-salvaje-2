@@ -203,6 +203,135 @@
       }
     }
   },
+  "dao": {
+    "title": "DAO & Token Structure",
+    "subtitle": "Transparent Blockchain Governance",
+    "intro": "A two-token system with NFT membership tiers ensuring transparent, community-driven decision-making.",
+    "tokens": {
+      "title": "Two-Token System",
+      "tierra": {
+        "name": "$TIERRA",
+        "type": "Governance Token",
+        "supply": "Fixed: 1,000,000 tokens",
+        "description": "Non-transferable initially, grants voting rights and community participation.",
+        "distribution": [
+          "30% Land purchasers",
+          "20% Community treasury",
+          "20% Development fund",
+          "15% Indigenous partnerships",
+          "10% Founding team",
+          "5% Liquidity reserves"
+        ]
+      },
+      "seeds": {
+        "name": "$SEEDS",
+        "type": "Utility Token",
+        "supply": "Inflationary (minted for activities)",
+        "description": "Used for bookings, workshops, and internal economy. Earned through participation.",
+        "uses": [
+          "Accommodation bookings",
+          "Workshop payments",
+          "Internal marketplace",
+          "Contribution rewards"
+        ]
+      }
+    },
+    "nftTiers": {
+      "title": "NFT Membership Tiers",
+      "tiers": [
+        {
+          "name": "Founding Stewards",
+          "count": "20 NFTs",
+          "price": "$85,000",
+          "tokens": "50,000 $TIERRA",
+          "benefits": [
+            "Includes land ownership",
+            "Council governance seat",
+            "Lifetime sanctuary access",
+            "Maximum voting power"
+          ]
+        },
+        {
+          "name": "Land Partners",
+          "count": "80 NFTs",
+          "price": "$55,000",
+          "tokens": "10,000 $TIERRA",
+          "benefits": [
+            "Includes land ownership",
+            "Proposal & voting rights",
+            "30 nights/year access",
+            "Priority booking"
+          ]
+        },
+        {
+          "name": "Community Members",
+          "count": "500 NFTs",
+          "price": "$500",
+          "tokens": "500 $TIERRA",
+          "benefits": [
+            "Community voting rights",
+            "Booking discounts",
+            "Event participation",
+            "Governance voice"
+          ]
+        },
+        {
+          "name": "Digital Supporters",
+          "count": "Unlimited",
+          "price": "$50",
+          "tokens": "50 $TIERRA",
+          "benefits": [
+            "Remote participation",
+            "Visit credits",
+            "Community access",
+            "Support regeneration"
+          ]
+        }
+      ]
+    },
+    "governance": {
+      "title": "Three-Level Governance",
+      "intro": "Decisions are distributed across three levels ensuring both efficiency and community participation.",
+      "levels": [
+        {
+          "name": "Council Decisions",
+          "description": "Founding Stewards decide on land use, major construction, and legal changes.",
+          "requirement": "66% supermajority required"
+        },
+        {
+          "name": "Community Decisions",
+          "description": "All NFT holders vote on events, resources, and programming.",
+          "requirement": "Simple majority (51%)"
+        },
+        {
+          "name": "Operational Decisions",
+          "description": "Working circles handle day-to-day operations with monthly DAO ratification.",
+          "requirement": "Circle autonomy with oversight"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Why This Works",
+      "items": [
+        {
+          "title": "Real Value",
+          "description": "Backed by actual land and utility, not speculation"
+        },
+        {
+          "title": "Transparent Governance",
+          "description": "All decisions recorded on blockchain with multi-sig treasury"
+        },
+        {
+          "title": "Aligned Incentives",
+          "description": "Community success benefits all token holders equally"
+        },
+        {
+          "title": "Accessible Entry",
+          "description": "Multiple price points allow broad participation"
+        }
+      ]
+    }
+  },
   "indigenous": {
     "title": "Ancient Wisdom, Modern Times",
     "subtitle": "Indigenous Integration",

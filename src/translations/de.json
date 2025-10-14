@@ -203,6 +203,135 @@
       }
     }
   },
+  "dao": {
+    "title": "DAO & Token-Struktur",
+    "subtitle": "Transparente Blockchain-Governance",
+    "intro": "Ein Zwei-Token-System mit NFT-Mitgliedschaftsstufen, das transparente, gemeinschaftsgetriebene Entscheidungsfindung gewährleistet.",
+    "tokens": {
+      "title": "Zwei-Token-System",
+      "tierra": {
+        "name": "$TIERRA",
+        "type": "Governance-Token",
+        "supply": "Fest: 1.000.000 Tokens",
+        "description": "Zunächst nicht übertragbar, gewährt Stimmrechte und Gemeinschaftsbeteiligung.",
+        "distribution": [
+          "30% Landkäufer",
+          "20% Gemeinschaftskasse",
+          "20% Entwicklungsfonds",
+          "15% Indigene Partnerschaften",
+          "10% Gründungsteam",
+          "5% Liquiditätsreserven"
+        ]
+      },
+      "seeds": {
+        "name": "$SEEDS",
+        "type": "Utility-Token",
+        "supply": "Inflationär (für Aktivitäten geprägt)",
+        "description": "Verwendet für Buchungen, Workshops und interne Wirtschaft. Durch Teilnahme verdient.",
+        "uses": [
+          "Unterkunftsbuchungen",
+          "Workshop-Zahlungen",
+          "Interner Marktplatz",
+          "Beitragsbelohnungen"
+        ]
+      }
+    },
+    "nftTiers": {
+      "title": "NFT-Mitgliedschaftsstufen",
+      "tiers": [
+        {
+          "name": "Gründungshüter",
+          "count": "20 NFTs",
+          "price": "$85.000",
+          "tokens": "50.000 $TIERRA",
+          "benefits": [
+            "Inklusive Landeigentum",
+            "Sitz im Governance-Rat",
+            "Lebenslanger Zugang zum Refugium",
+            "Maximale Stimmkraft"
+          ]
+        },
+        {
+          "name": "Landpartner",
+          "count": "80 NFTs",
+          "price": "$55.000",
+          "tokens": "10.000 $TIERRA",
+          "benefits": [
+            "Inklusive Landeigentum",
+            "Vorschlags- und Stimmrechte",
+            "30 Nächte/Jahr Zugang",
+            "Prioritätsbuchung"
+          ]
+        },
+        {
+          "name": "Gemeinschaftsmitglieder",
+          "count": "500 NFTs",
+          "price": "$500",
+          "tokens": "500 $TIERRA",
+          "benefits": [
+            "Gemeinschaftliche Stimmrechte",
+            "Buchungsrabatte",
+            "Veranstaltungsteilnahme",
+            "Stimme in der Governance"
+          ]
+        },
+        {
+          "name": "Digitale Unterstützer",
+          "count": "Unbegrenzt",
+          "price": "$50",
+          "tokens": "50 $TIERRA",
+          "benefits": [
+            "Remote-Teilnahme",
+            "Besuchsguthaben",
+            "Gemeinschaftszugang",
+            "Regenerationsunterstützung"
+          ]
+        }
+      ]
+    },
+    "governance": {
+      "title": "Drei-Ebenen-Governance",
+      "intro": "Entscheidungen werden auf drei Ebenen verteilt, um Effizienz und Gemeinschaftsbeteiligung zu gewährleisten.",
+      "levels": [
+        {
+          "name": "Ratsentscheidungen",
+          "description": "Gründungshüter entscheiden über Landnutzung, größere Bauvorhaben und rechtliche Änderungen.",
+          "requirement": "66% Supermehrheit erforderlich"
+        },
+        {
+          "name": "Gemeinschaftsentscheidungen",
+          "description": "Alle NFT-Inhaber stimmen über Veranstaltungen, Ressourcen und Programmgestaltung ab.",
+          "requirement": "Einfache Mehrheit (51%)"
+        },
+        {
+          "name": "Operative Entscheidungen",
+          "description": "Arbeitskreise handhaben tägliche Operationen mit monatlicher DAO-Ratifizierung.",
+          "requirement": "Kreisautonomie mit Aufsicht"
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Warum das funktioniert",
+      "items": [
+        {
+          "title": "Echter Wert",
+          "description": "Durch echtes Land und Nutzen unterstützt, nicht Spekulation"
+        },
+        {
+          "title": "Transparente Governance",
+          "description": "Alle Entscheidungen auf Blockchain aufgezeichnet mit Multi-Sig-Kasse"
+        },
+        {
+          "title": "Abgestimmte Anreize",
+          "description": "Gemeinschaftserfolg kommt allen Token-Inhabern gleichermaßen zugute"
+        },
+        {
+          "title": "Zugänglicher Einstieg",
+          "description": "Mehrere Preispunkte ermöglichen breite Teilnahme"
+        }
+      ]
+    }
+  },
   "indigenous": {
     "title": "Alte Weisheit, moderne Zeiten",
     "subtitle": "Indigene Integration",
