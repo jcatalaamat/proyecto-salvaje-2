@@ -188,7 +188,6 @@ const ContactSection = ({ translations }: ContactSectionProps) => {
                 >
                   {t.whatsappText}
                 </a>
-                <p className="text-gray-400 text-sm mt-2">{t.whatsapp}</p>
               </div>
             </div>
 

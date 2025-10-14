@@ -129,6 +129,17 @@ function InvestmentPage() {
                 <span className="text-sm">{t.navigation.home}</span>
               </Link>
 
+              {/* WhatsApp Button */}
+              <a
+                href={`https://wa.me/${inv.contact.info.whatsapp.replace(/[^0-9]/g, '')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 hover:shadow-lg hover:shadow-green-500/50 transition-all"
+                title="Contact us on WhatsApp"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </a>
+
               {/* Language Toggle */}
               <button
                 onClick={() => {
@@ -834,7 +845,6 @@ function InvestmentPage() {
                   >
                     {inv.contact.info.whatsappText}
                   </a>
-                  <p className="text-gray-400 text-sm mt-2">{inv.contact.info.whatsapp}</p>
                 </div>
               </div>
 

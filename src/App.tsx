@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp } from 'lucide-react';
+import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp, MessageCircle } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import caTranslations from './translations/ca.json';
@@ -119,6 +119,17 @@ function LandingPage() {
                   <TrendingUp className="w-4 h-4" />
                   <span className="text-sm">{t.navigation.invest}</span>
                 </Link>
+
+                {/* WhatsApp Button */}
+                <a
+                  href={`https://wa.me/${t.contact.whatsapp.replace(/[^0-9]/g, '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 hover:shadow-lg hover:shadow-green-500/50 transition-all"
+                  title="Contact us on WhatsApp"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                </a>
 
                 {/* Language Toggle */}
                 <button
