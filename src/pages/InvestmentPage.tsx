@@ -11,6 +11,7 @@ import caTranslations from '../translations/ca.json';
 import frTranslations from '../translations/fr.json';
 import deTranslations from '../translations/de.json';
 import DAOSection from '../components/DAOSection';
+import IndigenousSection from '../components/IndigenousSection';
 
 function InvestmentPage() {
   const [language, setLanguage] = useState<'en' | 'es' | 'ca' | 'fr' | 'de'>('en');
@@ -106,14 +107,14 @@ function InvestmentPage() {
               <button onClick={() => scrollToSection('property')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 {inv.navigation.property}
               </button>
+              <button onClick={() => scrollToSection('indigenous')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
+                {inv.navigation.programs}
+              </button>
               <button onClick={() => scrollToSection('timeline')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 {inv.navigation.timeline}
               </button>
               <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 {inv.navigation.packages}
-              </button>
-              <button onClick={() => scrollToSection('guidelines')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
-                {inv.navigation.guidelines}
               </button>
               <button onClick={() => scrollToSection('dao')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 {inv.navigation.dao}
@@ -399,6 +400,9 @@ function InvestmentPage() {
           </div>
         </div>
       </section>
+
+      {/* Ancient Wisdom Section */}
+      <IndigenousSection language={language} translations={t} />
 
       {/* Phased Development */}
       <section id="timeline" className="py-20 px-4 bg-gradient-to-b from-black to-earth-900/20">

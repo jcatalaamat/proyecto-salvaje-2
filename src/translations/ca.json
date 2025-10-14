@@ -571,11 +571,12 @@
     "navigation": {
       "overview": "Resum",
       "timeline": "Cronologia",
-      "packages": "Nivells de Membresa",
+      "packages": "Membresa",
       "guidelines": "Directrius",
       "dao": "DAO",
       "legal": "Legal",
       "property": "La Terra",
+      "programs": "Programes",
       "contact": "Contacte"
     },
     "hero": {

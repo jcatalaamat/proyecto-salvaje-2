@@ -571,11 +571,12 @@
     "navigation": {
       "overview": "Resumen",
       "timeline": "Cronograma",
-      "packages": "Niveles de Membresía",
+      "packages": "Membresía",
       "guidelines": "Directrices",
       "dao": "DAO",
       "legal": "Legal",
       "property": "La Tierra",
+      "programs": "Programas",
       "contact": "Contacto"
     },
     "hero": {
