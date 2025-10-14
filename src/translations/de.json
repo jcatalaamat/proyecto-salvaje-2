@@ -552,66 +552,67 @@
       "intro": "Mehrere Möglichkeiten zur Teilnahme, vom vollständigen Landeigentum bis zur Impact-Investition.",
       "items": [
         {
-          "title": "Gründender Landhüter",
-          "price": "180.000 USD",
+          "title": "Gründender Hüter",
+          "price": "$85.000 USD",
           "popular": true,
-          "description": "Vollständiges Grundstückseigentum mit Governance-Rechten und Ratsmitgliedschaft.",
+          "description": "Hauptgrundstück von 2.500 m² mit Bauguthaben, Governance-Rechten und prioritärem Zugang",
           "features": [
-            "Vollständiges Grundstück: 2.000-2.500 m²",
-            "Stimmrecht bei allen Entscheidungen",
-            "Sitz im Rat der Gründungsmitglieder",
-            "Prioritätszugang zu Einrichtungen",
-            "Eigentumsurkunde nach Fertigstellung",
-            "Zugang zu Bildungsprogrammen",
-            "Teilnahme an zeremoniellen Praktiken"
+            "Hauptgrundstück von 2.500 m² (25% größer, beste Lagen)",
+            "Bauguthaben von $15.000 inbegriffen",
+            "Vollständige Governance-Rechte und Ratssitz",
+            "Prioritätszugang zu allen Annehmlichkeiten",
+            "Erste Wahl bei allem",
+            "3 Jahre vorausbezahlte Gemeinschaftsgebühren",
+            "Eigentumsurkunde nach Fertigstellung"
           ],
-          "roi": "2-3x Wert in 2-3 Jahren",
-          "timeline": "Einzugsbereit nach Phase 1"
+          "roi": "255% auf Grundstückswert + Bauguthaben",
+          "timeline": "Prioritätszugang Phase 1"
         },
         {
-          "title": "Gemeinschaftsbeitragender",
-          "price": "50.000 - 75.000 USD",
+          "title": "Gemeinschaftspartner",
+          "price": "$55.000 USD",
           "popular": false,
-          "description": "Teilgrundstück oder gemeinsame Parzelle mit Gemeinschaftsteilnahmerechten.",
+          "description": "Kerngrundstück von 2.000 m² mit vollständigem Eigentum und grundlegender Gemeinschaftsmitgliedschaft",
           "features": [
-            "Teilgrundstück oder gemeinsame Parzelle",
-            "Stimmrecht bei Gemeinschaftsentscheidungen",
-            "Zugang zu allen Gemeinschaftsräumen",
-            "Rabatte auf Bildungsworkshops",
-            "Flexible Eigentumsstrukturen",
-            "Phase-2-Bezugspriorität"
+            "Kerngrundstück von 2.000 m²",
+            "Vollständiges Eigentum und Baurechte",
+            "Grundlegende Gemeinschaftsmitgliedschaft",
+            "Zugang zu gemeinschaftlichen Räumen",
+            "Kann an Programmen/Retreats teilnehmen",
+            "Gemeinschaftsgebühren nach Bedarf zahlen",
+            "Eigentumsurkunde nach Fertigstellung"
           ],
-          "roi": "1,5-2x Wert in 2-3 Jahren",
-          "timeline": "Jahr-2-Bezug"
+          "roi": "255% auf Grundstückswert",
+          "timeline": "Standardzeitplan"
         },
         {
           "title": "Impact-Investor",
-          "price": "10.000+ USD",
+          "price": "$10.000+ USD",
           "popular": false,
           "description": "Infrastrukturentwicklungsanleihen mit festen Renditen plus Erfolgsbonus.",
           "features": [
             "Kein Landeigentum",
-            "Feste Rendite: 8-12% jährlich",
-            "Projekterfolgs-Bonuspotenzial",
-            "Beratende Rolle in der Entwicklung",
-            "Übertragbare Investition",
+            "Feste Renditen: 8-12% jährlich",
+            "Erfolgsbonuspotenzial",
             "Liquide nach Jahr 2",
-            "Besuchsprivilegien"
+            "Besuchsprivilegien",
+            "Beratende Teilnahme optional"
           ],
-          "roi": "Fest 8-12% + Bonus",
+          "roi": "Nur feste Renditen",
           "timeline": "Liquide Investition nach Jahr 2"
         }
       ],
       "comparison": {
         "title": "Paketvergleich",
-        "headers": ["Merkmal", "Gründender Hüter", "Gemeinschaftsbeitragender", "Impact-Investor"],
+        "headers": ["Merkmal", "Gründender Hüter", "Gemeinschaftspartner", "Impact-Investor"],
         "rows": [
-          ["Investition", "180.000 USD", "50-75.000 USD", "10.000+ USD"],
-          ["Landeigentum", "Vollständiges Grundstück (2.000-2.500m²)", "Teil/Geteilt", "Keines"],
-          ["Governance", "Voller Ratssitz", "Stimmrechte", "Beratende Rolle"],
-          ["ROI-Prognose", "2-3x in 2-3 Jahren", "1,5-2x in 2-3 Jahren", "8-12% jährlich + Bonus"],
-          ["Bezug", "Phase-1-Fertigstellung", "Jahr 2", "Nur Besuchsprivilegien"],
-          ["Liquidität", "Nach Phase 4", "Nach Phase 3", "Nach Jahr 2"]
+          ["Investition", "$85K", "$55K", "$10K+"],
+          ["Landeigentum", "Hauptgrundstück (2.500m²)", "Kerngrundstück (2.000m²)", "Keines"],
+          ["Governance", "Ratssitz + volle Rechte", "Grundmitgliedschaft", "Beratend optional"],
+          ["Bauguthaben", "$15K inbegriffen", "Keines", "Keines"],
+          ["ROI-Prognose", "255% + Guthaben", "255% Wertsteigerung", "Nur fest"],
+          ["Bezug", "Priorität Phase 1", "Standardzeitplan", "Nur Besuchsprivilegien"],
+          ["Besondere Vorteile", "3 Jahre vorausbezahlte Gebühren, erste Wahl", "Programmteilnahme", "Liquide nach Jahr 2"]
         ]
       }
     },

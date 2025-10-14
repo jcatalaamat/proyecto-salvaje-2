@@ -552,37 +552,38 @@
       "intro": "Múltiples formas de participar, desde propiedad completa del terreno hasta inversión de impacto.",
       "items": [
         {
-          "title": "Custodio Fundador del Terreno",
-          "price": "$180,000 USD",
+          "title": "Custodio Fundador",
+          "price": "$85,000 USD",
           "popular": true,
-          "description": "Propiedad completa del lote con derechos de gobernanza y membresía en el consejo.",
+          "description": "Lote principal de 2,500 m² con crédito de construcción, derechos de gobernanza y acceso prioritario.",
           "features": [
-            "Lote completo: 2,000-2,500 m²",
-            "Derechos de voto en todas las decisiones",
-            "Asiento en el Consejo de Miembros Fundadores",
-            "Acceso prioritario a amenidades",
-            "Escritura al completar",
-            "Acceso a programas educativos",
-            "Participación en prácticas ceremoniales"
+            "Lote principal de 2,500 m² (25% más grande, mejores ubicaciones)",
+            "$15,000 de crédito de construcción incluido",
+            "Derechos completos de gobernanza y asiento en consejo",
+            "Acceso prioritario a todas las amenidades",
+            "Primera opción en todo",
+            "3 años de cuotas comunitarias pre-pagadas",
+            "Escritura al completar"
           ],
-          "roi": "2-3x valor en 2-3 años",
-          "timeline": "Listo para habitar después de Fase 1"
+          "roi": "255% sobre valor del terreno + crédito de construcción",
+          "timeline": "Acceso prioritario Fase 1"
         },
         {
-          "title": "Contribuidor Comunitario",
-          "price": "$50,000 - $75,000 USD",
+          "title": "Socio Comunitario",
+          "price": "$55,000 USD",
           "popular": false,
-          "description": "Lote parcial o parcela compartida con derechos de participación comunitaria.",
+          "description": "Lote esencial de 2,000 m² con propiedad completa y membresía comunitaria básica.",
           "features": [
-            "Lote parcial o parcela compartida",
-            "Derechos de voto en decisiones comunitarias",
-            "Acceso a todos los espacios comunales",
-            "Descuentos en talleres educativos",
-            "Estructuras de propiedad flexibles",
-            "Prioridad de ocupación Fase 2"
+            "Lote esencial de 2,000 m²",
+            "Propiedad completa y derechos de construcción",
+            "Membresía comunitaria básica",
+            "Acceso a espacios comunales",
+            "Puede participar en programas/retiros",
+            "Pago de cuotas comunitarias sobre la marcha",
+            "Escritura al completar"
           ],
-          "roi": "1.5-2x valor en 2-3 años",
-          "timeline": "Ocupación Año 2"
+          "roi": "255% sobre valor del terreno",
+          "timeline": "Cronograma estándar"
         },
         {
           "title": "Inversor de Impacto",
@@ -591,27 +592,28 @@
           "description": "Bonos de desarrollo de infraestructura con retornos fijos más bono de éxito.",
           "features": [
             "Sin propiedad del terreno",
-            "Retorno fijo: 8-12% anual",
-            "Potencial de bono por éxito del proyecto",
-            "Rol asesor en desarrollo",
-            "Inversión transferible",
+            "Retornos fijos: 8-12% anual",
+            "Potencial de bono por éxito",
             "Líquida después del Año 2",
-            "Privilegios de visita"
+            "Privilegios de visita",
+            "Participación asesora opcional"
           ],
-          "roi": "Fijo 8-12% + bono",
-          "timeline": "Inversión líquida después del Año 2"
+          "roi": "Solo retornos fijos",
+          "timeline": "Líquida después del Año 2"
         }
       ],
       "comparison": {
         "title": "Comparación de Paquetes",
-        "headers": ["Característica", "Custodio Fundador", "Contribuidor Comunitario", "Inversor de Impacto"],
+        "headers": ["Característica", "Custodio Fundador", "Socio Comunitario", "Inversor de Impacto"],
         "rows": [
-          ["Inversión", "$180K", "$50-75K", "$10K+"],
-          ["Propiedad del Terreno", "Lote completo (2,000-2,500m²)", "Parcial/Compartida", "Ninguna"],
-          ["Gobernanza", "Asiento completo en Consejo", "Derechos de voto", "Rol asesor"],
-          ["Proyección ROI", "2-3x en 2-3 años", "1.5-2x en 2-3 años", "8-12% anual + bono"],
-          ["Ocupación", "Terminación Fase 1", "Año 2", "Solo privilegios de visita"],
-          ["Liquidez", "Después de Fase 4", "Después de Fase 3", "Después del Año 2"]
+          ["Inversión", "$85K", "$55K", "$10K+"],
+          ["Propiedad del Terreno", "Lote principal 2,500m²", "Lote esencial 2,000m²", "Ninguna"],
+          ["Gobernanza", "Asiento en consejo + derechos completos", "Membresía básica", "Asesor opcional"],
+          ["Créditos de Construcción", "$15K incluidos", "Ninguno", "Ninguno"],
+          ["Cuotas Comunitarias", "3 años pre-pagadas", "Pago sobre la marcha", "N/A"],
+          ["Proyección ROI", "255% + crédito $15K", "255% sobre terreno", "8-12% anual"],
+          ["Acceso Prioritario", "Primera opción en todo", "Acceso estándar", "Privilegios de visita"],
+          ["Cronograma", "Prioridad Fase 1", "Estándar", "Líquida Año 2"]
         ]
       }
     },

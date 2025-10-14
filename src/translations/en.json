@@ -552,37 +552,38 @@
       "intro": "Multiple ways to participate, from full land ownership to impact investing.",
       "items": [
         {
-          "title": "Founding Land Steward",
-          "price": "$180,000 USD",
+          "title": "Founding Steward",
+          "price": "$85,000 USD",
           "popular": true,
-          "description": "Full lot ownership with governance rights and council membership.",
+          "description": "Prime 2,500 m² lot with construction credit, governance rights, and priority access.",
           "features": [
-            "Full lot: 2,000-2,500 m²",
-            "Voting rights in all decisions",
-            "Council of Founding Members seat",
-            "Priority access to amenities",
-            "Title deed upon completion",
-            "Educational program access",
-            "Ceremonial practice participation"
+            "Prime 2,500 m² lot (25% larger, best locations)",
+            "$15,000 construction credit included",
+            "Full governance rights and council seat",
+            "Priority access to all amenities",
+            "First choice on everything",
+            "3 years pre-paid community fees",
+            "Title deed upon completion"
           ],
-          "roi": "2-3x value in 2-3 years",
-          "timeline": "Move-in ready after Phase 1"
+          "roi": "255% on land value + construction credit",
+          "timeline": "Priority Phase 1 access"
         },
         {
-          "title": "Community Contributor",
-          "price": "$50,000 - $75,000 USD",
+          "title": "Community Partner",
+          "price": "$55,000 USD",
           "popular": false,
-          "description": "Partial lot or shared parcel with community participation rights.",
+          "description": "Core 2,000 m² lot with full ownership and basic community membership.",
           "features": [
-            "Partial lot or shared parcel",
-            "Voting rights in community decisions",
-            "Access to all communal spaces",
-            "Educational workshop discounts",
-            "Flexible ownership structures",
-            "Phase 2 occupancy priority"
+            "Core 2,000 m² lot",
+            "Full ownership and building rights",
+            "Basic community membership",
+            "Access to communal spaces",
+            "Can participate in programs/retreats",
+            "Pay community fees as you go",
+            "Title deed upon completion"
           ],
-          "roi": "1.5-2x value in 2-3 years",
-          "timeline": "Year 2 occupancy"
+          "roi": "255% on land value",
+          "timeline": "Standard timeline"
         },
         {
           "title": "Impact Investor",
@@ -591,27 +592,28 @@
           "description": "Infrastructure development bonds with fixed returns plus success bonus.",
           "features": [
             "No land ownership",
-            "Fixed return: 8-12% annually",
-            "Project success bonus potential",
-            "Advisory role in development",
-            "Transferable investment",
+            "Fixed returns: 8-12% annually",
+            "Success bonus potential",
             "Liquid after Year 2",
-            "Visit privileges"
+            "Visit privileges",
+            "Advisory participation optional"
           ],
-          "roi": "Fixed 8-12% + bonus",
-          "timeline": "Liquid investment after Year 2"
+          "roi": "Fixed returns only",
+          "timeline": "Liquid after Year 2"
         }
       ],
       "comparison": {
         "title": "Package Comparison",
-        "headers": ["Feature", "Founding Steward", "Community Contributor", "Impact Investor"],
+        "headers": ["Feature", "Founding Steward", "Community Partner", "Impact Investor"],
         "rows": [
-          ["Investment", "$180K", "$50-75K", "$10K+"],
-          ["Land Ownership", "Full lot (2,000-2,500m²)", "Partial/Shared", "None"],
-          ["Governance", "Full Council seat", "Voting rights", "Advisory role"],
-          ["ROI Projection", "2-3x in 2-3 years", "1.5-2x in 2-3 years", "8-12% annual + bonus"],
-          ["Occupancy", "Phase 1 completion", "Year 2", "Visit privileges only"],
-          ["Liquidity", "After Phase 4", "After Phase 3", "After Year 2"]
+          ["Investment", "$85K", "$55K", "$10K+"],
+          ["Land Ownership", "Prime 2,500m² lot", "Core 2,000m² lot", "None"],
+          ["Governance", "Council seat + full rights", "Basic membership", "Advisory optional"],
+          ["Construction Credits", "$15K included", "None", "None"],
+          ["Community Fees", "3 years pre-paid", "Pay as you go", "N/A"],
+          ["ROI Projection", "255% + $15K credit", "255% on land", "8-12% annual"],
+          ["Priority Access", "First choice on everything", "Standard access", "Visit privileges"],
+          ["Timeline", "Phase 1 priority", "Standard", "Liquid Year 2"]
         ]
       }
     },

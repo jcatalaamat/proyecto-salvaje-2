@@ -552,66 +552,67 @@
       "intro": "Plusieurs façons de participer, de la propriété foncière complète à l'investissement d'impact.",
       "items": [
         {
-          "title": "Gardien Fondateur du Terrain",
-          "price": "180 000 USD",
+          "title": "Gardien Fondateur",
+          "price": "$85.000 USD",
           "popular": true,
-          "description": "Propriété complète du lot avec droits de gouvernance et adhésion au conseil.",
+          "description": "Lot principal de 2.500 m² avec crédit de construction, droits de gouvernance et accès prioritaire",
           "features": [
-            "Lot complet : 2 000-2 500 m²",
-            "Droits de vote sur toutes les décisions",
-            "Siège au Conseil des Membres Fondateurs",
-            "Accès prioritaire aux équipements",
-            "Titre de propriété à l'achèvement",
-            "Accès aux programmes éducatifs",
-            "Participation aux pratiques cérémonielles"
+            "Lot principal de 2.500 m² (25% plus grand, meilleurs emplacements)",
+            "Crédit de construction de $15.000 inclus",
+            "Droits de gouvernance complets et siège au conseil",
+            "Accès prioritaire à toutes les commodités",
+            "Premier choix sur tout",
+            "3 ans de frais communautaires prépayés",
+            "Titre de propriété à l'achèvement"
           ],
-          "roi": "Valeur x2-3 en 2-3 ans",
-          "timeline": "Prêt à emménager après la Phase 1"
+          "roi": "255% sur valeur foncière + crédit de construction",
+          "timeline": "Accès prioritaire Phase 1"
         },
         {
-          "title": "Contributeur Communautaire",
-          "price": "50 000 - 75 000 USD",
+          "title": "Partenaire Communautaire",
+          "price": "$55.000 USD",
           "popular": false,
-          "description": "Lot partiel ou parcelle partagée avec droits de participation communautaire.",
+          "description": "Lot essentiel de 2.000 m² avec propriété complète et adhésion communautaire de base",
           "features": [
-            "Lot partiel ou parcelle partagée",
-            "Droits de vote dans les décisions communautaires",
-            "Accès à tous les espaces communaux",
-            "Réductions sur les ateliers éducatifs",
-            "Structures de propriété flexibles",
-            "Priorité d'occupation Phase 2"
+            "Lot essentiel de 2.000 m²",
+            "Propriété complète et droits de construction",
+            "Adhésion communautaire de base",
+            "Accès aux espaces communaux",
+            "Peut participer aux programmes/retraites",
+            "Payer les frais communautaires au fur et à mesure",
+            "Titre de propriété à l'achèvement"
           ],
-          "roi": "Valeur x1,5-2 en 2-3 ans",
-          "timeline": "Occupation Année 2"
+          "roi": "255% sur valeur foncière",
+          "timeline": "Calendrier standard"
         },
         {
           "title": "Investisseur d'Impact",
-          "price": "10 000+ USD",
+          "price": "$10.000+ USD",
           "popular": false,
           "description": "Obligations de développement d'infrastructure avec rendements fixes plus bonus de succès.",
           "features": [
             "Pas de propriété foncière",
-            "Rendement fixe : 8-12% annuel",
-            "Potentiel de bonus de succès du projet",
-            "Rôle consultatif dans le développement",
-            "Investissement transférable",
+            "Rendements fixes : 8-12% annuel",
+            "Potentiel de bonus de succès",
             "Liquide après l'Année 2",
-            "Privilèges de visite"
+            "Privilèges de visite",
+            "Participation consultative optionnelle"
           ],
-          "roi": "Fixe 8-12% + bonus",
+          "roi": "Rendements fixes uniquement",
           "timeline": "Investissement liquide après l'Année 2"
         }
       ],
       "comparison": {
         "title": "Comparaison des Forfaits",
-        "headers": ["Caractéristique", "Gardien Fondateur", "Contributeur Communautaire", "Investisseur d'Impact"],
+        "headers": ["Caractéristique", "Gardien Fondateur", "Partenaire Communautaire", "Investisseur d'Impact"],
         "rows": [
-          ["Investissement", "180 k$", "50-75 k$", "10 k$+"],
-          ["Propriété Foncière", "Lot complet (2 000-2 500m²)", "Partiel/Partagé", "Aucune"],
-          ["Gouvernance", "Siège complet au Conseil", "Droits de vote", "Rôle consultatif"],
-          ["Projection ROI", "x2-3 en 2-3 ans", "x1,5-2 en 2-3 ans", "8-12% annuel + bonus"],
-          ["Occupation", "Achèvement Phase 1", "Année 2", "Privilèges de visite seulement"],
-          ["Liquidité", "Après Phase 4", "Après Phase 3", "Après Année 2"]
+          ["Investissement", "$85K", "$55K", "$10K+"],
+          ["Propriété Foncière", "Lot principal (2.500m²)", "Lot essentiel (2.000m²)", "Aucune"],
+          ["Gouvernance", "Siège au Conseil + droits complets", "Adhésion de base", "Consultatif optionnel"],
+          ["Crédits de Construction", "$15K inclus", "Aucun", "Aucun"],
+          ["Projection ROI", "255% + crédits", "255% appréciation", "Fixes uniquement"],
+          ["Occupation", "Priorité Phase 1", "Calendrier standard", "Privilèges de visite seulement"],
+          ["Avantages Spéciaux", "Frais prépayés 3 ans, premier choix", "Participation aux programmes", "Liquide après l'Année 2"]
         ]
       }
     },

@@ -552,37 +552,38 @@
       "intro": "Múltiples maneres de participar, des de la propietat completa de la terra fins a la inversió d'impacte.",
       "items": [
         {
-          "title": "Custodi Fundador de la Terra",
-          "price": "$180.000 USD",
+          "title": "Custodi Fundador",
+          "price": "$85.000 USD",
           "popular": true,
-          "description": "Propietat completa de la parcel·la amb drets de govern i membre del consell.",
+          "description": "Parcel·la principal de 2.500 m² amb crèdit de construcció, drets de govern i accés prioritari",
           "features": [
-            "Parcel·la completa: 2.000-2.500 m²",
-            "Drets de vot en totes les decisions",
-            "Seient al Consell de Membres Fundadors",
-            "Accés prioritari a les amenitats",
-            "Escriptura de títol en completar-se",
-            "Accés a programes educatius",
-            "Participació en pràctiques cerimonials"
+            "Parcel·la principal de 2.500 m² (25% més gran, millors ubicacions)",
+            "Crèdit de construcció de $15.000 inclòs",
+            "Drets complets de govern i seient al consell",
+            "Accés prioritari a totes les amenitats",
+            "Primera elecció en tot",
+            "3 anys de quotes comunitàries pre-pagades",
+            "Escriptura de títol en completar-se"
           ],
-          "roi": "2-3x valor en 2-3 anys",
-          "timeline": "Llest per mudar-se després de la Fase 1"
+          "roi": "255% sobre valor de terra + crèdit de construcció",
+          "timeline": "Accés prioritari Fase 1"
         },
         {
-          "title": "Contribuïdor Comunitari",
-          "price": "$50.000 - $75.000 USD",
+          "title": "Soci Comunitari",
+          "price": "$55.000 USD",
           "popular": false,
-          "description": "Parcel·la parcial o parcel·la compartida amb drets de participació comunitària.",
+          "description": "Parcel·la esencial de 2.000 m² amb propietat completa i afiliació comunitària bàsica",
           "features": [
-            "Parcel·la parcial o parcel·la compartida",
-            "Drets de vot en decisions comunitàries",
-            "Accés a tots els espais comunals",
-            "Descomptes en tallers educatius",
-            "Estructures de propietat flexibles",
-            "Prioritat d'ocupació Fase 2"
+            "Parcel·la esencial de 2.000 m²",
+            "Propietat completa i drets de construcció",
+            "Afiliació comunitària bàsica",
+            "Accés als espais comunals",
+            "Pot participar en programes/retirs",
+            "Pagar quotes comunitàries sobre la marxa",
+            "Escriptura de títol en completar-se"
           ],
-          "roi": "1,5-2x valor en 2-3 anys",
-          "timeline": "Ocupació Any 2"
+          "roi": "255% sobre valor de terra",
+          "timeline": "Cronologia estàndard"
         },
         {
           "title": "Inversor d'Impacte",
@@ -591,27 +592,27 @@
           "description": "Bons de desenvolupament d'infraestructura amb retorns fixos més bonus d'èxit.",
           "features": [
             "Sense propietat de terra",
-            "Retorn fix: 8-12% anual",
-            "Potencial de bonus d'èxit del projecte",
-            "Rol d'assessorament en el desenvolupament",
-            "Inversió transferible",
+            "Retorns fixos: 8-12% anual",
+            "Potencial de bonus d'èxit",
             "Líquid després de l'Any 2",
-            "Privilegis de visita"
+            "Privilegis de visita",
+            "Participació consultiva opcional"
           ],
-          "roi": "Fix 8-12% + bonus",
+          "roi": "Només retorns fixos",
           "timeline": "Inversió líquida després de l'Any 2"
         }
       ],
       "comparison": {
         "title": "Comparació de Paquets",
-        "headers": ["Característica", "Custodi Fundador", "Contribuïdor Comunitari", "Inversor d'Impacte"],
+        "headers": ["Característica", "Custodi Fundador", "Soci Comunitari", "Inversor d'Impacte"],
         "rows": [
-          ["Inversió", "$180K", "$50-75K", "$10K+"],
-          ["Propietat Terra", "Parcel·la completa (2.000-2.500m²)", "Parcial/Compartida", "Cap"],
-          ["Govern", "Seient complet al Consell", "Drets de vot", "Rol d'assessorament"],
-          ["Projecció ROI", "2-3x en 2-3 anys", "1,5-2x en 2-3 anys", "8-12% anual + bonus"],
-          ["Ocupació", "Compleció Fase 1", "Any 2", "Només privilegis de visita"],
-          ["Liquiditat", "Després Fase 4", "Després Fase 3", "Després Any 2"]
+          ["Inversió", "$85K", "$55K", "$10K+"],
+          ["Propietat Terra", "Parcel·la principal (2.500m²)", "Parcel·la esencial (2.000m²)", "Cap"],
+          ["Govern", "Seient al Consell + drets complets", "Afiliació bàsica", "Consultiu opcional"],
+          ["Crèdits de Construcció", "$15K inclòs", "Cap", "Cap"],
+          ["Projecció ROI", "255% + crèdits", "255% apreciació", "Només fixos"],
+          ["Ocupació", "Prioritat Fase 1", "Cronologia estàndard", "Només privilegis de visita"],
+          ["Beneficis Especials", "Quotes pre-pagades 3 anys, primera elecció", "Participació en programes", "Líquida després de l'Any 2"]
         ]
       }
     },

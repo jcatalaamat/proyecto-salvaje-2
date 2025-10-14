@@ -349,12 +349,12 @@ function InvestmentPage() {
             {inv.packages.items.map((pkg: any, index: number) => (
               <div key={index} className={`relative group ${pkg.popular ? 'md:-mt-8' : ''}`}>
                 {pkg.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 px-4 py-1 bg-gradient-to-r from-terra-500 to-sage-500 text-white text-sm font-bold rounded-full">
+                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 px-4 py-1 bg-gradient-to-r from-terra-500 to-sage-500 text-white text-sm font-bold rounded-full z-10">
                     Most Popular
                   </div>
                 )}
-                <div className="absolute -inset-1 bg-gradient-to-br from-sage-500 to-terra-500 rounded-2xl blur opacity-20"></div>
-                <div className={`relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border ${pkg.popular ? 'border-terra-500/40' : 'border-sage-500/20'} p-8 h-full flex flex-col`}>
+                <div className="absolute -inset-1 bg-gradient-to-br from-sage-500 to-terra-500 rounded-2xl blur opacity-20 z-0"></div>
+                <div className={`relative bg-zinc-900/90 backdrop-blur-xl rounded-2xl border ${pkg.popular ? 'border-terra-500/40' : 'border-sage-500/20'} p-8 h-full flex flex-col z-1`}>
                   <h3 className="text-2xl font-bold text-white mb-2">{pkg.title}</h3>
                   <p className="text-3xl font-bold text-terra-400 mb-4">{pkg.price}</p>
                   <p className="text-gray-400 mb-6">{pkg.description}</p>
