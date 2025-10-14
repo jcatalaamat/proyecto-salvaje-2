@@ -96,6 +96,9 @@ function LandingPage() {
                 <button onClick={() => scrollToSection('land')} className="text-gray-400 hover:text-terra-400 transition-colors">
                   {t.navigation.land}
                 </button>
+                <button onClick={() => scrollToSection('indigenous')} className="text-gray-400 hover:text-sage-400 transition-colors">
+                  {t.navigation.programs}
+                </button>
                 <button onClick={() => scrollToSection('community')} className="text-gray-400 hover:text-sage-400 transition-colors">
                   {t.navigation.community}
                 </button>
