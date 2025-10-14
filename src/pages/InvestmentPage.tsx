@@ -659,7 +659,7 @@ function InvestmentPage() {
 
           {/* Topographic Map Section */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-center text-white mb-8">Topographic Map</h3>
+            <h3 className="text-2xl font-bold text-center text-white mb-8">{t.land.gallery.topoTitle}</h3>
             <div className="relative group max-w-4xl mx-auto">
               <div className="absolute -inset-1 bg-gradient-to-r from-sage-500 to-earth-500 rounded-3xl blur opacity-30"></div>
               <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-sage-500/30 overflow-hidden">
@@ -682,7 +682,7 @@ function InvestmentPage() {
               className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-sage-500 to-earth-500 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-sage-500/50 transition-all"
             >
               <Download className="w-5 h-5" />
-              <span>Download Full Topographic Map</span>
+              <span>{t.land.gallery.downloadTopo}</span>
             </a>
           </div>
         </div>
