@@ -137,7 +137,7 @@ function InvestmentPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-40 pb-32 px-4">
+      <section className="relative pt-48 pb-40 px-4 md:pt-56 md:pb-48">
         {/* Hero Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <img
