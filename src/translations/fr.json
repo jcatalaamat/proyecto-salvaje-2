@@ -855,6 +855,9 @@
         "submit": "Planifier une Consultation"
       },
       "info": {
+        "emailTitle": "E-mail",
+        "whatsappTitle": "WhatsApp",
+        "locationTitle": "Localisation",
         "email": "info@proyectosalvaje.com",
         "phone": "+52 (XXX) XXX-XXXX",
         "whatsapp": "+33 6 46 39 63 25",

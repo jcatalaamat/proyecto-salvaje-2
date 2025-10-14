@@ -783,7 +783,7 @@ function InvestmentPage() {
                     <div className="p-3 rounded-xl bg-gradient-to-r from-sage-500 to-terra-500">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
-                    <h3 className="text-xl font-bold text-white">Email</h3>
+                    <h3 className="text-xl font-bold text-white">{inv.contact.info.emailTitle}</h3>
                   </div>
                   <a
                     href={`mailto:${inv.contact.info.email}`}
@@ -802,7 +802,7 @@ function InvestmentPage() {
                     <div className="p-3 rounded-xl bg-gradient-to-r from-green-500 to-emerald-500">
                       <MessageCircle className="w-6 h-6 text-white" />
                     </div>
-                    <h3 className="text-xl font-bold text-white">WhatsApp</h3>
+                    <h3 className="text-xl font-bold text-white">{inv.contact.info.whatsappTitle}</h3>
                   </div>
                   <a
                     href={`https://wa.me/${inv.contact.info.whatsapp.replace(/[^0-9]/g, '')}`}
@@ -824,7 +824,7 @@ function InvestmentPage() {
                     <div className="p-3 rounded-xl bg-gradient-to-r from-terra-500 to-earth-500">
                       <MapPin className="w-6 h-6 text-white" />
                     </div>
-                    <h3 className="text-xl font-bold text-white">Location</h3>
+                    <h3 className="text-xl font-bold text-white">{inv.contact.info.locationTitle}</h3>
                   </div>
                   <p className="text-terra-400">{inv.contact.info.location}</p>
                 </div>

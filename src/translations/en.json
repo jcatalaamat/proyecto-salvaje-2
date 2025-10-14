@@ -855,9 +855,12 @@
         "submit": "Schedule Consultation"
       },
       "info": {
+        "emailTitle": "Email",
         "email": "info@proyectosalvaje.com",
+        "whatsappTitle": "WhatsApp",
         "whatsapp": "+33 6 46 39 63 25",
         "whatsappText": "Message us on WhatsApp",
+        "locationTitle": "Location",
         "location": "Mazunte, Oaxaca, Mexico"
       },
       "download": {

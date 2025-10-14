@@ -855,6 +855,9 @@
         "submit": "Agendar Consulta"
       },
       "info": {
+        "emailTitle": "Correo electrónico",
+        "whatsappTitle": "WhatsApp",
+        "locationTitle": "Ubicación",
         "email": "info@proyectosalvaje.com",
         "phone": "+52 (XXX) XXX-XXXX",
         "whatsapp": "+33 6 46 39 63 25",

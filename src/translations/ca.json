@@ -855,6 +855,9 @@
         "submit": "Programa Consulta"
       },
       "info": {
+        "emailTitle": "Correu electrònic",
+        "whatsappTitle": "WhatsApp",
+        "locationTitle": "Ubicació",
         "email": "info@proyectosalvaje.com",
         "phone": "+52 (XXX) XXX-XXXX",
         "whatsapp": "+33 6 46 39 63 25",
