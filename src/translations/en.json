@@ -5,6 +5,7 @@
     "land": "The Land",
     "programs": "Programs",
     "community": "Community",
+    "dao": "DAO",
     "join": "Join Us",
     "contact": "Contact",
     "invest": "Invest"
@@ -572,6 +573,7 @@
       "timeline": "Timeline",
       "packages": "Packages",
       "guidelines": "Guidelines",
+      "dao": "DAO",
       "legal": "Legal",
       "property": "The Land",
       "contact": "Contact"

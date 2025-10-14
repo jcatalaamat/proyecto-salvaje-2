@@ -109,6 +109,12 @@ function InvestmentPage() {
               <button onClick={() => scrollToSection('packages')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
                 {inv.navigation.packages}
               </button>
+              <button onClick={() => scrollToSection('guidelines')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
+                {inv.navigation.guidelines}
+              </button>
+              <button onClick={() => scrollToSection('dao')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
+                {inv.navigation.dao}
+              </button>
               <button onClick={() => scrollToSection('legal')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
                 {inv.navigation.legal}
               </button>
