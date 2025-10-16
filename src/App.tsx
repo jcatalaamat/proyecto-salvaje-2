@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp, MessageCircle } from 'lucide-react';
+import { ThemeProvider, useTheme } from './contexts/ThemeContext';
+import ThemeToggle from './components/ThemeToggle';
+import { getThemeClasses } from './styles/themes';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import caTranslations from './translations/ca.json';
@@ -22,6 +25,8 @@ import CryptoInvestPage from './pages/CryptoInvestPage';
 function LandingPage() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [language, setLanguage] = useState<'en' | 'es' | 'fr' | 'ca' | 'de'>('en');
+  const { theme } = useTheme();
+  const themeClasses = getThemeClasses(theme);
 
   const getTranslations = () => {
     switch (language) {
@@ -57,12 +62,12 @@ function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white overflow-hidden relative">
+    <div className={`min-h-screen ${themeClasses.bg.primary} ${themeClasses.text.primary} overflow-hidden relative`}>
       {/* Animated mesh background */}
       <div className="fixed inset-0 opacity-30">
-        <div className="absolute top-0 -left-4 w-96 h-96 bg-sage-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '7s'}}></div>
-        <div className="absolute top-0 -right-4 w-96 h-96 bg-terra-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '9s', animationDelay: '2s'}}></div>
-        <div className="absolute -bottom-8 left-20 w-96 h-96 bg-earth-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{animationDuration: '11s', animationDelay: '4s'}}></div>
+        <div className={`absolute top-0 -left-4 w-96 h-96 ${themeClasses.mesh.blob1} rounded-full mix-blend-multiply filter blur-3xl animate-pulse`} style={{animationDuration: '7s'}}></div>
+        <div className={`absolute top-0 -right-4 w-96 h-96 ${themeClasses.mesh.blob2} rounded-full mix-blend-multiply filter blur-3xl animate-pulse`} style={{animationDuration: '9s', animationDelay: '2s'}}></div>
+        <div className={`absolute -bottom-8 left-20 w-96 h-96 ${themeClasses.mesh.blob3} rounded-full mix-blend-multiply filter blur-3xl animate-pulse`} style={{animationDuration: '11s', animationDelay: '4s'}}></div>
       </div>
 
       {/* Mouse spotlight effect */}
@@ -76,7 +81,7 @@ function LandingPage() {
 
       <div className="relative z-10">
         {/* Navigation */}
-        <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/30 border-b border-white/10">
+        <nav className={`fixed top-0 left-0 right-0 z-50 ${themeClasses.bg.nav} border-b ${themeClasses.border.primary}`}>
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between h-20">
               {/* Logo */}
@@ -135,6 +140,9 @@ function LandingPage() {
                 >
                   <MessageCircle className="w-5 h-5" />
                 </a>
+
+                {/* Theme Toggle */}
+                <ThemeToggle />
 
                 {/* Language Toggle */}
                 <button
@@ -345,17 +353,19 @@ function LandingPage() {
 // Main App with Routing
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/invest" element={<InvestmentPage />} />
-        <Route path="/crypto" element={<CryptoInvestPage />} />
-        <Route path="/support" element={<SupportPage />} />
-        <Route path="/privacy" element={<PrivacyPage />} />
-        {/* Catch all other routes and redirect to home */}
-        <Route path="*" element={<LandingPage />} />
-      </Routes>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/invest" element={<InvestmentPage />} />
+          <Route path="/crypto" element={<CryptoInvestPage />} />
+          <Route path="/support" element={<SupportPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          {/* Catch all other routes and redirect to home */}
+          <Route path="*" element={<LandingPage />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
 }
 

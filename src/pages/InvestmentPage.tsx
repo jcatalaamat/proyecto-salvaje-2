@@ -5,6 +5,9 @@ import {
   Mountain, Check, AlertCircle, Send, Download, Clock, Users,
   DollarSign, Grid, BarChart3, Mail, MessageCircle
 } from 'lucide-react';
+import { useTheme } from '../contexts/ThemeContext';
+import ThemeToggle from '../components/ThemeToggle';
+import { getThemeClasses } from '../styles/themes';
 import enTranslations from '../translations/en.json';
 import esTranslations from '../translations/es.json';
 import caTranslations from '../translations/ca.json';
@@ -22,6 +25,8 @@ function InvestmentPage() {
     package: 'exploring',
     message: ''
   });
+  const { theme } = useTheme();
+  const themeClasses = getThemeClasses(theme);
 
   const getTranslations = () => {
     switch (language) {
@@ -87,9 +92,9 @@ function InvestmentPage() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className={`min-h-screen ${themeClasses.bg.primary} ${themeClasses.text.primary}`}>
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/30 border-b border-white/10">
+      <nav className={`fixed top-0 left-0 right-0 z-50 ${themeClasses.bg.nav} border-b ${themeClasses.border.primary}`}>
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             <Link to="/" className="flex items-center gap-3">
@@ -147,6 +152,9 @@ function InvestmentPage() {
               >
                 <MessageCircle className="w-5 h-5" />
               </a>
+
+              {/* Theme Toggle */}
+              <ThemeToggle />
 
               {/* Language Toggle */}
               <button
