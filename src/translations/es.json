@@ -1005,5 +1005,328 @@
         "button": "Descargar PDF"
       }
     }
+  },
+  "crypto": {
+    "navigation": {
+      "overview": "Resumen",
+      "tiers": "Niveles de Membresía",
+      "tokenomics": "Tokenómica",
+      "faqs": "Preguntas Frecuentes"
+    },
+    "hero": {
+      "badge": "ReFi • Respaldado por Tierra • Gobernado por DAO",
+      "title": "Primer DAO ReFi Respaldado por Tierra en Latinoamérica",
+      "subtitle": "Despliega capital en 12 acres de tierra regenerativa en Mazunte, Oaxaca.",
+      "description": "Gobernado por poseedores de tokens TERRA a través de Colony DAO en Arbitrum One.",
+      "cta": "Ver Niveles de Membresía",
+      "secondaryCta": "Explorar DAO",
+      "metrics": {
+        "land": {
+          "value": "12 acres",
+          "label": "Tierra Regenerativa"
+        },
+        "supply": {
+          "value": "1M TERRA",
+          "label": "Suministro de Tokens"
+        },
+        "network": {
+          "value": "Arbitrum",
+          "label": "Red Layer 2"
+        },
+        "tiers": {
+          "value": "4 Niveles",
+          "label": "Membresías NFT"
+        }
+      }
+    },
+    "whyRefi": {
+      "title": "¿Por qué Finanzas Regenerativas?",
+      "subtitle": "La inversión tradicional se encuentra con la restauración ecológica a través de gobernanza DAO transparente",
+      "benefits": [
+        {
+          "title": "Seguridad Respaldada por Tierra",
+          "description": "Tu inversión está respaldada por 12 acres (5 hectáreas) de tierra titulada en Mazunte, Oaxaca. El marco legal asegura propiedad transparente a través de la estructura Ejidal Mexicana."
+        },
+        {
+          "title": "Gobernanza DAO",
+          "description": "Colony DAO en Arbitrum One proporciona gobernanza basada en reputación. Los poseedores de tokens TERRA votan en decisiones de desarrollo, asignación de presupuesto y propuestas comunitarias."
+        },
+        {
+          "title": "Impacto Ecológico",
+          "description": "100% desarrollo regenerativo con diseño de permacultura, restauración forestal, cosecha de agua y conservación de plantas indígenas. Métricas de impacto verificadas en cadena."
+        },
+        {
+          "title": "Bajos Costos de Gas",
+          "description": "Construido en Arbitrum One para tarifas de transacción mínimas. Acuñación de NFT, transferencias de tokens y votación DAO cuestan centavos en lugar de $50-200 en Ethereum mainnet."
+        }
+      ]
+    },
+    "tiers": {
+      "title": "Niveles de Membresía NFT",
+      "subtitle": "Cada nivel es un NFT en Arbitrum One vía Unlock Protocol.",
+      "description": "Tokens TERRA otorgados automáticamente al comprar.",
+      "items": [
+        {
+          "tier": "NIVEL 1",
+          "name": "Partidario Digital",
+          "price": "$50",
+          "currency": "USD",
+          "tokens": "50 tokens TERRA",
+          "features": [
+            "Acceso a comunidad Discord",
+            "Actualizaciones mensuales de desarrollo",
+            "Votar en propuestas menores",
+            "NFT de insignia comunitaria digital"
+          ],
+          "cta": "Comprar con Cripto",
+          "note": "Tarjeta de crédito disponible • 2-3% de tarifas"
+        },
+        {
+          "tier": "NIVEL 2",
+          "name": "Miembro Comunitario",
+          "price": "$250-500",
+          "currency": "USD",
+          "tokens": "250-500 tokens TERRA",
+          "popular": true,
+          "features": [
+            "Todos los beneficios de Partidario Digital",
+            "Votar en propuestas mayores",
+            "Llamadas de video trimestrales con fundadores",
+            "15% de descuento en retiros",
+            "Nombre en muro comunitario"
+          ],
+          "cta": "Comprar con Cripto",
+          "note": "Tarjeta de crédito disponible • 2-3% de tarifas"
+        },
+        {
+          "tier": "NIVEL 3",
+          "name": "Socio de Tierra",
+          "price": "$55K",
+          "currency": "USD",
+          "tokens": "10,000 tokens TERRA",
+          "features": [
+            "Todos los beneficios de Miembro Comunitario",
+            "Copropiedad de 1 parcela (600m²)",
+            "Derechos de construcción para cabina ecológica",
+            "30% de participación en ingresos de alquileres",
+            "Acceso ilimitado a retiros"
+          ],
+          "cta": "Comprar con Cripto",
+          "note": "Solo cripto • Contactar para opción de transferencia bancaria"
+        },
+        {
+          "tier": "NIVEL 4",
+          "name": "Custodio Fundador",
+          "price": "$85K",
+          "currency": "USD",
+          "tokens": "50,000 tokens TERRA",
+          "founder": true,
+          "features": [
+            "Todos los beneficios de Socio de Tierra",
+            "Propiedad completa de 1 parcela (600m²)",
+            "Asiento en Consejo de Fundadores",
+            "Poder de veto en decisiones mayores",
+            "50% de participación en ingresos de alquileres",
+            "Derechos de residencia permanente"
+          ],
+          "cta": "Comprar con Cripto",
+          "note": "Solo cripto • Contactar para opción de transferencia bancaria"
+        }
+      ],
+      "footer": "Todos los NFTs acuñados en Arbitrum One • Ver locks en Unlock Protocol"
+    },
+    "tokenomics": {
+      "badge": "ERC-20 • Arbitrum One",
+      "title": "Economía del Token TERRA",
+      "subtitle": "Suministro fijo de 1,000,000 de tokens TERRA distribuidos a través de niveles de membresía",
+      "metrics": [
+        {
+          "value": "1,000,000",
+          "label": "Suministro Total",
+          "note": "Fijo • Sin inflación"
+        },
+        {
+          "value": "Colony",
+          "label": "Plataforma de Gobernanza",
+          "note": "Votación basada en reputación"
+        },
+        {
+          "value": "Arbitrum",
+          "label": "Red",
+          "note": "Bajo gas • Finalidad rápida"
+        }
+      ],
+      "distribution": {
+        "title": "Distribución de Tokens",
+        "items": [
+          {
+            "category": "Asignaciones de Niveles NFT",
+            "amount": "400,000 TERRA (40%)",
+            "description": "Distribuidos automáticamente a compradores de NFT vía Unlock Protocol"
+          },
+          {
+            "category": "Tesorería DAO",
+            "amount": "300,000 TERRA (30%)",
+            "description": "Controlado por Colony DAO para desarrollo, subvenciones y operaciones"
+          },
+          {
+            "category": "Equipo Fundador",
+            "amount": "150,000 TERRA (15%)",
+            "description": "Calendario de vesting de 2 años • Cliff después de 6 meses"
+          },
+          {
+            "category": "Recompensas Comunitarias",
+            "amount": "100,000 TERRA (10%)",
+            "description": "Incentivos para contribuidores, desarrolladores y crecimiento del ecosistema"
+          },
+          {
+            "category": "Pool de Liquidez",
+            "amount": "50,000 TERRA (5%)",
+            "description": "Liquidez inicial en Uniswap V3 (Arbitrum) emparejado con ETH"
+          }
+        ]
+      }
+    },
+    "dao": {
+      "badge": "Gobernanza Descentralizada",
+      "title": "Gobernado por Colony DAO",
+      "subtitle": "Cada poseedor de TERRA tiene voz. Decisiones tomadas transparentemente a través de votación en cadena.",
+      "howItWorks": {
+        "title": "Cómo Funciona Colony",
+        "steps": [
+          {
+            "title": "Sistema de Reputación",
+            "description": "Los tokens TERRA otorgan poder de voto, pero la reputación se gana a través de contribuciones"
+          },
+          {
+            "title": "Consenso Perezoso",
+            "description": "Las propuestas pasan automáticamente a menos que se planteen objeciones"
+          },
+          {
+            "title": "Dominios Jerárquicos",
+            "description": "Equipos especializados (Tierra, Comunidad, Tesorería) con autoridad delegada"
+          },
+          {
+            "title": "Ejecución en Cadena",
+            "description": "Las propuestas aprobadas se ejecutan automáticamente vía contratos inteligentes"
+          }
+        ]
+      },
+      "votingTopics": {
+        "title": "Sobre Qué Puedes Votar",
+        "topics": [
+          {
+            "title": "Decisiones de Desarrollo",
+            "description": "Proyectos de infraestructura, permisos de construcción, cambios de uso de tierra"
+          },
+          {
+            "title": "Asignación de Presupuesto",
+            "description": "Gasto de tesorería, subvenciones, gastos operacionales"
+          },
+          {
+            "title": "Propuestas Comunitarias",
+            "description": "Eventos, programas, asociaciones, aplicaciones de nuevos miembros"
+          },
+          {
+            "title": "Cambios de Protocolo",
+            "description": "Reglas de gobernanza, ajustes de tokenómica, pivotes mayores"
+          }
+        ]
+      },
+      "cta": "Ver Panel de Colony",
+      "ctaNote": "Ver propuestas en vivo, historial de votación y balance de tesorería"
+    },
+    "land": {
+      "title": "La Tierra",
+      "subtitle": "12 acres de tierra titulada en la región costera más biodiversa de Mazunte, Oaxaca",
+      "property": {
+        "title": "Detalles de la Propiedad",
+        "details": [
+          { "label": "Área Total", "value": "12 acres (5 hectáreas)" },
+          { "label": "Ubicación", "value": "Mazunte, Oaxaca" },
+          { "label": "Elevación", "value": "50-150m sobre el mar" },
+          { "label": "Vista al Océano", "value": "Panorama del Pacífico" },
+          { "label": "Parcelas", "value": "20 parcelas × 600m² cada una" },
+          { "label": "Estado Legal", "value": "Titulado vía Ejido" },
+          { "label": "Zonificación", "value": "Eco-residencial" }
+        ]
+      },
+      "assets": {
+        "title": "Activos Naturales",
+        "items": [
+          {
+            "title": "Bosque Primario",
+            "description": "60% bosque tropical caducifolio de crecimiento antiguo"
+          },
+          {
+            "title": "Fuentes de Agua",
+            "description": "2 manantiales naturales + arroyo estacional"
+          },
+          {
+            "title": "Biodiversidad",
+            "description": "200+ especies de plantas, vida silvestre endémica"
+          },
+          {
+            "title": "Árboles Frutales",
+            "description": "Mango, papaya, coco, guanábana"
+          },
+          {
+            "title": "Calidad del Suelo",
+            "description": "Arcilla rica ideal para permacultura"
+          },
+          {
+            "title": "Clima",
+            "description": "Tropical: 24-32°C todo el año"
+          }
+        ]
+      }
+    },
+    "faqs": {
+      "title": "Preguntas Frecuentes de Inversores Cripto",
+      "questions": [
+        {
+          "question": "¿Por qué Arbitrum One en lugar de Ethereum mainnet?",
+          "answer": "Las tarifas de gas en Ethereum mainnet costarían $50-200 por transacción (acuñar NFT, votar, transferencias de tokens). En Arbitrum One, estas mismas operaciones cuestan $0.10-0.50. Para una comunidad de membresía con actividad de gobernanza frecuente, esto hace que la participación sea asequible para todos los miembros, no solo para ballenas."
+        },
+        {
+          "question": "¿Por qué Colony sobre Snapshot o Moloch?",
+          "answer": "Snapshot es fuera de cadena (sin ejecución), Moloch requiere quórum completo para cada decisión (lento). Colony usa consenso perezoso (las propuestas pasan a menos que haya objeción) con ejecución en cadena. Perfecto para comunidades operacionales que necesitan moverse rápido mientras se mantienen descentralizadas. Además, los dominios jerárquicos nos permiten delegar autoridad a equipos especializados (Tierra, Tesorería, Comunidad) sin cuellos de botella."
+        },
+        {
+          "question": "¿Cuál es la estructura legal para la propiedad de la tierra?",
+          "answer": "El sistema Ejidal Mexicano permite propiedad colectiva de tierra. El DAO (contrato inteligente Colony) posee la entidad legal que posee el título Ejidal. Los derechos de parcelas individuales se otorgan a través de votos de gobernanza a poseedores de NFT de Nivel 3/4. Marco legal revisado por abogados de tierras de Oaxaca. Documentación completa disponible para poseedores de TERRA vía dominio de archivos Colony."
+        },
+        {
+          "question": "¿Cómo se aplica la distribución de tokens TERRA?",
+          "answer": "Los hooks de Unlock Protocol desencadenan distribución automática de TERRA vía sistema de pago Colony. Cuando compras un NFT, el hook llama a nuestro contrato de distribución que acuña/transfiere TERRA de la tesorería a tu billetera. Todo el código es de código abierto y auditable en cadena. Sin procesos manuales, sin confianza requerida."
+        },
+        {
+          "question": "¿Cuál es la estrategia de salida o plan de liquidez?",
+          "answer": "Los tokens TERRA son líquidos en Uniswap V3 (Arbitrum) emparejados con ETH. Los NFTs son transferibles en OpenSea. Para socios de tierra de Nivel 3/4, la propiedad de parcelas puede transferirse vía voto DAO (requiere aprobación del 60%). La tierra misma se aprecia ~8-12% anualmente en Mazunte. Visión a largo plazo: NFTs de tierra fraccional negociables en mercados secundarios (Fase 2, 2026+)."
+        },
+        {
+          "question": "¿Qué previene que el equipo haga un rug pull?",
+          "answer": "Los tokens del equipo tienen vesting durante 2 años con cliff de 6 meses (aplicado por contrato inteligente). La tesorería está controlada por multisig DAO que requiere 3/5 firmas de custodios electos. Las decisiones mayores requieren aprobación del 60% de poseedores de TERRA. El título de tierra está en manos de entidad legal controlada por DAO, no individuos. Todas las transacciones transparentes en cadena. Estamos construyendo para décadas, no para una salida."
+        },
+        {
+          "question": "¿Puedo visitar la tierra antes de invertir?",
+          "answer": "Absolutamente. Organizamos casas abiertas mensuales en Mazunte (primer sábado de cada mes). Reserva vía Discord. Para inversores serios (Nivel 3/4), ofrecemos tours privados con fundadores y podemos organizar consultas legales con nuestros abogados de Oaxaca. Tours en video y filmación con dron disponibles a petición. Queremos que veas exactamente en qué estás invirtiendo."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para Desplegar Capital en Tierra Regenerativa?",
+      "subtitle": "Únete al primer DAO ReFi respaldado por tierra en Latinoamérica.",
+      "description": "Construido en Arbitrum One. Gobernado por poseedores de TERRA.",
+      "primaryCta": "Comprar Membresía NFT",
+      "secondaryCta": "Explorar Colony DAO",
+      "links": [
+        { "text": "Unirse a Discord", "url": "https://discord.gg/proyectosalvaje" },
+        { "text": "Ver Código en GitHub", "url": "https://github.com/proyectosalvaje" },
+        { "text": "Locks de Unlock Protocol", "url": "https://app.unlock-protocol.com" },
+        { "text": "Contactar Equipo", "url": "mailto:invest@proyectosalvaje.org" }
+      ],
+      "footer": "Contratos inteligentes desplegados en Arbitrum One • Token TERRA • Colony: @salvaje"
+    }
   }
 }

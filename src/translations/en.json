@@ -1004,5 +1004,328 @@
         "button": "Download PDF"
       }
     }
+  },
+  "crypto": {
+    "navigation": {
+      "overview": "Overview",
+      "tiers": "Membership Tiers",
+      "tokenomics": "Tokenomics",
+      "faqs": "FAQs"
+    },
+    "hero": {
+      "badge": "ReFi • Land-Backed • DAO Governed",
+      "title": "First Land-Backed ReFi DAO in Latin America",
+      "subtitle": "Deploy capital into 12 acres of regenerative land in Mazunte, Oaxaca.",
+      "description": "Governed by TERRA token holders through Colony DAO on Arbitrum One.",
+      "cta": "View Membership Tiers",
+      "secondaryCta": "Explore DAO",
+      "metrics": {
+        "land": {
+          "value": "12 acres",
+          "label": "Regenerative Land"
+        },
+        "supply": {
+          "value": "1M TERRA",
+          "label": "Token Supply"
+        },
+        "network": {
+          "value": "Arbitrum",
+          "label": "Layer 2 Network"
+        },
+        "tiers": {
+          "value": "4 Tiers",
+          "label": "NFT Memberships"
+        }
+      }
+    },
+    "whyRefi": {
+      "title": "Why Regenerative Finance?",
+      "subtitle": "Traditional investment meets ecological restoration through transparent DAO governance",
+      "benefits": [
+        {
+          "title": "Land-Backed Security",
+          "description": "Your investment is backed by 12 acres (5 hectares) of titled land in Mazunte, Oaxaca. Legal framework ensures transparent ownership through Mexican Ejido structure."
+        },
+        {
+          "title": "DAO Governance",
+          "description": "Colony DAO on Arbitrum One provides reputation-based governance. TERRA token holders vote on development decisions, budget allocation, and community proposals."
+        },
+        {
+          "title": "Ecological Impact",
+          "description": "100% regenerative development with permaculture design, forest restoration, water harvesting, and indigenous plant conservation. Verified impact metrics on-chain."
+        },
+        {
+          "title": "Low Gas Costs",
+          "description": "Built on Arbitrum One for minimal transaction fees. NFT minting, token transfers, and DAO voting cost pennies instead of $50-200 on Ethereum mainnet."
+        }
+      ]
+    },
+    "tiers": {
+      "title": "NFT Membership Tiers",
+      "subtitle": "Each tier is an NFT on Arbitrum One via Unlock Protocol.",
+      "description": "TERRA tokens automatically granted upon purchase.",
+      "items": [
+        {
+          "tier": "TIER 1",
+          "name": "Digital Supporter",
+          "price": "$50",
+          "currency": "USD",
+          "tokens": "50 TERRA tokens",
+          "features": [
+            "Discord community access",
+            "Monthly development updates",
+            "Vote on minor proposals",
+            "Digital community badge NFT"
+          ],
+          "cta": "Purchase with Crypto",
+          "note": "Credit card available • 2-3% fees"
+        },
+        {
+          "tier": "TIER 2",
+          "name": "Community Member",
+          "price": "$250-500",
+          "currency": "USD",
+          "tokens": "250-500 TERRA tokens",
+          "popular": true,
+          "features": [
+            "All Digital Supporter benefits",
+            "Vote on major proposals",
+            "Quarterly video calls with founders",
+            "15% discount on retreats",
+            "Name on community wall"
+          ],
+          "cta": "Purchase with Crypto",
+          "note": "Credit card available • 2-3% fees"
+        },
+        {
+          "tier": "TIER 3",
+          "name": "Land Partner",
+          "price": "$55K",
+          "currency": "USD",
+          "tokens": "10,000 TERRA tokens",
+          "features": [
+            "All Community Member benefits",
+            "Co-ownership of 1 plot (600m²)",
+            "Build rights for eco-cabin",
+            "30% revenue share from plot rentals",
+            "Unlimited retreat access"
+          ],
+          "cta": "Purchase with Crypto",
+          "note": "Crypto only • Contact for bank transfer option"
+        },
+        {
+          "tier": "TIER 4",
+          "name": "Founding Steward",
+          "price": "$85K",
+          "currency": "USD",
+          "tokens": "50,000 TERRA tokens",
+          "founder": true,
+          "features": [
+            "All Land Partner benefits",
+            "Full ownership of 1 plot (600m²)",
+            "Seat on Founders Council",
+            "Veto power on major decisions",
+            "50% revenue share from plot rentals",
+            "Permanent residency rights"
+          ],
+          "cta": "Purchase with Crypto",
+          "note": "Crypto only • Contact for bank transfer option"
+        }
+      ],
+      "footer": "All NFTs minted on Arbitrum One • View locks on Unlock Protocol"
+    },
+    "tokenomics": {
+      "badge": "ERC-20 • Arbitrum One",
+      "title": "TERRA Token Economics",
+      "subtitle": "Fixed supply of 1,000,000 TERRA tokens distributed across membership tiers",
+      "metrics": [
+        {
+          "value": "1,000,000",
+          "label": "Total Supply",
+          "note": "Fixed • No inflation"
+        },
+        {
+          "value": "Colony",
+          "label": "Governance Platform",
+          "note": "Reputation-based voting"
+        },
+        {
+          "value": "Arbitrum",
+          "label": "Network",
+          "note": "Low gas • Fast finality"
+        }
+      ],
+      "distribution": {
+        "title": "Token Distribution",
+        "items": [
+          {
+            "category": "NFT Tier Allocations",
+            "amount": "400,000 TERRA (40%)",
+            "description": "Distributed automatically to NFT purchasers via Unlock Protocol"
+          },
+          {
+            "category": "DAO Treasury",
+            "amount": "300,000 TERRA (30%)",
+            "description": "Controlled by Colony DAO for development, grants, and operations"
+          },
+          {
+            "category": "Founding Team",
+            "amount": "150,000 TERRA (15%)",
+            "description": "2-year vesting schedule • Cliff after 6 months"
+          },
+          {
+            "category": "Community Rewards",
+            "amount": "100,000 TERRA (10%)",
+            "description": "Incentives for contributors, developers, and ecosystem growth"
+          },
+          {
+            "category": "Liquidity Pool",
+            "amount": "50,000 TERRA (5%)",
+            "description": "Initial liquidity on Uniswap V3 (Arbitrum) paired with ETH"
+          }
+        ]
+      }
+    },
+    "dao": {
+      "badge": "Decentralized Governance",
+      "title": "Governed by Colony DAO",
+      "subtitle": "Every TERRA holder has a voice. Decisions made transparently through on-chain voting.",
+      "howItWorks": {
+        "title": "How Colony Works",
+        "steps": [
+          {
+            "title": "Reputation System",
+            "description": "TERRA tokens grant voting power, but reputation is earned through contributions"
+          },
+          {
+            "title": "Lazy Consensus",
+            "description": "Proposals pass automatically unless objections are raised"
+          },
+          {
+            "title": "Hierarchical Domains",
+            "description": "Specialized teams (Land, Community, Treasury) with delegated authority"
+          },
+          {
+            "title": "On-Chain Execution",
+            "description": "Passed proposals execute automatically via smart contracts"
+          }
+        ]
+      },
+      "votingTopics": {
+        "title": "What You Can Vote On",
+        "topics": [
+          {
+            "title": "Development Decisions",
+            "description": "Infrastructure projects, building permits, land use changes"
+          },
+          {
+            "title": "Budget Allocation",
+            "description": "Treasury spending, grants, operational expenses"
+          },
+          {
+            "title": "Community Proposals",
+            "description": "Events, programs, partnerships, new member applications"
+          },
+          {
+            "title": "Protocol Changes",
+            "description": "Governance rules, tokenomics adjustments, major pivots"
+          }
+        ]
+      },
+      "cta": "View Colony Dashboard",
+      "ctaNote": "See live proposals, voting history, and treasury balance"
+    },
+    "land": {
+      "title": "The Land",
+      "subtitle": "12 acres of titled land in Mazunte, Oaxaca's most biodiverse coastal region",
+      "property": {
+        "title": "Property Details",
+        "details": [
+          { "label": "Total Area", "value": "12 acres (5 hectares)" },
+          { "label": "Location", "value": "Mazunte, Oaxaca" },
+          { "label": "Elevation", "value": "50-150m above sea" },
+          { "label": "Ocean View", "value": "Pacific panorama" },
+          { "label": "Plots", "value": "20 plots × 600m² each" },
+          { "label": "Legal Status", "value": "Titled via Ejido" },
+          { "label": "Zoning", "value": "Eco-residential" }
+        ]
+      },
+      "assets": {
+        "title": "Natural Assets",
+        "items": [
+          {
+            "title": "Primary Forest",
+            "description": "60% old-growth tropical deciduous forest"
+          },
+          {
+            "title": "Water Sources",
+            "description": "2 natural springs + seasonal creek"
+          },
+          {
+            "title": "Biodiversity",
+            "description": "200+ plant species, endemic wildlife"
+          },
+          {
+            "title": "Fruit Trees",
+            "description": "Mango, papaya, coconut, guanabana"
+          },
+          {
+            "title": "Soil Quality",
+            "description": "Rich clay-loam ideal for permaculture"
+          },
+          {
+            "title": "Climate",
+            "description": "Tropical: 24-32°C year-round"
+          }
+        ]
+      }
+    },
+    "faqs": {
+      "title": "Crypto Investor FAQs",
+      "questions": [
+        {
+          "question": "Why Arbitrum One instead of Ethereum mainnet?",
+          "answer": "Gas fees on Ethereum mainnet would cost $50-200 per transaction (minting NFT, voting, token transfers). On Arbitrum One, these same operations cost $0.10-0.50. For a membership community with frequent governance activity, this makes participation affordable for all members, not just whales."
+        },
+        {
+          "question": "Why Colony over Snapshot or Moloch?",
+          "answer": "Snapshot is off-chain (no execution), Moloch requires full quorum for every decision (slow). Colony uses lazy consensus (proposals pass unless objected) with on-chain execution. Perfect for operational communities that need to move fast while staying decentralized. Plus hierarchical domains let us delegate authority to specialized teams (Land, Treasury, Community) without bottlenecks."
+        },
+        {
+          "question": "What's the legal structure for land ownership?",
+          "answer": "Mexican Ejido system allows collective land ownership. The DAO (Colony smart contract) holds the legal entity that owns the Ejido title. Individual plot rights are granted through governance votes to Tier 3/4 NFT holders. Legal framework reviewed by Oaxaca land attorneys. Full documentation available to TERRA holders via Colony files domain."
+        },
+        {
+          "question": "How is TERRA token distribution enforced?",
+          "answer": "Unlock Protocol hooks trigger automatic TERRA distribution via Colony payment system. When you purchase an NFT, the hook calls our distribution contract which mints/transfers TERRA from treasury to your wallet. All code is open-source and auditable on-chain. No manual processes, no trust required."
+        },
+        {
+          "question": "What's the exit strategy or liquidity plan?",
+          "answer": "TERRA tokens are liquid on Uniswap V3 (Arbitrum) paired with ETH. NFTs are transferable on OpenSea. For Tier 3/4 land partners, plot ownership can be transferred via DAO vote (requires 60% approval). The land itself appreciates ~8-12% annually in Mazunte. Long-term vision: fractional land NFTs tradeable on secondary markets (Phase 2, 2026+)."
+        },
+        {
+          "question": "What prevents the team from rugging?",
+          "answer": "Team tokens vest over 2 years with 6-month cliff (smart contract enforced). Treasury is controlled by DAO multisig requiring 3/5 signatures from elected stewards. Major decisions require 60% TERRA holder approval. Land title is held by legal entity controlled by DAO, not individuals. All transactions transparent on-chain. We're building for decades, not an exit."
+        },
+        {
+          "question": "Can I visit the land before investing?",
+          "answer": "Absolutely. We host monthly open houses in Mazunte (first Saturday of each month). Book via Discord. For serious investors (Tier 3/4), we offer private tours with founders and can arrange legal consultations with our Oaxaca attorneys. Video tours and drone footage available on request. We want you to see exactly what you're investing in."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Deploy Capital into Regenerative Land?",
+      "subtitle": "Join the first land-backed ReFi DAO in Latin America.",
+      "description": "Built on Arbitrum One. Governed by TERRA holders.",
+      "primaryCta": "Purchase Membership NFT",
+      "secondaryCta": "Explore Colony DAO",
+      "links": [
+        { "text": "Join Discord", "url": "https://discord.gg/proyectosalvaje" },
+        { "text": "View Code on GitHub", "url": "https://github.com/proyectosalvaje" },
+        { "text": "Unlock Protocol Locks", "url": "https://app.unlock-protocol.com" },
+        { "text": "Contact Team", "url": "mailto:invest@proyectosalvaje.org" }
+      ],
+      "footer": "Smart contracts deployed on Arbitrum One • TERRA token • Colony: @salvaje"
+    }
   }
 }
