@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp, MessageCircle } from 'lucide-react';
+import { Leaf, Globe, Mountain, Droplet, Sprout, TrendingUp, MessageCircle, DollarSign, Coins } from 'lucide-react';
 import enTranslations from './translations/en.json';
 import esTranslations from './translations/es.json';
 import caTranslations from './translations/ca.json';
@@ -17,6 +17,7 @@ import SupportPage from './components/SupportPage';
 import PrivacyPage from './components/PrivacyPage';
 import InvestmentPage from './pages/InvestmentPage';
 import CryptoInvestPage from './pages/CryptoInvestPage';
+import ScrollToTop from './components/ScrollToTop';
 
 // Main Landing Page Component
 function LandingPage() {
@@ -119,10 +120,19 @@ function LandingPage() {
                 {/* Invest Button */}
                 <Link
                   to="/invest"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all font-semibold"
+                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all"
+                  title="Investment Opportunities"
                 >
-                  <TrendingUp className="w-4 h-4" />
-                  <span className="text-sm">{t.navigation.invest}</span>
+                  <DollarSign className="w-5 h-5" />
+                </Link>
+
+                {/* Crypto Button */}
+                <Link
+                  to="/crypto"
+                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 hover:shadow-lg hover:shadow-purple-500/50 transition-all"
+                  title="Crypto Investors"
+                >
+                  <Coins className="w-5 h-5" />
                 </Link>
 
                 {/* WhatsApp Button */}
@@ -246,6 +256,105 @@ function LandingPage() {
         <IndigenousSection language={language} translations={t} />
         <CommunitySection language={language} translations={t} />
         <DAOSection language={language} translations={t} />
+
+        {/* Investment CTA Section */}
+        <section className="py-20 px-4 bg-gradient-to-b from-black via-earth-900/20 to-black">
+          <div className="container mx-auto max-w-6xl">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-terra-400 via-sage-400 to-earth-400 bg-clip-text text-transparent">
+                Ready to Invest in Regeneration?
+              </h2>
+              <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+                Choose your investment path: traditional land ownership or blockchain-powered DAO membership
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Traditional Investment Card */}
+              <Link to="/invest" className="group relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-terra-500 to-sage-500 rounded-3xl blur opacity-30 group-hover:opacity-50 transition"></div>
+                <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border-2 border-terra-500/30 p-10 h-full flex flex-col">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="p-3 rounded-xl bg-terra-900/50 border border-terra-500/30">
+                      <DollarSign className="w-8 h-8 text-terra-400" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Land Investment</h3>
+                  </div>
+
+                  <p className="text-gray-300 mb-6 flex-grow">
+                    Direct land ownership with titled plots, infrastructure development, and traditional real estate appreciation.
+                    Perfect for investors seeking tangible assets and physical residency.
+                  </p>
+
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-terra-400 rounded-full"></div>
+                      <span>Titled land plots from $55K</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-terra-400 rounded-full"></div>
+                      <span>Build rights & residency</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-terra-400 rounded-full"></div>
+                      <span>8-12% annual appreciation</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-terra-400 rounded-full"></div>
+                      <span>Legal support included</span>
+                    </li>
+                  </ul>
+
+                  <div className="px-6 py-3 bg-gradient-to-r from-terra-500 to-sage-500 text-white rounded-xl font-semibold text-center group-hover:shadow-lg group-hover:shadow-terra-500/50 transform group-hover:scale-105 transition-all">
+                    View Investment Options →
+                  </div>
+                </div>
+              </Link>
+
+              {/* Crypto Investment Card */}
+              <Link to="/crypto" className="group relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-3xl blur opacity-30 group-hover:opacity-50 transition"></div>
+                <div className="relative bg-zinc-900/90 backdrop-blur-xl rounded-3xl border-2 border-purple-500/30 p-10 h-full flex flex-col">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="p-3 rounded-xl bg-purple-900/50 border border-purple-500/30">
+                      <Coins className="w-8 h-8 text-purple-400" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Crypto & Web3</h3>
+                  </div>
+
+                  <p className="text-gray-300 mb-6 flex-grow">
+                    NFT memberships with TERRA token governance on Arbitrum One.
+                    Land-backed ReFi DAO with transparent on-chain voting and lower entry barriers.
+                  </p>
+
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full"></div>
+                      <span>NFT tiers from $50</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full"></div>
+                      <span>TERRA token governance</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full"></div>
+                      <span>DAO voting rights</span>
+                    </li>
+                    <li className="flex items-center gap-2 text-gray-300">
+                      <div className="w-1.5 h-1.5 bg-purple-400 rounded-full"></div>
+                      <span>Built on Arbitrum One</span>
+                    </li>
+                  </ul>
+
+                  <div className="px-6 py-3 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-xl font-semibold text-center group-hover:shadow-lg group-hover:shadow-purple-500/50 transform group-hover:scale-105 transition-all">
+                    Explore Crypto Investment →
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <JoinCTASection language={language} translations={t} />
         <ContactSection language={language} translations={t} />
 
@@ -346,6 +455,7 @@ function LandingPage() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/invest" element={<InvestmentPage />} />

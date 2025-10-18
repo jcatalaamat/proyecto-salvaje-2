@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, Shield, TrendingUp, Coins, Lock, Vote, MapPin, MessageCircle } from 'lucide-react';
+import { Leaf, Shield, TrendingUp, Coins, Lock, Vote, MapPin, MessageCircle, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const CryptoInvestPage: React.FC = () => {
@@ -37,13 +37,42 @@ const CryptoInvestPage: React.FC = () => {
                 </span>
               </Link>
 
+              {/* Nav Links - Hidden on mobile */}
+              <div className="hidden lg:flex items-center gap-8">
+                <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
+                  Overview
+                </button>
+                <button onClick={() => scrollToSection('tiers')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
+                  Membership Tiers
+                </button>
+                <button onClick={() => scrollToSection('tokenomics')} className="text-gray-400 hover:text-sage-400 transition-colors text-sm">
+                  Tokenomics
+                </button>
+                <button onClick={() => scrollToSection('faqs')} className="text-gray-400 hover:text-terra-400 transition-colors text-sm">
+                  FAQs
+                </button>
+              </div>
+
               <div className="flex items-center gap-3">
+                {/* Home Button */}
                 <Link
                   to="/"
-                  className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all text-sm"
+                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all"
+                  title="Home"
                 >
-                  ← Back to Main Site
+                  <Leaf className="w-5 h-5" />
                 </Link>
+
+                {/* Investment Button */}
+                <Link
+                  to="/invest"
+                  className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-terra-500 to-earth-500 hover:shadow-lg hover:shadow-terra-500/50 transition-all"
+                  title="Investment Opportunities"
+                >
+                  <DollarSign className="w-5 h-5" />
+                </Link>
+
+                {/* WhatsApp Button */}
                 <a
                   href="https://wa.me/5219581171682"
                   target="_blank"
@@ -104,7 +133,7 @@ const CryptoInvestPage: React.FC = () => {
                 <span>View Membership Tiers</span>
               </button>
               <button
-                onClick={() => window.open('https://colony.io/@proyectosalvaje', '_blank')}
+                onClick={() => window.open('https://app.colony.io/salvaje', '_blank')}
                 className="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all"
               >
                 Explore DAO →
@@ -493,7 +522,7 @@ const CryptoInvestPage: React.FC = () => {
       </section>
 
       {/* TERRA Tokenomics */}
-      <section className="py-20 relative">
+      <section id="tokenomics" className="py-20 relative">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
@@ -719,7 +748,7 @@ const CryptoInvestPage: React.FC = () => {
             <div className="text-center">
               <button
                 className="bg-gradient-to-r from-terra-600 to-earth-600 hover:from-terra-500 hover:to-earth-500 px-8 py-4 rounded-xl font-semibold text-white transition-all shadow-lg hover:shadow-terra-500/50"
-                onClick={() => window.open('https://colony.io/@proyectosalvaje', '_blank')}
+                onClick={() => window.open('https://app.colony.io/salvaje', '_blank')}
               >
                 View Colony Dashboard →
               </button>
@@ -838,7 +867,7 @@ const CryptoInvestPage: React.FC = () => {
       </section>
 
       {/* FAQs */}
-      <section className="py-20 relative">
+      <section id="faqs" className="py-20 relative">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-white text-center mb-16">
@@ -961,7 +990,7 @@ const CryptoInvestPage: React.FC = () => {
               </button>
               <button
                 className="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all min-w-[220px]"
-                onClick={() => window.open('https://colony.io/@proyectosalvaje', '_blank')}
+                onClick={() => window.open('https://app.colony.io/salvaje', '_blank')}
               >
                 Explore Colony DAO →
               </button>
@@ -1005,7 +1034,7 @@ const CryptoInvestPage: React.FC = () => {
 
             <div className="mt-12 pt-8 border-t border-white/10">
               <p className="text-gray-400 text-sm">
-                Smart contracts deployed on Arbitrum One • TERRA token: [contract address] • Colony: @proyectosalvaje
+                Smart contracts deployed on Arbitrum One • TERRA token • Colony: @salvaje
               </p>
             </div>
           </div>

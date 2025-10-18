@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {
   Leaf, Globe, MapPin, TrendingUp, Shield, Home, Droplet,
   Mountain, Check, AlertCircle, Send, Download, Clock, Users,
-  DollarSign, Grid, BarChart3, Mail, MessageCircle
+  DollarSign, Grid, BarChart3, Mail, MessageCircle, Coins
 } from 'lucide-react';
 import enTranslations from '../translations/en.json';
 import esTranslations from '../translations/es.json';
@@ -131,10 +131,19 @@ function InvestmentPage() {
               {/* Home Button */}
               <Link
                 to="/"
-                className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all font-semibold"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-sage-500 to-terra-500 hover:shadow-lg hover:shadow-sage-500/50 transition-all"
+                title="Home"
               >
-                <Home className="w-4 h-4" />
-                <span className="text-sm">{t.navigation.home}</span>
+                <Home className="w-5 h-5" />
+              </Link>
+
+              {/* Crypto Button */}
+              <Link
+                to="/crypto"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 hover:shadow-lg hover:shadow-purple-500/50 transition-all"
+                title="Crypto Investors"
+              >
+                <Coins className="w-5 h-5" />
               </Link>
 
               {/* WhatsApp Button */}
@@ -222,6 +231,13 @@ function InvestmentPage() {
               <Download className="w-5 h-5" />
               {inv.hero.secondaryCta}
             </a>
+            <Link
+              to="/crypto"
+              className="px-8 py-4 bg-white/10 backdrop-blur-xl border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all inline-flex items-center gap-2"
+            >
+              Crypto Investors
+              <Coins className="w-5 h-5" />
+            </Link>
           </div>
         </div>
       </section>
@@ -675,6 +691,72 @@ function InvestmentPage() {
 
       {/* DAO Section */}
       <DAOSection language={language} translations={t} />
+
+      {/* Crypto Investment CTA Banner */}
+      <section className="py-20 px-4 bg-black">
+        <div className="container mx-auto max-w-5xl">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 via-indigo-500 to-purple-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
+            <div className="relative bg-zinc-900/80 backdrop-blur-xl rounded-2xl border border-purple-500/20 p-10">
+              <div className="text-center">
+                <div className="flex justify-center gap-4 mb-6">
+                  <div className="p-3 rounded-xl bg-purple-900/50 border border-purple-500/30">
+                    <Coins className="w-8 h-8 text-purple-400" />
+                  </div>
+                  <div className="p-3 rounded-xl bg-indigo-900/50 border border-indigo-500/30">
+                    <Shield className="w-8 h-8 text-indigo-400" />
+                  </div>
+                  <div className="p-3 rounded-xl bg-purple-900/50 border border-purple-500/30">
+                    <TrendingUp className="w-8 h-8 text-purple-400" />
+                  </div>
+                </div>
+
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent">
+                  Prefer Crypto & Web3?
+                </h2>
+
+                <p className="text-xl text-gray-300 mb-4 max-w-3xl mx-auto">
+                  Join our land-backed ReFi DAO on Arbitrum One
+                </p>
+
+                <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+                  Purchase NFT memberships, earn TERRA tokens, and participate in on-chain governance.
+                  Same land, same vision—powered by blockchain technology.
+                </p>
+
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                  <Link
+                    to="/crypto"
+                    className="group px-8 py-4 bg-gradient-to-r from-purple-500 via-indigo-500 to-purple-600 text-white rounded-xl font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transform hover:scale-105 transition-all flex items-center gap-3"
+                  >
+                    <Coins className="w-5 h-5" />
+                    <span>Explore Crypto Investment</span>
+                  </Link>
+                </div>
+
+                <div className="flex flex-wrap justify-center gap-6 text-sm text-purple-300">
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4" />
+                    <span>NFT Memberships</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4" />
+                    <span>TERRA Tokens</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4" />
+                    <span>DAO Governance</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4" />
+                    <span>Arbitrum One</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Legal Support */}
       <section id="legal" className="py-20 px-4 bg-black">
